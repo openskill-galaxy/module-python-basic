@@ -1,0 +1,22 @@
+[
+  {
+    "id": "exam-basic",
+    "slug": "basic-test",
+    "title": "基础测试",
+    "summary": "覆盖模块概览、数据模型与设计原则的基础测试。",
+    "difficulty": "easy",
+    "questionIds": ["q-1", "q-2", "q-3", "q-4", "q-5"],
+    "timeLimitMinutes": 10,
+    "passingScore": 60
+  },
+  {
+    "id": "exam-comprehensive",
+    "slug": "comprehensive-exam",
+    "title": "综合考试",
+    "summary": "覆盖全部知识点的综合考试，包含多种题型。",
+    "difficulty": "hard",
+    "questionIds": ["q-1", "q-2", "q-3", "q-4", "q-5", "q-6", "q-7", "q-8", "q-9", "q-10"],
+    "timeLimitMinutes": 20,
+    "passingScore": 70
+  }
+]

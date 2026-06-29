@@ -1,0 +1,175 @@
+[
+  {
+    "id": "q-1",
+    "slug": "what-storage",
+    "type": "single",
+    "difficulty": "easy",
+    "tags": ["存储", "基础"],
+    "stem": "模块模板使用什么保存学习进度、错题和收藏？",
+    "options": [
+      { "key": "A", "text": "MySQL 数据库" },
+      { "key": "B", "text": "浏览器 localStorage" },
+      { "key": "C", "text": "Cookie" },
+      { "key": "D", "text": "IndexedDB" }
+    ],
+    "answer": ["B"],
+    "analysis": "模块模板遵循**静态优先**和**离线可用**原则，所有进度数据保存在浏览器 `localStorage` 中，无需后端服务。",
+    "knowledgePoints": ["kp-overview"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-2",
+    "slug": "course-contains",
+    "type": "single",
+    "difficulty": "easy",
+    "tags": ["课程", "数据"],
+    "stem": "一个课程（Course）主要包含什么？",
+    "options": [
+      { "key": "A", "text": "题目列表" },
+      { "key": "B", "text": "讲义列表" },
+      { "key": "C", "text": "案例列表" },
+      { "key": "D", "text": "考试列表" }
+    ],
+    "answer": ["B"],
+    "analysis": "课程是**讲义的有序集合**，通过 `lessons` 数组引用讲义 ID。题目、案例、考试是独立的数据实体。",
+    "knowledgePoints": ["kp-course"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-3",
+    "slug": "lesson-content-format",
+    "type": "single",
+    "difficulty": "easy",
+    "tags": ["讲义", "格式"],
+    "stem": "讲义（Lesson）的正文内容使用什么格式？",
+    "options": [
+      { "key": "A", "text": "HTML" },
+      { "key": "B", "text": "LaTeX" },
+      { "key": "C", "text": "Markdown" },
+      { "key": "D", "text": "纯文本" }
+    ],
+    "answer": ["C"],
+    "analysis": "讲义的 `contentMarkdown` 字段存储 Markdown 文本，前端通过轻量渲染器转为 HTML 展示。",
+    "knowledgePoints": ["kp-lesson"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-4",
+    "slug": "difficulty-levels",
+    "type": "multiple",
+    "difficulty": "easy",
+    "tags": ["难度", "分类"],
+    "stem": "模块模板支持哪些难度等级？（多选）",
+    "options": [
+      { "key": "A", "text": "easy（简单）" },
+      { "key": "B", "text": "medium（中等）" },
+      { "key": "C", "text": "hard（困难）" },
+      { "key": "D", "text": "expert（专家）" }
+    ],
+    "answer": ["A", "B", "C"],
+    "analysis": "模块模板采用三级难度体系：easy、medium、hard。没有 expert 级别。",
+    "knowledgePoints": ["kp-difficulty"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-5",
+    "slug": "design-principles",
+    "type": "judge",
+    "difficulty": "medium",
+    "tags": ["原则", "设计"],
+    "stem": "模块模板的设计原则中，\"静态优先\"意味着所有数据必须由后端 API 提供。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "analysis": "\"静态优先\"恰恰相反——所有数据为静态 JSON 文件，**不依赖任何后端 API**。这是模块模板的核心设计原则之一。",
+    "knowledgePoints": ["kp-principles"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-6",
+    "slug": "search-engine",
+    "type": "single",
+    "difficulty": "medium",
+    "tags": ["搜索", "技术"],
+    "stem": "模块模板使用什么搜索引擎实现全文检索？",
+    "options": [
+      { "key": "A", "text": "Elasticsearch" },
+      { "key": "B", "text": "Algolia" },
+      { "key": "C", "text": "Fuse.js" },
+      { "key": "D", "text": "Lunr" }
+    ],
+    "answer": ["C"],
+    "analysis": "模块模板使用 **Fuse.js** 作为客户端模糊搜索引擎，无需外部服务，索引在浏览器内存中构建。",
+    "knowledgePoints": ["kp-patterns"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-7",
+    "slug": "question-types",
+    "type": "multiple",
+    "difficulty": "medium",
+    "tags": ["题目", "题型"],
+    "stem": "模块模板支持哪些题目类型？（多选）",
+    "options": [
+      { "key": "A", "text": "单选（single）" },
+      { "key": "B", "text": "多选（multiple）" },
+      { "key": "C", "text": "判断（judge）" },
+      { "key": "D", "text": "简答（short）" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "analysis": "模块模板支持全部四种题型：单选、多选、判断、简答。",
+    "knowledgePoints": ["kp-module"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-8",
+    "slug": "base-path",
+    "type": "single",
+    "difficulty": "hard",
+    "tags": ["部署", "配置"],
+    "stem": "作为 GitHub Pages 项目站点，vite.config.ts 的 base 应设置为什么？",
+    "options": [
+      { "key": "A", "text": "\"/\"" },
+      { "key": "B", "text": "\"/module-template/\"" },
+      { "key": "C", "text": "\"./\"" },
+      { "key": "D", "text": "\"/modules/template/\"" }
+    ],
+    "answer": ["B"],
+    "analysis": "项目站点部署在子路径，base 必须与仓库名一致：`/module-template/`。只有组织首页站 `openskill-galaxy.github.io` 才用 `/`。",
+    "knowledgePoints": ["kp-integration"],
+    "estimatedMinutes": 2
+  },
+  {
+    "id": "q-9",
+    "slug": "state-management",
+    "type": "single",
+    "difficulty": "medium",
+    "tags": ["技术", "状态"],
+    "stem": "模块模板使用什么库管理客户端状态（进度、收藏、错题）？",
+    "options": [
+      { "key": "A", "text": "Redux" },
+      { "key": "B", "text": "MobX" },
+      { "key": "C", "text": "Zustand" },
+      { "key": "D", "text": "Jotai" }
+    ],
+    "answer": ["C"],
+    "analysis": "模块模板使用 **Zustand** 管理客户端状态，轻量且 API 简洁，与 localStorage 持久化无缝配合。",
+    "knowledgePoints": ["kp-overview"],
+    "estimatedMinutes": 1
+  },
+  {
+    "id": "q-10",
+    "slug": "short-answer-example",
+    "type": "short",
+    "difficulty": "hard",
+    "tags": ["简答", "演示"],
+    "stem": "请写出模块模板中课程 JSON 的两个必需字段名（用逗号分隔）。",
+    "options": [],
+    "answer": ["id,slug", "slug,id"],
+    "analysis": "课程 JSON 的必需字段包括 `id` 和 `slug`，它们共同标识一个课程。其他字段如 `title`、`lessons` 虽然重要但技术上不是唯一标识。",
+    "knowledgePoints": ["kp-course"],
+    "estimatedMinutes": 2
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": "tag-intro", "name": "入门", "slug": "intro", "description": "入门与概览类内容" },
+  { "id": "tag-core", "name": "核心", "slug": "core", "description": "核心概念与原理" },
+  { "id": "tag-advanced", "name": "进阶", "slug": "advanced", "description": "进阶主题与综合" },
+  { "id": "tag-data", "name": "数据", "slug": "data", "description": "数据模型与结构" },
+  { "id": "tag-design", "name": "设计", "slug": "design", "description": "设计原则与模式" },
+  { "id": "tag-practice", "name": "实战", "slug": "practice", "description": "案例与实战训练" },
+  { "id": "tag-deploy", "name": "部署", "slug": "deploy", "description": "部署与集成" },
+  { "id": "tag-perf", "name": "性能", "slug": "performance", "description": "性能优化" },
+  { "id": "tag-storage", "name": "存储", "slug": "storage", "description": "本地存储与持久化" },
+  { "id": "tag-tech", "name": "技术", "slug": "tech", "description": "技术栈与工具" }
+]

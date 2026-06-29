@@ -1,0 +1,28 @@
+[
+  {
+    "id": "case-hello",
+    "slug": "hello-module",
+    "title": "Hello Module：创建你的第一个模块",
+    "summary": "从模板复制、修改数据、本地运行到部署上线的完整流程。",
+    "difficulty": "easy",
+    "tags": ["实战", "入门"],
+    "backgroundMarkdown": "## 背景\n\n你是一名 OpenSkill Galaxy 的贡献者，需要为「数字逻辑」主题创建一个新模块。组织已经提供了模块模板，你需要基于模板快速搭建。",
+    "tasksMarkdown": "## 任务\n\n1. 复制 `02-module-template` 目录为 `03-modules/module-digital-logic`\n2. 修改 `module.json` 的 title、slug、description 等字段\n3. 替换 `courses.json`、`lessons.json` 为数字逻辑内容\n4. 修改 `vite.config.ts` 的 `base` 为 `/module-digital-logic/`\n5. 执行 `npm install && npm run build` 确认构建成功",
+    "referenceMarkdown": "## 参考思路\n\n1. **复制模板**：`cp -r 02-module-template 03-modules/module-digital-logic`\n2. **修改元数据**：编辑 `public/data/module.json`，将 slug 改为 `module-digital-logic`\n3. **替换内容**：清空 courses/lessons/questions 等 JSON，填入数字逻辑的真实数据\n4. **调整 base**：`vite.config.ts` 中 `base: \"/module-digital-logic/\"`\n5. **验证构建**：`npm install && npm run build` 无报错即成功",
+    "knowledgePoints": ["kp-overview", "kp-setup", "kp-module"],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "case-custom-question",
+    "slug": "custom-question-type",
+    "title": "扩展自定义题型",
+    "summary": "在模板基础上扩展新的题目类型与评分逻辑。",
+    "difficulty": "hard",
+    "tags": ["扩展", "进阶"],
+    "backgroundMarkdown": "## 背景\n\n你的模块需要支持「填空题」题型，但模板只提供了单选、多选、判断、简答四种。你需要扩展题型系统。",
+    "tasksMarkdown": "## 任务\n\n1. 在 `types.ts` 的 `QuestionType` 中添加 `fill` 类型\n2. 在 `QuestionPlayer` 中添加填空题的 UI 渲染\n3. 在 `scoring.ts` 中添加填空题的判分逻辑\n4. 在 `public/data/questions.json` 中添加一道填空题测试",
+    "referenceMarkdown": "## 参考思路\n\n1. **类型扩展**：`type QuestionType = \"single\" | \"multiple\" | \"judge\" | \"short\" | \"fill\"`\n2. **UI 渲染**：填空题用 `<input>` 替代选项列表，多个空用多个 input\n3. **判分逻辑**：逐空比对，忽略首尾空格，大小写可配置\n4. **数据格式**：`answer` 中每个元素对应一个空的正确答案",
+    "knowledgePoints": ["kp-module", "kp-patterns"],
+    "estimatedMinutes": 45
+  }
+]

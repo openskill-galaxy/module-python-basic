@@ -1,0 +1,38 @@
+[
+  {
+    "id": "faq-no-backend",
+    "question": "模块需要后端服务吗？",
+    "answer": "不需要。模块模板遵循**静态优先**原则，所有数据为 `public/data/*.json` 静态文件，前端直接 `fetch` 读取。进度保存在浏览器 `localStorage`，无需任何后端。",
+    "category": "架构"
+  },
+  {
+    "id": "faq-no-database",
+    "question": "学习进度存在哪里？会丢失吗？",
+    "answer": "进度保存在浏览器 `localStorage`，以 `osg-mt:` 为前缀。关闭浏览器后仍然保留，但**清除浏览器数据**会丢失。建议重要进度定期手动记录。",
+    "category": "架构"
+  },
+  {
+    "id": "faq-how-to-create",
+    "question": "如何基于模板创建新模块？",
+    "answer": "1. 复制 `02-module-template` 目录\n2. 修改 `public/data/module.json` 的 slug、title 等\n3. 替换各 JSON 数据文件为真实内容\n4. 修改 `vite.config.ts` 的 `base` 为 `/{new-slug}/`\n5. 修改 `package.json` 的 name\n6. `npm install && npm run build` 验证",
+    "category": "使用"
+  },
+  {
+    "id": "faq-add-question-type",
+    "question": "可以添加新的题目类型吗？",
+    "answer": "可以。在 `types.ts` 的 `QuestionType` 联合类型中添加新值，然后在 `QuestionPlayer` 组件中添加对应 UI，在 `scoring.ts` 中添加判分逻辑。",
+    "category": "扩展"
+  },
+  {
+    "id": "faq-search-not-working",
+    "question": "搜索为什么没有结果？",
+    "answer": "搜索使用 Fuse.js 模糊匹配，阈值 0.4。如果关键词太短或与内容差异太大可能无结果。尝试使用更完整的关键词，或使用标签筛选代替搜索。",
+    "category": "使用"
+  },
+  {
+    "id": "faq-deploy-pages",
+    "question": "如何部署到 GitHub Pages？",
+    "answer": "推送到 `main` 分支后，GitHub Actions 会自动构建并部署。需在仓库 Settings → Pages → Source 中选择 **GitHub Actions**。`vite.config.ts` 的 `base` 必须设置为 `/{repo-name}/`。",
+    "category": "部署"
+  }
+]

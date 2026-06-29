@@ -1,0 +1,112 @@
+[
+  {
+    "id": "lesson-what",
+    "slug": "what-is-this-module",
+    "courseId": "course-intro",
+    "title": "本模块是什么",
+    "summary": "了解本模块的学习范围、定位与适用人群。",
+    "order": 1,
+    "contentMarkdown": "## 本模块是什么\n\n本模块是一个**可复用的静态学习模块模板**，展示了 OpenSkill Galaxy 模块的全部功能。\n\n### 适用人群\n\n- 想了解模块模板结构的开发者\n- 准备创建新模块的贡献者\n- 学习模块化教学设计的教师\n\n### 学习范围\n\n- 课程与讲义的组织方式\n- 知识点与术语的关联\n- 题库与考试系统\n- 案例训练\n- 学习路线推荐\n\n> 💡 提示：这只是演示数据，实际模块会替换为真实内容。",
+    "knowledgePoints": ["kp-overview"],
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "lesson-setup",
+    "slug": "setup-environment",
+    "courseId": "course-intro",
+    "title": "环境准备",
+    "summary": "搭建本地开发与学习环境。",
+    "order": 2,
+    "contentMarkdown": "## 环境准备\n\n### 前置条件\n\n- Node.js 18+\n- npm 9+\n- Git\n\n### 步骤\n\n1. 克隆模块仓库\n2. 执行 `npm install`\n3. 执行 `npm run dev` 启动开发服务器\n4. 在浏览器打开 `http://localhost:5173/module-template/`\n\n### 验证\n\n看到模块首页即表示环境准备成功。\n\n```\nnpm run dev\n# VITE v5.x.x  ready in xxx ms\n# ➜  Local:   http://localhost:5173/module-template/\n```",
+    "knowledgePoints": ["kp-setup"],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "lesson-goals",
+    "slug": "learning-goals",
+    "courseId": "course-intro",
+    "title": "学习目标",
+    "summary": "明确学完本模块后你能获得什么。",
+    "order": 3,
+    "contentMarkdown": "## 学习目标\n\n完成本模块后，你将能够：\n\n- 理解模块模板的目录结构与文件作用\n- 掌握静态 JSON 数据的组织方式\n- 了解题库、考试、案例的数据格式\n- 能够复制模板并替换数据创建新模块\n- 理解 localStorage 进度保存机制\n\n### 评估标准\n\n- 完成所有讲义阅读\n- 通过模拟考试（≥60 分）\n- 完成至少 1 个案例训练",
+    "knowledgePoints": ["kp-overview"],
+    "estimatedMinutes": 10
+  },
+  {
+    "id": "lesson-basics",
+    "slug": "basic-concepts",
+    "courseId": "course-core",
+    "title": "基本概念",
+    "summary": "模块模板中的核心数据模型与术语。",
+    "order": 1,
+    "contentMarkdown": "## 基本概念\n\n### 模块 (Module)\n\n模块是最大的组织单元，包含元数据、课程、知识点、题目、考试、案例等。\n\n### 课程 (Course)\n\n课程是讲义的有序集合，按难度和主题组织。\n\n### 讲义 (Lesson)\n\n讲义是最小的学习单元，包含 Markdown 内容、关联知识点和预计时长。\n\n### 知识点 (KnowledgePoint)\n\n知识点是跨课程的原子化知识单元，可被多个讲义和题目引用。\n\n### 题目 (Question)\n\n支持单选、多选、判断、简答四种题型，每题关联知识点和标签。",
+    "knowledgePoints": ["kp-module", "kp-course", "kp-lesson"],
+    "estimatedMinutes": 25
+  },
+  {
+    "id": "lesson-principles",
+    "slug": "design-principles",
+    "courseId": "course-core",
+    "title": "设计原则",
+    "summary": "模块模板遵循的设计原则与最佳实践。",
+    "order": 2,
+    "contentMarkdown": "## 设计原则\n\n1. **静态优先**：所有数据为 JSON，无需后端\n2. **渐进增强**：基础功能不依赖 JS，交互层逐步叠加\n3. **离线可用**：localStorage 保存进度，断网仍可学习\n4. **可复用**：模板可复制替换数据生成新模块\n5. **可搜索**：Fuse.js 全文检索覆盖所有内容类型\n\n> 原则之间可能冲突时，**静态优先**和**离线可用**权重最高。",
+    "knowledgePoints": ["kp-principles"],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "lesson-definitions",
+    "slug": "key-definitions",
+    "courseId": "course-core",
+    "title": "关键定义",
+    "summary": "模块模板中所有关键术语的精确定义。",
+    "order": 3,
+    "contentMarkdown": "## 关键定义\n\n| 术语 | 定义 |\n|------|------|\n| Slug | URL 友好的唯一标识符，如 `basic-concepts` |\n| Difficulty | 难度等级：easy / medium / hard |\n| Tag | 标签，用于分类和筛选 |\n| Progress | 学习进度，保存在 localStorage |\n| Favorite | 收藏记录，保存在 localStorage |\n| Wrong | 错题记录，保存在 localStorage |",
+    "knowledgePoints": ["kp-slug", "kp-difficulty"],
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "lesson-examples",
+    "slug": "data-examples",
+    "courseId": "course-core",
+    "title": "数据示例",
+    "summary": "通过具体 JSON 示例理解数据结构。",
+    "order": 4,
+    "contentMarkdown": "## 数据示例\n\n### 课程 JSON\n\n```json\n{\n  \"id\": \"course-intro\",\n  \"slug\": \"introduction\",\n  \"title\": \"入门导论\",\n  \"difficulty\": \"easy\",\n  \"lessons\": [\"lesson-what\", \"lesson-setup\"],\n  \"order\": 1\n}\n```\n\n### 题目 JSON\n\n```json\n{\n  \"id\": \"q-1\",\n  \"type\": \"single\",\n  \"stem\": \"模块模板使用什么存储进度？\",\n  \"options\": [\n    {\"key\": \"A\", \"text\": \"MySQL\"},\n    {\"key\": \"B\", \"text\": \"localStorage\"}\n  ],\n  \"answer\": [\"B\"]\n}\n```",
+    "knowledgePoints": ["kp-module", "kp-course"],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "lesson-patterns",
+    "slug": "common-patterns",
+    "courseId": "course-advanced",
+    "title": "常见模式",
+    "summary": "创建模块时的常见数据组织模式。",
+    "order": 1,
+    "contentMarkdown": "## 常见模式\n\n### 线性课程\n\n讲义按顺序排列，学习者从第一讲依次学到最后。\n\n### 分支课程\n\n根据学习者水平或兴趣选择不同分支，每分支是一组有序讲义。\n\n### 交叉引用\n\n知识点被多个课程引用，题目关联多个知识点，形成网状结构。\n\n### 渐进难度\n\n同一主题的课程按 easy → medium → hard 排列，学习者按需选择。",
+    "knowledgePoints": ["kp-patterns"],
+    "estimatedMinutes": 25
+  },
+  {
+    "id": "lesson-optimization",
+    "slug": "performance-tips",
+    "courseId": "course-advanced",
+    "title": "性能优化",
+    "summary": "大数据量模块的性能优化技巧。",
+    "order": 2,
+    "contentMarkdown": "## 性能优化\n\n### 懒加载\n\n搜索索引仅在首次搜索时构建，避免首屏加载耗时。\n\n### 分页与虚拟滚动\n\n题目超过 100 道时考虑分页或虚拟滚动。\n\n### JSON 体积控制\n\n- 讲义内容 Markdown 可拆分为独立文件按需加载\n- 题目分析字段可延迟加载\n\n### 缓存策略\n\n- 静态 JSON 设置长期缓存头\n- 搜索索引内存缓存",
+    "knowledgePoints": ["kp-performance"],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "lesson-integration",
+    "slug": "integration-with-portal",
+    "courseId": "course-advanced",
+    "title": "与总入口站集成",
+    "summary": "模块如何被总入口站发现和链接。",
+    "order": 3,
+    "contentMarkdown": "## 与总入口站集成\n\n### 注册流程\n\n1. 模块部署到 GitHub Pages 后获得 URL\n2. 在总入口站的 `modules.json` 中添加模块条目\n3. 总入口站重新部署后即可搜索和导航到模块\n\n### 数据格式\n\n总入口站需要的模块元数据：\n\n- `id` / `slug` / `title` / `summary`\n- `category` / `level` / `tags`\n- `repoUrl` / 页面 URL\n\n### 链接约定\n\n- 模块首页：`https://openskill-galaxy.github.io/{module-slug}/`\n- 模块内页面：`https://openskill-galaxy.github.io/{module-slug}/{page}`",
+    "knowledgePoints": ["kp-integration"],
+    "estimatedMinutes": 15
+  }
+]

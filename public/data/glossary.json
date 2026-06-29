@@ -1,0 +1,8 @@
+[
+  { "id": "g-module", "term": "Module", "definition": "模块，OpenSkill Galaxy 中最大的学习内容组织单元，包含课程、知识点、题目等。", "aliases": ["模块"] },
+  { "id": "g-course", "term": "Course", "definition": "课程，讲义的有序集合，按主题和难度组织。", "aliases": ["课程"] },
+  { "id": "g-lesson", "term": "Lesson", "definition": "讲义，最小的学习单元，包含 Markdown 正文与关联知识点。", "aliases": ["讲义", "章节"] },
+  { "id": "g-slug", "term": "Slug", "definition": "URL 友好的唯一标识符，由小写字母、数字和连字符组成，如 basic-concepts。", "aliases": ["标识符"] },
+  { "id": "g-difficulty", "term": "Difficulty", "definition": "难度等级，取值为 easy（简单）、medium（中等）、hard（困难）。", "aliases": ["难度"] },
+  { "id": "g-node", "term": "Node.js", "definition": "基于 Chrome V8 引擎的 JavaScript 运行时，模块模板的构建工具依赖。", "aliases": ["Node"] }
+]

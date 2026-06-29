@@ -1,0 +1,17 @@
+{
+  "id": "mod-template",
+  "slug": "module-template",
+  "title": "模块模板",
+  "subtitle": "OpenSkill Galaxy 可复用静态学习模块模板",
+  "description": "这是模块模板的演示数据。每个具体模块（如数字逻辑、Python 基础、算法面试）都从此模板复制并替换数据。模板展示了课程、讲义、知识点、题库、考试、案例、学习路线、FAQ 等全部功能。",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": ["OpenSkill Community"],
+  "tags": ["模板", "演示"],
+  "estimatedHours": 20,
+  "difficulty": "easy",
+  "updatedAt": "2026-06-29",
+  "coverEmoji": "📘",
+  "repoUrl": "https://github.com/openskill-galaxy/module-template",
+  "portalUrl": "https://openskill-galaxy.github.io/"
+}

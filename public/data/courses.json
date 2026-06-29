@@ -1,0 +1,35 @@
+[
+  {
+    "id": "course-intro",
+    "slug": "introduction",
+    "title": "入门导论",
+    "summary": "模块概览、学习目标与环境准备，帮助你快速了解本模块的全貌并搭建学习环境。",
+    "difficulty": "easy",
+    "tags": ["入门", "概览"],
+    "estimatedHours": 4,
+    "lessons": ["lesson-what", "lesson-setup", "lesson-goals"],
+    "order": 1
+  },
+  {
+    "id": "course-core",
+    "slug": "core-concepts",
+    "title": "核心概念",
+    "summary": "深入理解本模块的核心概念、基本原理与关键定义，为后续实践打下坚实基础。",
+    "difficulty": "medium",
+    "tags": ["核心", "原理"],
+    "estimatedHours": 8,
+    "lessons": ["lesson-basics", "lesson-principles", "lesson-definitions", "lesson-examples"],
+    "order": 2
+  },
+  {
+    "id": "course-advanced",
+    "slug": "advanced-topics",
+    "title": "进阶主题",
+    "summary": "综合运用核心概念解决复杂问题，掌握进阶技巧与最佳实践。",
+    "difficulty": "hard",
+    "tags": ["进阶", "综合"],
+    "estimatedHours": 8,
+    "lessons": ["lesson-patterns", "lesson-optimization", "lesson-integration"],
+    "order": 3
+  }
+]
