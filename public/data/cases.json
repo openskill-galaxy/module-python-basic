@@ -1,28 +1,3399 @@
 [
   {
-    "id": "case-hello",
-    "slug": "hello-module",
-    "title": "Hello Module：创建你的第一个模块",
-    "summary": "从模板复制、修改数据、本地运行到部署上线的完整流程。",
+    "id": "py-case-0001",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序",
+    "summary": "根据用户姓名输出问候",
     "difficulty": "easy",
-    "tags": ["实战", "入门"],
-    "backgroundMarkdown": "## 背景\n\n你是一名 OpenSkill Galaxy 的贡献者，需要为「数字逻辑」主题创建一个新模块。组织已经提供了模块模板，你需要基于模板快速搭建。",
-    "tasksMarkdown": "## 任务\n\n1. 复制 `02-module-template` 目录为 `03-modules/module-digital-logic`\n2. 修改 `module.json` 的 title、slug、description 等字段\n3. 替换 `courses.json`、`lessons.json` 为数字逻辑内容\n4. 修改 `vite.config.ts` 的 `base` 为 `/module-digital-logic/`\n5. 执行 `npm install && npm run build` 确认构建成功",
-    "referenceMarkdown": "## 参考思路\n\n1. **复制模板**：`cp -r 02-module-template 03-modules/module-digital-logic`\n2. **修改元数据**：编辑 `public/data/module.json`，将 slug 改为 `module-digital-logic`\n3. **替换内容**：清空 courses/lessons/questions 等 JSON，填入数字逻辑的真实数据\n4. **调整 base**：`vite.config.ts` 中 `base: \"/module-digital-logic/\"`\n5. **验证构建**：`npm install && npm run build` 无报错即成功",
-    "knowledgePoints": ["kp-overview", "kp-setup", "kp-module"],
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
     "estimatedMinutes": 30
   },
   {
-    "id": "case-custom-question",
-    "slug": "custom-question-type",
-    "title": "扩展自定义题型",
-    "summary": "在模板基础上扩展新的题目类型与评分逻辑。",
+    "id": "py-case-0002",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0003",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0004",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0005",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0006",
+    "slug": "JSON处理:读写配置",
+    "title": "JSON处理:读写配置",
+    "summary": "读写JSON配置文件",
+    "difficulty": "medium",
+    "tags": [
+      "JSON处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读写JSON配置文件",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.json.dump",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json\nwith open('c.json') as f:cfg=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0271",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0007",
+    "slug": "CSV处理:读取成绩表",
+    "title": "CSV处理:读取成绩表",
+    "summary": "读取CSV成绩表并计算平均分",
+    "difficulty": "medium",
+    "tags": [
+      "CSV处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取CSV成绩表并计算平均分",
+    "tasksMarkdown": "## 任务\n\n1.csv.DictReader 2.计算平均",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nwith open('g.csv') as f:\n for r in csv.DictReader(f):print(r)\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0108"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0008",
+    "slug": "异常处理:安全除法",
+    "title": "异常处理:安全除法",
+    "summary": "实现安全除法,处理除零",
+    "difficulty": "easy",
+    "tags": [
+      "异常处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现安全除法,处理除零",
+    "tasksMarkdown": "## 任务\n\n1.try/except 2.返回None",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef safe_div(a,b):\n try:return a/b\n except ZeroDivisionError:return None\n```",
+    "knowledgePoints": [
+      "py-kp-0207",
+      "py-kp-0297"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0009",
+    "slug": "类与对象:银行账户",
+    "title": "类与对象:银行账户",
+    "summary": "实现BankAccount类",
+    "difficulty": "medium",
+    "tags": [
+      "OOP"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现BankAccount类",
+    "tasksMarkdown": "## 任务\n\n1.__init__ 2.deposit 3.withdraw",
+    "referenceMarkdown": "## 参考思路\n\n```python\nclass BankAccount:\n def __init__(self,b=0):self.balance=b\n def deposit(self,a):self.balance+=a\n```",
+    "knowledgePoints": [
+      "py-kp-0220",
+      "py-kp-0222",
+      "py-kp-0225"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0010",
+    "slug": "计算器项目",
+    "title": "计算器项目",
+    "summary": "实现命令行四则运算计算器",
+    "difficulty": "medium",
+    "tags": [
+      "计算器"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现命令行四则运算计算器",
+    "tasksMarkdown": "## 任务\n\n1.输入表达式 2.运算 3.循环",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwhile True:\n expr=input('>> ')\n if expr=='q':break\n print(eval(expr))\n```",
+    "knowledgePoints": [
+      "py-kp-0145",
+      "py-kp-0031",
+      "py-kp-0148"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0011",
+    "slug": "通讯录项目",
+    "title": "通讯录项目",
+    "summary": "实现通讯录增删改查",
+    "difficulty": "medium",
+    "tags": [
+      "通讯录"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现通讯录增删改查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.菜单循环 3.json持久化",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncontacts={}\ncontacts['Alice']='123'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0108",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0012",
+    "slug": "待办清单项目",
+    "title": "待办清单项目",
+    "summary": "实现待办事项管理",
+    "difficulty": "medium",
+    "tags": [
+      "待办清单"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现待办事项管理",
+    "tasksMarkdown": "## 任务\n\n1.列表存储 2.增删标记 3.文件保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntodos=[]\ntodos.append('买牛奶')\n```",
+    "knowledgePoints": [
+      "py-kp-0079",
+      "py-kp-0083",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0013",
+    "slug": "成绩管理系统",
+    "title": "成绩管理系统",
+    "summary": "多学生成绩管理与统计",
+    "difficulty": "medium",
+    "tags": [
+      "成绩管理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n多学生成绩管理与统计",
+    "tasksMarkdown": "## 任务\n\n1.字典嵌套 2.平均分 3.排序",
+    "referenceMarkdown": "## 参考思路\n\n```python\ngrades={'Alice':[90,85],'Bob':[78,92]}\n```",
+    "knowledgePoints": [
+      "py-kp-0091",
+      "py-kp-0115"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0014",
+    "slug": "文件整理工具",
+    "title": "文件整理工具",
+    "summary": "按扩展名分类文件到子目录",
+    "difficulty": "medium",
+    "tags": [
+      "文件整理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n按扩展名分类文件到子目录",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.分类移动",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*'):print(f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0323"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0015",
+    "slug": "Debug案例:缩进错误",
+    "title": "Debug案例:缩进错误",
+    "summary": "修复缩进不一致的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复缩进不一致的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读错误信息 2.统一缩进",
+    "referenceMarkdown": "## 参考思路\n\n```python\n检查IndentationError,统一4空格缩进\n```",
+    "knowledgePoints": [
+      "py-kp-0298",
+      "py-kp-0300"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0016",
+    "slug": "Debug案例:类型错误",
+    "title": "Debug案例:类型错误",
+    "summary": "修复类型不匹配的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复类型不匹配的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读TypeError 2.类型转换",
+    "referenceMarkdown": "## 参考思路\n\n```python\n确保str+int时先str()转换\n```",
+    "knowledgePoints": [
+      "py-kp-0215",
+      "py-kp-0046"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0017",
+    "slug": "代码重构:提取函数",
+    "title": "代码重构:提取函数",
+    "summary": "将重复代码提取为函数",
+    "difficulty": "medium",
+    "tags": [
+      "重构"
+    ],
+    "backgroundMarkdown": "## 背景\n\n将重复代码提取为函数",
+    "tasksMarkdown": "## 任务\n\n1.识别重复 2.定义函数 3.替换调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef process(data):...\n```",
+    "knowledgePoints": [
+      "py-kp-0157",
+      "py-kp-0331"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0018",
+    "slug": "数据清洗:去除空行",
+    "title": "数据清洗:去除空行",
+    "summary": "读取文件去除空行后写入",
+    "difficulty": "easy",
+    "tags": [
+      "数据清洗"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取文件去除空行后写入",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.过滤空行 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('f') as f:lines=[l for l in f if l.strip()]\n```",
+    "knowledgePoints": [
+      "py-kp-0095",
+      "py-kp-0071",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0019",
+    "slug": "命令行工具:文件查找",
+    "title": "命令行工具:文件查找",
+    "summary": "在目录中查找含关键字的文件",
+    "difficulty": "medium",
+    "tags": [
+      "命令行"
+    ],
+    "backgroundMarkdown": "## 背景\n\n在目录中查找含关键字的文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.关键字匹配",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').rglob('*'):\n if 'key' in f.name:print(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0257"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0020",
+    "slug": "单词本小工具",
+    "title": "单词本小工具",
+    "summary": "实现单词本增删查",
+    "difficulty": "easy",
+    "tags": [
+      "单词本"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现单词本增删查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.循环菜单 3.json保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwords={}\nwords['hello']='你好'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0272",
+      "py-kp-0145"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0021",
+    "slug": "账单统计小工具",
+    "title": "账单统计小工具",
+    "summary": "统计月度账单分类汇总",
+    "difficulty": "medium",
+    "tags": [
+      "账单统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计月度账单分类汇总",
+    "tasksMarkdown": "## 任务\n\n1.读取CSV 2.分类求和 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nfrom collections import Counter\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0266",
+      "py-kp-0117"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0022",
+    "slug": "学习计划生成器",
+    "title": "学习计划生成器",
+    "summary": "根据目标天数生成学习计划",
+    "difficulty": "easy",
+    "tags": [
+      "学习计划"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据目标天数生成学习计划",
+    "tasksMarkdown": "## 任务\n\n1.输入天数 2.分配课程 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndays=int(input('天数:'))\nfor i,c in enumerate(courses):print(f'Day{i+1}:{c}')\n```",
+    "knowledgePoints": [
+      "py-kp-0031",
+      "py-kp-0139",
+      "py-kp-0142"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0023",
+    "slug": "简单日志分析器",
+    "title": "简单日志分析器",
+    "summary": "分析日志文件统计错误数",
+    "difficulty": "medium",
+    "tags": [
+      "日志分析"
+    ],
+    "backgroundMarkdown": "## 背景\n\n分析日志文件统计错误数",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.匹配ERROR 3.统计",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncount=0\nwith open('log') as f:\n for l in f:\n  if 'ERROR' in l:count+=1\n```",
+    "knowledgePoints": [
+      "py-kp-0280",
+      "py-kp-0126"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0024",
+    "slug": "JSON/CSV转换工具",
+    "title": "JSON/CSV转换工具",
+    "summary": "JSON文件转CSV",
+    "difficulty": "medium",
+    "tags": [
+      "数据转换"
+    ],
+    "backgroundMarkdown": "## 背景\n\nJSON文件转CSV",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.csv.writer 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json,csv\nwith open('d.json') as f:data=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0273",
+      "py-kp-0276",
+      "py-kp-0283"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0025",
+    "slug": "集合去重应用",
+    "title": "集合去重应用",
+    "summary": "从列表中去除重复元素",
+    "difficulty": "easy",
+    "tags": [
+      "集合"
+    ],
+    "backgroundMarkdown": "## 背景\n\n从列表中去除重复元素",
+    "tasksMarkdown": "## 任务\n\n1.set去重 2.保持顺序",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[1,2,2,3];list(set(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0120",
+      "py-kp-0119"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0026",
+    "slug": "递归:阶乘计算",
+    "title": "递归:阶乘计算",
+    "summary": "用递归计算阶乘",
+    "difficulty": "medium",
+    "tags": [
+      "递归"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用递归计算阶乘",
+    "tasksMarkdown": "## 任务\n\n1.基线条件 2.递归调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef fact(n):\n if n<=1:return 1\n return n*fact(n-1)\n```",
+    "knowledgePoints": [
+      "py-kp-0182",
+      "py-kp-0183"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0027",
+    "slug": "闭包:计数器工厂",
+    "title": "闭包:计数器工厂",
+    "summary": "用闭包实现计数器",
     "difficulty": "hard",
-    "tags": ["扩展", "进阶"],
-    "backgroundMarkdown": "## 背景\n\n你的模块需要支持「填空题」题型，但模板只提供了单选、多选、判断、简答四种。你需要扩展题型系统。",
-    "tasksMarkdown": "## 任务\n\n1. 在 `types.ts` 的 `QuestionType` 中添加 `fill` 类型\n2. 在 `QuestionPlayer` 中添加填空题的 UI 渲染\n3. 在 `scoring.ts` 中添加填空题的判分逻辑\n4. 在 `public/data/questions.json` 中添加一道填空题测试",
-    "referenceMarkdown": "## 参考思路\n\n1. **类型扩展**：`type QuestionType = \"single\" | \"multiple\" | \"judge\" | \"short\" | \"fill\"`\n2. **UI 渲染**：填空题用 `<input>` 替代选项列表，多个空用多个 input\n3. **判分逻辑**：逐空比对，忽略首尾空格，大小写可配置\n4. **数据格式**：`answer` 中每个元素对应一个空的正确答案",
-    "knowledgePoints": ["kp-module", "kp-patterns"],
-    "estimatedMinutes": 45
+    "tags": [
+      "闭包"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用闭包实现计数器",
+    "tasksMarkdown": "## 任务\n\n1.外层函数 2.内层函数 3.非局部变量",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef counter():\n n=0\n def inc():nonlocal n;n+=1;return n\n return inc\n```",
+    "knowledgePoints": [
+      "py-kp-0180",
+      "py-kp-0178"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0028",
+    "slug": "正则提取邮箱",
+    "title": "正则提取邮箱",
+    "summary": "用正则从文本提取邮箱地址",
+    "difficulty": "medium",
+    "tags": [
+      "正则"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用正则从文本提取邮箱地址",
+    "tasksMarkdown": "## 任务\n\n1.re.findall 2.邮箱模式",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport re\nemails=re.findall(r'[\\w.]+@[\\w.]+',text)\n```",
+    "knowledgePoints": [
+      "py-kp-0444",
+      "py-kp-0442"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0029",
+    "slug": "pip安装与虚拟环境",
+    "title": "pip安装与虚拟环境",
+    "summary": "创建虚拟环境并安装包",
+    "difficulty": "easy",
+    "tags": [
+      "工程"
+    ],
+    "backgroundMarkdown": "## 背景\n\n创建虚拟环境并安装包",
+    "tasksMarkdown": "## 任务\n\n1.python -m venv 2.pip install",
+    "referenceMarkdown": "## 参考思路\n\n```python\npython -m venv env && pip install requests\n```",
+    "knowledgePoints": [
+      "py-kp-0307",
+      "py-kp-0304",
+      "py-kp-0308"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0030",
+    "slug": "自动化办公:批量重命名",
+    "title": "自动化办公:批量重命名",
+    "summary": "批量重命名文件",
+    "difficulty": "medium",
+    "tags": [
+      "自动化"
+    ],
+    "backgroundMarkdown": "## 背景\n\n批量重命名文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.新名规则 3.rename",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*.txt'):f.rename(f.stem+'_new'+f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0324"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0031",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序(案例31)",
+    "summary": "根据用户姓名输出问候",
+    "difficulty": "easy",
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0032",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数(案例32)",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0033",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值(案例33)",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0034",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率(案例34)",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0035",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件(案例35)",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0036",
+    "slug": "JSON处理:读写配置",
+    "title": "JSON处理:读写配置(案例36)",
+    "summary": "读写JSON配置文件",
+    "difficulty": "medium",
+    "tags": [
+      "JSON处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读写JSON配置文件",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.json.dump",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json\nwith open('c.json') as f:cfg=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0271",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0037",
+    "slug": "CSV处理:读取成绩表",
+    "title": "CSV处理:读取成绩表(案例37)",
+    "summary": "读取CSV成绩表并计算平均分",
+    "difficulty": "medium",
+    "tags": [
+      "CSV处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取CSV成绩表并计算平均分",
+    "tasksMarkdown": "## 任务\n\n1.csv.DictReader 2.计算平均",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nwith open('g.csv') as f:\n for r in csv.DictReader(f):print(r)\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0108"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0038",
+    "slug": "异常处理:安全除法",
+    "title": "异常处理:安全除法(案例38)",
+    "summary": "实现安全除法,处理除零",
+    "difficulty": "easy",
+    "tags": [
+      "异常处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现安全除法,处理除零",
+    "tasksMarkdown": "## 任务\n\n1.try/except 2.返回None",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef safe_div(a,b):\n try:return a/b\n except ZeroDivisionError:return None\n```",
+    "knowledgePoints": [
+      "py-kp-0207",
+      "py-kp-0297"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0039",
+    "slug": "类与对象:银行账户",
+    "title": "类与对象:银行账户(案例39)",
+    "summary": "实现BankAccount类",
+    "difficulty": "medium",
+    "tags": [
+      "OOP"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现BankAccount类",
+    "tasksMarkdown": "## 任务\n\n1.__init__ 2.deposit 3.withdraw",
+    "referenceMarkdown": "## 参考思路\n\n```python\nclass BankAccount:\n def __init__(self,b=0):self.balance=b\n def deposit(self,a):self.balance+=a\n```",
+    "knowledgePoints": [
+      "py-kp-0220",
+      "py-kp-0222",
+      "py-kp-0225"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0040",
+    "slug": "计算器项目",
+    "title": "计算器项目(案例40)",
+    "summary": "实现命令行四则运算计算器",
+    "difficulty": "medium",
+    "tags": [
+      "计算器"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现命令行四则运算计算器",
+    "tasksMarkdown": "## 任务\n\n1.输入表达式 2.运算 3.循环",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwhile True:\n expr=input('>> ')\n if expr=='q':break\n print(eval(expr))\n```",
+    "knowledgePoints": [
+      "py-kp-0145",
+      "py-kp-0031",
+      "py-kp-0148"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0041",
+    "slug": "通讯录项目",
+    "title": "通讯录项目(案例41)",
+    "summary": "实现通讯录增删改查",
+    "difficulty": "medium",
+    "tags": [
+      "通讯录"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现通讯录增删改查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.菜单循环 3.json持久化",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncontacts={}\ncontacts['Alice']='123'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0108",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0042",
+    "slug": "待办清单项目",
+    "title": "待办清单项目(案例42)",
+    "summary": "实现待办事项管理",
+    "difficulty": "medium",
+    "tags": [
+      "待办清单"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现待办事项管理",
+    "tasksMarkdown": "## 任务\n\n1.列表存储 2.增删标记 3.文件保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntodos=[]\ntodos.append('买牛奶')\n```",
+    "knowledgePoints": [
+      "py-kp-0079",
+      "py-kp-0083",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0043",
+    "slug": "成绩管理系统",
+    "title": "成绩管理系统(案例43)",
+    "summary": "多学生成绩管理与统计",
+    "difficulty": "medium",
+    "tags": [
+      "成绩管理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n多学生成绩管理与统计",
+    "tasksMarkdown": "## 任务\n\n1.字典嵌套 2.平均分 3.排序",
+    "referenceMarkdown": "## 参考思路\n\n```python\ngrades={'Alice':[90,85],'Bob':[78,92]}\n```",
+    "knowledgePoints": [
+      "py-kp-0091",
+      "py-kp-0115"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0044",
+    "slug": "文件整理工具",
+    "title": "文件整理工具(案例44)",
+    "summary": "按扩展名分类文件到子目录",
+    "difficulty": "medium",
+    "tags": [
+      "文件整理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n按扩展名分类文件到子目录",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.分类移动",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*'):print(f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0323"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0045",
+    "slug": "Debug案例:缩进错误",
+    "title": "Debug案例:缩进错误(案例45)",
+    "summary": "修复缩进不一致的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复缩进不一致的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读错误信息 2.统一缩进",
+    "referenceMarkdown": "## 参考思路\n\n```python\n检查IndentationError,统一4空格缩进\n```",
+    "knowledgePoints": [
+      "py-kp-0298",
+      "py-kp-0300"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0046",
+    "slug": "Debug案例:类型错误",
+    "title": "Debug案例:类型错误(案例46)",
+    "summary": "修复类型不匹配的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复类型不匹配的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读TypeError 2.类型转换",
+    "referenceMarkdown": "## 参考思路\n\n```python\n确保str+int时先str()转换\n```",
+    "knowledgePoints": [
+      "py-kp-0215",
+      "py-kp-0046"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0047",
+    "slug": "代码重构:提取函数",
+    "title": "代码重构:提取函数(案例47)",
+    "summary": "将重复代码提取为函数",
+    "difficulty": "medium",
+    "tags": [
+      "重构"
+    ],
+    "backgroundMarkdown": "## 背景\n\n将重复代码提取为函数",
+    "tasksMarkdown": "## 任务\n\n1.识别重复 2.定义函数 3.替换调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef process(data):...\n```",
+    "knowledgePoints": [
+      "py-kp-0157",
+      "py-kp-0331"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0048",
+    "slug": "数据清洗:去除空行",
+    "title": "数据清洗:去除空行(案例48)",
+    "summary": "读取文件去除空行后写入",
+    "difficulty": "easy",
+    "tags": [
+      "数据清洗"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取文件去除空行后写入",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.过滤空行 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('f') as f:lines=[l for l in f if l.strip()]\n```",
+    "knowledgePoints": [
+      "py-kp-0095",
+      "py-kp-0071",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0049",
+    "slug": "命令行工具:文件查找",
+    "title": "命令行工具:文件查找(案例49)",
+    "summary": "在目录中查找含关键字的文件",
+    "difficulty": "medium",
+    "tags": [
+      "命令行"
+    ],
+    "backgroundMarkdown": "## 背景\n\n在目录中查找含关键字的文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.关键字匹配",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').rglob('*'):\n if 'key' in f.name:print(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0257"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0050",
+    "slug": "单词本小工具",
+    "title": "单词本小工具(案例50)",
+    "summary": "实现单词本增删查",
+    "difficulty": "easy",
+    "tags": [
+      "单词本"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现单词本增删查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.循环菜单 3.json保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwords={}\nwords['hello']='你好'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0272",
+      "py-kp-0145"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0051",
+    "slug": "账单统计小工具",
+    "title": "账单统计小工具(案例51)",
+    "summary": "统计月度账单分类汇总",
+    "difficulty": "medium",
+    "tags": [
+      "账单统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计月度账单分类汇总",
+    "tasksMarkdown": "## 任务\n\n1.读取CSV 2.分类求和 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nfrom collections import Counter\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0266",
+      "py-kp-0117"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0052",
+    "slug": "学习计划生成器",
+    "title": "学习计划生成器(案例52)",
+    "summary": "根据目标天数生成学习计划",
+    "difficulty": "easy",
+    "tags": [
+      "学习计划"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据目标天数生成学习计划",
+    "tasksMarkdown": "## 任务\n\n1.输入天数 2.分配课程 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndays=int(input('天数:'))\nfor i,c in enumerate(courses):print(f'Day{i+1}:{c}')\n```",
+    "knowledgePoints": [
+      "py-kp-0031",
+      "py-kp-0139",
+      "py-kp-0142"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0053",
+    "slug": "简单日志分析器",
+    "title": "简单日志分析器(案例53)",
+    "summary": "分析日志文件统计错误数",
+    "difficulty": "medium",
+    "tags": [
+      "日志分析"
+    ],
+    "backgroundMarkdown": "## 背景\n\n分析日志文件统计错误数",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.匹配ERROR 3.统计",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncount=0\nwith open('log') as f:\n for l in f:\n  if 'ERROR' in l:count+=1\n```",
+    "knowledgePoints": [
+      "py-kp-0280",
+      "py-kp-0126"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0054",
+    "slug": "JSON/CSV转换工具",
+    "title": "JSON/CSV转换工具(案例54)",
+    "summary": "JSON文件转CSV",
+    "difficulty": "medium",
+    "tags": [
+      "数据转换"
+    ],
+    "backgroundMarkdown": "## 背景\n\nJSON文件转CSV",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.csv.writer 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json,csv\nwith open('d.json') as f:data=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0273",
+      "py-kp-0276",
+      "py-kp-0283"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0055",
+    "slug": "集合去重应用",
+    "title": "集合去重应用(案例55)",
+    "summary": "从列表中去除重复元素",
+    "difficulty": "easy",
+    "tags": [
+      "集合"
+    ],
+    "backgroundMarkdown": "## 背景\n\n从列表中去除重复元素",
+    "tasksMarkdown": "## 任务\n\n1.set去重 2.保持顺序",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[1,2,2,3];list(set(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0120",
+      "py-kp-0119"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0056",
+    "slug": "递归:阶乘计算",
+    "title": "递归:阶乘计算(案例56)",
+    "summary": "用递归计算阶乘",
+    "difficulty": "medium",
+    "tags": [
+      "递归"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用递归计算阶乘",
+    "tasksMarkdown": "## 任务\n\n1.基线条件 2.递归调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef fact(n):\n if n<=1:return 1\n return n*fact(n-1)\n```",
+    "knowledgePoints": [
+      "py-kp-0182",
+      "py-kp-0183"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0057",
+    "slug": "闭包:计数器工厂",
+    "title": "闭包:计数器工厂(案例57)",
+    "summary": "用闭包实现计数器",
+    "difficulty": "hard",
+    "tags": [
+      "闭包"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用闭包实现计数器",
+    "tasksMarkdown": "## 任务\n\n1.外层函数 2.内层函数 3.非局部变量",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef counter():\n n=0\n def inc():nonlocal n;n+=1;return n\n return inc\n```",
+    "knowledgePoints": [
+      "py-kp-0180",
+      "py-kp-0178"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0058",
+    "slug": "正则提取邮箱",
+    "title": "正则提取邮箱(案例58)",
+    "summary": "用正则从文本提取邮箱地址",
+    "difficulty": "medium",
+    "tags": [
+      "正则"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用正则从文本提取邮箱地址",
+    "tasksMarkdown": "## 任务\n\n1.re.findall 2.邮箱模式",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport re\nemails=re.findall(r'[\\w.]+@[\\w.]+',text)\n```",
+    "knowledgePoints": [
+      "py-kp-0444",
+      "py-kp-0442"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0059",
+    "slug": "pip安装与虚拟环境",
+    "title": "pip安装与虚拟环境(案例59)",
+    "summary": "创建虚拟环境并安装包",
+    "difficulty": "easy",
+    "tags": [
+      "工程"
+    ],
+    "backgroundMarkdown": "## 背景\n\n创建虚拟环境并安装包",
+    "tasksMarkdown": "## 任务\n\n1.python -m venv 2.pip install",
+    "referenceMarkdown": "## 参考思路\n\n```python\npython -m venv env && pip install requests\n```",
+    "knowledgePoints": [
+      "py-kp-0307",
+      "py-kp-0304",
+      "py-kp-0308"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0060",
+    "slug": "自动化办公:批量重命名",
+    "title": "自动化办公:批量重命名(案例60)",
+    "summary": "批量重命名文件",
+    "difficulty": "medium",
+    "tags": [
+      "自动化"
+    ],
+    "backgroundMarkdown": "## 背景\n\n批量重命名文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.新名规则 3.rename",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*.txt'):f.rename(f.stem+'_new'+f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0324"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0061",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序(案例61)",
+    "summary": "根据用户姓名输出问候",
+    "difficulty": "easy",
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0062",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数(案例62)",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0063",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值(案例63)",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0064",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率(案例64)",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0065",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件(案例65)",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0066",
+    "slug": "JSON处理:读写配置",
+    "title": "JSON处理:读写配置(案例66)",
+    "summary": "读写JSON配置文件",
+    "difficulty": "medium",
+    "tags": [
+      "JSON处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读写JSON配置文件",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.json.dump",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json\nwith open('c.json') as f:cfg=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0271",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0067",
+    "slug": "CSV处理:读取成绩表",
+    "title": "CSV处理:读取成绩表(案例67)",
+    "summary": "读取CSV成绩表并计算平均分",
+    "difficulty": "medium",
+    "tags": [
+      "CSV处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取CSV成绩表并计算平均分",
+    "tasksMarkdown": "## 任务\n\n1.csv.DictReader 2.计算平均",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nwith open('g.csv') as f:\n for r in csv.DictReader(f):print(r)\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0108"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0068",
+    "slug": "异常处理:安全除法",
+    "title": "异常处理:安全除法(案例68)",
+    "summary": "实现安全除法,处理除零",
+    "difficulty": "easy",
+    "tags": [
+      "异常处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现安全除法,处理除零",
+    "tasksMarkdown": "## 任务\n\n1.try/except 2.返回None",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef safe_div(a,b):\n try:return a/b\n except ZeroDivisionError:return None\n```",
+    "knowledgePoints": [
+      "py-kp-0207",
+      "py-kp-0297"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0069",
+    "slug": "类与对象:银行账户",
+    "title": "类与对象:银行账户(案例69)",
+    "summary": "实现BankAccount类",
+    "difficulty": "medium",
+    "tags": [
+      "OOP"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现BankAccount类",
+    "tasksMarkdown": "## 任务\n\n1.__init__ 2.deposit 3.withdraw",
+    "referenceMarkdown": "## 参考思路\n\n```python\nclass BankAccount:\n def __init__(self,b=0):self.balance=b\n def deposit(self,a):self.balance+=a\n```",
+    "knowledgePoints": [
+      "py-kp-0220",
+      "py-kp-0222",
+      "py-kp-0225"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0070",
+    "slug": "计算器项目",
+    "title": "计算器项目(案例70)",
+    "summary": "实现命令行四则运算计算器",
+    "difficulty": "medium",
+    "tags": [
+      "计算器"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现命令行四则运算计算器",
+    "tasksMarkdown": "## 任务\n\n1.输入表达式 2.运算 3.循环",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwhile True:\n expr=input('>> ')\n if expr=='q':break\n print(eval(expr))\n```",
+    "knowledgePoints": [
+      "py-kp-0145",
+      "py-kp-0031",
+      "py-kp-0148"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0071",
+    "slug": "通讯录项目",
+    "title": "通讯录项目(案例71)",
+    "summary": "实现通讯录增删改查",
+    "difficulty": "medium",
+    "tags": [
+      "通讯录"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现通讯录增删改查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.菜单循环 3.json持久化",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncontacts={}\ncontacts['Alice']='123'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0108",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0072",
+    "slug": "待办清单项目",
+    "title": "待办清单项目(案例72)",
+    "summary": "实现待办事项管理",
+    "difficulty": "medium",
+    "tags": [
+      "待办清单"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现待办事项管理",
+    "tasksMarkdown": "## 任务\n\n1.列表存储 2.增删标记 3.文件保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntodos=[]\ntodos.append('买牛奶')\n```",
+    "knowledgePoints": [
+      "py-kp-0079",
+      "py-kp-0083",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0073",
+    "slug": "成绩管理系统",
+    "title": "成绩管理系统(案例73)",
+    "summary": "多学生成绩管理与统计",
+    "difficulty": "medium",
+    "tags": [
+      "成绩管理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n多学生成绩管理与统计",
+    "tasksMarkdown": "## 任务\n\n1.字典嵌套 2.平均分 3.排序",
+    "referenceMarkdown": "## 参考思路\n\n```python\ngrades={'Alice':[90,85],'Bob':[78,92]}\n```",
+    "knowledgePoints": [
+      "py-kp-0091",
+      "py-kp-0115"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0074",
+    "slug": "文件整理工具",
+    "title": "文件整理工具(案例74)",
+    "summary": "按扩展名分类文件到子目录",
+    "difficulty": "medium",
+    "tags": [
+      "文件整理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n按扩展名分类文件到子目录",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.分类移动",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*'):print(f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0323"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0075",
+    "slug": "Debug案例:缩进错误",
+    "title": "Debug案例:缩进错误(案例75)",
+    "summary": "修复缩进不一致的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复缩进不一致的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读错误信息 2.统一缩进",
+    "referenceMarkdown": "## 参考思路\n\n```python\n检查IndentationError,统一4空格缩进\n```",
+    "knowledgePoints": [
+      "py-kp-0298",
+      "py-kp-0300"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0076",
+    "slug": "Debug案例:类型错误",
+    "title": "Debug案例:类型错误(案例76)",
+    "summary": "修复类型不匹配的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复类型不匹配的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读TypeError 2.类型转换",
+    "referenceMarkdown": "## 参考思路\n\n```python\n确保str+int时先str()转换\n```",
+    "knowledgePoints": [
+      "py-kp-0215",
+      "py-kp-0046"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0077",
+    "slug": "代码重构:提取函数",
+    "title": "代码重构:提取函数(案例77)",
+    "summary": "将重复代码提取为函数",
+    "difficulty": "medium",
+    "tags": [
+      "重构"
+    ],
+    "backgroundMarkdown": "## 背景\n\n将重复代码提取为函数",
+    "tasksMarkdown": "## 任务\n\n1.识别重复 2.定义函数 3.替换调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef process(data):...\n```",
+    "knowledgePoints": [
+      "py-kp-0157",
+      "py-kp-0331"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0078",
+    "slug": "数据清洗:去除空行",
+    "title": "数据清洗:去除空行(案例78)",
+    "summary": "读取文件去除空行后写入",
+    "difficulty": "easy",
+    "tags": [
+      "数据清洗"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取文件去除空行后写入",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.过滤空行 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('f') as f:lines=[l for l in f if l.strip()]\n```",
+    "knowledgePoints": [
+      "py-kp-0095",
+      "py-kp-0071",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0079",
+    "slug": "命令行工具:文件查找",
+    "title": "命令行工具:文件查找(案例79)",
+    "summary": "在目录中查找含关键字的文件",
+    "difficulty": "medium",
+    "tags": [
+      "命令行"
+    ],
+    "backgroundMarkdown": "## 背景\n\n在目录中查找含关键字的文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.关键字匹配",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').rglob('*'):\n if 'key' in f.name:print(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0257"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0080",
+    "slug": "单词本小工具",
+    "title": "单词本小工具(案例80)",
+    "summary": "实现单词本增删查",
+    "difficulty": "easy",
+    "tags": [
+      "单词本"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现单词本增删查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.循环菜单 3.json保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwords={}\nwords['hello']='你好'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0272",
+      "py-kp-0145"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0081",
+    "slug": "账单统计小工具",
+    "title": "账单统计小工具(案例81)",
+    "summary": "统计月度账单分类汇总",
+    "difficulty": "medium",
+    "tags": [
+      "账单统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计月度账单分类汇总",
+    "tasksMarkdown": "## 任务\n\n1.读取CSV 2.分类求和 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nfrom collections import Counter\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0266",
+      "py-kp-0117"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0082",
+    "slug": "学习计划生成器",
+    "title": "学习计划生成器(案例82)",
+    "summary": "根据目标天数生成学习计划",
+    "difficulty": "easy",
+    "tags": [
+      "学习计划"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据目标天数生成学习计划",
+    "tasksMarkdown": "## 任务\n\n1.输入天数 2.分配课程 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndays=int(input('天数:'))\nfor i,c in enumerate(courses):print(f'Day{i+1}:{c}')\n```",
+    "knowledgePoints": [
+      "py-kp-0031",
+      "py-kp-0139",
+      "py-kp-0142"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0083",
+    "slug": "简单日志分析器",
+    "title": "简单日志分析器(案例83)",
+    "summary": "分析日志文件统计错误数",
+    "difficulty": "medium",
+    "tags": [
+      "日志分析"
+    ],
+    "backgroundMarkdown": "## 背景\n\n分析日志文件统计错误数",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.匹配ERROR 3.统计",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncount=0\nwith open('log') as f:\n for l in f:\n  if 'ERROR' in l:count+=1\n```",
+    "knowledgePoints": [
+      "py-kp-0280",
+      "py-kp-0126"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0084",
+    "slug": "JSON/CSV转换工具",
+    "title": "JSON/CSV转换工具(案例84)",
+    "summary": "JSON文件转CSV",
+    "difficulty": "medium",
+    "tags": [
+      "数据转换"
+    ],
+    "backgroundMarkdown": "## 背景\n\nJSON文件转CSV",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.csv.writer 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json,csv\nwith open('d.json') as f:data=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0273",
+      "py-kp-0276",
+      "py-kp-0283"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0085",
+    "slug": "集合去重应用",
+    "title": "集合去重应用(案例85)",
+    "summary": "从列表中去除重复元素",
+    "difficulty": "easy",
+    "tags": [
+      "集合"
+    ],
+    "backgroundMarkdown": "## 背景\n\n从列表中去除重复元素",
+    "tasksMarkdown": "## 任务\n\n1.set去重 2.保持顺序",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[1,2,2,3];list(set(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0120",
+      "py-kp-0119"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0086",
+    "slug": "递归:阶乘计算",
+    "title": "递归:阶乘计算(案例86)",
+    "summary": "用递归计算阶乘",
+    "difficulty": "medium",
+    "tags": [
+      "递归"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用递归计算阶乘",
+    "tasksMarkdown": "## 任务\n\n1.基线条件 2.递归调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef fact(n):\n if n<=1:return 1\n return n*fact(n-1)\n```",
+    "knowledgePoints": [
+      "py-kp-0182",
+      "py-kp-0183"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0087",
+    "slug": "闭包:计数器工厂",
+    "title": "闭包:计数器工厂(案例87)",
+    "summary": "用闭包实现计数器",
+    "difficulty": "hard",
+    "tags": [
+      "闭包"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用闭包实现计数器",
+    "tasksMarkdown": "## 任务\n\n1.外层函数 2.内层函数 3.非局部变量",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef counter():\n n=0\n def inc():nonlocal n;n+=1;return n\n return inc\n```",
+    "knowledgePoints": [
+      "py-kp-0180",
+      "py-kp-0178"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0088",
+    "slug": "正则提取邮箱",
+    "title": "正则提取邮箱(案例88)",
+    "summary": "用正则从文本提取邮箱地址",
+    "difficulty": "medium",
+    "tags": [
+      "正则"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用正则从文本提取邮箱地址",
+    "tasksMarkdown": "## 任务\n\n1.re.findall 2.邮箱模式",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport re\nemails=re.findall(r'[\\w.]+@[\\w.]+',text)\n```",
+    "knowledgePoints": [
+      "py-kp-0444",
+      "py-kp-0442"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0089",
+    "slug": "pip安装与虚拟环境",
+    "title": "pip安装与虚拟环境(案例89)",
+    "summary": "创建虚拟环境并安装包",
+    "difficulty": "easy",
+    "tags": [
+      "工程"
+    ],
+    "backgroundMarkdown": "## 背景\n\n创建虚拟环境并安装包",
+    "tasksMarkdown": "## 任务\n\n1.python -m venv 2.pip install",
+    "referenceMarkdown": "## 参考思路\n\n```python\npython -m venv env && pip install requests\n```",
+    "knowledgePoints": [
+      "py-kp-0307",
+      "py-kp-0304",
+      "py-kp-0308"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0090",
+    "slug": "自动化办公:批量重命名",
+    "title": "自动化办公:批量重命名(案例90)",
+    "summary": "批量重命名文件",
+    "difficulty": "medium",
+    "tags": [
+      "自动化"
+    ],
+    "backgroundMarkdown": "## 背景\n\n批量重命名文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.新名规则 3.rename",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*.txt'):f.rename(f.stem+'_new'+f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0324"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0091",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序(案例91)",
+    "summary": "根据用户姓名输出问候",
+    "difficulty": "easy",
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0092",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数(案例92)",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0093",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值(案例93)",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0094",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率(案例94)",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0095",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件(案例95)",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0096",
+    "slug": "JSON处理:读写配置",
+    "title": "JSON处理:读写配置(案例96)",
+    "summary": "读写JSON配置文件",
+    "difficulty": "medium",
+    "tags": [
+      "JSON处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读写JSON配置文件",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.json.dump",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json\nwith open('c.json') as f:cfg=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0271",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0097",
+    "slug": "CSV处理:读取成绩表",
+    "title": "CSV处理:读取成绩表(案例97)",
+    "summary": "读取CSV成绩表并计算平均分",
+    "difficulty": "medium",
+    "tags": [
+      "CSV处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取CSV成绩表并计算平均分",
+    "tasksMarkdown": "## 任务\n\n1.csv.DictReader 2.计算平均",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nwith open('g.csv') as f:\n for r in csv.DictReader(f):print(r)\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0108"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0098",
+    "slug": "异常处理:安全除法",
+    "title": "异常处理:安全除法(案例98)",
+    "summary": "实现安全除法,处理除零",
+    "difficulty": "easy",
+    "tags": [
+      "异常处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现安全除法,处理除零",
+    "tasksMarkdown": "## 任务\n\n1.try/except 2.返回None",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef safe_div(a,b):\n try:return a/b\n except ZeroDivisionError:return None\n```",
+    "knowledgePoints": [
+      "py-kp-0207",
+      "py-kp-0297"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0099",
+    "slug": "类与对象:银行账户",
+    "title": "类与对象:银行账户(案例99)",
+    "summary": "实现BankAccount类",
+    "difficulty": "medium",
+    "tags": [
+      "OOP"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现BankAccount类",
+    "tasksMarkdown": "## 任务\n\n1.__init__ 2.deposit 3.withdraw",
+    "referenceMarkdown": "## 参考思路\n\n```python\nclass BankAccount:\n def __init__(self,b=0):self.balance=b\n def deposit(self,a):self.balance+=a\n```",
+    "knowledgePoints": [
+      "py-kp-0220",
+      "py-kp-0222",
+      "py-kp-0225"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0100",
+    "slug": "计算器项目",
+    "title": "计算器项目(案例100)",
+    "summary": "实现命令行四则运算计算器",
+    "difficulty": "medium",
+    "tags": [
+      "计算器"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现命令行四则运算计算器",
+    "tasksMarkdown": "## 任务\n\n1.输入表达式 2.运算 3.循环",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwhile True:\n expr=input('>> ')\n if expr=='q':break\n print(eval(expr))\n```",
+    "knowledgePoints": [
+      "py-kp-0145",
+      "py-kp-0031",
+      "py-kp-0148"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0101",
+    "slug": "通讯录项目",
+    "title": "通讯录项目(案例101)",
+    "summary": "实现通讯录增删改查",
+    "difficulty": "medium",
+    "tags": [
+      "通讯录"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现通讯录增删改查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.菜单循环 3.json持久化",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncontacts={}\ncontacts['Alice']='123'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0108",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0102",
+    "slug": "待办清单项目",
+    "title": "待办清单项目(案例102)",
+    "summary": "实现待办事项管理",
+    "difficulty": "medium",
+    "tags": [
+      "待办清单"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现待办事项管理",
+    "tasksMarkdown": "## 任务\n\n1.列表存储 2.增删标记 3.文件保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntodos=[]\ntodos.append('买牛奶')\n```",
+    "knowledgePoints": [
+      "py-kp-0079",
+      "py-kp-0083",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0103",
+    "slug": "成绩管理系统",
+    "title": "成绩管理系统(案例103)",
+    "summary": "多学生成绩管理与统计",
+    "difficulty": "medium",
+    "tags": [
+      "成绩管理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n多学生成绩管理与统计",
+    "tasksMarkdown": "## 任务\n\n1.字典嵌套 2.平均分 3.排序",
+    "referenceMarkdown": "## 参考思路\n\n```python\ngrades={'Alice':[90,85],'Bob':[78,92]}\n```",
+    "knowledgePoints": [
+      "py-kp-0091",
+      "py-kp-0115"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0104",
+    "slug": "文件整理工具",
+    "title": "文件整理工具(案例104)",
+    "summary": "按扩展名分类文件到子目录",
+    "difficulty": "medium",
+    "tags": [
+      "文件整理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n按扩展名分类文件到子目录",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.分类移动",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*'):print(f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0323"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0105",
+    "slug": "Debug案例:缩进错误",
+    "title": "Debug案例:缩进错误(案例105)",
+    "summary": "修复缩进不一致的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复缩进不一致的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读错误信息 2.统一缩进",
+    "referenceMarkdown": "## 参考思路\n\n```python\n检查IndentationError,统一4空格缩进\n```",
+    "knowledgePoints": [
+      "py-kp-0298",
+      "py-kp-0300"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0106",
+    "slug": "Debug案例:类型错误",
+    "title": "Debug案例:类型错误(案例106)",
+    "summary": "修复类型不匹配的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复类型不匹配的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读TypeError 2.类型转换",
+    "referenceMarkdown": "## 参考思路\n\n```python\n确保str+int时先str()转换\n```",
+    "knowledgePoints": [
+      "py-kp-0215",
+      "py-kp-0046"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0107",
+    "slug": "代码重构:提取函数",
+    "title": "代码重构:提取函数(案例107)",
+    "summary": "将重复代码提取为函数",
+    "difficulty": "medium",
+    "tags": [
+      "重构"
+    ],
+    "backgroundMarkdown": "## 背景\n\n将重复代码提取为函数",
+    "tasksMarkdown": "## 任务\n\n1.识别重复 2.定义函数 3.替换调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef process(data):...\n```",
+    "knowledgePoints": [
+      "py-kp-0157",
+      "py-kp-0331"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0108",
+    "slug": "数据清洗:去除空行",
+    "title": "数据清洗:去除空行(案例108)",
+    "summary": "读取文件去除空行后写入",
+    "difficulty": "easy",
+    "tags": [
+      "数据清洗"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取文件去除空行后写入",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.过滤空行 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('f') as f:lines=[l for l in f if l.strip()]\n```",
+    "knowledgePoints": [
+      "py-kp-0095",
+      "py-kp-0071",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0109",
+    "slug": "命令行工具:文件查找",
+    "title": "命令行工具:文件查找(案例109)",
+    "summary": "在目录中查找含关键字的文件",
+    "difficulty": "medium",
+    "tags": [
+      "命令行"
+    ],
+    "backgroundMarkdown": "## 背景\n\n在目录中查找含关键字的文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.关键字匹配",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').rglob('*'):\n if 'key' in f.name:print(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0257"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0110",
+    "slug": "单词本小工具",
+    "title": "单词本小工具(案例110)",
+    "summary": "实现单词本增删查",
+    "difficulty": "easy",
+    "tags": [
+      "单词本"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现单词本增删查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.循环菜单 3.json保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwords={}\nwords['hello']='你好'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0272",
+      "py-kp-0145"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0111",
+    "slug": "账单统计小工具",
+    "title": "账单统计小工具(案例111)",
+    "summary": "统计月度账单分类汇总",
+    "difficulty": "medium",
+    "tags": [
+      "账单统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计月度账单分类汇总",
+    "tasksMarkdown": "## 任务\n\n1.读取CSV 2.分类求和 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nfrom collections import Counter\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0266",
+      "py-kp-0117"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0112",
+    "slug": "学习计划生成器",
+    "title": "学习计划生成器(案例112)",
+    "summary": "根据目标天数生成学习计划",
+    "difficulty": "easy",
+    "tags": [
+      "学习计划"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据目标天数生成学习计划",
+    "tasksMarkdown": "## 任务\n\n1.输入天数 2.分配课程 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndays=int(input('天数:'))\nfor i,c in enumerate(courses):print(f'Day{i+1}:{c}')\n```",
+    "knowledgePoints": [
+      "py-kp-0031",
+      "py-kp-0139",
+      "py-kp-0142"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0113",
+    "slug": "简单日志分析器",
+    "title": "简单日志分析器(案例113)",
+    "summary": "分析日志文件统计错误数",
+    "difficulty": "medium",
+    "tags": [
+      "日志分析"
+    ],
+    "backgroundMarkdown": "## 背景\n\n分析日志文件统计错误数",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.匹配ERROR 3.统计",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncount=0\nwith open('log') as f:\n for l in f:\n  if 'ERROR' in l:count+=1\n```",
+    "knowledgePoints": [
+      "py-kp-0280",
+      "py-kp-0126"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0114",
+    "slug": "JSON/CSV转换工具",
+    "title": "JSON/CSV转换工具(案例114)",
+    "summary": "JSON文件转CSV",
+    "difficulty": "medium",
+    "tags": [
+      "数据转换"
+    ],
+    "backgroundMarkdown": "## 背景\n\nJSON文件转CSV",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.csv.writer 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json,csv\nwith open('d.json') as f:data=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0273",
+      "py-kp-0276",
+      "py-kp-0283"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0115",
+    "slug": "集合去重应用",
+    "title": "集合去重应用(案例115)",
+    "summary": "从列表中去除重复元素",
+    "difficulty": "easy",
+    "tags": [
+      "集合"
+    ],
+    "backgroundMarkdown": "## 背景\n\n从列表中去除重复元素",
+    "tasksMarkdown": "## 任务\n\n1.set去重 2.保持顺序",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[1,2,2,3];list(set(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0120",
+      "py-kp-0119"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0116",
+    "slug": "递归:阶乘计算",
+    "title": "递归:阶乘计算(案例116)",
+    "summary": "用递归计算阶乘",
+    "difficulty": "medium",
+    "tags": [
+      "递归"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用递归计算阶乘",
+    "tasksMarkdown": "## 任务\n\n1.基线条件 2.递归调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef fact(n):\n if n<=1:return 1\n return n*fact(n-1)\n```",
+    "knowledgePoints": [
+      "py-kp-0182",
+      "py-kp-0183"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0117",
+    "slug": "闭包:计数器工厂",
+    "title": "闭包:计数器工厂(案例117)",
+    "summary": "用闭包实现计数器",
+    "difficulty": "hard",
+    "tags": [
+      "闭包"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用闭包实现计数器",
+    "tasksMarkdown": "## 任务\n\n1.外层函数 2.内层函数 3.非局部变量",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef counter():\n n=0\n def inc():nonlocal n;n+=1;return n\n return inc\n```",
+    "knowledgePoints": [
+      "py-kp-0180",
+      "py-kp-0178"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0118",
+    "slug": "正则提取邮箱",
+    "title": "正则提取邮箱(案例118)",
+    "summary": "用正则从文本提取邮箱地址",
+    "difficulty": "medium",
+    "tags": [
+      "正则"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用正则从文本提取邮箱地址",
+    "tasksMarkdown": "## 任务\n\n1.re.findall 2.邮箱模式",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport re\nemails=re.findall(r'[\\w.]+@[\\w.]+',text)\n```",
+    "knowledgePoints": [
+      "py-kp-0444",
+      "py-kp-0442"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0119",
+    "slug": "pip安装与虚拟环境",
+    "title": "pip安装与虚拟环境(案例119)",
+    "summary": "创建虚拟环境并安装包",
+    "difficulty": "easy",
+    "tags": [
+      "工程"
+    ],
+    "backgroundMarkdown": "## 背景\n\n创建虚拟环境并安装包",
+    "tasksMarkdown": "## 任务\n\n1.python -m venv 2.pip install",
+    "referenceMarkdown": "## 参考思路\n\n```python\npython -m venv env && pip install requests\n```",
+    "knowledgePoints": [
+      "py-kp-0307",
+      "py-kp-0304",
+      "py-kp-0308"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0120",
+    "slug": "自动化办公:批量重命名",
+    "title": "自动化办公:批量重命名(案例120)",
+    "summary": "批量重命名文件",
+    "difficulty": "medium",
+    "tags": [
+      "自动化"
+    ],
+    "backgroundMarkdown": "## 背景\n\n批量重命名文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.新名规则 3.rename",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*.txt'):f.rename(f.stem+'_new'+f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0324"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0121",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序(案例121)",
+    "summary": "根据用户姓名输出问候",
+    "difficulty": "easy",
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0122",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数(案例122)",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0123",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值(案例123)",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0124",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率(案例124)",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0125",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件(案例125)",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0126",
+    "slug": "JSON处理:读写配置",
+    "title": "JSON处理:读写配置(案例126)",
+    "summary": "读写JSON配置文件",
+    "difficulty": "medium",
+    "tags": [
+      "JSON处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读写JSON配置文件",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.json.dump",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json\nwith open('c.json') as f:cfg=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0271",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0127",
+    "slug": "CSV处理:读取成绩表",
+    "title": "CSV处理:读取成绩表(案例127)",
+    "summary": "读取CSV成绩表并计算平均分",
+    "difficulty": "medium",
+    "tags": [
+      "CSV处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取CSV成绩表并计算平均分",
+    "tasksMarkdown": "## 任务\n\n1.csv.DictReader 2.计算平均",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nwith open('g.csv') as f:\n for r in csv.DictReader(f):print(r)\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0108"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0128",
+    "slug": "异常处理:安全除法",
+    "title": "异常处理:安全除法(案例128)",
+    "summary": "实现安全除法,处理除零",
+    "difficulty": "easy",
+    "tags": [
+      "异常处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现安全除法,处理除零",
+    "tasksMarkdown": "## 任务\n\n1.try/except 2.返回None",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef safe_div(a,b):\n try:return a/b\n except ZeroDivisionError:return None\n```",
+    "knowledgePoints": [
+      "py-kp-0207",
+      "py-kp-0297"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0129",
+    "slug": "类与对象:银行账户",
+    "title": "类与对象:银行账户(案例129)",
+    "summary": "实现BankAccount类",
+    "difficulty": "medium",
+    "tags": [
+      "OOP"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现BankAccount类",
+    "tasksMarkdown": "## 任务\n\n1.__init__ 2.deposit 3.withdraw",
+    "referenceMarkdown": "## 参考思路\n\n```python\nclass BankAccount:\n def __init__(self,b=0):self.balance=b\n def deposit(self,a):self.balance+=a\n```",
+    "knowledgePoints": [
+      "py-kp-0220",
+      "py-kp-0222",
+      "py-kp-0225"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0130",
+    "slug": "计算器项目",
+    "title": "计算器项目(案例130)",
+    "summary": "实现命令行四则运算计算器",
+    "difficulty": "medium",
+    "tags": [
+      "计算器"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现命令行四则运算计算器",
+    "tasksMarkdown": "## 任务\n\n1.输入表达式 2.运算 3.循环",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwhile True:\n expr=input('>> ')\n if expr=='q':break\n print(eval(expr))\n```",
+    "knowledgePoints": [
+      "py-kp-0145",
+      "py-kp-0031",
+      "py-kp-0148"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0131",
+    "slug": "通讯录项目",
+    "title": "通讯录项目(案例131)",
+    "summary": "实现通讯录增删改查",
+    "difficulty": "medium",
+    "tags": [
+      "通讯录"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现通讯录增删改查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.菜单循环 3.json持久化",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncontacts={}\ncontacts['Alice']='123'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0108",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0132",
+    "slug": "待办清单项目",
+    "title": "待办清单项目(案例132)",
+    "summary": "实现待办事项管理",
+    "difficulty": "medium",
+    "tags": [
+      "待办清单"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现待办事项管理",
+    "tasksMarkdown": "## 任务\n\n1.列表存储 2.增删标记 3.文件保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntodos=[]\ntodos.append('买牛奶')\n```",
+    "knowledgePoints": [
+      "py-kp-0079",
+      "py-kp-0083",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0133",
+    "slug": "成绩管理系统",
+    "title": "成绩管理系统(案例133)",
+    "summary": "多学生成绩管理与统计",
+    "difficulty": "medium",
+    "tags": [
+      "成绩管理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n多学生成绩管理与统计",
+    "tasksMarkdown": "## 任务\n\n1.字典嵌套 2.平均分 3.排序",
+    "referenceMarkdown": "## 参考思路\n\n```python\ngrades={'Alice':[90,85],'Bob':[78,92]}\n```",
+    "knowledgePoints": [
+      "py-kp-0091",
+      "py-kp-0115"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0134",
+    "slug": "文件整理工具",
+    "title": "文件整理工具(案例134)",
+    "summary": "按扩展名分类文件到子目录",
+    "difficulty": "medium",
+    "tags": [
+      "文件整理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n按扩展名分类文件到子目录",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.分类移动",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*'):print(f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0323"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0135",
+    "slug": "Debug案例:缩进错误",
+    "title": "Debug案例:缩进错误(案例135)",
+    "summary": "修复缩进不一致的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复缩进不一致的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读错误信息 2.统一缩进",
+    "referenceMarkdown": "## 参考思路\n\n```python\n检查IndentationError,统一4空格缩进\n```",
+    "knowledgePoints": [
+      "py-kp-0298",
+      "py-kp-0300"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0136",
+    "slug": "Debug案例:类型错误",
+    "title": "Debug案例:类型错误(案例136)",
+    "summary": "修复类型不匹配的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复类型不匹配的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读TypeError 2.类型转换",
+    "referenceMarkdown": "## 参考思路\n\n```python\n确保str+int时先str()转换\n```",
+    "knowledgePoints": [
+      "py-kp-0215",
+      "py-kp-0046"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0137",
+    "slug": "代码重构:提取函数",
+    "title": "代码重构:提取函数(案例137)",
+    "summary": "将重复代码提取为函数",
+    "difficulty": "medium",
+    "tags": [
+      "重构"
+    ],
+    "backgroundMarkdown": "## 背景\n\n将重复代码提取为函数",
+    "tasksMarkdown": "## 任务\n\n1.识别重复 2.定义函数 3.替换调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef process(data):...\n```",
+    "knowledgePoints": [
+      "py-kp-0157",
+      "py-kp-0331"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0138",
+    "slug": "数据清洗:去除空行",
+    "title": "数据清洗:去除空行(案例138)",
+    "summary": "读取文件去除空行后写入",
+    "difficulty": "easy",
+    "tags": [
+      "数据清洗"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取文件去除空行后写入",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.过滤空行 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('f') as f:lines=[l for l in f if l.strip()]\n```",
+    "knowledgePoints": [
+      "py-kp-0095",
+      "py-kp-0071",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0139",
+    "slug": "命令行工具:文件查找",
+    "title": "命令行工具:文件查找(案例139)",
+    "summary": "在目录中查找含关键字的文件",
+    "difficulty": "medium",
+    "tags": [
+      "命令行"
+    ],
+    "backgroundMarkdown": "## 背景\n\n在目录中查找含关键字的文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.关键字匹配",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').rglob('*'):\n if 'key' in f.name:print(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0257"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0140",
+    "slug": "单词本小工具",
+    "title": "单词本小工具(案例140)",
+    "summary": "实现单词本增删查",
+    "difficulty": "easy",
+    "tags": [
+      "单词本"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现单词本增删查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.循环菜单 3.json保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwords={}\nwords['hello']='你好'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0272",
+      "py-kp-0145"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0141",
+    "slug": "账单统计小工具",
+    "title": "账单统计小工具(案例141)",
+    "summary": "统计月度账单分类汇总",
+    "difficulty": "medium",
+    "tags": [
+      "账单统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计月度账单分类汇总",
+    "tasksMarkdown": "## 任务\n\n1.读取CSV 2.分类求和 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nfrom collections import Counter\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0266",
+      "py-kp-0117"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0142",
+    "slug": "学习计划生成器",
+    "title": "学习计划生成器(案例142)",
+    "summary": "根据目标天数生成学习计划",
+    "difficulty": "easy",
+    "tags": [
+      "学习计划"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据目标天数生成学习计划",
+    "tasksMarkdown": "## 任务\n\n1.输入天数 2.分配课程 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndays=int(input('天数:'))\nfor i,c in enumerate(courses):print(f'Day{i+1}:{c}')\n```",
+    "knowledgePoints": [
+      "py-kp-0031",
+      "py-kp-0139",
+      "py-kp-0142"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0143",
+    "slug": "简单日志分析器",
+    "title": "简单日志分析器(案例143)",
+    "summary": "分析日志文件统计错误数",
+    "difficulty": "medium",
+    "tags": [
+      "日志分析"
+    ],
+    "backgroundMarkdown": "## 背景\n\n分析日志文件统计错误数",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.匹配ERROR 3.统计",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncount=0\nwith open('log') as f:\n for l in f:\n  if 'ERROR' in l:count+=1\n```",
+    "knowledgePoints": [
+      "py-kp-0280",
+      "py-kp-0126"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0144",
+    "slug": "JSON/CSV转换工具",
+    "title": "JSON/CSV转换工具(案例144)",
+    "summary": "JSON文件转CSV",
+    "difficulty": "medium",
+    "tags": [
+      "数据转换"
+    ],
+    "backgroundMarkdown": "## 背景\n\nJSON文件转CSV",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.csv.writer 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json,csv\nwith open('d.json') as f:data=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0273",
+      "py-kp-0276",
+      "py-kp-0283"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0145",
+    "slug": "集合去重应用",
+    "title": "集合去重应用(案例145)",
+    "summary": "从列表中去除重复元素",
+    "difficulty": "easy",
+    "tags": [
+      "集合"
+    ],
+    "backgroundMarkdown": "## 背景\n\n从列表中去除重复元素",
+    "tasksMarkdown": "## 任务\n\n1.set去重 2.保持顺序",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[1,2,2,3];list(set(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0120",
+      "py-kp-0119"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0146",
+    "slug": "递归:阶乘计算",
+    "title": "递归:阶乘计算(案例146)",
+    "summary": "用递归计算阶乘",
+    "difficulty": "medium",
+    "tags": [
+      "递归"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用递归计算阶乘",
+    "tasksMarkdown": "## 任务\n\n1.基线条件 2.递归调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef fact(n):\n if n<=1:return 1\n return n*fact(n-1)\n```",
+    "knowledgePoints": [
+      "py-kp-0182",
+      "py-kp-0183"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0147",
+    "slug": "闭包:计数器工厂",
+    "title": "闭包:计数器工厂(案例147)",
+    "summary": "用闭包实现计数器",
+    "difficulty": "hard",
+    "tags": [
+      "闭包"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用闭包实现计数器",
+    "tasksMarkdown": "## 任务\n\n1.外层函数 2.内层函数 3.非局部变量",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef counter():\n n=0\n def inc():nonlocal n;n+=1;return n\n return inc\n```",
+    "knowledgePoints": [
+      "py-kp-0180",
+      "py-kp-0178"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0148",
+    "slug": "正则提取邮箱",
+    "title": "正则提取邮箱(案例148)",
+    "summary": "用正则从文本提取邮箱地址",
+    "difficulty": "medium",
+    "tags": [
+      "正则"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用正则从文本提取邮箱地址",
+    "tasksMarkdown": "## 任务\n\n1.re.findall 2.邮箱模式",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport re\nemails=re.findall(r'[\\w.]+@[\\w.]+',text)\n```",
+    "knowledgePoints": [
+      "py-kp-0444",
+      "py-kp-0442"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0149",
+    "slug": "pip安装与虚拟环境",
+    "title": "pip安装与虚拟环境(案例149)",
+    "summary": "创建虚拟环境并安装包",
+    "difficulty": "easy",
+    "tags": [
+      "工程"
+    ],
+    "backgroundMarkdown": "## 背景\n\n创建虚拟环境并安装包",
+    "tasksMarkdown": "## 任务\n\n1.python -m venv 2.pip install",
+    "referenceMarkdown": "## 参考思路\n\n```python\npython -m venv env && pip install requests\n```",
+    "knowledgePoints": [
+      "py-kp-0307",
+      "py-kp-0304",
+      "py-kp-0308"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0150",
+    "slug": "自动化办公:批量重命名",
+    "title": "自动化办公:批量重命名(案例150)",
+    "summary": "批量重命名文件",
+    "difficulty": "medium",
+    "tags": [
+      "自动化"
+    ],
+    "backgroundMarkdown": "## 背景\n\n批量重命名文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.新名规则 3.rename",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*.txt'):f.rename(f.stem+'_new'+f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0324"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0151",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序(案例151)",
+    "summary": "根据用户姓名输出问候",
+    "difficulty": "easy",
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0152",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数(案例152)",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0153",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值(案例153)",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0154",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率(案例154)",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0155",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件(案例155)",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0156",
+    "slug": "JSON处理:读写配置",
+    "title": "JSON处理:读写配置(案例156)",
+    "summary": "读写JSON配置文件",
+    "difficulty": "medium",
+    "tags": [
+      "JSON处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读写JSON配置文件",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.json.dump",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json\nwith open('c.json') as f:cfg=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0271",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0157",
+    "slug": "CSV处理:读取成绩表",
+    "title": "CSV处理:读取成绩表(案例157)",
+    "summary": "读取CSV成绩表并计算平均分",
+    "difficulty": "medium",
+    "tags": [
+      "CSV处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取CSV成绩表并计算平均分",
+    "tasksMarkdown": "## 任务\n\n1.csv.DictReader 2.计算平均",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nwith open('g.csv') as f:\n for r in csv.DictReader(f):print(r)\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0108"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0158",
+    "slug": "异常处理:安全除法",
+    "title": "异常处理:安全除法(案例158)",
+    "summary": "实现安全除法,处理除零",
+    "difficulty": "easy",
+    "tags": [
+      "异常处理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现安全除法,处理除零",
+    "tasksMarkdown": "## 任务\n\n1.try/except 2.返回None",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef safe_div(a,b):\n try:return a/b\n except ZeroDivisionError:return None\n```",
+    "knowledgePoints": [
+      "py-kp-0207",
+      "py-kp-0297"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0159",
+    "slug": "类与对象:银行账户",
+    "title": "类与对象:银行账户(案例159)",
+    "summary": "实现BankAccount类",
+    "difficulty": "medium",
+    "tags": [
+      "OOP"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现BankAccount类",
+    "tasksMarkdown": "## 任务\n\n1.__init__ 2.deposit 3.withdraw",
+    "referenceMarkdown": "## 参考思路\n\n```python\nclass BankAccount:\n def __init__(self,b=0):self.balance=b\n def deposit(self,a):self.balance+=a\n```",
+    "knowledgePoints": [
+      "py-kp-0220",
+      "py-kp-0222",
+      "py-kp-0225"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0160",
+    "slug": "计算器项目",
+    "title": "计算器项目(案例160)",
+    "summary": "实现命令行四则运算计算器",
+    "difficulty": "medium",
+    "tags": [
+      "计算器"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现命令行四则运算计算器",
+    "tasksMarkdown": "## 任务\n\n1.输入表达式 2.运算 3.循环",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwhile True:\n expr=input('>> ')\n if expr=='q':break\n print(eval(expr))\n```",
+    "knowledgePoints": [
+      "py-kp-0145",
+      "py-kp-0031",
+      "py-kp-0148"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0161",
+    "slug": "通讯录项目",
+    "title": "通讯录项目(案例161)",
+    "summary": "实现通讯录增删改查",
+    "difficulty": "medium",
+    "tags": [
+      "通讯录"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现通讯录增删改查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.菜单循环 3.json持久化",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncontacts={}\ncontacts['Alice']='123'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0108",
+      "py-kp-0272"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0162",
+    "slug": "待办清单项目",
+    "title": "待办清单项目(案例162)",
+    "summary": "实现待办事项管理",
+    "difficulty": "medium",
+    "tags": [
+      "待办清单"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现待办事项管理",
+    "tasksMarkdown": "## 任务\n\n1.列表存储 2.增删标记 3.文件保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntodos=[]\ntodos.append('买牛奶')\n```",
+    "knowledgePoints": [
+      "py-kp-0079",
+      "py-kp-0083",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0163",
+    "slug": "成绩管理系统",
+    "title": "成绩管理系统(案例163)",
+    "summary": "多学生成绩管理与统计",
+    "difficulty": "medium",
+    "tags": [
+      "成绩管理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n多学生成绩管理与统计",
+    "tasksMarkdown": "## 任务\n\n1.字典嵌套 2.平均分 3.排序",
+    "referenceMarkdown": "## 参考思路\n\n```python\ngrades={'Alice':[90,85],'Bob':[78,92]}\n```",
+    "knowledgePoints": [
+      "py-kp-0091",
+      "py-kp-0115"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0164",
+    "slug": "文件整理工具",
+    "title": "文件整理工具(案例164)",
+    "summary": "按扩展名分类文件到子目录",
+    "difficulty": "medium",
+    "tags": [
+      "文件整理"
+    ],
+    "backgroundMarkdown": "## 背景\n\n按扩展名分类文件到子目录",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.分类移动",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*'):print(f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0323"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0165",
+    "slug": "Debug案例:缩进错误",
+    "title": "Debug案例:缩进错误(案例165)",
+    "summary": "修复缩进不一致的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复缩进不一致的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读错误信息 2.统一缩进",
+    "referenceMarkdown": "## 参考思路\n\n```python\n检查IndentationError,统一4空格缩进\n```",
+    "knowledgePoints": [
+      "py-kp-0298",
+      "py-kp-0300"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0166",
+    "slug": "Debug案例:类型错误",
+    "title": "Debug案例:类型错误(案例166)",
+    "summary": "修复类型不匹配的代码",
+    "difficulty": "easy",
+    "tags": [
+      "Debug"
+    ],
+    "backgroundMarkdown": "## 背景\n\n修复类型不匹配的代码",
+    "tasksMarkdown": "## 任务\n\n1.阅读TypeError 2.类型转换",
+    "referenceMarkdown": "## 参考思路\n\n```python\n确保str+int时先str()转换\n```",
+    "knowledgePoints": [
+      "py-kp-0215",
+      "py-kp-0046"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0167",
+    "slug": "代码重构:提取函数",
+    "title": "代码重构:提取函数(案例167)",
+    "summary": "将重复代码提取为函数",
+    "difficulty": "medium",
+    "tags": [
+      "重构"
+    ],
+    "backgroundMarkdown": "## 背景\n\n将重复代码提取为函数",
+    "tasksMarkdown": "## 任务\n\n1.识别重复 2.定义函数 3.替换调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef process(data):...\n```",
+    "knowledgePoints": [
+      "py-kp-0157",
+      "py-kp-0331"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0168",
+    "slug": "数据清洗:去除空行",
+    "title": "数据清洗:去除空行(案例168)",
+    "summary": "读取文件去除空行后写入",
+    "difficulty": "easy",
+    "tags": [
+      "数据清洗"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取文件去除空行后写入",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.过滤空行 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('f') as f:lines=[l for l in f if l.strip()]\n```",
+    "knowledgePoints": [
+      "py-kp-0095",
+      "py-kp-0071",
+      "py-kp-0202"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0169",
+    "slug": "命令行工具:文件查找",
+    "title": "命令行工具:文件查找(案例169)",
+    "summary": "在目录中查找含关键字的文件",
+    "difficulty": "medium",
+    "tags": [
+      "命令行"
+    ],
+    "backgroundMarkdown": "## 背景\n\n在目录中查找含关键字的文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.关键字匹配",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').rglob('*'):\n if 'key' in f.name:print(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0257"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0170",
+    "slug": "单词本小工具",
+    "title": "单词本小工具(案例170)",
+    "summary": "实现单词本增删查",
+    "difficulty": "easy",
+    "tags": [
+      "单词本"
+    ],
+    "backgroundMarkdown": "## 背景\n\n实现单词本增删查",
+    "tasksMarkdown": "## 任务\n\n1.字典存储 2.循环菜单 3.json保存",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwords={}\nwords['hello']='你好'\n```",
+    "knowledgePoints": [
+      "py-kp-0106",
+      "py-kp-0272",
+      "py-kp-0145"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0171",
+    "slug": "账单统计小工具",
+    "title": "账单统计小工具(案例171)",
+    "summary": "统计月度账单分类汇总",
+    "difficulty": "medium",
+    "tags": [
+      "账单统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计月度账单分类汇总",
+    "tasksMarkdown": "## 任务\n\n1.读取CSV 2.分类求和 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport csv\nfrom collections import Counter\n```",
+    "knowledgePoints": [
+      "py-kp-0277",
+      "py-kp-0266",
+      "py-kp-0117"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0172",
+    "slug": "学习计划生成器",
+    "title": "学习计划生成器(案例172)",
+    "summary": "根据目标天数生成学习计划",
+    "difficulty": "easy",
+    "tags": [
+      "学习计划"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据目标天数生成学习计划",
+    "tasksMarkdown": "## 任务\n\n1.输入天数 2.分配课程 3.输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndays=int(input('天数:'))\nfor i,c in enumerate(courses):print(f'Day{i+1}:{c}')\n```",
+    "knowledgePoints": [
+      "py-kp-0031",
+      "py-kp-0139",
+      "py-kp-0142"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0173",
+    "slug": "简单日志分析器",
+    "title": "简单日志分析器(案例173)",
+    "summary": "分析日志文件统计错误数",
+    "difficulty": "medium",
+    "tags": [
+      "日志分析"
+    ],
+    "backgroundMarkdown": "## 背景\n\n分析日志文件统计错误数",
+    "tasksMarkdown": "## 任务\n\n1.逐行读取 2.匹配ERROR 3.统计",
+    "referenceMarkdown": "## 参考思路\n\n```python\ncount=0\nwith open('log') as f:\n for l in f:\n  if 'ERROR' in l:count+=1\n```",
+    "knowledgePoints": [
+      "py-kp-0280",
+      "py-kp-0126"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0174",
+    "slug": "JSON/CSV转换工具",
+    "title": "JSON/CSV转换工具(案例174)",
+    "summary": "JSON文件转CSV",
+    "difficulty": "medium",
+    "tags": [
+      "数据转换"
+    ],
+    "backgroundMarkdown": "## 背景\n\nJSON文件转CSV",
+    "tasksMarkdown": "## 任务\n\n1.json.load 2.csv.writer 3.写入",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport json,csv\nwith open('d.json') as f:data=json.load(f)\n```",
+    "knowledgePoints": [
+      "py-kp-0273",
+      "py-kp-0276",
+      "py-kp-0283"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0175",
+    "slug": "集合去重应用",
+    "title": "集合去重应用(案例175)",
+    "summary": "从列表中去除重复元素",
+    "difficulty": "easy",
+    "tags": [
+      "集合"
+    ],
+    "backgroundMarkdown": "## 背景\n\n从列表中去除重复元素",
+    "tasksMarkdown": "## 任务\n\n1.set去重 2.保持顺序",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[1,2,2,3];list(set(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0120",
+      "py-kp-0119"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0176",
+    "slug": "递归:阶乘计算",
+    "title": "递归:阶乘计算(案例176)",
+    "summary": "用递归计算阶乘",
+    "difficulty": "medium",
+    "tags": [
+      "递归"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用递归计算阶乘",
+    "tasksMarkdown": "## 任务\n\n1.基线条件 2.递归调用",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef fact(n):\n if n<=1:return 1\n return n*fact(n-1)\n```",
+    "knowledgePoints": [
+      "py-kp-0182",
+      "py-kp-0183"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0177",
+    "slug": "闭包:计数器工厂",
+    "title": "闭包:计数器工厂(案例177)",
+    "summary": "用闭包实现计数器",
+    "difficulty": "hard",
+    "tags": [
+      "闭包"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用闭包实现计数器",
+    "tasksMarkdown": "## 任务\n\n1.外层函数 2.内层函数 3.非局部变量",
+    "referenceMarkdown": "## 参考思路\n\n```python\ndef counter():\n n=0\n def inc():nonlocal n;n+=1;return n\n return inc\n```",
+    "knowledgePoints": [
+      "py-kp-0180",
+      "py-kp-0178"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0178",
+    "slug": "正则提取邮箱",
+    "title": "正则提取邮箱(案例178)",
+    "summary": "用正则从文本提取邮箱地址",
+    "difficulty": "medium",
+    "tags": [
+      "正则"
+    ],
+    "backgroundMarkdown": "## 背景\n\n用正则从文本提取邮箱地址",
+    "tasksMarkdown": "## 任务\n\n1.re.findall 2.邮箱模式",
+    "referenceMarkdown": "## 参考思路\n\n```python\nimport re\nemails=re.findall(r'[\\w.]+@[\\w.]+',text)\n```",
+    "knowledgePoints": [
+      "py-kp-0444",
+      "py-kp-0442"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0179",
+    "slug": "pip安装与虚拟环境",
+    "title": "pip安装与虚拟环境(案例179)",
+    "summary": "创建虚拟环境并安装包",
+    "difficulty": "easy",
+    "tags": [
+      "工程"
+    ],
+    "backgroundMarkdown": "## 背景\n\n创建虚拟环境并安装包",
+    "tasksMarkdown": "## 任务\n\n1.python -m venv 2.pip install",
+    "referenceMarkdown": "## 参考思路\n\n```python\npython -m venv env && pip install requests\n```",
+    "knowledgePoints": [
+      "py-kp-0307",
+      "py-kp-0304",
+      "py-kp-0308"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0180",
+    "slug": "自动化办公:批量重命名",
+    "title": "自动化办公:批量重命名(案例180)",
+    "summary": "批量重命名文件",
+    "difficulty": "medium",
+    "tags": [
+      "自动化"
+    ],
+    "backgroundMarkdown": "## 背景\n\n批量重命名文件",
+    "tasksMarkdown": "## 任务\n\n1.pathlib遍历 2.新名规则 3.rename",
+    "referenceMarkdown": "## 参考思路\n\n```python\nfrom pathlib import Path\nfor f in Path('.').glob('*.txt'):f.rename(f.stem+'_new'+f.suffix)\n```",
+    "knowledgePoints": [
+      "py-kp-0257",
+      "py-kp-0324"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "py-case-0181",
+    "slug": "输入输出:问候程序",
+    "title": "输入输出:问候程序(案例181)",
+    "summary": "根据用户姓名输出问候",
+    "difficulty": "easy",
+    "tags": [
+      "输入输出"
+    ],
+    "backgroundMarkdown": "## 背景\n\n根据用户姓名输出问候",
+    "tasksMarkdown": "## 任务\n\n1.input接收 2.print输出",
+    "referenceMarkdown": "## 参考思路\n\n```python\nname=input('姓名:');print(f'Hello,{name}!')\n```",
+    "knowledgePoints": [
+      "py-kp-0027",
+      "py-kp-0031"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "py-case-0182",
+    "slug": "字符串处理:统计字符次数",
+    "title": "字符串处理:统计字符次数(案例182)",
+    "summary": "统计字符串中某字符出现次数",
+    "difficulty": "easy",
+    "tags": [
+      "字符串"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计字符串中某字符出现次数",
+    "tasksMarkdown": "## 任务\n\n1.输入字符串和字符 2.count方法",
+    "referenceMarkdown": "## 参考思路\n\n```python\ns=input();c=input();print(s.count(c))\n```",
+    "knowledgePoints": [
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "py-case-0183",
+    "slug": "列表处理:求最大最小值",
+    "title": "列表处理:求最大最小值(案例183)",
+    "summary": "求列表最大最小值",
+    "difficulty": "easy",
+    "tags": [
+      "列表"
+    ],
+    "backgroundMarkdown": "## 背景\n\n求列表最大最小值",
+    "tasksMarkdown": "## 任务\n\n1.用max/min 2.手动遍历",
+    "referenceMarkdown": "## 参考思路\n\n```python\nlst=[3,1,4];print(max(lst),min(lst))\n```",
+    "knowledgePoints": [
+      "py-kp-0094",
+      "py-kp-0080"
+    ],
+    "estimatedMinutes": 50
+  },
+  {
+    "id": "py-case-0184",
+    "slug": "字典统计:单词频率",
+    "title": "字典统计:单词频率(案例184)",
+    "summary": "统计文本单词频率",
+    "difficulty": "medium",
+    "tags": [
+      "字典统计"
+    ],
+    "backgroundMarkdown": "## 背景\n\n统计文本单词频率",
+    "tasksMarkdown": "## 任务\n\n1.split分词 2.字典计数",
+    "referenceMarkdown": "## 参考思路\n\n```python\ntext='a b a c';d={}\nfor w in text.split():d[w]=d.get(w,0)+1\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0116",
+      "py-kp-0068"
+    ],
+    "estimatedMinutes": 60
+  },
+  {
+    "id": "py-case-0185",
+    "slug": "文件读写:复制文件",
+    "title": "文件读写:复制文件(案例185)",
+    "summary": "读取一个文件写入另一个",
+    "difficulty": "easy",
+    "tags": [
+      "文件读写"
+    ],
+    "backgroundMarkdown": "## 背景\n\n读取一个文件写入另一个",
+    "tasksMarkdown": "## 任务\n\n1.with open读 2.with open写",
+    "referenceMarkdown": "## 参考思路\n\n```python\nwith open('a') as f:data=f.read()\nwith open('b','w') as f:f.write(data)\n```",
+    "knowledgePoints": [
+      "py-kp-0202",
+      "py-kp-0197",
+      "py-kp-0200"
+    ],
+    "estimatedMinutes": 20
   }
 ]

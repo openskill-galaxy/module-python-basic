@@ -1,38 +1,2202 @@
 [
   {
-    "id": "faq-no-backend",
-    "question": "模块需要后端服务吗？",
-    "answer": "不需要。模块模板遵循**静态优先**原则，所有数据为 `public/data/*.json` 静态文件，前端直接 `fetch` 读取。进度保存在浏览器 `localStorage`，无需任何后端。",
-    "category": "架构"
+    "id": "py-faq-0001",
+    "question": "Python 和 Java 哪个更好",
+    "answer": "Python 和 Java 哪个更好 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 和 Java 哪个更好 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
   },
   {
-    "id": "faq-no-database",
-    "question": "学习进度存在哪里？会丢失吗？",
-    "answer": "进度保存在浏览器 `localStorage`，以 `osg-mt:` 为前缀。关闭浏览器后仍然保留，但**清除浏览器数据**会丢失。建议重要进度定期手动记录。",
-    "category": "架构"
+    "id": "py-faq-0002",
+    "question": "Python 适合初学者吗",
+    "answer": "Python 适合初学者吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 适合初学者吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
   },
   {
-    "id": "faq-how-to-create",
-    "question": "如何基于模板创建新模块？",
-    "answer": "1. 复制 `02-module-template` 目录\n2. 修改 `public/data/module.json` 的 slug、title 等\n3. 替换各 JSON 数据文件为真实内容\n4. 修改 `vite.config.ts` 的 `base` 为 `/{new-slug}/`\n5. 修改 `package.json` 的 name\n6. `npm install && npm run build` 验证",
-    "category": "使用"
+    "id": "py-faq-0003",
+    "question": "Python 的缩进规则是什么",
+    "answer": "Python 的缩进规则是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的缩进规则是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
   },
   {
-    "id": "faq-add-question-type",
-    "question": "可以添加新的题目类型吗？",
-    "answer": "可以。在 `types.ts` 的 `QuestionType` 联合类型中添加新值，然后在 `QuestionPlayer` 组件中添加对应 UI，在 `scoring.ts` 中添加判分逻辑。",
-    "category": "扩展"
+    "id": "py-faq-0004",
+    "question": "Python 中\n和\r\n的区别",
+    "answer": "Python 中\n和\r\n的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中\n和\r\n的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
   },
   {
-    "id": "faq-search-not-working",
-    "question": "搜索为什么没有结果？",
-    "answer": "搜索使用 Fuse.js 模糊匹配，阈值 0.4。如果关键词太短或与内容差异太大可能无结果。尝试使用更完整的关键词，或使用标签筛选代替搜索。",
-    "category": "使用"
+    "id": "py-faq-0005",
+    "question": "如何退出 Python 交互模式",
+    "answer": "如何退出 Python 交互模式 是 Python 学习中的常见问题。\n\n## 解答\n\n如何退出 Python 交互模式 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
   },
   {
-    "id": "faq-deploy-pages",
-    "question": "如何部署到 GitHub Pages？",
-    "answer": "推送到 `main` 分支后，GitHub Actions 会自动构建并部署。需在仓库 Settings → Pages → Source 中选择 **GitHub Actions**。`vite.config.ts` 的 `base` 必须设置为 `/{repo-name}/`。",
-    "category": "部署"
+    "id": "py-faq-0006",
+    "question": "Python 有数组吗",
+    "answer": "Python 有数组吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 有数组吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0007",
+    "question": "Python 怎么运行程序",
+    "answer": "Python 怎么运行程序 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 怎么运行程序 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0008",
+    "question": "pip install 报错怎么办",
+    "answer": "pip install 报错怎么办 是 Python 学习中的常见问题。\n\n## 解答\n\npip install 报错怎么办 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0009",
+    "question": "什么是虚拟环境",
+    "answer": "什么是虚拟环境 是 Python 学习中的常见问题。\n\n## 解答\n\n什么是虚拟环境 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0010",
+    "question": "Python 2 和 Python 3 的区别",
+    "answer": "Python 2 和 Python 3 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 2 和 Python 3 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0011",
+    "question": "如何设置 Python 镜像源",
+    "answer": "如何设置 Python 镜像源 是 Python 学习中的常见问题。\n\n## 解答\n\n如何设置 Python 镜像源 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0012",
+    "question": "Python 中 # 和 \"\"\" 注释区别",
+    "answer": "Python 中 # 和 \"\"\" 注释区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 # 和 \"\"\" 注释区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0013",
+    "question": "Python 变量有类型吗",
+    "answer": "Python 变量有类型吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 变量有类型吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0014",
+    "question": "Python 中会存在内存泄漏吗",
+    "answer": "Python 中会存在内存泄漏吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中会存在内存泄漏吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0015",
+    "question": "如何查看 Python 版本",
+    "answer": "如何查看 Python 版本 是 Python 学习中的常见问题。\n\n## 解答\n\n如何查看 Python 版本 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0016",
+    "question": "CPython Jython IronPython 的区别",
+    "answer": "CPython Jython IronPython 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nCPython Jython IronPython 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0017",
+    "question": "Python 的 GIL 是什么",
+    "answer": "Python 的 GIL 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 GIL 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0018",
+    "question": "Python 适合 Web 开发吗",
+    "answer": "Python 适合 Web 开发吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 适合 Web 开发吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0019",
+    "question": "Python 适合数据分析吗",
+    "answer": "Python 适合数据分析吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 适合数据分析吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0020",
+    "question": "Python 和 Node.js 怎么选",
+    "answer": "Python 和 Node.js 怎么选 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 和 Node.js 怎么选 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0021",
+    "question": "py 文件怎么变成 exe",
+    "answer": "py 文件怎么变成 exe 是 Python 学习中的常见问题。\n\n## 解答\n\npy 文件怎么变成 exe 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0022",
+    "question": "Python 的 import 机制",
+    "answer": "Python 的 import 机制 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 import 机制 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0023",
+    "question": "Python 的 \n   是干什么的",
+    "answer": "Python 的 \n   是干什么的 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 \n   是干什么的 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0024",
+    "question": "Python 中 __name__ 是什么",
+    "answer": "Python 中 __name__ 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 __name__ 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0025",
+    "question": "Python 中 pass 的作用",
+    "answer": "Python 中 pass 的作用 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 pass 的作用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0026",
+    "question": "Python 中 is 和 == 的区别",
+    "answer": "Python 中 is 和 == 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 is 和 == 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0027",
+    "question": "Python 字符串不可变",
+    "answer": "Python 字符串不可变 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 字符串不可变 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0028",
+    "question": "列表和元组的区别",
+    "answer": "列表和元组的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n列表和元组的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0029",
+    "question": "浅拷贝和深拷贝的区别",
+    "answer": "浅拷贝和深拷贝的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n浅拷贝和深拷贝的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0030",
+    "question": "字典的键可以是列表吗",
+    "answer": "字典的键可以是列表吗 是 Python 学习中的常见问题。\n\n## 解答\n\n字典的键可以是列表吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0031",
+    "question": "集合和列表的区别",
+    "answer": "集合和列表的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n集合和列表的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0032",
+    "question": "Python 推导式怎么用",
+    "answer": "Python 推导式怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 推导式怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0033",
+    "question": "列表推导式 vs 生成器表达式",
+    "answer": "列表推导式 vs 生成器表达式 是 Python 学习中的常见问题。\n\n## 解答\n\n列表推导式 vs 生成器表达式 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0034",
+    "question": "range 返回的是什么",
+    "answer": "range 返回的是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nrange 返回的是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0035",
+    "question": "enumerate 怎么用",
+    "answer": "enumerate 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nenumerate 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0036",
+    "question": "zip 函数怎么用",
+    "answer": "zip 函数怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nzip 函数怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0037",
+    "question": "Python 的三元表达式",
+    "answer": "Python 的三元表达式 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的三元表达式 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0038",
+    "question": "Python 的 match 语句",
+    "answer": "Python 的 match 语句 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 match 语句 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0039",
+    "question": "if name main 的作用",
+    "answer": "if name main 的作用 是 Python 学习中的常见问题。\n\n## 解答\n\nif name main 的作用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0040",
+    "question": "Python 函数的参数传递",
+    "answer": "Python 函数的参数传递 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 函数的参数传递 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0041",
+    "question": "函数位置参数和关键字参数的区别",
+    "answer": "函数位置参数和关键字参数的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n函数位置参数和关键字参数的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0042",
+    "question": "args 和 kwargs 的区别",
+    "answer": "args 和 kwargs 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nargs 和 kwargs 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0043",
+    "question": "默认参数需要注意什么",
+    "answer": "默认参数需要注意什么 是 Python 学习中的常见问题。\n\n## 解答\n\n默认参数需要注意什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0044",
+    "question": "lambda 函数有什么用",
+    "answer": "lambda 函数有什么用 是 Python 学习中的常见问题。\n\n## 解答\n\nlambda 函数有什么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0045",
+    "question": "装饰器的作用",
+    "answer": "装饰器的作用 是 Python 学习中的常见问题。\n\n## 解答\n\n装饰器的作用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0046",
+    "question": "闭包是什么",
+    "answer": "闭包是什么 是 Python 学习中的常见问题。\n\n## 解答\n\n闭包是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0047",
+    "question": "递归和循环的选择",
+    "answer": "递归和循环的选择 是 Python 学习中的常见问题。\n\n## 解答\n\n递归和循环的选择 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0048",
+    "question": "Python 的作用域规则",
+    "answer": "Python 的作用域规则 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的作用域规则 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0049",
+    "question": "global 和 nonlocal 的区别",
+    "answer": "global 和 nonlocal 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nglobal 和 nonlocal 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0050",
+    "question": "模块和包的区别",
+    "answer": "模块和包的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n模块和包的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0051",
+    "question": "如何创建自己的模块",
+    "answer": "如何创建自己的模块 是 Python 学习中的常见问题。\n\n## 解答\n\n如何创建自己的模块 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0052",
+    "question": "Python 包的 __init__.py 必须吗",
+    "answer": "Python 包的 __init__.py 必须吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 包的 __init__.py 必须吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0053",
+    "question": "Python 标准库有哪些常用模块",
+    "answer": "Python 标准库有哪些常用模块 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 标准库有哪些常用模块 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0054",
+    "question": "virtualenv 和 venv 的区别",
+    "answer": "virtualenv 和 venv 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nvirtualenv 和 venv 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0055",
+    "question": "pip freeze 的作用",
+    "answer": "pip freeze 的作用 是 Python 学习中的常见问题。\n\n## 解答\n\npip freeze 的作用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0056",
+    "question": "requirements.txt 怎么用",
+    "answer": "requirements.txt 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nrequirements.txt 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0057",
+    "question": "Python 如何读写文件",
+    "answer": "Python 如何读写文件 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 如何读写文件 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0058",
+    "question": "with open 比 open 好在哪里",
+    "answer": "with open 比 open 好在哪里 是 Python 学习中的常见问题。\n\n## 解答\n\nwith open 比 open 好在哪里 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0059",
+    "question": "文件模式 r w a 的区别",
+    "answer": "文件模式 r w a 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n文件模式 r w a 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0060",
+    "question": "如何处理文件编码问题",
+    "answer": "如何处理文件编码问题 是 Python 学习中的常见问题。\n\n## 解答\n\n如何处理文件编码问题 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0061",
+    "question": "Python 异常处理的最佳实践",
+    "answer": "Python 异常处理的最佳实践 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 异常处理的最佳实践 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0062",
+    "question": "raise 和 assert 的区别",
+    "answer": "raise 和 assert 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nraise 和 assert 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0063",
+    "question": "finally 块总是执行吗",
+    "answer": "finally 块总是执行吗 是 Python 学习中的常见问题。\n\n## 解答\n\nfinally 块总是执行吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0064",
+    "question": "如何自定义异常",
+    "answer": "如何自定义异常 是 Python 学习中的常见问题。\n\n## 解答\n\n如何自定义异常 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0065",
+    "question": "Python 的异常链是什么",
+    "answer": "Python 的异常链是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的异常链是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0066",
+    "question": "Python 是面向对象语言吗",
+    "answer": "Python 是面向对象语言吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 是面向对象语言吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0067",
+    "question": "类和对象的区别",
+    "answer": "类和对象的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n类和对象的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0068",
+    "question": "self 是什么",
+    "answer": "self 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nself 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0069",
+    "question": "init 和 new 的区别",
+    "answer": "init 和 new 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\ninit 和 new 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0070",
+    "question": "类方法和静态方法的区别",
+    "answer": "类方法和静态方法的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n类方法和静态方法的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0071",
+    "question": "Python 支持多继承吗",
+    "answer": "Python 支持多继承吗 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 支持多继承吗 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0072",
+    "question": "MRO 是什么",
+    "answer": "MRO 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nMRO 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0073",
+    "question": "super 怎么用",
+    "answer": "super 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nsuper 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0074",
+    "question": "property 装饰器有什么作用",
+    "answer": "property 装饰器有什么作用 是 Python 学习中的常见问题。\n\n## 解答\n\nproperty 装饰器有什么作用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0075",
+    "question": "私有属性和保护属性的区别",
+    "answer": "私有属性和保护属性的区别 是 Python 学习中的常见问题。\n\n## 解答\n\n私有属性和保护属性的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0076",
+    "question": "抽象类和接口",
+    "answer": "抽象类和接口 是 Python 学习中的常见问题。\n\n## 解答\n\n抽象类和接口 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0077",
+    "question": "Python 的 duck typing",
+    "answer": "Python 的 duck typing 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 duck typing 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0078",
+    "question": "dataclass 的好处",
+    "answer": "dataclass 的好处 是 Python 学习中的常见问题。\n\n## 解答\n\ndataclass 的好处 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0079",
+    "question": "namedtuple 和 class 的选择",
+    "answer": "namedtuple 和 class 的选择 是 Python 学习中的常见问题。\n\n## 解答\n\nnamedtuple 和 class 的选择 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0080",
+    "question": "slots 的作用",
+    "answer": "slots 的作用 是 Python 学习中的常见问题。\n\n## 解答\n\nslots 的作用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0081",
+    "question": "Python 中 == 和 is 的区别",
+    "answer": "Python 中 == 和 is 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 == 和 is 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0082",
+    "question": "Python 的 str 和 repr 的区别",
+    "answer": "Python 的 str 和 repr 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 str 和 repr 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0083",
+    "question": "Python 中 None 的检查",
+    "answer": "Python 中 None 的检查 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 None 的检查 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0084",
+    "question": "Python 的 bool 值转换规则",
+    "answer": "Python 的 bool 值转换规则 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 bool 值转换规则 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0085",
+    "question": "Python 短路求值",
+    "answer": "Python 短路求值 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 短路求值 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0086",
+    "question": "Python 中 any 和 all 的用法",
+    "answer": "Python 中 any 和 all 的用法 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中 any 和 all 的用法 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0087",
+    "question": "如何提高 Python 代码性能",
+    "answer": "如何提高 Python 代码性能 是 Python 学习中的常见问题。\n\n## 解答\n\n如何提高 Python 代码性能 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0088",
+    "question": "列表和字典哪个更快",
+    "answer": "列表和字典哪个更快 是 Python 学习中的常见问题。\n\n## 解答\n\n列表和字典哪个更快 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0089",
+    "question": "Python 中多线程",
+    "answer": "Python 中多线程 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中多线程 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0090",
+    "question": "Python 中协程",
+    "answer": "Python 中协程 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 中协程 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0091",
+    "question": "async/await 怎么用",
+    "answer": "async/await 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nasync/await 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0092",
+    "question": "如何安装第三方库",
+    "answer": "如何安装第三方库 是 Python 学习中的常见问题。\n\n## 解答\n\n如何安装第三方库 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0093",
+    "question": "PIP 是什么",
+    "answer": "PIP 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPIP 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0094",
+    "question": "Python 有哪些包管理工具",
+    "answer": "Python 有哪些包管理工具 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 有哪些包管理工具 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0095",
+    "question": "Anaconda 是什么",
+    "answer": "Anaconda 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nAnaconda 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0096",
+    "question": "Jupyter Notebook 怎么用",
+    "answer": "Jupyter Notebook 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nJupyter Notebook 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0097",
+    "question": "Python IDE 推荐",
+    "answer": "Python IDE 推荐 是 Python 学习中的常见问题。\n\n## 解答\n\nPython IDE 推荐 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0098",
+    "question": "VS Code 设置 Python",
+    "answer": "VS Code 设置 Python 是 Python 学习中的常见问题。\n\n## 解答\n\nVS Code 设置 Python 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0099",
+    "question": "PyCharm 社区版和专业版区别",
+    "answer": "PyCharm 社区版和专业版区别 是 Python 学习中的常见问题。\n\n## 解答\n\nPyCharm 社区版和专业版区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0100",
+    "question": "在线 Python 运行环境",
+    "answer": "在线 Python 运行环境 是 Python 学习中的常见问题。\n\n## 解答\n\n在线 Python 运行环境 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0101",
+    "question": "Python 代码风格 PEP8",
+    "answer": "Python 代码风格 PEP8 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 代码风格 PEP8 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0102",
+    "question": "Python 命名规范",
+    "answer": "Python 命名规范 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 命名规范 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0103",
+    "question": "Python 注释规范",
+    "answer": "Python 注释规范 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 注释规范 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0104",
+    "question": "如何进行 Python 测试",
+    "answer": "如何进行 Python 测试 是 Python 学习中的常见问题。\n\n## 解答\n\n如何进行 Python 测试 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0105",
+    "question": "unittest 和 pytest 的区别",
+    "answer": "unittest 和 pytest 的区别 是 Python 学习中的常见问题。\n\n## 解答\n\nunittest 和 pytest 的区别 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0106",
+    "question": "Python 文档字符串怎么写",
+    "answer": "Python 文档字符串怎么写 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 文档字符串怎么写 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0107",
+    "question": "Python 文件类型注解",
+    "answer": "Python 文件类型注解 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 文件类型注解 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0108",
+    "question": "logging 和 print 哪个好",
+    "answer": "logging 和 print 哪个好 是 Python 学习中的常见问题。\n\n## 解答\n\nlogging 和 print 哪个好 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0109",
+    "question": "如何调试 Python 代码",
+    "answer": "如何调试 Python 代码 是 Python 学习中的常见问题。\n\n## 解答\n\n如何调试 Python 代码 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0110",
+    "question": "pdb 怎么用",
+    "answer": "pdb 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\npdb 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0111",
+    "question": "Python 的 GIL 对多线程的影响",
+    "answer": "Python 的 GIL 对多线程的影响 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 GIL 对多线程的影响 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0112",
+    "question": "Python 如何做异步编程",
+    "answer": "Python 如何做异步编程 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 如何做异步编程 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0113",
+    "question": "如何用 Python 做 Web 开发",
+    "answer": "如何用 Python 做 Web 开发 是 Python 学习中的常见问题。\n\n## 解答\n\n如何用 Python 做 Web 开发 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0114",
+    "question": "Django vs Flask",
+    "answer": "Django vs Flask 是 Python 学习中的常见问题。\n\n## 解答\n\nDjango vs Flask 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0115",
+    "question": "Python 如何做数据分析",
+    "answer": "Python 如何做数据分析 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 如何做数据分析 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0116",
+    "question": "pandas 和 numpy 的关系",
+    "answer": "pandas 和 numpy 的关系 是 Python 学习中的常见问题。\n\n## 解答\n\npandas 和 numpy 的关系 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0117",
+    "question": "Python 如何做机器学习",
+    "answer": "Python 如何做机器学习 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 如何做机器学习 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0118",
+    "question": "scikit-learn 入门",
+    "answer": "scikit-learn 入门 是 Python 学习中的常见问题。\n\n## 解答\n\nscikit-learn 入门 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0119",
+    "question": "Python 爬虫怎么做",
+    "answer": "Python 爬虫怎么做 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 爬虫怎么做 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0120",
+    "question": "requests 库怎么用",
+    "answer": "requests 库怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nrequests 库怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0121",
+    "question": "BeautifulSoup 是什么",
+    "answer": "BeautifulSoup 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nBeautifulSoup 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0122",
+    "question": "Selenium 是什么",
+    "answer": "Selenium 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nSelenium 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0123",
+    "question": "Python 操作 Excel",
+    "answer": "Python 操作 Excel 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 操作 Excel 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0124",
+    "question": "openpyxl 怎么用",
+    "answer": "openpyxl 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nopenpyxl 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0125",
+    "question": "Python 操作 PDF",
+    "answer": "Python 操作 PDF 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 操作 PDF 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0126",
+    "question": "如何用 Python 操作 Word",
+    "answer": "如何用 Python 操作 Word 是 Python 学习中的常见问题。\n\n## 解答\n\n如何用 Python 操作 Word 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0127",
+    "question": "如何用 Python 发送邮件",
+    "answer": "如何用 Python 发送邮件 是 Python 学习中的常见问题。\n\n## 解答\n\n如何用 Python 发送邮件 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0128",
+    "question": "如何用 Python 操作数据库",
+    "answer": "如何用 Python 操作数据库 是 Python 学习中的常见问题。\n\n## 解答\n\n如何用 Python 操作数据库 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0129",
+    "question": "Python 连接 MySQL",
+    "answer": "Python 连接 MySQL 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 连接 MySQL 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0130",
+    "question": "Python 连接 MongoDB",
+    "answer": "Python 连接 MongoDB 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 连接 MongoDB 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0131",
+    "question": "如何用 Python 生成图表",
+    "answer": "如何用 Python 生成图表 是 Python 学习中的常见问题。\n\n## 解答\n\n如何用 Python 生成图表 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0132",
+    "question": "matplotlib 入门",
+    "answer": "matplotlib 入门 是 Python 学习中的常见问题。\n\n## 解答\n\nmatplotlib 入门 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0133",
+    "question": "Python 如何做 GUI",
+    "answer": "Python 如何做 GUI 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 如何做 GUI 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0134",
+    "question": "Tkinter 是什么",
+    "answer": "Tkinter 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nTkinter 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0135",
+    "question": "PyQt 是什么",
+    "answer": "PyQt 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPyQt 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0136",
+    "question": "Python 如何做命令行工具",
+    "answer": "Python 如何做命令行工具 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 如何做命令行工具 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0137",
+    "question": "argparse 怎么用",
+    "answer": "argparse 怎么用 是 Python 学习中的常见问题。\n\n## 解答\n\nargparse 怎么用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0138",
+    "question": "click 是什么",
+    "answer": "click 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nclick 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0139",
+    "question": "如何发布自己的 Python 包",
+    "answer": "如何发布自己的 Python 包 是 Python 学习中的常见问题。\n\n## 解答\n\n如何发布自己的 Python 包 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0140",
+    "question": "PyPI 是什么",
+    "answer": "PyPI 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\nPyPI 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0141",
+    "question": "setup.py 怎么写",
+    "answer": "setup.py 怎么写 是 Python 学习中的常见问题。\n\n## 解答\n\nsetup.py 怎么写 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0142",
+    "question": "pyproject.toml 是什么",
+    "answer": "pyproject.toml 是什么 是 Python 学习中的常见问题。\n\n## 解答\n\npyproject.toml 是什么 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0143",
+    "question": "Python 项目的目录结构",
+    "answer": "Python 项目的目录结构 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 项目的目录结构 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0144",
+    "question": "如何管理 Python 项目的依赖",
+    "answer": "如何管理 Python 项目的依赖 是 Python 学习中的常见问题。\n\n## 解答\n\n如何管理 Python 项目的依赖 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0145",
+    "question": "如何搭建 Python CI/CD",
+    "answer": "如何搭建 Python CI/CD 是 Python 学习中的常见问题。\n\n## 解答\n\n如何搭建 Python CI/CD 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0146",
+    "question": "GitHub Actions 中如何使用 Python",
+    "answer": "GitHub Actions 中如何使用 Python 是 Python 学习中的常见问题。\n\n## 解答\n\nGitHub Actions 中如何使用 Python 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0147",
+    "question": "Docker 中运行 Python",
+    "answer": "Docker 中运行 Python 是 Python 学习中的常见问题。\n\n## 解答\n\nDocker 中运行 Python 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0148",
+    "question": "如何选择 Python 版本",
+    "answer": "如何选择 Python 版本 是 Python 学习中的常见问题。\n\n## 解答\n\n如何选择 Python 版本 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0149",
+    "question": "Python 3 新特性",
+    "answer": "Python 3 新特性 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 3 新特性 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0150",
+    "question": "Python 3.10 新特性",
+    "answer": "Python 3.10 新特性 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 3.10 新特性 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0151",
+    "question": "Python 3.11 新特性",
+    "answer": "Python 3.11 新特性 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 3.11 新特性 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0152",
+    "question": "Python 3.12 新特性",
+    "answer": "Python 3.12 新特性 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 3.12 新特性 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0153",
+    "question": "Python 3.13 新特性",
+    "answer": "Python 3.13 新特性 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 3.13 新特性 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0154",
+    "question": "什么是 Python Enhancement Proposal",
+    "answer": "什么是 Python Enhancement Proposal 是 Python 学习中的常见问题。\n\n## 解答\n\n什么是 Python Enhancement Proposal 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0155",
+    "question": "如何阅读 Python 官方文档",
+    "answer": "如何阅读 Python 官方文档 是 Python 学习中的常见问题。\n\n## 解答\n\n如何阅读 Python 官方文档 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0156",
+    "question": "Python 社区的交流方式",
+    "answer": "Python 社区的交流方式 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 社区的交流方式 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0157",
+    "question": "如何贡献 Python 开源项目",
+    "answer": "如何贡献 Python 开源项目 是 Python 学习中的常见问题。\n\n## 解答\n\n如何贡献 Python 开源项目 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0158",
+    "question": "Python 学习路线",
+    "answer": "Python 学习路线 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 学习路线 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0159",
+    "question": "Python 面试常见题",
+    "answer": "Python 面试常见题 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 面试常见题 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0160",
+    "question": "Python 算法面试题",
+    "answer": "Python 算法面试题 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 算法面试题 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0161",
+    "question": "Python 数据结构实现",
+    "answer": "Python 数据结构实现 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 数据结构实现 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0162",
+    "question": "Python 编码规范总结",
+    "answer": "Python 编码规范总结 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 编码规范总结 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0163",
+    "question": "Python 最佳实践",
+    "answer": "Python 最佳实践 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 最佳实践 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0164",
+    "question": "Python 性能优化技巧",
+    "answer": "Python 性能优化技巧 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 性能优化技巧 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0165",
+    "question": "Python 内存管理",
+    "answer": "Python 内存管理 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 内存管理 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0166",
+    "question": "Python 的垃圾回收机制",
+    "answer": "Python 的垃圾回收机制 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的垃圾回收机制 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0167",
+    "question": "Python 的引用计数",
+    "answer": "Python 的引用计数 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的引用计数 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0168",
+    "question": "Python 的弱引用",
+    "answer": "Python 的弱引用 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的弱引用 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0169",
+    "question": "Python 的缓存机制",
+    "answer": "Python 的缓存机制 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的缓存机制 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0170",
+    "question": "Python 的 import 缓存",
+    "answer": "Python 的 import 缓存 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的 import 缓存 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0171",
+    "question": "Python 的魔术方法",
+    "answer": "Python 的魔术方法 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的魔术方法 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0172",
+    "question": "Python 的运算符重载",
+    "answer": "Python 的运算符重载 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的运算符重载 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0173",
+    "question": "Python 的上下文管理器协议",
+    "answer": "Python 的上下文管理器协议 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的上下文管理器协议 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0174",
+    "question": "Python 的迭代器协议",
+    "answer": "Python 的迭代器协议 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的迭代器协议 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0175",
+    "question": "Python 的序列协议",
+    "answer": "Python 的序列协议 是 Python 学习中的常见问题。\n\n## 解答\n\nPython 的序列协议 的完整解答涉及多个方面。建议结合相关知识点和题目进行理解。\n\n## 补充说明\n\n1. 需要具体代码示例的学习该知识点\n2. 可以通过实践项目加深理解\n3. 建议查看官方文档获取权威解答",
+    "relatedKps": [],
+    "tags": [
+      "常见问题"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0176",
+    "question": "Python 中的 GIL 是什么？如何绕过？",
+    "answer": "## Python 中的 GIL 是什么？如何绕过？\n\nPython 中的 GIL 是什么？如何绕过？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0177",
+    "question": "Python 的 async/await 怎么用？",
+    "answer": "## Python 的 async/await 怎么用？\n\nPython 的 async/await 怎么用？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0178",
+    "question": "Python 如何做性能优化？",
+    "answer": "## Python 如何做性能优化？\n\nPython 如何做性能优化？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0179",
+    "question": "Python 的内存管理机制",
+    "answer": "## Python 的内存管理机制\n\nPython 的内存管理机制 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0180",
+    "question": "Python 的垃圾回收如何工作？",
+    "answer": "## Python 的垃圾回收如何工作？\n\nPython 的垃圾回收如何工作？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0181",
+    "question": "如何调试 Python 内存泄漏？",
+    "answer": "## 如何调试 Python 内存泄漏？\n\n如何调试 Python 内存泄漏？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0182",
+    "question": "Python 中 __slots__ 的作用",
+    "answer": "## Python 中 __slots__ 的作用\n\nPython 中 __slots__ 的作用 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0183",
+    "question": "Python 中的元类是什么？",
+    "answer": "## Python 中的元类是什么？\n\nPython 中的元类是什么？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0184",
+    "question": "Python 描述符有什么用？",
+    "answer": "## Python 描述符有什么用？\n\nPython 描述符有什么用？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0185",
+    "question": "Python 的抽象基类怎么用？",
+    "answer": "## Python 的抽象基类怎么用？\n\nPython 的抽象基类怎么用？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0186",
+    "question": "Python Protocol 和 ABC 的区别",
+    "answer": "## Python Protocol 和 ABC 的区别\n\nPython Protocol 和 ABC 的区别 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0187",
+    "question": "Python 3.10 新特性有哪些？",
+    "answer": "## Python 3.10 新特性有哪些？\n\nPython 3.10 新特性有哪些？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0188",
+    "question": "Python 3.11 性能提升",
+    "answer": "## Python 3.11 性能提升\n\nPython 3.11 性能提升 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0189",
+    "question": "Python 3.12 有什么新功能？",
+    "answer": "## Python 3.12 有什么新功能？\n\nPython 3.12 有什么新功能？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0190",
+    "question": "Python 3.13 新特性展望",
+    "answer": "## Python 3.13 新特性展望\n\nPython 3.13 新特性展望 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0191",
+    "question": "如何用 Python 做 Web 开发？",
+    "answer": "## 如何用 Python 做 Web 开发？\n\n如何用 Python 做 Web 开发？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0192",
+    "question": "Flask 和 Django 怎么选？",
+    "answer": "## Flask 和 Django 怎么选？\n\nFlask 和 Django 怎么选？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0193",
+    "question": "FastAPI 比 Flask 好在哪？",
+    "answer": "## FastAPI 比 Flask 好在哪？\n\nFastAPI 比 Flask 好在哪？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0194",
+    "question": "如何部署 Python Web 应用？",
+    "answer": "## 如何部署 Python Web 应用？\n\n如何部署 Python Web 应用？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0195",
+    "question": "Python 爬虫会被反爬吗？",
+    "answer": "## Python 爬虫会被反爬吗？\n\nPython 爬虫会被反爬吗？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0196",
+    "question": "如何处理反爬虫机制？",
+    "answer": "## 如何处理反爬虫机制？\n\n如何处理反爬虫机制？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0197",
+    "question": "Python 数据分析流程",
+    "answer": "## Python 数据分析流程\n\nPython 数据分析流程 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0198",
+    "question": "pandas 和 SQL 的区别",
+    "answer": "## pandas 和 SQL 的区别\n\npandas 和 SQL 的区别 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0199",
+    "question": "matplotlib 绘图技巧",
+    "answer": "## matplotlib 绘图技巧\n\nmatplotlib 绘图技巧 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0200",
+    "question": "如何用 Python 操作 Excel？",
+    "answer": "## 如何用 Python 操作 Excel？\n\n如何用 Python 操作 Excel？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0201",
+    "question": "openpyxl 和 xlwings 选哪个？",
+    "answer": "## openpyxl 和 xlwings 选哪个？\n\nopenpyxl 和 xlwings 选哪个？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0202",
+    "question": "Python 自动化办公脚本示例",
+    "answer": "## Python 自动化办公脚本示例\n\nPython 自动化办公脚本示例 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0203",
+    "question": "如何用 Python 发送邮件？",
+    "answer": "## 如何用 Python 发送邮件？\n\n如何用 Python 发送邮件？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0204",
+    "question": "如何用 Python 操作 PDF？",
+    "answer": "## 如何用 Python 操作 PDF？\n\n如何用 Python 操作 PDF？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0205",
+    "question": "Python 写 API 接口",
+    "answer": "## Python 写 API 接口\n\nPython 写 API 接口 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0206",
+    "question": "Python 微服务框架选择",
+    "answer": "## Python 微服务框架选择\n\nPython 微服务框架选择 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0207",
+    "question": "如何用 Python 做单元测试？",
+    "answer": "## 如何用 Python 做单元测试？\n\n如何用 Python 做单元测试？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0208",
+    "question": "pytest vs unittest 选择",
+    "answer": "## pytest vs unittest 选择\n\npytest vs unittest 选择 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0209",
+    "question": "Python 项目如何组织？",
+    "answer": "## Python 项目如何组织？\n\nPython 项目如何组织？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0210",
+    "question": "如何管理 Python 项目依赖？",
+    "answer": "## 如何管理 Python 项目依赖？\n\n如何管理 Python 项目依赖？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0211",
+    "question": "setup.py vs pyproject.toml",
+    "answer": "## setup.py vs pyproject.toml\n\nsetup.py vs pyproject.toml 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0212",
+    "question": "如何发布自己的 Python 包？",
+    "answer": "## 如何发布自己的 Python 包？\n\n如何发布自己的 Python 包？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0213",
+    "question": "Python 代码如何规范？",
+    "answer": "## Python 代码如何规范？\n\nPython 代码如何规范？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0214",
+    "question": "black 和 autopep8 区别",
+    "answer": "## black 和 autopep8 区别\n\nblack 和 autopep8 区别 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0215",
+    "question": "mypy 类型检查怎么用？",
+    "answer": "## mypy 类型检查怎么用？\n\nmypy 类型检查怎么用？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0216",
+    "question": "如何用 GitHub Actions 部署 Python？",
+    "answer": "## 如何用 GitHub Actions 部署 Python？\n\n如何用 GitHub Actions 部署 Python？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0217",
+    "question": "Docker 化 Python 应用",
+    "answer": "## Docker 化 Python 应用\n\nDocker 化 Python 应用 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0218",
+    "question": "如何优化 Docker 镜像？",
+    "answer": "## 如何优化 Docker 镜像？\n\n如何优化 Docker 镜像？ 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0219",
+    "question": "Python 性能分析工具",
+    "answer": "## Python 性能分析工具\n\nPython 性能分析工具 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
+  },
+  {
+    "id": "py-faq-0220",
+    "question": "cProfile 使用技巧",
+    "answer": "## cProfile 使用技巧\n\ncProfile 使用技巧 的详细解答涉及多个技术层面。\n\n### 核心要点\n\n1. 理解原理\n2. 掌握用法\n3. 注意常见陷阱\n\n### 参考\n\n建议查阅官方文档获取权威说明。",
+    "relatedKps": [],
+    "tags": [
+      "进阶"
+    ],
+    "category": "通用"
   }
 ]

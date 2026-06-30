@@ -1,12 +1,1988 @@
 [
-  { "id": "tag-intro", "name": "入门", "slug": "intro", "description": "入门与概览类内容" },
-  { "id": "tag-core", "name": "核心", "slug": "core", "description": "核心概念与原理" },
-  { "id": "tag-advanced", "name": "进阶", "slug": "advanced", "description": "进阶主题与综合" },
-  { "id": "tag-data", "name": "数据", "slug": "data", "description": "数据模型与结构" },
-  { "id": "tag-design", "name": "设计", "slug": "design", "description": "设计原则与模式" },
-  { "id": "tag-practice", "name": "实战", "slug": "practice", "description": "案例与实战训练" },
-  { "id": "tag-deploy", "name": "部署", "slug": "deploy", "description": "部署与集成" },
-  { "id": "tag-perf", "name": "性能", "slug": "performance", "description": "性能优化" },
-  { "id": "tag-storage", "name": "存储", "slug": "storage", "description": "本地存储与持久化" },
-  { "id": "tag-tech", "name": "技术", "slug": "tech", "description": "技术栈与工具" }
+  {
+    "id": "py-tag-0001",
+    "name": "入门",
+    "description": "入门 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0002",
+    "name": "基础",
+    "description": "基础 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0003",
+    "name": "语法",
+    "description": "语法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0004",
+    "name": "环境",
+    "description": "环境 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0005",
+    "name": "安装",
+    "description": "安装 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0006",
+    "name": "配置",
+    "description": "配置 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0007",
+    "name": "工具",
+    "description": "工具 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0008",
+    "name": "IDE",
+    "description": "IDE 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0009",
+    "name": "编辑器",
+    "description": "编辑器 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0010",
+    "name": "命令行",
+    "description": "命令行 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0011",
+    "name": "交互式",
+    "description": "交互式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0012",
+    "name": "脚本",
+    "description": "脚本 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0013",
+    "name": "变量",
+    "description": "变量 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0014",
+    "name": "赋值",
+    "description": "赋值 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0015",
+    "name": "命名",
+    "description": "命名 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0016",
+    "name": "常量",
+    "description": "常量 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0017",
+    "name": "关键字",
+    "description": "关键字 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0018",
+    "name": "运算符",
+    "description": "运算符 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0019",
+    "name": "表达式",
+    "description": "表达式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0020",
+    "name": "语句",
+    "description": "语句 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0021",
+    "name": "数值类型",
+    "description": "数值类型 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0022",
+    "name": "整数",
+    "description": "整数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0023",
+    "name": "浮点数",
+    "description": "浮点数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0024",
+    "name": "复数",
+    "description": "复数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0025",
+    "name": "布尔",
+    "description": "布尔 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0026",
+    "name": "字符串",
+    "description": "字符串 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0027",
+    "name": "字符",
+    "description": "字符 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0028",
+    "name": "文本",
+    "description": "文本 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0029",
+    "name": "格式化",
+    "description": "格式化 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0030",
+    "name": "编码",
+    "description": "编码 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0031",
+    "name": "列表",
+    "description": "列表 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0032",
+    "name": "数组",
+    "description": "数组 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0033",
+    "name": "序列",
+    "description": "序列 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0034",
+    "name": "元组",
+    "description": "元组 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0035",
+    "name": "字典",
+    "description": "字典 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0036",
+    "name": "映射",
+    "description": "映射 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0037",
+    "name": "集合",
+    "description": "集合 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0038",
+    "name": "哈希",
+    "description": "哈希 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0039",
+    "name": "不可变",
+    "description": "不可变 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0040",
+    "name": "可变",
+    "description": "可变 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0041",
+    "name": "切片",
+    "description": "切片 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0042",
+    "name": "索引",
+    "description": "索引 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0043",
+    "name": "推导式",
+    "description": "推导式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0044",
+    "name": "生成器",
+    "description": "生成器 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0045",
+    "name": "迭代器",
+    "description": "迭代器 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0046",
+    "name": "循环",
+    "description": "循环 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0047",
+    "name": "条件",
+    "description": "条件 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0048",
+    "name": "分支",
+    "description": "分支 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0049",
+    "name": "控制流",
+    "description": "控制流 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0050",
+    "name": "函数",
+    "description": "函数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0051",
+    "name": "参数",
+    "description": "参数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0052",
+    "name": "返回值",
+    "description": "返回值 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0053",
+    "name": "作用域",
+    "description": "作用域 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0054",
+    "name": "闭包",
+    "description": "闭包 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0055",
+    "name": "装饰器",
+    "description": "装饰器 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0056",
+    "name": "递归",
+    "description": "递归 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0057",
+    "name": "lambda",
+    "description": "lambda 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0058",
+    "name": "匿名函数",
+    "description": "匿名函数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0059",
+    "name": "高阶函数",
+    "description": "高阶函数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0060",
+    "name": "map",
+    "description": "map 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0061",
+    "name": "filter",
+    "description": "filter 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0062",
+    "name": "reduce",
+    "description": "reduce 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0063",
+    "name": "模块",
+    "description": "模块 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0064",
+    "name": "包",
+    "description": "包 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0065",
+    "name": "导入",
+    "description": "导入 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0066",
+    "name": "库",
+    "description": "库 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0067",
+    "name": "依赖",
+    "description": "依赖 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0068",
+    "name": "包管理",
+    "description": "包管理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0069",
+    "name": "pip",
+    "description": "pip 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0070",
+    "name": "venv",
+    "description": "venv 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0071",
+    "name": "文件",
+    "description": "文件 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0072",
+    "name": "文件操作",
+    "description": "文件操作 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0073",
+    "name": "IO",
+    "description": "IO 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0074",
+    "name": "读写",
+    "description": "读写 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0075",
+    "name": "路径",
+    "description": "路径 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0076",
+    "name": "文件系统",
+    "description": "文件系统 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0077",
+    "name": "异常",
+    "description": "异常 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0078",
+    "name": "错误",
+    "description": "错误 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0079",
+    "name": "错误处理",
+    "description": "错误处理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0080",
+    "name": "异常处理",
+    "description": "异常处理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0081",
+    "name": "调试",
+    "description": "调试 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0082",
+    "name": "排查",
+    "description": "排查 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0083",
+    "name": "错误信息",
+    "description": "错误信息 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0084",
+    "name": "Traceback",
+    "description": "Traceback 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0085",
+    "name": "Pdb",
+    "description": "Pdb 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0086",
+    "name": "测试",
+    "description": "测试 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0087",
+    "name": "单元测试",
+    "description": "单元测试 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0088",
+    "name": "断言",
+    "description": "断言 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0089",
+    "name": "文档",
+    "description": "文档 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0090",
+    "name": "注释",
+    "description": "注释 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0091",
+    "name": "类",
+    "description": "类 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0092",
+    "name": "对象",
+    "description": "对象 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0093",
+    "name": "OOP",
+    "description": "OOP 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0094",
+    "name": "面向对象",
+    "description": "面向对象 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0095",
+    "name": "继承",
+    "description": "继承 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0096",
+    "name": "多态",
+    "description": "多态 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0097",
+    "name": "封装",
+    "description": "封装 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0098",
+    "name": "抽象",
+    "description": "抽象 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0099",
+    "name": "接口",
+    "description": "接口 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0100",
+    "name": "属性",
+    "description": "属性 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0101",
+    "name": "方法",
+    "description": "方法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0102",
+    "name": "实例",
+    "description": "实例 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0103",
+    "name": "类方法",
+    "description": "类方法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0104",
+    "name": "静态方法",
+    "description": "静态方法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0105",
+    "name": "property",
+    "description": "property 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0106",
+    "name": "描述符",
+    "description": "描述符 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0107",
+    "name": "元类",
+    "description": "元类 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0108",
+    "name": "type",
+    "description": "type 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0109",
+    "name": "class",
+    "description": "class 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0110",
+    "name": "实例化",
+    "description": "实例化 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0111",
+    "name": "日期",
+    "description": "日期 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0112",
+    "name": "时间",
+    "description": "时间 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0113",
+    "name": "日期时间",
+    "description": "日期时间 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0114",
+    "name": "随机数",
+    "description": "随机数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0115",
+    "name": "随机",
+    "description": "随机 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0116",
+    "name": "数学",
+    "description": "数学 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0117",
+    "name": "数学运算",
+    "description": "数学运算 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0118",
+    "name": "计算",
+    "description": "计算 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0119",
+    "name": "统计",
+    "description": "统计 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0120",
+    "name": "路径操作",
+    "description": "路径操作 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0121",
+    "name": "系统操作",
+    "description": "系统操作 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0122",
+    "name": "操作系统",
+    "description": "操作系统 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0123",
+    "name": "sys",
+    "description": "sys 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0124",
+    "name": "os",
+    "description": "os 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0125",
+    "name": "环境变量",
+    "description": "环境变量 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0126",
+    "name": "JSON",
+    "description": "JSON 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0127",
+    "name": "数据交换",
+    "description": "数据交换 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0128",
+    "name": "CSV",
+    "description": "CSV 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0129",
+    "name": "数据格式",
+    "description": "数据格式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0130",
+    "name": "数据处理",
+    "description": "数据处理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0131",
+    "name": "文本处理",
+    "description": "文本处理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0132",
+    "name": "正则表达式",
+    "description": "正则表达式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0133",
+    "name": "re",
+    "description": "re 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0134",
+    "name": "模式匹配",
+    "description": "模式匹配 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0135",
+    "name": "搜索",
+    "description": "搜索 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0136",
+    "name": "替换",
+    "description": "替换 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0137",
+    "name": "字符串搜索",
+    "description": "字符串搜索 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0138",
+    "name": "日志",
+    "description": "日志 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0139",
+    "name": "logging",
+    "description": "logging 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0140",
+    "name": "调试日志",
+    "description": "调试日志 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0141",
+    "name": "标准库",
+    "description": "标准库 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0142",
+    "name": "常用库",
+    "description": "常用库 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0143",
+    "name": "内置函数",
+    "description": "内置函数 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0144",
+    "name": "内置类型",
+    "description": "内置类型 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0145",
+    "name": "Python 特性",
+    "description": "Python 特性 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0146",
+    "name": "新特性",
+    "description": "新特性 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0147",
+    "name": "Python 版本",
+    "description": "Python 版本 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0148",
+    "name": "发行版",
+    "description": "发行版 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0149",
+    "name": "兼容性",
+    "description": "兼容性 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0150",
+    "name": "迁移",
+    "description": "迁移 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0151",
+    "name": "性能",
+    "description": "性能 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0152",
+    "name": "优化",
+    "description": "优化 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0153",
+    "name": "速度",
+    "description": "速度 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0154",
+    "name": "内存",
+    "description": "内存 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0155",
+    "name": "效率",
+    "description": "效率 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0156",
+    "name": "分析",
+    "description": "分析 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0157",
+    "name": "profile",
+    "description": "profile 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0158",
+    "name": "timeit",
+    "description": "timeit 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0159",
+    "name": "并发",
+    "description": "并发 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0160",
+    "name": "多线程",
+    "description": "多线程 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0161",
+    "name": "多进程",
+    "description": "多进程 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0162",
+    "name": "异步",
+    "description": "异步 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0163",
+    "name": "协程",
+    "description": "协程 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0164",
+    "name": "async",
+    "description": "async 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0165",
+    "name": "await",
+    "description": "await 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0166",
+    "name": "网络",
+    "description": "网络 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0167",
+    "name": "HTTP",
+    "description": "HTTP 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0168",
+    "name": "请求",
+    "description": "请求 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0169",
+    "name": "爬虫",
+    "description": "爬虫 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0170",
+    "name": "请求库",
+    "description": "请求库 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0171",
+    "name": "数据分析",
+    "description": "数据分析 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0172",
+    "name": "数据科学",
+    "description": "数据科学 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0173",
+    "name": "pandas",
+    "description": "pandas 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0174",
+    "name": "numpy",
+    "description": "numpy 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0175",
+    "name": "科学计算",
+    "description": "科学计算 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0176",
+    "name": "可视化",
+    "description": "可视化 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0177",
+    "name": "图表",
+    "description": "图表 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0178",
+    "name": "matplotlib",
+    "description": "matplotlib 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0179",
+    "name": "机器学习",
+    "description": "机器学习 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0180",
+    "name": "AI",
+    "description": "AI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0181",
+    "name": "深度学习",
+    "description": "深度学习 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0182",
+    "name": "scikit-learn",
+    "description": "scikit-learn 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0183",
+    "name": "PyTorch",
+    "description": "PyTorch 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0184",
+    "name": "TensorFlow",
+    "description": "TensorFlow 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0185",
+    "name": "自动化",
+    "description": "自动化 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0186",
+    "name": "脚本编写",
+    "description": "脚本编写 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0187",
+    "name": "批处理",
+    "description": "批处理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0188",
+    "name": "自动化办公",
+    "description": "自动化办公 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0189",
+    "name": "excel",
+    "description": "excel 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0190",
+    "name": "word",
+    "description": "word 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0191",
+    "name": "PDF",
+    "description": "PDF 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0192",
+    "name": "邮件",
+    "description": "邮件 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0193",
+    "name": "SQL",
+    "description": "SQL 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0194",
+    "name": "数据库",
+    "description": "数据库 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0195",
+    "name": "MySQL",
+    "description": "MySQL 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0196",
+    "name": "PostgreSQL",
+    "description": "PostgreSQL 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0197",
+    "name": "SQLite",
+    "description": "SQLite 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0198",
+    "name": "MongoDB",
+    "description": "MongoDB 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0199",
+    "name": "Redis",
+    "description": "Redis 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0200",
+    "name": "ORM",
+    "description": "ORM 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0201",
+    "name": "Web",
+    "description": "Web 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0202",
+    "name": "Web开发",
+    "description": "Web开发 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0203",
+    "name": "Flask",
+    "description": "Flask 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0204",
+    "name": "Django",
+    "description": "Django 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0205",
+    "name": "FastAPI",
+    "description": "FastAPI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0206",
+    "name": "REST",
+    "description": "REST 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0207",
+    "name": "API",
+    "description": "API 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0208",
+    "name": "RESTful",
+    "description": "RESTful 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0209",
+    "name": "前端",
+    "description": "前端 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0210",
+    "name": "后端",
+    "description": "后端 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0211",
+    "name": "全栈",
+    "description": "全栈 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0212",
+    "name": "GUI",
+    "description": "GUI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0213",
+    "name": "界面",
+    "description": "界面 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0214",
+    "name": "Tkinter",
+    "description": "Tkinter 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0215",
+    "name": "PyQt",
+    "description": "PyQt 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0216",
+    "name": "桌面应用",
+    "description": "桌面应用 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0217",
+    "name": "图形界面",
+    "description": "图形界面 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0218",
+    "name": "命令行",
+    "description": "命令行 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0219",
+    "name": "CLI",
+    "description": "CLI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0220",
+    "name": "argparse",
+    "description": "argparse 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0221",
+    "name": "click",
+    "description": "click 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0222",
+    "name": "typer",
+    "description": "typer 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0223",
+    "name": "发布",
+    "description": "发布 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0224",
+    "name": "打包",
+    "description": "打包 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0225",
+    "name": "PyPI",
+    "description": "PyPI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0226",
+    "name": "分发",
+    "description": "分发 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0227",
+    "name": "setup",
+    "description": "setup 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0228",
+    "name": "wheel",
+    "description": "wheel 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0229",
+    "name": "二进制",
+    "description": "二进制 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0230",
+    "name": "exe",
+    "description": "exe 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0231",
+    "name": "文档生成",
+    "description": "文档生成 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0232",
+    "name": "Sphinx",
+    "description": "Sphinx 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0233",
+    "name": "Read the Docs",
+    "description": "Read the Docs 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0234",
+    "name": "API文档",
+    "description": "API文档 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0235",
+    "name": "代码规范",
+    "description": "代码规范 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0236",
+    "name": "PEP8",
+    "description": "PEP8 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0237",
+    "name": "代码风格",
+    "description": "代码风格 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0238",
+    "name": "lint",
+    "description": "lint 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0239",
+    "name": "pylint",
+    "description": "pylint 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0240",
+    "name": "flake8",
+    "description": "flake8 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0241",
+    "name": "格式化",
+    "description": "格式化 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0242",
+    "name": "black",
+    "description": "black 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0243",
+    "name": "isort",
+    "description": "isort 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0244",
+    "name": "类型注解",
+    "description": "类型注解 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0245",
+    "name": "typing",
+    "description": "typing 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0246",
+    "name": "类型检查",
+    "description": "类型检查 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0247",
+    "name": "mypy",
+    "description": "mypy 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0248",
+    "name": "代码质量",
+    "description": "代码质量 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0249",
+    "name": "审计",
+    "description": "审计 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0250",
+    "name": "审查",
+    "description": "审查 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0251",
+    "name": "CI",
+    "description": "CI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0252",
+    "name": "CD",
+    "description": "CD 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0253",
+    "name": "持续集成",
+    "description": "持续集成 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0254",
+    "name": "GitHub Actions",
+    "description": "GitHub Actions 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0255",
+    "name": "GitLab CI",
+    "description": "GitLab CI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0256",
+    "name": "Jenkins",
+    "description": "Jenkins 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0257",
+    "name": "Docker",
+    "description": "Docker 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0258",
+    "name": "容器",
+    "description": "容器 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0259",
+    "name": "部署",
+    "description": "部署 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0260",
+    "name": "DevOps",
+    "description": "DevOps 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0261",
+    "name": "版本控制",
+    "description": "版本控制 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0262",
+    "name": "Git",
+    "description": "Git 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0263",
+    "name": "GitHub",
+    "description": "GitHub 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0264",
+    "name": "GitLab",
+    "description": "GitLab 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0265",
+    "name": "代码托管",
+    "description": "代码托管 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0266",
+    "name": "分支",
+    "description": "分支 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0267",
+    "name": "合并",
+    "description": "合并 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0268",
+    "name": "冲突",
+    "description": "冲突 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0269",
+    "name": "版本管理",
+    "description": "版本管理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0270",
+    "name": "发布管理",
+    "description": "发布管理 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0271",
+    "name": "设计模式",
+    "description": "设计模式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0272",
+    "name": "单例",
+    "description": "单例 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0273",
+    "name": "工厂",
+    "description": "工厂 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0274",
+    "name": "观察者",
+    "description": "观察者 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0275",
+    "name": "策略",
+    "description": "策略 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0276",
+    "name": "MVC",
+    "description": "MVC 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0277",
+    "name": "架构",
+    "description": "架构 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0278",
+    "name": "软件设计",
+    "description": "软件设计 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0279",
+    "name": "代码组织",
+    "description": "代码组织 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0280",
+    "name": "项目结构",
+    "description": "项目结构 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0281",
+    "name": "工程实践",
+    "description": "工程实践 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0282",
+    "name": "最佳实践",
+    "description": "最佳实践 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0283",
+    "name": "规范",
+    "description": "规范 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0284",
+    "name": "原则",
+    "description": "原则 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0285",
+    "name": "DRY",
+    "description": "DRY 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0286",
+    "name": "KISS",
+    "description": "KISS 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0287",
+    "name": "YAGNI",
+    "description": "YAGNI 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0288",
+    "name": "SOLID",
+    "description": "SOLID 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0289",
+    "name": "重构",
+    "description": "重构 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0290",
+    "name": "代码复用",
+    "description": "代码复用 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0291",
+    "name": "编程思想",
+    "description": "编程思想 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0292",
+    "name": "函数式",
+    "description": "函数式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0293",
+    "name": "命令式",
+    "description": "命令式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0294",
+    "name": "声明式",
+    "description": "声明式 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0295",
+    "name": "面向对象",
+    "description": "面向对象 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0296",
+    "name": "泛型",
+    "description": "泛型 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0297",
+    "name": "元编程",
+    "description": "元编程 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0298",
+    "name": "推荐系统",
+    "description": "推荐系统 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0299",
+    "name": "搜索算法",
+    "description": "搜索算法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0300",
+    "name": "排序算法",
+    "description": "排序算法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0301",
+    "name": "数据结构",
+    "description": "数据结构 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0302",
+    "name": "栈",
+    "description": "栈 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0303",
+    "name": "队列",
+    "description": "队列 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0304",
+    "name": "链表",
+    "description": "链表 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0305",
+    "name": "树",
+    "description": "树 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0306",
+    "name": "图",
+    "description": "图 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0307",
+    "name": "堆",
+    "description": "堆 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0308",
+    "name": "哈希表",
+    "description": "哈希表 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0309",
+    "name": "集合操作",
+    "description": "集合操作 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0310",
+    "name": "算法",
+    "description": "算法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0311",
+    "name": "复杂度",
+    "description": "复杂度 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0312",
+    "name": "大O",
+    "description": "大O 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0313",
+    "name": "时间复杂度",
+    "description": "时间复杂度 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0314",
+    "name": "空间复杂度",
+    "description": "空间复杂度 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0315",
+    "name": "递归算法",
+    "description": "递归算法 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0316",
+    "name": "动态规划",
+    "description": "动态规划 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0317",
+    "name": "贪心",
+    "description": "贪心 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0318",
+    "name": "回溯",
+    "description": "回溯 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0319",
+    "name": "分治",
+    "description": "分治 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0320",
+    "name": "二分",
+    "description": "二分 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0321",
+    "name": "排序",
+    "description": "排序 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0322",
+    "name": "查找",
+    "description": "查找 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0323",
+    "name": "遍历",
+    "description": "遍历 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0324",
+    "name": "BFS",
+    "description": "BFS 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0325",
+    "name": "DFS",
+    "description": "DFS 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0326",
+    "name": "面试",
+    "description": "面试 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0327",
+    "name": "笔试",
+    "description": "笔试 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0328",
+    "name": "算法面试",
+    "description": "算法面试 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0329",
+    "name": "编程题",
+    "description": "编程题 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0330",
+    "name": "刷题",
+    "description": "刷题 相关的内容标签。",
+    "count": 0
+  },
+  {
+    "id": "py-tag-0331",
+    "name": "LeetCode",
+    "description": "LeetCode 相关的内容标签。",
+    "count": 0
+  }
 ]

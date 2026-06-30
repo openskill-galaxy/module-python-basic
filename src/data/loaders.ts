@@ -14,7 +14,9 @@ import type {
   FaqItem,
 } from "../types";
 
-const BASE = import.meta.env.BASE_URL || "/module-template/";
+// import.meta.env.BASE_URL 由 vite 注入，对应 vite.config.ts 中的 base
+// Python 模块部署在 /module-python-basic/，开发时为 "/"
+const BASE = import.meta.env.BASE_URL;
 
 async function fetchJson<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`);

@@ -1,8 +1,2882 @@
 [
-  { "id": "g-module", "term": "Module", "definition": "模块，OpenSkill Galaxy 中最大的学习内容组织单元，包含课程、知识点、题目等。", "aliases": ["模块"] },
-  { "id": "g-course", "term": "Course", "definition": "课程，讲义的有序集合，按主题和难度组织。", "aliases": ["课程"] },
-  { "id": "g-lesson", "term": "Lesson", "definition": "讲义，最小的学习单元，包含 Markdown 正文与关联知识点。", "aliases": ["讲义", "章节"] },
-  { "id": "g-slug", "term": "Slug", "definition": "URL 友好的唯一标识符，由小写字母、数字和连字符组成，如 basic-concepts。", "aliases": ["标识符"] },
-  { "id": "g-difficulty", "term": "Difficulty", "definition": "难度等级，取值为 easy（简单）、medium（中等）、hard（困难）。", "aliases": ["难度"] },
-  { "id": "g-node", "term": "Node.js", "definition": "基于 Chrome V8 引擎的 JavaScript 运行时，模块模板的构建工具依赖。", "aliases": ["Node"] }
+  {
+    "id": "py-glossary-0001",
+    "term": "Python",
+    "definition": "Python 是 Python 编程中的重要概念。Python 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0002",
+    "term": "解释器",
+    "definition": "解释器 是 Python 编程中的重要概念。解释器 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0003",
+    "term": "CPython",
+    "definition": "CPython 是 Python 编程中的重要概念。CPython 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0004",
+    "term": "IPython",
+    "definition": "IPython 是 Python 编程中的重要概念。IPython 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0005",
+    "term": "REPL",
+    "definition": "REPL 是 Python 编程中的重要概念。REPL 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0006",
+    "term": "交互式模式",
+    "definition": "交互式模式 是 Python 编程中的重要概念。交互式模式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0007",
+    "term": "脚本模式",
+    "definition": "脚本模式 是 Python 编程中的重要概念。脚本模式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0008",
+    "term": "缩进",
+    "definition": "缩进 是 Python 编程中的重要概念。缩进 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0009",
+    "term": "PEP 8",
+    "definition": "PEP 8 是 Python 编程中的重要概念。PEP 8 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0010",
+    "term": "注释",
+    "definition": "注释 是 Python 编程中的重要概念。注释 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0011",
+    "term": "变量",
+    "definition": "变量 是 Python 编程中的重要概念。变量 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0012",
+    "term": "赋值",
+    "definition": "赋值 是 Python 编程中的重要概念。赋值 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0013",
+    "term": "标识符",
+    "definition": "标识符 是 Python 编程中的重要概念。标识符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0014",
+    "term": "关键字",
+    "definition": "关键字 是 Python 编程中的重要概念。关键字 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0015",
+    "term": "snake_case",
+    "definition": "snake_case 是 Python 编程中的重要概念。snake_case 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0016",
+    "term": "驼峰命名",
+    "definition": "驼峰命名 是 Python 编程中的重要概念。驼峰命名 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0017",
+    "term": "常量",
+    "definition": "常量 是 Python 编程中的重要概念。常量 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0018",
+    "term": "字符串",
+    "definition": "字符串 是 Python 编程中的重要概念。字符串 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0019",
+    "term": "整数",
+    "definition": "整数 是 Python 编程中的重要概念。整数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0020",
+    "term": "浮点数",
+    "definition": "浮点数 是 Python 编程中的重要概念。浮点数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0021",
+    "term": "布尔值",
+    "definition": "布尔值 是 Python 编程中的重要概念。布尔值 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0022",
+    "term": "None",
+    "definition": "None 是 Python 编程中的重要概念。None 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0023",
+    "term": "类型转换",
+    "definition": "类型转换 是 Python 编程中的重要概念。类型转换 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0024",
+    "term": "运算符",
+    "definition": "运算符 是 Python 编程中的重要概念。运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0025",
+    "term": "算术运算符",
+    "definition": "算术运算符 是 Python 编程中的重要概念。算术运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0026",
+    "term": "比较运算符",
+    "definition": "比较运算符 是 Python 编程中的重要概念。比较运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0027",
+    "term": "逻辑运算符",
+    "definition": "逻辑运算符 是 Python 编程中的重要概念。逻辑运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0028",
+    "term": "赋值运算符",
+    "definition": "赋值运算符 是 Python 编程中的重要概念。赋值运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0029",
+    "term": "位运算符",
+    "definition": "位运算符 是 Python 编程中的重要概念。位运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0030",
+    "term": "海象运算符",
+    "definition": "海象运算符 是 Python 编程中的重要概念。海象运算符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0031",
+    "term": "表达式",
+    "definition": "表达式 是 Python 编程中的重要概念。表达式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0032",
+    "term": "语句",
+    "definition": "语句 是 Python 编程中的重要概念。语句 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0033",
+    "term": "字面量",
+    "definition": "字面量 是 Python 编程中的重要概念。字面量 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0034",
+    "term": "转义字符",
+    "definition": "转义字符 是 Python 编程中的重要概念。转义字符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0035",
+    "term": "原始字符串",
+    "definition": "原始字符串 是 Python 编程中的重要概念。原始字符串 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0036",
+    "term": "f-string",
+    "definition": "f-string 是 Python 编程中的重要概念。f-string 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0037",
+    "term": "格式化",
+    "definition": "格式化 是 Python 编程中的重要概念。格式化 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0038",
+    "term": "索引",
+    "definition": "索引 是 Python 编程中的重要概念。索引 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0039",
+    "term": "切片",
+    "definition": "切片 是 Python 编程中的重要概念。切片 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0040",
+    "term": "序列",
+    "definition": "序列 是 Python 编程中的重要概念。序列 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0041",
+    "term": "列表",
+    "definition": "列表 是 Python 编程中的重要概念。列表 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0042",
+    "term": "元组",
+    "definition": "元组 是 Python 编程中的重要概念。元组 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0043",
+    "term": "字典",
+    "definition": "字典 是 Python 编程中的重要概念。字典 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0044",
+    "term": "集合",
+    "definition": "集合 是 Python 编程中的重要概念。集合 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0045",
+    "term": "可变对象",
+    "definition": "可变对象 是 Python 编程中的重要概念。可变对象 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0046",
+    "term": "不可变对象",
+    "definition": "不可变对象 是 Python 编程中的重要概念。不可变对象 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0047",
+    "term": "浅拷贝",
+    "definition": "浅拷贝 是 Python 编程中的重要概念。浅拷贝 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0048",
+    "term": "深拷贝",
+    "definition": "深拷贝 是 Python 编程中的重要概念。深拷贝 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0049",
+    "term": "列表推导式",
+    "definition": "列表推导式 是 Python 编程中的重要概念。列表推导式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0050",
+    "term": "字典推导式",
+    "definition": "字典推导式 是 Python 编程中的重要概念。字典推导式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0051",
+    "term": "集合推导式",
+    "definition": "集合推导式 是 Python 编程中的重要概念。集合推导式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0052",
+    "term": "生成器表达式",
+    "definition": "生成器表达式 是 Python 编程中的重要概念。生成器表达式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0053",
+    "term": "迭代器",
+    "definition": "迭代器 是 Python 编程中的重要概念。迭代器 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0054",
+    "term": "生成器",
+    "definition": "生成器 是 Python 编程中的重要概念。生成器 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0055",
+    "term": "可迭代对象",
+    "definition": "可迭代对象 是 Python 编程中的重要概念。可迭代对象 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0056",
+    "term": "条件语句",
+    "definition": "条件语句 是 Python 编程中的重要概念。条件语句 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0057",
+    "term": "循环",
+    "definition": "循环 是 Python 编程中的重要概念。循环 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0058",
+    "term": "while",
+    "definition": "while 是 Python 编程中的重要概念。while 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0059",
+    "term": "for",
+    "definition": "for 是 Python 编程中的重要概念。for 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0060",
+    "term": "break",
+    "definition": "break 是 Python 编程中的重要概念。break 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0061",
+    "term": "continue",
+    "definition": "continue 是 Python 编程中的重要概念。continue 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0062",
+    "term": "else子句",
+    "definition": "else子句 是 Python 编程中的重要概念。else子句 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0063",
+    "term": "pass",
+    "definition": "pass 是 Python 编程中的重要概念。pass 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0064",
+    "term": "range",
+    "definition": "range 是 Python 编程中的重要概念。range 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0065",
+    "term": "enumerate",
+    "definition": "enumerate 是 Python 编程中的重要概念。enumerate 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0066",
+    "term": "zip",
+    "definition": "zip 是 Python 编程中的重要概念。zip 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0067",
+    "term": "match",
+    "definition": "match 是 Python 编程中的重要概念。match 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0068",
+    "term": "模式匹配",
+    "definition": "模式匹配 是 Python 编程中的重要概念。模式匹配 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0069",
+    "term": "函数",
+    "definition": "函数 是 Python 编程中的重要概念。函数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0070",
+    "term": "形参",
+    "definition": "形参 是 Python 编程中的重要概念。形参 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0071",
+    "term": "实参",
+    "definition": "实参 是 Python 编程中的重要概念。实参 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0072",
+    "term": "位置参数",
+    "definition": "位置参数 是 Python 编程中的重要概念。位置参数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0073",
+    "term": "关键字参数",
+    "definition": "关键字参数 是 Python 编程中的重要概念。关键字参数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0074",
+    "term": "默认参数",
+    "definition": "默认参数 是 Python 编程中的重要概念。默认参数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0075",
+    "term": "可变参数",
+    "definition": "可变参数 是 Python 编程中的重要概念。可变参数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0076",
+    "term": "args",
+    "definition": "args 是 Python 编程中的重要概念。args 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0077",
+    "term": "kwargs",
+    "definition": "kwargs 是 Python 编程中的重要概念。kwargs 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0078",
+    "term": "返回值",
+    "definition": "返回值 是 Python 编程中的重要概念。返回值 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0079",
+    "term": "lambda",
+    "definition": "lambda 是 Python 编程中的重要概念。lambda 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0080",
+    "term": "匿名函数",
+    "definition": "匿名函数 是 Python 编程中的重要概念。匿名函数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0081",
+    "term": "高阶函数",
+    "definition": "高阶函数 是 Python 编程中的重要概念。高阶函数 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0082",
+    "term": "map",
+    "definition": "map 是 Python 编程中的重要概念。map 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0083",
+    "term": "filter",
+    "definition": "filter 是 Python 编程中的重要概念。filter 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0084",
+    "term": "reduce",
+    "definition": "reduce 是 Python 编程中的重要概念。reduce 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0085",
+    "term": "闭包",
+    "definition": "闭包 是 Python 编程中的重要概念。闭包 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0086",
+    "term": "装饰器",
+    "definition": "装饰器 是 Python 编程中的重要概念。装饰器 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0087",
+    "term": "递归",
+    "definition": "递归 是 Python 编程中的重要概念。递归 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0088",
+    "term": "递归深度",
+    "definition": "递归深度 是 Python 编程中的重要概念。递归深度 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0089",
+    "term": "作用域",
+    "definition": "作用域 是 Python 编程中的重要概念。作用域 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0090",
+    "term": "局部变量",
+    "definition": "局部变量 是 Python 编程中的重要概念。局部变量 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0091",
+    "term": "全局变量",
+    "definition": "全局变量 是 Python 编程中的重要概念。全局变量 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0092",
+    "term": "LEGB",
+    "definition": "LEGB 是 Python 编程中的重要概念。LEGB 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0093",
+    "term": "global",
+    "definition": "global 是 Python 编程中的重要概念。global 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0094",
+    "term": "nonlocal",
+    "definition": "nonlocal 是 Python 编程中的重要概念。nonlocal 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0095",
+    "term": "模块",
+    "definition": "模块 是 Python 编程中的重要概念。模块 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0096",
+    "term": "包",
+    "definition": "包 是 Python 编程中的重要概念。包 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0097",
+    "term": "init",
+    "definition": "init 是 Python 编程中的重要概念。init 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0098",
+    "term": "import",
+    "definition": "import 是 Python 编程中的重要概念。import 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0099",
+    "term": "from",
+    "definition": "from 是 Python 编程中的重要概念。from 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0100",
+    "term": "name",
+    "definition": "name 是 Python 编程中的重要概念。name 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0101",
+    "term": "模块搜索路径",
+    "definition": "模块搜索路径 是 Python 编程中的重要概念。模块搜索路径 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0102",
+    "term": "Python路径",
+    "definition": "Python路径 是 Python 编程中的重要概念。Python路径 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0103",
+    "term": "标准库",
+    "definition": "标准库 是 Python 编程中的重要概念。标准库 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0104",
+    "term": "pip",
+    "definition": "pip 是 Python 编程中的重要概念。pip 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0105",
+    "term": "虚拟环境",
+    "definition": "虚拟环境 是 Python 编程中的重要概念。虚拟环境 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0106",
+    "term": "venv",
+    "definition": "venv 是 Python 编程中的重要概念。venv 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0107",
+    "term": "requirements",
+    "definition": "requirements 是 Python 编程中的重要概念。requirements 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0108",
+    "term": "文件",
+    "definition": "文件 是 Python 编程中的重要概念。文件 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0109",
+    "term": "文件路径",
+    "definition": "文件路径 是 Python 编程中的重要概念。文件路径 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0110",
+    "term": "相对路径",
+    "definition": "相对路径 是 Python 编程中的重要概念。相对路径 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0111",
+    "term": "绝对路径",
+    "definition": "绝对路径 是 Python 编程中的重要概念。绝对路径 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0112",
+    "term": "open",
+    "definition": "open 是 Python 编程中的重要概念。open 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0113",
+    "term": "read",
+    "definition": "read 是 Python 编程中的重要概念。read 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0114",
+    "term": "write",
+    "definition": "write 是 Python 编程中的重要概念。write 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0115",
+    "term": "with",
+    "definition": "with 是 Python 编程中的重要概念。with 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0116",
+    "term": "上下文管理器",
+    "definition": "上下文管理器 是 Python 编程中的重要概念。上下文管理器 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0117",
+    "term": "异常",
+    "definition": "异常 是 Python 编程中的重要概念。异常 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0118",
+    "term": "try",
+    "definition": "try 是 Python 编程中的重要概念。try 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0119",
+    "term": "except",
+    "definition": "except 是 Python 编程中的重要概念。except 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0120",
+    "term": "finally",
+    "definition": "finally 是 Python 编程中的重要概念。finally 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0121",
+    "term": "raise",
+    "definition": "raise 是 Python 编程中的重要概念。raise 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0122",
+    "term": "断言",
+    "definition": "断言 是 Python 编程中的重要概念。断言 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0123",
+    "term": "FileNotFoundError",
+    "definition": "FileNotFoundError 是 Python 编程中的重要概念。FileNotFoundError 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0124",
+    "term": "ValueError",
+    "definition": "ValueError 是 Python 编程中的重要概念。ValueError 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0125",
+    "term": "TypeError",
+    "definition": "TypeError 是 Python 编程中的重要概念。TypeError 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0126",
+    "term": "IndexError",
+    "definition": "IndexError 是 Python 编程中的重要概念。IndexError 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0127",
+    "term": "KeyError",
+    "definition": "KeyError 是 Python 编程中的重要概念。KeyError 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0128",
+    "term": "自定义异常",
+    "definition": "自定义异常 是 Python 编程中的重要概念。自定义异常 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0129",
+    "term": "异常链",
+    "definition": "异常链 是 Python 编程中的重要概念。异常链 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0130",
+    "term": "面向对象",
+    "definition": "面向对象 是 Python 编程中的重要概念。面向对象 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0131",
+    "term": "类",
+    "definition": "类 是 Python 编程中的重要概念。类 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0132",
+    "term": "对象",
+    "definition": "对象 是 Python 编程中的重要概念。对象 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0133",
+    "term": "实例",
+    "definition": "实例 是 Python 编程中的重要概念。实例 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0134",
+    "term": "self",
+    "definition": "self 是 Python 编程中的重要概念。self 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0135",
+    "term": "init",
+    "definition": "init 是 Python 编程中的重要概念。init 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0136",
+    "term": "实例方法",
+    "definition": "实例方法 是 Python 编程中的重要概念。实例方法 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0137",
+    "term": "类方法",
+    "definition": "类方法 是 Python 编程中的重要概念。类方法 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0138",
+    "term": "静态方法",
+    "definition": "静态方法 是 Python 编程中的重要概念。静态方法 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0139",
+    "term": "类属性",
+    "definition": "类属性 是 Python 编程中的重要概念。类属性 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0140",
+    "term": "实例属性",
+    "definition": "实例属性 是 Python 编程中的重要概念。实例属性 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0141",
+    "term": "继承",
+    "definition": "继承 是 Python 编程中的重要概念。继承 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0142",
+    "term": "super",
+    "definition": "super 是 Python 编程中的重要概念。super 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0143",
+    "term": "方法重写",
+    "definition": "方法重写 是 Python 编程中的重要概念。方法重写 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0144",
+    "term": "多态",
+    "definition": "多态 是 Python 编程中的重要概念。多态 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0145",
+    "term": "封装",
+    "definition": "封装 是 Python 编程中的重要概念。封装 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0146",
+    "term": "私有属性",
+    "definition": "私有属性 是 Python 编程中的重要概念。私有属性 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0147",
+    "term": "property",
+    "definition": "property 是 Python 编程中的重要概念。property 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0148",
+    "term": "getter",
+    "definition": "getter 是 Python 编程中的重要概念。getter 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0149",
+    "term": "setter",
+    "definition": "setter 是 Python 编程中的重要概念。setter 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0150",
+    "term": "MRO",
+    "definition": "MRO 是 Python 编程中的重要概念。MRO 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0151",
+    "term": "抽象基类",
+    "definition": "抽象基类 是 Python 编程中的重要概念。抽象基类 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0152",
+    "term": "鸭子类型",
+    "definition": "鸭子类型 是 Python 编程中的重要概念。鸭子类型 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0153",
+    "term": "Protocol",
+    "definition": "Protocol 是 Python 编程中的重要概念。Protocol 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0154",
+    "term": "dataclass",
+    "definition": "dataclass 是 Python 编程中的重要概念。dataclass 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0155",
+    "term": "namedtuple",
+    "definition": "namedtuple 是 Python 编程中的重要概念。namedtuple 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0156",
+    "term": "slots",
+    "definition": "slots 是 Python 编程中的重要概念。slots 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0157",
+    "term": "描述符",
+    "definition": "描述符 是 Python 编程中的重要概念。描述符 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0158",
+    "term": "元类",
+    "definition": "元类 是 Python 编程中的重要概念。元类 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0159",
+    "term": "datetime",
+    "definition": "datetime 是 Python 编程中的重要概念。datetime 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0160",
+    "term": "date",
+    "definition": "date 是 Python 编程中的重要概念。date 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0161",
+    "term": "time",
+    "definition": "time 是 Python 编程中的重要概念。time 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0162",
+    "term": "timedelta",
+    "definition": "timedelta 是 Python 编程中的重要概念。timedelta 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0163",
+    "term": "strftime",
+    "definition": "strftime 是 Python 编程中的重要概念。strftime 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0164",
+    "term": "strptime",
+    "definition": "strptime 是 Python 编程中的重要概念。strptime 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0165",
+    "term": "random",
+    "definition": "random 是 Python 编程中的重要概念。random 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0166",
+    "term": "seed",
+    "definition": "seed 是 Python 编程中的重要概念。seed 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0167",
+    "term": "randint",
+    "definition": "randint 是 Python 编程中的重要概念。randint 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0168",
+    "term": "choice",
+    "definition": "choice 是 Python 编程中的重要概念。choice 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0169",
+    "term": "shuffle",
+    "definition": "shuffle 是 Python 编程中的重要概念。shuffle 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0170",
+    "term": "sample",
+    "definition": "sample 是 Python 编程中的重要概念。sample 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0171",
+    "term": "math",
+    "definition": "math 是 Python 编程中的重要概念。math 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0172",
+    "term": "sqrt",
+    "definition": "sqrt 是 Python 编程中的重要概念。sqrt 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0173",
+    "term": "ceil",
+    "definition": "ceil 是 Python 编程中的重要概念。ceil 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0174",
+    "term": "floor",
+    "definition": "floor 是 Python 编程中的重要概念。floor 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0175",
+    "term": "pathlib",
+    "definition": "pathlib 是 Python 编程中的重要概念。pathlib 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0176",
+    "term": "Path",
+    "definition": "Path 是 Python 编程中的重要概念。Path 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0177",
+    "term": "os",
+    "definition": "os 是 Python 编程中的重要概念。os 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0178",
+    "term": "sys",
+    "definition": "sys 是 Python 编程中的重要概念。sys 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0179",
+    "term": "Counter",
+    "definition": "Counter 是 Python 编程中的重要概念。Counter 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0180",
+    "term": "defaultdict",
+    "definition": "defaultdict 是 Python 编程中的重要概念。defaultdict 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0181",
+    "term": "OrderedDict",
+    "definition": "OrderedDict 是 Python 编程中的重要概念。OrderedDict 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0182",
+    "term": "deque",
+    "definition": "deque 是 Python 编程中的重要概念。deque 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0183",
+    "term": "itertools",
+    "definition": "itertools 是 Python 编程中的重要概念。itertools 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0184",
+    "term": "chain",
+    "definition": "chain 是 Python 编程中的重要概念。chain 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0185",
+    "term": "islice",
+    "definition": "islice 是 Python 编程中的重要概念。islice 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0186",
+    "term": "JSON",
+    "definition": "JSON 是 Python 编程中的重要概念。JSON 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0187",
+    "term": "dumps",
+    "definition": "dumps 是 Python 编程中的重要概念。dumps 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0188",
+    "term": "loads",
+    "definition": "loads 是 Python 编程中的重要概念。loads 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0189",
+    "term": "CSV",
+    "definition": "CSV 是 Python 编程中的重要概念。CSV 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0190",
+    "term": "reader",
+    "definition": "reader 是 Python 编程中的重要概念。reader 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0191",
+    "term": "writer",
+    "definition": "writer 是 Python 编程中的重要概念。writer 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0192",
+    "term": "DictReader",
+    "definition": "DictReader 是 Python 编程中的重要概念。DictReader 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0193",
+    "term": "DictWriter",
+    "definition": "DictWriter 是 Python 编程中的重要概念。DictWriter 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0194",
+    "term": "正则表达式",
+    "definition": "正则表达式 是 Python 编程中的重要概念。正则表达式 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0195",
+    "term": "re",
+    "definition": "re 是 Python 编程中的重要概念。re 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0196",
+    "term": "search",
+    "definition": "search 是 Python 编程中的重要概念。search 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0197",
+    "term": "match",
+    "definition": "match 是 Python 编程中的重要概念。match 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0198",
+    "term": "findall",
+    "definition": "findall 是 Python 编程中的重要概念。findall 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0199",
+    "term": "sub",
+    "definition": "sub 是 Python 编程中的重要概念。sub 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0200",
+    "term": "compile",
+    "definition": "compile 是 Python 编程中的重要概念。compile 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0201",
+    "term": "logging",
+    "definition": "logging 是 Python 编程中的重要概念。logging 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0202",
+    "term": "unittest",
+    "definition": "unittest 是 Python 编程中的重要概念。unittest 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0203",
+    "term": "doctest",
+    "definition": "doctest 是 Python 编程中的重要概念。doctest 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0204",
+    "term": "timeit",
+    "definition": "timeit 是 Python 编程中的重要概念。timeit 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0205",
+    "term": "debug",
+    "definition": "debug 是 Python 编程中的重要概念。debug 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0206",
+    "term": "pdb",
+    "definition": "pdb 是 Python 编程中的重要概念。pdb 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0207",
+    "term": "断点调试",
+    "definition": "断点调试 是 Python 编程中的重要概念。断点调试 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0208",
+    "term": "Traceback",
+    "definition": "Traceback 是 Python 编程中的重要概念。Traceback 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0209",
+    "term": "调试",
+    "definition": "调试 是 Python 编程中的重要概念。调试 的深入理解和正确使用对于编写高质量的 Python 代码至关重要。",
+    "category": "基础",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0210",
+    "term": "表达式",
+    "definition": "表达式 是编程中的重要概念。在 Python 中，表达式 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0211",
+    "term": "运算符优先级",
+    "definition": "运算符优先级 是编程中的重要概念。在 Python 中，运算符优先级 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0212",
+    "term": "短路求值",
+    "definition": "短路求值 是编程中的重要概念。在 Python 中，短路求值 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0213",
+    "term": "类型注解",
+    "definition": "类型注解 是编程中的重要概念。在 Python 中，类型注解 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0214",
+    "term": "类型推断",
+    "definition": "类型推断 是编程中的重要概念。在 Python 中，类型推断 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0215",
+    "term": "动态类型",
+    "definition": "动态类型 是编程中的重要概念。在 Python 中，动态类型 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0216",
+    "term": "强类型",
+    "definition": "强类型 是编程中的重要概念。在 Python 中，强类型 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0217",
+    "term": "鸭子类型",
+    "definition": "鸭子类型 是编程中的重要概念。在 Python 中，鸭子类型 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0218",
+    "term": "协议",
+    "definition": "协议 是编程中的重要概念。在 Python 中，协议 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0219",
+    "term": "结构类型",
+    "definition": "结构类型 是编程中的重要概念。在 Python 中，结构类型 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0220",
+    "term": "函数式编程",
+    "definition": "函数式编程 是编程中的重要概念。在 Python 中，函数式编程 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0221",
+    "term": "命令式编程",
+    "definition": "命令式编程 是编程中的重要概念。在 Python 中，命令式编程 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0222",
+    "term": "声明式编程",
+    "definition": "声明式编程 是编程中的重要概念。在 Python 中，声明式编程 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0223",
+    "term": "面向切面",
+    "definition": "面向切面 是编程中的重要概念。在 Python 中，面向切面 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0224",
+    "term": "元编程",
+    "definition": "元编程 是编程中的重要概念。在 Python 中，元编程 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0225",
+    "term": "反射",
+    "definition": "反射 是编程中的重要概念。在 Python 中，反射 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0226",
+    "term": "内省",
+    "definition": "内省 是编程中的重要概念。在 Python 中，内省 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0227",
+    "term": "序列化",
+    "definition": "序列化 是编程中的重要概念。在 Python 中，序列化 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0228",
+    "term": "反序列化",
+    "definition": "反序列化 是编程中的重要概念。在 Python 中，反序列化 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0229",
+    "term": "迭代",
+    "definition": "迭代 是编程中的重要概念。在 Python 中，迭代 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0230",
+    "term": "递归深度",
+    "definition": "递归深度 是编程中的重要概念。在 Python 中，递归深度 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0231",
+    "term": "尾递归",
+    "definition": "尾递归 是编程中的重要概念。在 Python 中，尾递归 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0232",
+    "term": "回调",
+    "definition": "回调 是编程中的重要概念。在 Python 中，回调 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0233",
+    "term": "协程",
+    "definition": "协程 是编程中的重要概念。在 Python 中，协程 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0234",
+    "term": "异步编程",
+    "definition": "异步编程 是编程中的重要概念。在 Python 中，异步编程 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0235",
+    "term": "同步",
+    "definition": "同步 是编程中的重要概念。在 Python 中，同步 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0236",
+    "term": "阻塞",
+    "definition": "阻塞 是编程中的重要概念。在 Python 中，阻塞 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0237",
+    "term": "非阻塞",
+    "definition": "非阻塞 是编程中的重要概念。在 Python 中，非阻塞 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0238",
+    "term": "事件循环",
+    "definition": "事件循环 是编程中的重要概念。在 Python 中，事件循环 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0239",
+    "term": "Future",
+    "definition": "Future 是编程中的重要概念。在 Python 中，Future 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0240",
+    "term": "Task",
+    "definition": "Task 是编程中的重要概念。在 Python 中，Task 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0241",
+    "term": "Awaitable",
+    "definition": "Awaitable 是编程中的重要概念。在 Python 中，Awaitable 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0242",
+    "term": "可等待对象",
+    "definition": "可等待对象 是编程中的重要概念。在 Python 中，可等待对象 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0243",
+    "term": "上下文变量",
+    "definition": "上下文变量 是编程中的重要概念。在 Python 中，上下文变量 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0244",
+    "term": "信号量",
+    "definition": "信号量 是编程中的重要概念。在 Python 中，信号量 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0245",
+    "term": "锁",
+    "definition": "锁 是编程中的重要概念。在 Python 中，锁 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0246",
+    "term": "死锁",
+    "definition": "死锁 是编程中的重要概念。在 Python 中，死锁 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0247",
+    "term": "竞争条件",
+    "definition": "竞争条件 是编程中的重要概念。在 Python 中，竞争条件 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0248",
+    "term": "线程安全",
+    "definition": "线程安全 是编程中的重要概念。在 Python 中，线程安全 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0249",
+    "term": "原子操作",
+    "definition": "原子操作 是编程中的重要概念。在 Python 中，原子操作 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0250",
+    "term": "GIL",
+    "definition": "GIL 是编程中的重要概念。在 Python 中，GIL 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0251",
+    "term": "CPU 密集",
+    "definition": "CPU 密集 是编程中的重要概念。在 Python 中，CPU 密集 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0252",
+    "term": "IO 密集",
+    "definition": "IO 密集 是编程中的重要概念。在 Python 中，IO 密集 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0253",
+    "term": "内存视图",
+    "definition": "内存视图 是编程中的重要概念。在 Python 中，内存视图 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0254",
+    "term": "缓冲区",
+    "definition": "缓冲区 是编程中的重要概念。在 Python 中，缓冲区 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0255",
+    "term": "文件描述符",
+    "definition": "文件描述符 是编程中的重要概念。在 Python 中，文件描述符 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0256",
+    "term": "套接字",
+    "definition": "套接字 是编程中的重要概念。在 Python 中，套接字 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0257",
+    "term": "端点",
+    "definition": "端点 是编程中的重要概念。在 Python 中，端点 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0258",
+    "term": "HTTP 状态码",
+    "definition": "HTTP 状态码 是编程中的重要概念。在 Python 中，HTTP 状态码 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0259",
+    "term": "RESTful",
+    "definition": "RESTful 是编程中的重要概念。在 Python 中，RESTful 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0260",
+    "term": "中间件",
+    "definition": "中间件 是编程中的重要概念。在 Python 中，中间件 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0261",
+    "term": "路由",
+    "definition": "路由 是编程中的重要概念。在 Python 中，路由 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0262",
+    "term": "模板引擎",
+    "definition": "模板引擎 是编程中的重要概念。在 Python 中，模板引擎 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0263",
+    "term": "ORM",
+    "definition": "ORM 是编程中的重要概念。在 Python 中，ORM 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0264",
+    "term": "迁移",
+    "definition": "迁移 是编程中的重要概念。在 Python 中，迁移 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0265",
+    "term": "事务",
+    "definition": "事务 是编程中的重要概念。在 Python 中，事务 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0266",
+    "term": "连接池",
+    "definition": "连接池 是编程中的重要概念。在 Python 中，连接池 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0267",
+    "term": "缓存",
+    "definition": "缓存 是编程中的重要概念。在 Python 中，缓存 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0268",
+    "term": "会话",
+    "definition": "会话 是编程中的重要概念。在 Python 中，会话 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0269",
+    "term": "Cookie",
+    "definition": "Cookie 是编程中的重要概念。在 Python 中，Cookie 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0270",
+    "term": "Token",
+    "definition": "Token 是编程中的重要概念。在 Python 中，Token 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0271",
+    "term": "JWT",
+    "definition": "JWT 是编程中的重要概念。在 Python 中，JWT 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0272",
+    "term": "OAuth",
+    "definition": "OAuth 是编程中的重要概念。在 Python 中，OAuth 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0273",
+    "term": "CORS",
+    "definition": "CORS 是编程中的重要概念。在 Python 中，CORS 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0274",
+    "term": "CSRF",
+    "definition": "CSRF 是编程中的重要概念。在 Python 中，CSRF 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0275",
+    "term": "XSS",
+    "definition": "XSS 是编程中的重要概念。在 Python 中，XSS 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0276",
+    "term": "SQL 注入",
+    "definition": "SQL 注入 是编程中的重要概念。在 Python 中，SQL 注入 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0277",
+    "term": "输入验证",
+    "definition": "输入验证 是编程中的重要概念。在 Python 中，输入验证 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0278",
+    "term": "Sanitize",
+    "definition": "Sanitize 是编程中的重要概念。在 Python 中，Sanitize 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0279",
+    "term": "编码",
+    "definition": "编码 是编程中的重要概念。在 Python 中，编码 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0280",
+    "term": "Unicode",
+    "definition": "Unicode 是编程中的重要概念。在 Python 中，Unicode 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0281",
+    "term": "ASCII",
+    "definition": "ASCII 是编程中的重要概念。在 Python 中，ASCII 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0282",
+    "term": "UTF-8",
+    "definition": "UTF-8 是编程中的重要概念。在 Python 中，UTF-8 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0283",
+    "term": "UTF-16",
+    "definition": "UTF-16 是编程中的重要概念。在 Python 中，UTF-16 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0284",
+    "term": "BOM",
+    "definition": "BOM 是编程中的重要概念。在 Python 中，BOM 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0285",
+    "term": "规范化",
+    "definition": "规范化 是编程中的重要概念。在 Python 中，规范化 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0286",
+    "term": "哈希",
+    "definition": "哈希 是编程中的重要概念。在 Python 中，哈希 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0287",
+    "term": "加密",
+    "definition": "加密 是编程中的重要概念。在 Python 中，加密 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0288",
+    "term": "签名",
+    "definition": "签名 是编程中的重要概念。在 Python 中，签名 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0289",
+    "term": "证书",
+    "definition": "证书 是编程中的重要概念。在 Python 中，证书 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0290",
+    "term": "SSL",
+    "definition": "SSL 是编程中的重要概念。在 Python 中，SSL 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0291",
+    "term": "TLS",
+    "definition": "TLS 是编程中的重要概念。在 Python 中，TLS 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0292",
+    "term": "HTTPS",
+    "definition": "HTTPS 是编程中的重要概念。在 Python 中，HTTPS 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0293",
+    "term": "SSH",
+    "definition": "SSH 是编程中的重要概念。在 Python 中，SSH 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0294",
+    "term": "Git",
+    "definition": "Git 是编程中的重要概念。在 Python 中，Git 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0295",
+    "term": "分支",
+    "definition": "分支 是编程中的重要概念。在 Python 中，分支 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0296",
+    "term": "合并",
+    "definition": "合并 是编程中的重要概念。在 Python 中，合并 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0297",
+    "term": "冲突解决",
+    "definition": "冲突解决 是编程中的重要概念。在 Python 中，冲突解决 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0298",
+    "term": "Rebase",
+    "definition": "Rebase 是编程中的重要概念。在 Python 中，Rebase 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0299",
+    "term": "Stash",
+    "definition": "Stash 是编程中的重要概念。在 Python 中，Stash 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0300",
+    "term": "标签",
+    "definition": "标签 是编程中的重要概念。在 Python 中，标签 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0301",
+    "term": "发布",
+    "definition": "发布 是编程中的重要概念。在 Python 中，发布 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0302",
+    "term": "语义化版本",
+    "definition": "语义化版本 是编程中的重要概念。在 Python 中，语义化版本 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0303",
+    "term": "CHANGELOG",
+    "definition": "CHANGELOG 是编程中的重要概念。在 Python 中，CHANGELOG 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0304",
+    "term": "许可证",
+    "definition": "许可证 是编程中的重要概念。在 Python 中，许可证 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0305",
+    "term": "MIT",
+    "definition": "MIT 是编程中的重要概念。在 Python 中，MIT 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0306",
+    "term": "Apache",
+    "definition": "Apache 是编程中的重要概念。在 Python 中，Apache 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0307",
+    "term": "GPL",
+    "definition": "GPL 是编程中的重要概念。在 Python 中，GPL 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0308",
+    "term": "BSD",
+    "definition": "BSD 是编程中的重要概念。在 Python 中，BSD 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0309",
+    "term": "LGPL",
+    "definition": "LGPL 是编程中的重要概念。在 Python 中，LGPL 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0310",
+    "term": "代码覆盖率",
+    "definition": "代码覆盖率 是编程中的重要概念。在 Python 中，代码覆盖率 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0311",
+    "term": "突变测试",
+    "definition": "突变测试 是编程中的重要概念。在 Python 中，突变测试 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0312",
+    "term": "集成测试",
+    "definition": "集成测试 是编程中的重要概念。在 Python 中，集成测试 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0313",
+    "term": "端到端测试",
+    "definition": "端到端测试 是编程中的重要概念。在 Python 中，端到端测试 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0314",
+    "term": "冒烟测试",
+    "definition": "冒烟测试 是编程中的重要概念。在 Python 中，冒烟测试 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0315",
+    "term": "回归测试",
+    "definition": "回归测试 是编程中的重要概念。在 Python 中，回归测试 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0316",
+    "term": "TDD",
+    "definition": "TDD 是编程中的重要概念。在 Python 中，TDD 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0317",
+    "term": "BDD",
+    "definition": "BDD 是编程中的重要概念。在 Python 中，BDD 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0318",
+    "term": "敏捷",
+    "definition": "敏捷 是编程中的重要概念。在 Python 中，敏捷 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0319",
+    "term": "Scrum",
+    "definition": "Scrum 是编程中的重要概念。在 Python 中，Scrum 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  },
+  {
+    "id": "py-glossary-0320",
+    "term": "看板",
+    "definition": "看板 是编程中的重要概念。在 Python 中，看板 有特定的实现方式和最佳实践。",
+    "category": "进阶",
+    "relatedKps": [],
+    "relatedQuestions": [],
+    "aliases": []
+  }
 ]

@@ -1,16 +1,814 @@
 [
   {
-    "id": "route-standard",
-    "slug": "standard-learning-path",
-    "title": "标准学习路线",
-    "summary": "从入门到进阶的推荐学习顺序，适合大多数学习者。",
+    "id": "py-route-001",
+    "slug": "7天Python入门路线",
+    "title": "7天Python入门路线",
+    "summary": "7天掌握Python基础",
     "steps": [
-      { "order": 1, "title": "了解模块全貌", "description": "阅读入门导论，了解模块的范围与目标。", "courseId": "course-intro" },
-      { "order": 2, "title": "搭建学习环境", "description": "按讲义指引安装工具并验证环境。", "lessonId": "lesson-setup" },
-      { "order": 3, "title": "掌握核心概念", "description": "系统学习核心概念课程，理解数据模型与设计原则。", "courseId": "course-core" },
-      { "order": 4, "title": "练习巩固", "description": "完成基础测试，确保理解核心概念。", "knowledgePointId": "kp-module" },
-      { "order": 5, "title": "进阶提升", "description": "学习进阶主题，掌握模式与优化技巧。", "courseId": "course-advanced" },
-      { "order": 6, "title": "实战训练", "description": "完成案例训练，将知识转化为实践能力。", "knowledgePointId": "kp-patterns" }
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      }
+    ]
+  },
+  {
+    "id": "py-route-002",
+    "slug": "14天Python基础巩固",
+    "title": "14天Python基础巩固",
+    "summary": "14天系统巩固基础",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 4,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      }
+    ]
+  },
+  {
+    "id": "py-route-003",
+    "slug": "30天Python系统学习",
+    "title": "30天Python系统学习",
+    "summary": "30天完整学习路线",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 4,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 5,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 6,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 7,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      },
+      {
+        "order": 8,
+        "title": "常用标准库入门",
+        "description": "学习常用标准库入门",
+        "courseId": "py-course-08"
+      }
+    ]
+  },
+  {
+    "id": "py-route-004",
+    "slug": "考试复习路线",
+    "title": "考试复习路线",
+    "summary": "Python课程考试复习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 2,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 3,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 4,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      }
+    ]
+  },
+  {
+    "id": "py-route-005",
+    "slug": "零基础到小项目",
+    "title": "零基础到小项目",
+    "summary": "从零到完成小项目",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 4,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 5,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 6,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 7,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      },
+      {
+        "order": 8,
+        "title": "常用标准库入门",
+        "description": "学习常用标准库入门",
+        "courseId": "py-course-08"
+      },
+      {
+        "order": 9,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      },
+      {
+        "order": 10,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      },
+      {
+        "order": 11,
+        "title": "Python 小项目实战",
+        "description": "学习Python 小项目实战",
+        "courseId": "py-course-11"
+      }
+    ]
+  },
+  {
+    "id": "py-route-006",
+    "slug": "文件处理专项路线",
+    "title": "文件处理专项路线",
+    "summary": "文件处理专项学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 2,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      }
+    ]
+  },
+  {
+    "id": "py-route-007",
+    "slug": "数据结构专项路线",
+    "title": "数据结构专项路线",
+    "summary": "数据类型深入学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 2,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      }
+    ]
+  },
+  {
+    "id": "py-route-008",
+    "slug": "函数专项路线",
+    "title": "函数专项路线",
+    "summary": "函数与模块深入学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      }
+    ]
+  },
+  {
+    "id": "py-route-009",
+    "slug": "面向对象入门路线",
+    "title": "面向对象入门路线",
+    "summary": "OOP基础学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      }
+    ]
+  },
+  {
+    "id": "py-route-010",
+    "slug": "自动化办公前置路线",
+    "title": "自动化办公前置路线",
+    "summary": "自动化办公所需Python基础",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 3,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 4,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      }
+    ]
+  },
+  {
+    "id": "py-route-011",
+    "slug": "数据分析前置路线",
+    "title": "数据分析前置路线",
+    "summary": "数据分析所需Python基础",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 3,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 4,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      }
+    ]
+  },
+  {
+    "id": "py-route-012",
+    "slug": "AI应用开发前置路线",
+    "title": "AI应用开发前置路线",
+    "summary": "AI应用所需Python基础",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 4,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 5,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 6,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 7,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      },
+      {
+        "order": 8,
+        "title": "常用标准库入门",
+        "description": "学习常用标准库入门",
+        "courseId": "py-course-08"
+      },
+      {
+        "order": 9,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      },
+      {
+        "order": 10,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      },
+      {
+        "order": 11,
+        "title": "Python 小项目实战",
+        "description": "学习Python 小项目实战",
+        "courseId": "py-course-11"
+      },
+      {
+        "order": 12,
+        "title": "Python 后续学习路线与综合复习",
+        "description": "学习Python 后续学习路线与综合复习",
+        "courseId": "py-course-12"
+      }
+    ]
+  },
+  {
+    "id": "py-route-013",
+    "slug": "面试基础复习路线",
+    "title": "面试基础复习路线",
+    "summary": "Python面试常考知识点",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 2,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 3,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 4,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 5,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      }
+    ]
+  },
+  {
+    "id": "py-route-014",
+    "slug": "Web开发前置路线",
+    "title": "Web开发前置路线",
+    "summary": "Flask/Django前置知识",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 3,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      },
+      {
+        "order": 4,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      }
+    ]
+  },
+  {
+    "id": "py-route-015",
+    "slug": "爬虫前置路线",
+    "title": "爬虫前置路线",
+    "summary": "爬虫所需Python基础",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 3,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 4,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      }
+    ]
+  },
+  {
+    "id": "py-route-016",
+    "slug": "标准库专项路线",
+    "title": "标准库专项路线",
+    "summary": "常用标准库学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "常用标准库入门",
+        "description": "学习常用标准库入门",
+        "courseId": "py-course-08"
+      }
+    ]
+  },
+  {
+    "id": "py-route-017",
+    "slug": "调试与规范路线",
+    "title": "调试与规范路线",
+    "summary": "调试与编码规范",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      }
+    ]
+  },
+  {
+    "id": "py-route-018",
+    "slug": "小项目实战路线",
+    "title": "小项目实战路线",
+    "summary": "7个小项目实战",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 小项目实战",
+        "description": "学习Python 小项目实战",
+        "courseId": "py-course-11"
+      }
+    ]
+  },
+  {
+    "id": "py-route-019",
+    "slug": "综合复习路线",
+    "title": "综合复习路线",
+    "summary": "全课程综合复习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 4,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 5,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 6,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 7,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      },
+      {
+        "order": 8,
+        "title": "常用标准库入门",
+        "description": "学习常用标准库入门",
+        "courseId": "py-course-08"
+      },
+      {
+        "order": 9,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      },
+      {
+        "order": 10,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      },
+      {
+        "order": 11,
+        "title": "Python 小项目实战",
+        "description": "学习Python 小项目实战",
+        "courseId": "py-course-11"
+      },
+      {
+        "order": 12,
+        "title": "Python 后续学习路线与综合复习",
+        "description": "学习Python 后续学习路线与综合复习",
+        "courseId": "py-course-12"
+      }
+    ]
+  },
+  {
+    "id": "py-route-020",
+    "slug": "Python入门速成路线",
+    "title": "Python入门速成路线",
+    "summary": "3天速成入门",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      }
+    ]
+  },
+  {
+    "id": "py-route-021",
+    "slug": "条件与循环专项路线",
+    "title": "条件与循环专项路线",
+    "summary": "控制流深入学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      }
+    ]
+  },
+  {
+    "id": "py-route-022",
+    "slug": "异常处理专项路线",
+    "title": "异常处理专项路线",
+    "summary": "异常处理深入学习",
+    "steps": [
+      {
+        "order": 1,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      }
+    ]
+  },
+  {
+    "id": "py-route-023",
+    "slug": "JSON与CSV专项路线",
+    "title": "JSON与CSV专项路线",
+    "summary": "数据文件处理专项",
+    "steps": [
+      {
+        "order": 1,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      }
+    ]
+  },
+  {
+    "id": "py-route-024",
+    "slug": "PEP8与工程习惯路线",
+    "title": "PEP8与工程习惯路线",
+    "summary": "编码规范与工程实践",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      }
+    ]
+  },
+  {
+    "id": "py-route-025",
+    "slug": "Python全栈前置路线",
+    "title": "Python全栈前置路线",
+    "summary": "全栈开发所需Python基础",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python 入门与环境搭建",
+        "description": "学习Python 入门与环境搭建",
+        "courseId": "py-course-01"
+      },
+      {
+        "order": 2,
+        "title": "Python 基础语法",
+        "description": "学习Python 基础语法",
+        "courseId": "py-course-02"
+      },
+      {
+        "order": 3,
+        "title": "Python 内置数据类型",
+        "description": "学习Python 内置数据类型",
+        "courseId": "py-course-03"
+      },
+      {
+        "order": 4,
+        "title": "条件判断与循环",
+        "description": "学习条件判断与循环",
+        "courseId": "py-course-04"
+      },
+      {
+        "order": 5,
+        "title": "函数与模块",
+        "description": "学习函数与模块",
+        "courseId": "py-course-05"
+      },
+      {
+        "order": 6,
+        "title": "文件处理与异常处理",
+        "description": "学习文件处理与异常处理",
+        "courseId": "py-course-06"
+      },
+      {
+        "order": 7,
+        "title": "面向对象编程基础",
+        "description": "学习面向对象编程基础",
+        "courseId": "py-course-07"
+      },
+      {
+        "order": 8,
+        "title": "常用标准库入门",
+        "description": "学习常用标准库入门",
+        "courseId": "py-course-08"
+      },
+      {
+        "order": 9,
+        "title": "数据文件处理：JSON、CSV、文本",
+        "description": "学习数据文件处理：JSON、CSV、文本",
+        "courseId": "py-course-09"
+      },
+      {
+        "order": 10,
+        "title": "Python 调试、规范与工程习惯",
+        "description": "学习Python 调试、规范与工程习惯",
+        "courseId": "py-course-10"
+      },
+      {
+        "order": 11,
+        "title": "Python 小项目实战",
+        "description": "学习Python 小项目实战",
+        "courseId": "py-course-11"
+      },
+      {
+        "order": 12,
+        "title": "Python 后续学习路线与综合复习",
+        "description": "学习Python 后续学习路线与综合复习",
+        "courseId": "py-course-12"
+      }
     ]
   }
 ]
