@@ -94,14 +94,14 @@ export default function QuestionPlayer({
         <p className="text-sm text-white whitespace-pre-wrap">{q.stem}</p>
 
         <div className="mt-4 space-y-2">
-          {q.type === "short" ? (
+          {["short", "fill", "calculation", "case_analysis", "code"].includes(q.type) ? (
             <textarea
               value={userAnswer.join("")}
               onChange={(e) => setAns([e.target.value])}
               disabled={isJudged && instant}
-              rows={4}
-              placeholder="请输入你的答案…"
-              className="input resize-y"
+              rows={q.type === "code" || q.type === "case_analysis" ? 12 : 4}
+              placeholder={q.type === "code" ? "请输入你的代码…" : q.type === "case_analysis" ? "请输入案例分析…" : q.type === "calculation" ? "请输入计算过程与结果…" : q.type === "fill" ? "请输入填空答案…" : "请输入你的答案…"}
+              className="input resize-y font-mono text-sm"
             />
           ) : q.type === "judge" ? (
             <div className="flex gap-3">
@@ -173,9 +173,9 @@ export default function QuestionPlayer({
               正确答案：{q.type === "short" ? q.answer.join(" | ") : q.answer.join(", ")}
             </p>
             <div className="mt-3">{renderMarkdown(q.analysis)}</div>
-            {q.knowledgePoints.length > 0 && (
+            {(q.knowledgePoints ?? q.knowledge_points ?? []).length > 0 && (
               <div className="mt-3 flex flex-wrap gap-2">
-                {q.knowledgePoints.map((id) => (
+                {(q.knowledgePoints ?? q.knowledge_points ?? []).map((id) => (
                   <span key={id} className="tag">KP:{id}</span>
                 ))}
               </div>

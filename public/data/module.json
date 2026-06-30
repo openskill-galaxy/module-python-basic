@@ -4,14 +4,36 @@
   "title": "Python 编程入门",
   "subtitle": "从零基础到小项目实战的 Python 静态学习、刷题与考试模块",
   "description": "面向零基础学生、大学新生、转专业学习者，以及准备学习数据分析、自动化办公、AI 应用开发的人群。覆盖 Python 环境搭建、基础语法、数据类型、控制流、函数、文件处理、异常处理、面向对象、常用标准库、小项目实战与后续学习路线。包含课程、讲义、知识点、题库、试卷、案例训练、学习路线、术语表与 FAQ。",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
-  "authors": ["OpenSkill Community"],
-  "tags": ["Python", "编程入门", "基础语法", "小项目", "自动化", "数据处理"],
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "Python",
+    "编程入门",
+    "基础语法",
+    "小项目",
+    "自动化",
+    "数据处理"
+  ],
   "estimatedHours": 100,
   "difficulty": "easy",
-  "updatedAt": "2026-06-30",
+  "updatedAt": "2026-06-30T13:15:01.269Z",
   "coverEmoji": "🐍",
   "repoUrl": "https://github.com/openskill-galaxy/module-python-basic",
-  "portalUrl": "https://openskill-galaxy.github.io/"
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 12,
+    "lessons": 170,
+    "knowledgePoints": 720,
+    "questions": 2500,
+    "cases": 200,
+    "exams": 90,
+    "routes": 30,
+    "glossary": 340,
+    "faqs": 200,
+    "tags": 1344
+  }
 }

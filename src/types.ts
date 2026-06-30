@@ -25,11 +25,16 @@ export interface Course {
   slug: string;
   title: string;
   summary: string;
+  description: string;
   difficulty: Difficulty;
+  level: string;
   tags: string[];
   estimatedHours: number;
   lessons: string[]; // lesson ids in order
   order: number;
+  objectives: string[];
+  prerequisites: string[];
+  outcomes: string[];
 }
 
 // =============== 课程章节讲义 ===============
@@ -41,8 +46,14 @@ export interface Lesson {
   summary: string;
   order: number;
   contentMarkdown: string;
+  objectives: string[];
+  keyPoints: string[];
+  examples: string[];
+  practiceQuestionIds: string[];
   knowledgePoints: string[]; // kp ids
   estimatedMinutes: number;
+  difficulty: Difficulty;
+  tags: string[];
 }
 
 // =============== 知识点 ===============
@@ -51,6 +62,11 @@ export interface KnowledgePoint {
   slug: string;
   title: string;
   summary: string;
+  explanation: string;
+  examples: string[];
+  commonMistakes: string[];
+  prerequisites: string[];
+  nextPoints: string[];
   courseId?: string;
   tags: string[];
   difficulty: Difficulty;
@@ -61,7 +77,9 @@ export interface KnowledgePoint {
 }
 
 // =============== 题目 ===============
-export type QuestionType = "single" | "multiple" | "judge" | "short";
+export type QuestionType =
+  | "single" | "multiple" | "judge" | "short"
+  | "fill" | "calculation" | "case_analysis" | "code";
 
 export interface QuestionOption {
   key: string; // "A" "B" ...
@@ -73,13 +91,21 @@ export interface Question {
   slug: string;
   type: QuestionType;
   difficulty: Difficulty;
-  tags: string[];
+  chapter: string;
+  knowledge_points: string[];
   stem: string;
   options: QuestionOption[];
   answer: string[]; // option keys, or short answer text
-  analysis: string; // markdown
-  knowledgePoints: string[];
-  estimatedMinutes: number;
+  explanation: string;
+  analysis: string;
+  wrong_reason: string;
+  related_questions: string[];
+  tags: string[];
+  estimated_time: number;
+  source_type: string;
+  // Legacy compat fields
+  knowledgePoints?: string[];
+  estimatedMinutes?: number;
 }
 
 // =============== 模拟考试 ===============
@@ -87,11 +113,17 @@ export interface Exam {
   id: string;
   slug: string;
   title: string;
+  description: string;
   summary: string;
   difficulty: Difficulty;
   questionIds: string[];
+  durationMinutes: number;
   timeLimitMinutes: number;
-  passingScore: number; // 0-100
+  totalScore: number;
+  passScore: number;
+  passingScore: number;
+  tags: string[];
+  rules: string[];
 }
 
 // =============== 案例训练 ===============
@@ -100,12 +132,17 @@ export interface Case {
   slug: string;
   title: string;
   summary: string;
+  scenario: string;
+  task: string;
+  hints: string[];
+  solution: string;
   difficulty: Difficulty;
   tags: string[];
   backgroundMarkdown: string;
   tasksMarkdown: string;
   referenceMarkdown: string;
   knowledgePoints: string[];
+  relatedQuestionIds: string[];
   estimatedMinutes: number;
 }
 
@@ -114,8 +151,15 @@ export interface LearningRoute {
   id: string;
   slug: string;
   title: string;
+  description: string;
   summary: string;
+  targetUser: string;
+  durationDays: number;
   steps: LearningRouteStep[];
+  recommendedCourseIds: string[];
+  recommendedLessonIds: string[];
+  recommendedQuestionIds: string[];
+  outcomes: string[];
 }
 
 export interface LearningRouteStep {
@@ -133,6 +177,7 @@ export interface Tag {
   name: string;
   slug: string;
   description?: string;
+  count?: number;
 }
 
 // =============== 术语表 ===============

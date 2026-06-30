@@ -1,1988 +1,8066 @@
 [
   {
-    "id": "py-tag-0001",
+    "id": "py-tag-001",
     "name": "入门",
-    "description": "入门 相关的内容标签。",
-    "count": 0
+    "slug": "入门",
+    "count": 1
   },
   {
-    "id": "py-tag-0002",
-    "name": "基础",
-    "description": "基础 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0003",
-    "name": "语法",
-    "description": "语法 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0004",
+    "id": "py-tag-002",
     "name": "环境",
-    "description": "环境 相关的内容标签。",
-    "count": 0
+    "slug": "环境",
+    "count": 1
   },
   {
-    "id": "py-tag-0005",
+    "id": "py-tag-003",
     "name": "安装",
-    "description": "安装 相关的内容标签。",
-    "count": 0
+    "slug": "安装",
+    "count": 1
   },
   {
-    "id": "py-tag-0006",
-    "name": "配置",
-    "description": "配置 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-004",
+    "name": "语法",
+    "slug": "语法",
+    "count": 1
   },
   {
-    "id": "py-tag-0007",
-    "name": "工具",
-    "description": "工具 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-005",
+    "name": "print",
+    "slug": "print",
+    "count": 5
   },
   {
-    "id": "py-tag-0008",
-    "name": "IDE",
-    "description": "IDE 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-006",
+    "name": "input",
+    "slug": "input",
+    "count": 1
   },
   {
-    "id": "py-tag-0009",
-    "name": "编辑器",
-    "description": "编辑器 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-007",
+    "name": "数据类型",
+    "slug": "数据类型",
+    "count": 35
   },
   {
-    "id": "py-tag-0010",
-    "name": "命令行",
-    "description": "命令行 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0011",
-    "name": "交互式",
-    "description": "交互式 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0012",
-    "name": "脚本",
-    "description": "脚本 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0013",
-    "name": "变量",
-    "description": "变量 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0014",
-    "name": "赋值",
-    "description": "赋值 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0015",
-    "name": "命名",
-    "description": "命名 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0016",
-    "name": "常量",
-    "description": "常量 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0017",
-    "name": "关键字",
-    "description": "关键字 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0018",
-    "name": "运算符",
-    "description": "运算符 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0019",
-    "name": "表达式",
-    "description": "表达式 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0020",
-    "name": "语句",
-    "description": "语句 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0021",
-    "name": "数值类型",
-    "description": "数值类型 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0022",
-    "name": "整数",
-    "description": "整数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0023",
-    "name": "浮点数",
-    "description": "浮点数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0024",
-    "name": "复数",
-    "description": "复数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0025",
-    "name": "布尔",
-    "description": "布尔 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0026",
-    "name": "字符串",
-    "description": "字符串 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0027",
-    "name": "字符",
-    "description": "字符 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0028",
-    "name": "文本",
-    "description": "文本 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0029",
-    "name": "格式化",
-    "description": "格式化 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0030",
-    "name": "编码",
-    "description": "编码 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0031",
+    "id": "py-tag-008",
     "name": "列表",
-    "description": "列表 相关的内容标签。",
-    "count": 0
+    "slug": "列表",
+    "count": 3
   },
   {
-    "id": "py-tag-0032",
-    "name": "数组",
-    "description": "数组 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0033",
-    "name": "序列",
-    "description": "序列 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0034",
-    "name": "元组",
-    "description": "元组 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0035",
+    "id": "py-tag-009",
     "name": "字典",
-    "description": "字典 相关的内容标签。",
-    "count": 0
+    "slug": "字典",
+    "count": 3
   },
   {
-    "id": "py-tag-0036",
-    "name": "映射",
-    "description": "映射 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-010",
+    "name": "字符串",
+    "slug": "字符串",
+    "count": 3
   },
   {
-    "id": "py-tag-0037",
-    "name": "集合",
-    "description": "集合 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0038",
-    "name": "哈希",
-    "description": "哈希 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0039",
-    "name": "不可变",
-    "description": "不可变 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0040",
-    "name": "可变",
-    "description": "可变 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0041",
-    "name": "切片",
-    "description": "切片 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0042",
-    "name": "索引",
-    "description": "索引 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0043",
-    "name": "推导式",
-    "description": "推导式 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0044",
-    "name": "生成器",
-    "description": "生成器 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0045",
-    "name": "迭代器",
-    "description": "迭代器 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0046",
-    "name": "循环",
-    "description": "循环 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0047",
-    "name": "条件",
-    "description": "条件 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0048",
-    "name": "分支",
-    "description": "分支 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0049",
+    "id": "py-tag-011",
     "name": "控制流",
-    "description": "控制流 相关的内容标签。",
-    "count": 0
+    "slug": "控制流",
+    "count": 1
   },
   {
-    "id": "py-tag-0050",
+    "id": "py-tag-012",
+    "name": "循环",
+    "slug": "循环",
+    "count": 1
+  },
+  {
+    "id": "py-tag-013",
+    "name": "条件",
+    "slug": "条件",
+    "count": 1
+  },
+  {
+    "id": "py-tag-014",
     "name": "函数",
-    "description": "函数 相关的内容标签。",
-    "count": 0
+    "slug": "函数",
+    "count": 35
   },
   {
-    "id": "py-tag-0051",
-    "name": "参数",
-    "description": "参数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0052",
-    "name": "返回值",
-    "description": "返回值 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0053",
-    "name": "作用域",
-    "description": "作用域 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0054",
-    "name": "闭包",
-    "description": "闭包 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0055",
-    "name": "装饰器",
-    "description": "装饰器 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0056",
-    "name": "递归",
-    "description": "递归 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0057",
-    "name": "lambda",
-    "description": "lambda 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0058",
-    "name": "匿名函数",
-    "description": "匿名函数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0059",
-    "name": "高阶函数",
-    "description": "高阶函数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0060",
-    "name": "map",
-    "description": "map 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0061",
-    "name": "filter",
-    "description": "filter 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0062",
-    "name": "reduce",
-    "description": "reduce 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0063",
+    "id": "py-tag-015",
     "name": "模块",
-    "description": "模块 相关的内容标签。",
-    "count": 0
+    "slug": "模块",
+    "count": 2
   },
   {
-    "id": "py-tag-0064",
-    "name": "包",
-    "description": "包 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-016",
+    "name": "作用域",
+    "slug": "作用域",
+    "count": 8
   },
   {
-    "id": "py-tag-0065",
-    "name": "导入",
-    "description": "导入 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0066",
-    "name": "库",
-    "description": "库 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0067",
-    "name": "依赖",
-    "description": "依赖 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0068",
-    "name": "包管理",
-    "description": "包管理 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0069",
-    "name": "pip",
-    "description": "pip 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0070",
-    "name": "venv",
-    "description": "venv 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0071",
+    "id": "py-tag-017",
     "name": "文件",
-    "description": "文件 相关的内容标签。",
-    "count": 0
+    "slug": "文件",
+    "count": 1
   },
   {
-    "id": "py-tag-0072",
-    "name": "文件操作",
-    "description": "文件操作 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0073",
-    "name": "IO",
-    "description": "IO 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0074",
-    "name": "读写",
-    "description": "读写 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0075",
-    "name": "路径",
-    "description": "路径 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0076",
-    "name": "文件系统",
-    "description": "文件系统 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0077",
+    "id": "py-tag-018",
     "name": "异常",
-    "description": "异常 相关的内容标签。",
-    "count": 0
+    "slug": "异常",
+    "count": 36
   },
   {
-    "id": "py-tag-0078",
-    "name": "错误",
-    "description": "错误 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-019",
+    "name": "with",
+    "slug": "with",
+    "count": 2
   },
   {
-    "id": "py-tag-0079",
-    "name": "错误处理",
-    "description": "错误处理 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0080",
-    "name": "异常处理",
-    "description": "异常处理 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0081",
-    "name": "调试",
-    "description": "调试 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0082",
-    "name": "排查",
-    "description": "排查 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0083",
-    "name": "错误信息",
-    "description": "错误信息 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0084",
-    "name": "Traceback",
-    "description": "Traceback 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0085",
-    "name": "Pdb",
-    "description": "Pdb 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0086",
-    "name": "测试",
-    "description": "测试 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0087",
-    "name": "单元测试",
-    "description": "单元测试 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0088",
-    "name": "断言",
-    "description": "断言 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0089",
-    "name": "文档",
-    "description": "文档 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0090",
-    "name": "注释",
-    "description": "注释 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0091",
-    "name": "类",
-    "description": "类 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0092",
-    "name": "对象",
-    "description": "对象 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0093",
+    "id": "py-tag-020",
     "name": "OOP",
-    "description": "OOP 相关的内容标签。",
-    "count": 0
+    "slug": "OOP",
+    "count": 1
   },
   {
-    "id": "py-tag-0094",
-    "name": "面向对象",
-    "description": "面向对象 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-021",
+    "name": "类",
+    "slug": "类",
+    "count": 2
   },
   {
-    "id": "py-tag-0095",
+    "id": "py-tag-022",
     "name": "继承",
-    "description": "继承 相关的内容标签。",
-    "count": 0
+    "slug": "继承",
+    "count": 7
   },
   {
-    "id": "py-tag-0096",
-    "name": "多态",
-    "description": "多态 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0097",
-    "name": "封装",
-    "description": "封装 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0098",
-    "name": "抽象",
-    "description": "抽象 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0099",
-    "name": "接口",
-    "description": "接口 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0100",
-    "name": "属性",
-    "description": "属性 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0101",
-    "name": "方法",
-    "description": "方法 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0102",
-    "name": "实例",
-    "description": "实例 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0103",
-    "name": "类方法",
-    "description": "类方法 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0104",
-    "name": "静态方法",
-    "description": "静态方法 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0105",
-    "name": "property",
-    "description": "property 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0106",
-    "name": "描述符",
-    "description": "描述符 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0107",
-    "name": "元类",
-    "description": "元类 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0108",
-    "name": "type",
-    "description": "type 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0109",
-    "name": "class",
-    "description": "class 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0110",
-    "name": "实例化",
-    "description": "实例化 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0111",
-    "name": "日期",
-    "description": "日期 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0112",
-    "name": "时间",
-    "description": "时间 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0113",
-    "name": "日期时间",
-    "description": "日期时间 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0114",
-    "name": "随机数",
-    "description": "随机数 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0115",
-    "name": "随机",
-    "description": "随机 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0116",
-    "name": "数学",
-    "description": "数学 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0117",
-    "name": "数学运算",
-    "description": "数学运算 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0118",
-    "name": "计算",
-    "description": "计算 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0119",
-    "name": "统计",
-    "description": "统计 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0120",
-    "name": "路径操作",
-    "description": "路径操作 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0121",
-    "name": "系统操作",
-    "description": "系统操作 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0122",
-    "name": "操作系统",
-    "description": "操作系统 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0123",
-    "name": "sys",
-    "description": "sys 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0124",
-    "name": "os",
-    "description": "os 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0125",
-    "name": "环境变量",
-    "description": "环境变量 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0126",
-    "name": "JSON",
-    "description": "JSON 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0127",
-    "name": "数据交换",
-    "description": "数据交换 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0128",
-    "name": "CSV",
-    "description": "CSV 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0129",
-    "name": "数据格式",
-    "description": "数据格式 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0130",
-    "name": "数据处理",
-    "description": "数据处理 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0131",
-    "name": "文本处理",
-    "description": "文本处理 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0132",
-    "name": "正则表达式",
-    "description": "正则表达式 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0133",
-    "name": "re",
-    "description": "re 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0134",
-    "name": "模式匹配",
-    "description": "模式匹配 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0135",
-    "name": "搜索",
-    "description": "搜索 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0136",
-    "name": "替换",
-    "description": "替换 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0137",
-    "name": "字符串搜索",
-    "description": "字符串搜索 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0138",
-    "name": "日志",
-    "description": "日志 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0139",
-    "name": "logging",
-    "description": "logging 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0140",
-    "name": "调试日志",
-    "description": "调试日志 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0141",
+    "id": "py-tag-023",
     "name": "标准库",
-    "description": "标准库 相关的内容标签。",
-    "count": 0
+    "slug": "标准库",
+    "count": 39
   },
   {
-    "id": "py-tag-0142",
-    "name": "常用库",
-    "description": "常用库 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-024",
+    "name": "datetime",
+    "slug": "datetime",
+    "count": 5
   },
   {
-    "id": "py-tag-0143",
-    "name": "内置函数",
-    "description": "内置函数 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-025",
+    "name": "random",
+    "slug": "random",
+    "count": 1
   },
   {
-    "id": "py-tag-0144",
-    "name": "内置类型",
-    "description": "内置类型 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-026",
+    "name": "pathlib",
+    "slug": "pathlib",
+    "count": 6
   },
   {
-    "id": "py-tag-0145",
-    "name": "Python 特性",
-    "description": "Python 特性 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-027",
+    "name": "json",
+    "slug": "json",
+    "count": 2
   },
   {
-    "id": "py-tag-0146",
-    "name": "新特性",
-    "description": "新特性 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-028",
+    "name": "csv",
+    "slug": "csv",
+    "count": 2
   },
   {
-    "id": "py-tag-0147",
-    "name": "Python 版本",
-    "description": "Python 版本 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-029",
+    "name": "数据处理",
+    "slug": "数据处理",
+    "count": 3
   },
   {
-    "id": "py-tag-0148",
-    "name": "发行版",
-    "description": "发行版 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-030",
+    "name": "调试",
+    "slug": "调试",
+    "count": 1
   },
   {
-    "id": "py-tag-0149",
-    "name": "兼容性",
-    "description": "兼容性 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0150",
-    "name": "迁移",
-    "description": "迁移 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0151",
-    "name": "性能",
-    "description": "性能 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0152",
-    "name": "优化",
-    "description": "优化 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0153",
-    "name": "速度",
-    "description": "速度 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0154",
-    "name": "内存",
-    "description": "内存 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0155",
-    "name": "效率",
-    "description": "效率 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0156",
-    "name": "分析",
-    "description": "分析 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0157",
-    "name": "profile",
-    "description": "profile 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0158",
-    "name": "timeit",
-    "description": "timeit 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0159",
-    "name": "并发",
-    "description": "并发 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0160",
-    "name": "多线程",
-    "description": "多线程 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0161",
-    "name": "多进程",
-    "description": "多进程 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0162",
-    "name": "异步",
-    "description": "异步 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0163",
-    "name": "协程",
-    "description": "协程 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0164",
-    "name": "async",
-    "description": "async 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0165",
-    "name": "await",
-    "description": "await 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0166",
-    "name": "网络",
-    "description": "网络 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0167",
-    "name": "HTTP",
-    "description": "HTTP 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0168",
-    "name": "请求",
-    "description": "请求 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0169",
-    "name": "爬虫",
-    "description": "爬虫 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0170",
-    "name": "请求库",
-    "description": "请求库 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0171",
-    "name": "数据分析",
-    "description": "数据分析 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0172",
-    "name": "数据科学",
-    "description": "数据科学 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0173",
-    "name": "pandas",
-    "description": "pandas 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0174",
-    "name": "numpy",
-    "description": "numpy 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0175",
-    "name": "科学计算",
-    "description": "科学计算 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0176",
-    "name": "可视化",
-    "description": "可视化 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0177",
-    "name": "图表",
-    "description": "图表 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0178",
-    "name": "matplotlib",
-    "description": "matplotlib 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0179",
-    "name": "机器学习",
-    "description": "机器学习 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0180",
-    "name": "AI",
-    "description": "AI 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0181",
-    "name": "深度学习",
-    "description": "深度学习 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0182",
-    "name": "scikit-learn",
-    "description": "scikit-learn 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0183",
-    "name": "PyTorch",
-    "description": "PyTorch 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0184",
-    "name": "TensorFlow",
-    "description": "TensorFlow 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0185",
-    "name": "自动化",
-    "description": "自动化 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0186",
-    "name": "脚本编写",
-    "description": "脚本编写 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0187",
-    "name": "批处理",
-    "description": "批处理 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0188",
-    "name": "自动化办公",
-    "description": "自动化办公 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0189",
-    "name": "excel",
-    "description": "excel 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0190",
-    "name": "word",
-    "description": "word 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0191",
-    "name": "PDF",
-    "description": "PDF 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0192",
-    "name": "邮件",
-    "description": "邮件 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0193",
-    "name": "SQL",
-    "description": "SQL 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0194",
-    "name": "数据库",
-    "description": "数据库 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0195",
-    "name": "MySQL",
-    "description": "MySQL 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0196",
-    "name": "PostgreSQL",
-    "description": "PostgreSQL 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0197",
-    "name": "SQLite",
-    "description": "SQLite 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0198",
-    "name": "MongoDB",
-    "description": "MongoDB 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0199",
-    "name": "Redis",
-    "description": "Redis 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0200",
-    "name": "ORM",
-    "description": "ORM 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0201",
-    "name": "Web",
-    "description": "Web 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0202",
-    "name": "Web开发",
-    "description": "Web开发 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0203",
-    "name": "Flask",
-    "description": "Flask 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0204",
-    "name": "Django",
-    "description": "Django 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0205",
-    "name": "FastAPI",
-    "description": "FastAPI 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0206",
-    "name": "REST",
-    "description": "REST 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0207",
-    "name": "API",
-    "description": "API 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0208",
-    "name": "RESTful",
-    "description": "RESTful 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0209",
-    "name": "前端",
-    "description": "前端 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0210",
-    "name": "后端",
-    "description": "后端 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0211",
-    "name": "全栈",
-    "description": "全栈 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0212",
-    "name": "GUI",
-    "description": "GUI 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0213",
-    "name": "界面",
-    "description": "界面 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0214",
-    "name": "Tkinter",
-    "description": "Tkinter 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0215",
-    "name": "PyQt",
-    "description": "PyQt 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0216",
-    "name": "桌面应用",
-    "description": "桌面应用 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0217",
-    "name": "图形界面",
-    "description": "图形界面 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0218",
-    "name": "命令行",
-    "description": "命令行 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0219",
-    "name": "CLI",
-    "description": "CLI 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0220",
-    "name": "argparse",
-    "description": "argparse 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0221",
-    "name": "click",
-    "description": "click 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0222",
-    "name": "typer",
-    "description": "typer 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0223",
-    "name": "发布",
-    "description": "发布 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0224",
-    "name": "打包",
-    "description": "打包 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0225",
-    "name": "PyPI",
-    "description": "PyPI 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0226",
-    "name": "分发",
-    "description": "分发 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0227",
-    "name": "setup",
-    "description": "setup 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0228",
-    "name": "wheel",
-    "description": "wheel 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0229",
-    "name": "二进制",
-    "description": "二进制 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0230",
-    "name": "exe",
-    "description": "exe 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0231",
-    "name": "文档生成",
-    "description": "文档生成 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0232",
-    "name": "Sphinx",
-    "description": "Sphinx 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0233",
-    "name": "Read the Docs",
-    "description": "Read the Docs 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0234",
-    "name": "API文档",
-    "description": "API文档 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0235",
-    "name": "代码规范",
-    "description": "代码规范 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0236",
+    "id": "py-tag-031",
     "name": "PEP8",
-    "description": "PEP8 相关的内容标签。",
-    "count": 0
+    "slug": "PEP8",
+    "count": 1
   },
   {
-    "id": "py-tag-0237",
-    "name": "代码风格",
-    "description": "代码风格 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-032",
+    "name": "pip",
+    "slug": "pip",
+    "count": 2
   },
   {
-    "id": "py-tag-0238",
-    "name": "lint",
-    "description": "lint 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-033",
+    "name": "venv",
+    "slug": "venv",
+    "count": 2
   },
   {
-    "id": "py-tag-0239",
-    "name": "pylint",
-    "description": "pylint 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-034",
+    "name": "小项目",
+    "slug": "小项目",
+    "count": 1
   },
   {
-    "id": "py-tag-0240",
-    "name": "flake8",
-    "description": "flake8 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-035",
+    "name": "实战",
+    "slug": "实战",
+    "count": 1
   },
   {
-    "id": "py-tag-0241",
-    "name": "格式化",
-    "description": "格式化 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-036",
+    "name": "综合",
+    "slug": "综合",
+    "count": 2
   },
   {
-    "id": "py-tag-0242",
-    "name": "black",
-    "description": "black 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-037",
+    "name": "路线",
+    "slug": "路线",
+    "count": 1
   },
   {
-    "id": "py-tag-0243",
-    "name": "isort",
-    "description": "isort 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-038",
+    "name": "复习",
+    "slug": "复习",
+    "count": 1
   },
   {
-    "id": "py-tag-0244",
-    "name": "类型注解",
-    "description": "类型注解 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-039",
+    "name": "Python 是什么",
+    "slug": "Python 是什么",
+    "count": 1
   },
   {
-    "id": "py-tag-0245",
+    "id": "py-tag-040",
+    "name": "安装 Python",
+    "slug": "安装 Python",
+    "count": 1
+  },
+  {
+    "id": "py-tag-041",
+    "name": "使用 IDLE 与 REPL",
+    "slug": "使用 IDLE 与 REPL",
+    "count": 1
+  },
+  {
+    "id": "py-tag-042",
+    "name": "VS Code 配置 Python",
+    "slug": "VS Code 配置 Python",
+    "count": 1
+  },
+  {
+    "id": "py-tag-043",
+    "name": "第一个程序 Hello World",
+    "slug": "第一个程序 Hello World",
+    "count": 1
+  },
+  {
+    "id": "py-tag-044",
+    "name": "缩进与注释基础",
+    "slug": "缩进与注释基础",
+    "count": 1
+  },
+  {
+    "id": "py-tag-045",
+    "name": "print 函数详解",
+    "slug": "print 函数详解",
+    "count": 1
+  },
+  {
+    "id": "py-tag-046",
+    "name": "input 函数与类型转换",
+    "slug": "input 函数与类型转换",
+    "count": 1
+  },
+  {
+    "id": "py-tag-047",
+    "name": "变量与命名",
+    "slug": "变量与命名",
+    "count": 1
+  },
+  {
+    "id": "py-tag-048",
+    "name": "字符串字面量与引号",
+    "slug": "字符串字面量与引号",
+    "count": 1
+  },
+  {
+    "id": "py-tag-049",
+    "name": "f-string 格式化",
+    "slug": "f-string 格式化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-050",
+    "name": "type 与类型转换",
+    "slug": "type 与类型转换",
+    "count": 1
+  },
+  {
+    "id": "py-tag-051",
+    "name": "关键字与运算符概览",
+    "slug": "关键字与运算符概览",
+    "count": 1
+  },
+  {
+    "id": "py-tag-052",
+    "name": "数字类型 int float bool",
+    "slug": "数字类型 int float bool",
+    "count": 1
+  },
+  {
+    "id": "py-tag-053",
+    "name": "字符串索引与切片",
+    "slug": "字符串索引与切片",
+    "count": 1
+  },
+  {
+    "id": "py-tag-054",
+    "name": "字符串常用方法",
+    "slug": "字符串常用方法",
+    "count": 1
+  },
+  {
+    "id": "py-tag-055",
+    "name": "列表增删改查",
+    "slug": "列表增删改查",
+    "count": 1
+  },
+  {
+    "id": "py-tag-056",
+    "name": "列表切片与遍历",
+    "slug": "列表切片与遍历",
+    "count": 1
+  },
+  {
+    "id": "py-tag-057",
+    "name": "嵌套列表与拷贝",
+    "slug": "嵌套列表与拷贝",
+    "count": 1
+  },
+  {
+    "id": "py-tag-058",
+    "name": "元组与不可变性",
+    "slug": "元组与不可变性",
+    "count": 1
+  },
+  {
+    "id": "py-tag-059",
+    "name": "字典键值对",
+    "slug": "字典键值对",
+    "count": 6
+  },
+  {
+    "id": "py-tag-060",
+    "name": "字典遍历与推导式",
+    "slug": "字典遍历与推导式",
+    "count": 1
+  },
+  {
+    "id": "py-tag-061",
+    "name": "集合去重与运算",
+    "slug": "集合去重与运算",
+    "count": 1
+  },
+  {
+    "id": "py-tag-062",
+    "name": "if elif else",
+    "slug": "if elif else",
+    "count": 1
+  },
+  {
+    "id": "py-tag-063",
+    "name": "比较与逻辑运算符",
+    "slug": "比较与逻辑运算符",
+    "count": 1
+  },
+  {
+    "id": "py-tag-064",
+    "name": "for 循环",
+    "slug": "for 循环",
+    "count": 10
+  },
+  {
+    "id": "py-tag-065",
+    "name": "while 循环",
+    "slug": "while 循环",
+    "count": 10
+  },
+  {
+    "id": "py-tag-066",
+    "name": "break 与 continue",
+    "slug": "break 与 continue",
+    "count": 1
+  },
+  {
+    "id": "py-tag-067",
+    "name": "嵌套循环与 zip",
+    "slug": "嵌套循环与 zip",
+    "count": 1
+  },
+  {
+    "id": "py-tag-068",
+    "name": "函数定义与调用",
+    "slug": "函数定义与调用",
+    "count": 1
+  },
+  {
+    "id": "py-tag-069",
+    "name": "参数传递",
+    "slug": "参数传递",
+    "count": 1
+  },
+  {
+    "id": "py-tag-070",
+    "name": "args 与 kwargs",
+    "slug": "args 与 kwargs",
+    "count": 1
+  },
+  {
+    "id": "py-tag-071",
+    "name": "返回值",
+    "slug": "返回值",
+    "count": 5
+  },
+  {
+    "id": "py-tag-072",
+    "name": "lambda 与高阶函数",
+    "slug": "lambda 与高阶函数",
+    "count": 2
+  },
+  {
+    "id": "py-tag-073",
+    "name": "装饰器与递归入门",
+    "slug": "装饰器与递归入门",
+    "count": 1
+  },
+  {
+    "id": "py-tag-074",
+    "name": "import 与自定义模块",
+    "slug": "import 与自定义模块",
+    "count": 1
+  },
+  {
+    "id": "py-tag-075",
+    "name": "包与模块搜索",
+    "slug": "包与模块搜索",
+    "count": 1
+  },
+  {
+    "id": "py-tag-076",
+    "name": "文件读取",
+    "slug": "文件读取",
+    "count": 5
+  },
+  {
+    "id": "py-tag-077",
+    "name": "文件写入",
+    "slug": "文件写入",
+    "count": 5
+  },
+  {
+    "id": "py-tag-078",
+    "name": "with open 语句",
+    "slug": "with open 语句",
+    "count": 6
+  },
+  {
+    "id": "py-tag-079",
+    "name": "try except 异常处理",
+    "slug": "try except 异常处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-080",
+    "name": "raise 与自定义异常",
+    "slug": "raise 与自定义异常",
+    "count": 1
+  },
+  {
+    "id": "py-tag-081",
+    "name": "类和对象",
+    "slug": "类和对象",
+    "count": 1
+  },
+  {
+    "id": "py-tag-082",
+    "name": "方法",
+    "slug": "方法",
+    "count": 6
+  },
+  {
+    "id": "py-tag-083",
+    "name": "str 与 repr",
+    "slug": "str 与 repr",
+    "count": 1
+  },
+  {
+    "id": "py-tag-084",
+    "name": "多态与封装",
+    "slug": "多态与封装",
+    "count": 1
+  },
+  {
+    "id": "py-tag-085",
+    "name": "datetime 处理",
+    "slug": "datetime 处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-086",
+    "name": "random 随机数",
+    "slug": "random 随机数",
+    "count": 1
+  },
+  {
+    "id": "py-tag-087",
+    "name": "pathlib 路径",
+    "slug": "pathlib 路径",
+    "count": 1
+  },
+  {
+    "id": "py-tag-088",
+    "name": "math 与 collections",
+    "slug": "math 与 collections",
+    "count": 1
+  },
+  {
+    "id": "py-tag-089",
+    "name": "json 模块",
+    "slug": "json 模块",
+    "count": 1
+  },
+  {
+    "id": "py-tag-090",
+    "name": "csv 模块",
+    "slug": "csv 模块",
+    "count": 1
+  },
+  {
+    "id": "py-tag-091",
+    "name": "文本处理与编码",
+    "slug": "文本处理与编码",
+    "count": 1
+  },
+  {
+    "id": "py-tag-092",
+    "name": "JSON 与 CSV 转换",
+    "slug": "JSON 与 CSV 转换",
+    "count": 1
+  },
+  {
+    "id": "py-tag-093",
+    "name": "调试错误排查",
+    "slug": "调试错误排查",
+    "count": 1
+  },
+  {
+    "id": "py-tag-094",
+    "name": "常见错误类型",
+    "slug": "常见错误类型",
+    "count": 6
+  },
+  {
+    "id": "py-tag-095",
+    "name": "PEP8 基础",
+    "slug": "PEP8 基础",
+    "count": 1
+  },
+  {
+    "id": "py-tag-096",
+    "name": "pip 与虚拟环境",
+    "slug": "pip 与虚拟环境",
+    "count": 1
+  },
+  {
+    "id": "py-tag-097",
+    "name": "计算器项目",
+    "slug": "计算器项目",
+    "count": 1
+  },
+  {
+    "id": "py-tag-098",
+    "name": "通讯录项目",
+    "slug": "通讯录项目",
+    "count": 1
+  },
+  {
+    "id": "py-tag-099",
+    "name": "待办清单项目",
+    "slug": "待办清单项目",
+    "count": 1
+  },
+  {
+    "id": "py-tag-100",
+    "name": "成绩管理系统",
+    "slug": "成绩管理系统",
+    "count": 1
+  },
+  {
+    "id": "py-tag-101",
+    "name": "文件整理工具",
+    "slug": "文件整理工具",
+    "count": 1
+  },
+  {
+    "id": "py-tag-102",
+    "name": "JSON CSV 转换工具",
+    "slug": "JSON CSV 转换工具",
+    "count": 1
+  },
+  {
+    "id": "py-tag-103",
+    "name": "简单命令行工具",
+    "slug": "简单命令行工具",
+    "count": 1
+  },
+  {
+    "id": "py-tag-104",
+    "name": "后续学习路线",
+    "slug": "后续学习路线",
+    "count": 1
+  },
+  {
+    "id": "py-tag-105",
+    "name": "综合复习",
+    "slug": "综合复习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-106",
+    "name": "print 格式化练习",
+    "slug": "print 格式化练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-107",
+    "name": "input 综合练习",
+    "slug": "input 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-108",
+    "name": "字符串方法综合练习",
+    "slug": "字符串方法综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-109",
+    "name": "列表操作综合练习",
+    "slug": "列表操作综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-110",
+    "name": "字典操作综合练习",
+    "slug": "字典操作综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-111",
+    "name": "条件判断综合练习",
+    "slug": "条件判断综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-112",
+    "name": "循环综合练习",
+    "slug": "循环综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-113",
+    "name": "函数综合练习",
+    "slug": "函数综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-114",
+    "name": "作用域与闭包练习",
+    "slug": "作用域与闭包练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-115",
+    "name": "文件读写综合练习",
+    "slug": "文件读写综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-116",
+    "name": "异常处理综合练习",
+    "slug": "异常处理综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-117",
+    "name": "OOP 综合练习",
+    "slug": "OOP 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-118",
+    "name": "datetime 综合练习",
+    "slug": "datetime 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-119",
+    "name": "random 综合练习",
+    "slug": "random 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-120",
+    "name": "JSON 综合练习",
+    "slug": "JSON 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-121",
+    "name": "CSV 综合练习",
+    "slug": "CSV 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-122",
+    "name": "调试综合练习",
+    "slug": "调试综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-123",
+    "name": "PEP8 综合练习",
+    "slug": "PEP8 综合练习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-124",
+    "name": "项目：批量重命名",
+    "slug": "项目：批量重命名",
+    "count": 1
+  },
+  {
+    "id": "py-tag-125",
+    "name": "项目：单词统计",
+    "slug": "项目：单词统计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-126",
+    "name": "项目：账单统计",
+    "slug": "项目：账单统计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-127",
+    "name": "项目：日志分析",
+    "slug": "项目：日志分析",
+    "count": 1
+  },
+  {
+    "id": "py-tag-128",
+    "name": "项目：单词本",
+    "slug": "项目：单词本",
+    "count": 1
+  },
+  {
+    "id": "py-tag-129",
+    "name": "项目：密码生成器",
+    "slug": "项目：密码生成器",
+    "count": 1
+  },
+  {
+    "id": "py-tag-130",
+    "name": "项目：学生类设计",
+    "slug": "项目：学生类设计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-131",
+    "name": "项目：银行账户类",
+    "slug": "项目：银行账户类",
+    "count": 1
+  },
+  {
+    "id": "py-tag-132",
+    "name": "项目：异常捕获实战",
+    "slug": "项目：异常捕获实战",
+    "count": 1
+  },
+  {
+    "id": "py-tag-133",
+    "name": "面试基础复习",
+    "slug": "面试基础复习",
+    "count": 1
+  },
+  {
+    "id": "py-tag-134",
+    "name": "学习资源整理",
+    "slug": "学习资源整理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-135",
+    "name": "Python 入门与环境搭建",
+    "slug": "Python 入门与环境搭建",
+    "count": 16
+  },
+  {
+    "id": "py-tag-136",
+    "name": "变量与赋值深入",
+    "slug": "变量与赋值深入",
+    "count": 1
+  },
+  {
+    "id": "py-tag-137",
+    "name": "数据类型转换",
+    "slug": "数据类型转换",
+    "count": 1
+  },
+  {
+    "id": "py-tag-138",
+    "name": "运算符综合",
+    "slug": "运算符综合",
+    "count": 1
+  },
+  {
+    "id": "py-tag-139",
+    "name": "字符串方法详解",
+    "slug": "字符串方法详解",
+    "count": 1
+  },
+  {
+    "id": "py-tag-140",
+    "name": "列表推导式",
+    "slug": "列表推导式",
+    "count": 6
+  },
+  {
+    "id": "py-tag-141",
+    "name": "元组与命名元组",
+    "slug": "元组与命名元组",
+    "count": 1
+  },
+  {
+    "id": "py-tag-142",
+    "name": "字典高级用法",
+    "slug": "字典高级用法",
+    "count": 1
+  },
+  {
+    "id": "py-tag-143",
+    "name": "集合运算",
+    "slug": "集合运算",
+    "count": 1
+  },
+  {
+    "id": "py-tag-144",
+    "name": "Python 基础语法",
+    "slug": "Python 基础语法",
+    "count": 13
+  },
+  {
+    "id": "py-tag-145",
+    "name": "迭代器与生成器",
+    "slug": "迭代器与生成器",
+    "count": 1
+  },
+  {
+    "id": "py-tag-146",
+    "name": "装饰器入门",
+    "slug": "装饰器入门",
+    "count": 6
+  },
+  {
+    "id": "py-tag-147",
+    "name": "上下文管理器",
+    "slug": "上下文管理器",
+    "count": 6
+  },
+  {
+    "id": "py-tag-148",
+    "name": "异常处理进阶",
+    "slug": "异常处理进阶",
+    "count": 1
+  },
+  {
+    "id": "py-tag-149",
+    "name": "文件读写模式",
+    "slug": "文件读写模式",
+    "count": 1
+  },
+  {
+    "id": "py-tag-150",
+    "name": "Python 内置数据类型",
+    "slug": "Python 内置数据类型",
+    "count": 9
+  },
+  {
+    "id": "py-tag-151",
+    "name": "路径处理 pathlib",
+    "slug": "路径处理 pathlib",
+    "count": 1
+  },
+  {
+    "id": "py-tag-152",
+    "name": "条件判断与循环",
+    "slug": "条件判断与循环",
+    "count": 14
+  },
+  {
+    "id": "py-tag-153",
+    "name": "JSON 与序列化",
+    "slug": "JSON 与序列化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-154",
+    "name": "CSV 处理",
+    "slug": "CSV 处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-155",
+    "name": "正则表达式基础",
+    "slug": "正则表达式基础",
+    "count": 1
+  },
+  {
+    "id": "py-tag-156",
+    "name": "正则进阶",
+    "slug": "正则进阶",
+    "count": 1
+  },
+  {
+    "id": "py-tag-157",
+    "name": "函数参数进阶",
+    "slug": "函数参数进阶",
+    "count": 1
+  },
+  {
+    "id": "py-tag-158",
+    "name": "函数与模块",
+    "slug": "函数与模块",
+    "count": 11
+  },
+  {
+    "id": "py-tag-159",
+    "name": "闭包与作用域",
+    "slug": "闭包与作用域",
+    "count": 1
+  },
+  {
+    "id": "py-tag-160",
+    "name": "面向对象基础",
+    "slug": "面向对象基础",
+    "count": 1
+  },
+  {
+    "id": "py-tag-161",
+    "name": "继承与多态",
+    "slug": "继承与多态",
+    "count": 1
+  },
+  {
+    "id": "py-tag-162",
+    "name": "文件处理与异常处理",
+    "slug": "文件处理与异常处理",
+    "count": 15
+  },
+  {
+    "id": "py-tag-163",
+    "name": "魔术方法",
+    "slug": "魔术方法",
+    "count": 6
+  },
+  {
+    "id": "py-tag-164",
+    "name": "属性与描述符",
+    "slug": "属性与描述符",
+    "count": 1
+  },
+  {
+    "id": "py-tag-165",
+    "name": "类方法与静态方法",
+    "slug": "类方法与静态方法",
+    "count": 1
+  },
+  {
+    "id": "py-tag-166",
+    "name": "抽象类与接口",
+    "slug": "抽象类与接口",
+    "count": 1
+  },
+  {
+    "id": "py-tag-167",
+    "name": "模块与包",
+    "slug": "模块与包",
+    "count": 35
+  },
+  {
+    "id": "py-tag-168",
+    "name": "导入机制",
+    "slug": "导入机制",
+    "count": 1
+  },
+  {
+    "id": "py-tag-169",
+    "name": "标准库概览",
+    "slug": "标准库概览",
+    "count": 1
+  },
+  {
+    "id": "py-tag-170",
+    "name": "面向对象编程基础",
+    "slug": "面向对象编程基础",
+    "count": 15
+  },
+  {
+    "id": "py-tag-171",
+    "name": "datetime 时间处理",
+    "slug": "datetime 时间处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-172",
+    "name": "collections 工具",
+    "slug": "collections 工具",
+    "count": 1
+  },
+  {
+    "id": "py-tag-173",
+    "name": "itertools 模块",
+    "slug": "itertools 模块",
+    "count": 1
+  },
+  {
+    "id": "py-tag-174",
+    "name": "functools 模块",
+    "slug": "functools 模块",
+    "count": 1
+  },
+  {
+    "id": "py-tag-175",
+    "name": "os 系统接口",
+    "slug": "os 系统接口",
+    "count": 1
+  },
+  {
+    "id": "py-tag-176",
+    "name": "sys 与解释器",
+    "slug": "sys 与解释器",
+    "count": 1
+  },
+  {
+    "id": "py-tag-177",
+    "name": "subprocess 子进程",
+    "slug": "subprocess 子进程",
+    "count": 1
+  },
+  {
+    "id": "py-tag-178",
+    "name": "日志 logging",
+    "slug": "日志 logging",
+    "count": 1
+  },
+  {
+    "id": "py-tag-179",
+    "name": "常用标准库入门",
+    "slug": "常用标准库入门",
+    "count": 15
+  },
+  {
+    "id": "py-tag-180",
+    "name": "单元测试 unittest",
+    "slug": "单元测试 unittest",
+    "count": 1
+  },
+  {
+    "id": "py-tag-181",
+    "name": "性能计时",
+    "slug": "性能计时",
+    "count": 1
+  },
+  {
+    "id": "py-tag-182",
+    "name": "虚拟环境与依赖",
+    "slug": "虚拟环境与依赖",
+    "count": 1
+  },
+  {
+    "id": "py-tag-183",
+    "name": "pip 与 requirements",
+    "slug": "pip 与 requirements",
+    "count": 1
+  },
+  {
+    "id": "py-tag-184",
+    "name": "类型注解基础",
+    "slug": "类型注解基础",
+    "count": 1
+  },
+  {
+    "id": "py-tag-185",
+    "name": "typing 进阶",
+    "slug": "typing 进阶",
+    "count": 1
+  },
+  {
+    "id": "py-tag-186",
+    "name": "数据类 dataclass",
+    "slug": "数据类 dataclass",
+    "count": 1
+  },
+  {
+    "id": "py-tag-187",
+    "name": "枚举 Enum",
+    "slug": "枚举 Enum",
+    "count": 1
+  },
+  {
+    "id": "py-tag-188",
+    "name": "数据文件处理：JSON、CSV、文本",
+    "slug": "数据文件处理：JSON、CSV、文本",
+    "count": 15
+  },
+  {
+    "id": "py-tag-189",
+    "name": "异步基础 async",
+    "slug": "异步基础 async",
+    "count": 1
+  },
+  {
+    "id": "py-tag-190",
+    "name": "事件循环",
+    "slug": "事件循环",
+    "count": 1
+  },
+  {
+    "id": "py-tag-191",
+    "name": "协程与任务",
+    "slug": "协程与任务",
+    "count": 1
+  },
+  {
+    "id": "py-tag-192",
+    "name": "并发与多线程",
+    "slug": "并发与多线程",
+    "count": 1
+  },
+  {
+    "id": "py-tag-193",
+    "name": "多进程处理",
+    "slug": "多进程处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-194",
+    "name": "队列与同步",
+    "slug": "队列与同步",
+    "count": 1
+  },
+  {
+    "id": "py-tag-195",
+    "name": "数据库 sqlite3",
+    "slug": "数据库 sqlite3",
+    "count": 1
+  },
+  {
+    "id": "py-tag-196",
+    "name": "网络请求 urllib",
+    "slug": "网络请求 urllib",
+    "count": 1
+  },
+  {
+    "id": "py-tag-197",
+    "name": "Python 调试、规范与工程习惯",
+    "slug": "Python 调试、规范与工程习惯",
+    "count": 15
+  },
+  {
+    "id": "py-tag-198",
+    "name": "socket 编程",
+    "slug": "socket 编程",
+    "count": 1
+  },
+  {
+    "id": "py-tag-199",
+    "name": "HTTP 客户端",
+    "slug": "HTTP 客户端",
+    "count": 1
+  },
+  {
+    "id": "py-tag-200",
+    "name": "邮件发送",
+    "slug": "邮件发送",
+    "count": 1
+  },
+  {
+    "id": "py-tag-201",
+    "name": "命令行参数 argparse",
+    "slug": "命令行参数 argparse",
+    "count": 1
+  },
+  {
+    "id": "py-tag-202",
+    "name": "配置文件处理",
+    "slug": "配置文件处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-203",
+    "name": "环境变量",
+    "slug": "环境变量",
+    "count": 1
+  },
+  {
+    "id": "py-tag-204",
+    "name": "加密与哈希",
+    "slug": "加密与哈希",
+    "count": 1
+  },
+  {
+    "id": "py-tag-205",
+    "name": "base64 编码",
+    "slug": "base64 编码",
+    "count": 1
+  },
+  {
+    "id": "py-tag-206",
+    "name": "Python 后续学习路线与综合复习",
+    "slug": "Python 后续学习路线与综合复习",
+    "count": 17
+  },
+  {
+    "id": "py-tag-207",
+    "name": "压缩与归档",
+    "slug": "压缩与归档",
+    "count": 1
+  },
+  {
+    "id": "py-tag-208",
+    "name": "图像处理基础",
+    "slug": "图像处理基础",
+    "count": 1
+  },
+  {
+    "id": "py-tag-209",
+    "name": "音频处理入门",
+    "slug": "音频处理入门",
+    "count": 1
+  },
+  {
+    "id": "py-tag-210",
+    "name": "Pandas 数据分析",
+    "slug": "Pandas 数据分析",
+    "count": 1
+  },
+  {
+    "id": "py-tag-211",
+    "name": "NumPy 数组",
+    "slug": "NumPy 数组",
+    "count": 1
+  },
+  {
+    "id": "py-tag-212",
+    "name": "Matplotlib 绘图",
+    "slug": "Matplotlib 绘图",
+    "count": 1
+  },
+  {
+    "id": "py-tag-213",
+    "name": "数据分析流程",
+    "slug": "数据分析流程",
+    "count": 1
+  },
+  {
+    "id": "py-tag-214",
+    "name": "数据清洗",
+    "slug": "数据清洗",
+    "count": 3
+  },
+  {
+    "id": "py-tag-215",
+    "name": "数据可视化",
+    "slug": "数据可视化",
+    "count": 2
+  },
+  {
+    "id": "py-tag-216",
+    "name": "机器学习入门",
+    "slug": "机器学习入门",
+    "count": 1
+  },
+  {
+    "id": "py-tag-217",
+    "name": "Python 历史",
+    "slug": "Python 历史",
+    "count": 5
+  },
+  {
+    "id": "py-tag-218",
+    "name": "Python 版本区别",
+    "slug": "Python 版本区别",
+    "count": 5
+  },
+  {
+    "id": "py-tag-219",
+    "name": "Python 解释器",
+    "slug": "Python 解释器",
+    "count": 5
+  },
+  {
+    "id": "py-tag-220",
+    "name": "CPython",
+    "slug": "CPython",
+    "count": 7
+  },
+  {
+    "id": "py-tag-221",
+    "name": "交互式模式",
+    "slug": "交互式模式",
+    "count": 5
+  },
+  {
+    "id": "py-tag-222",
+    "name": "脚本模式",
+    "slug": "脚本模式",
+    "count": 5
+  },
+  {
+    "id": "py-tag-223",
+    "name": "Windows 安装 Python",
+    "slug": "Windows 安装 Python",
+    "count": 5
+  },
+  {
+    "id": "py-tag-224",
+    "name": "macOS 安装 Python",
+    "slug": "macOS 安装 Python",
+    "count": 5
+  },
+  {
+    "id": "py-tag-225",
+    "name": "Linux 安装 Python",
+    "slug": "Linux 安装 Python",
+    "count": 5
+  },
+  {
+    "id": "py-tag-226",
+    "name": "PATH 环境变量",
+    "slug": "PATH 环境变量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-227",
+    "name": "python 命令",
+    "slug": "python 命令",
+    "count": 5
+  },
+  {
+    "id": "py-tag-228",
+    "name": "python3 命令",
+    "slug": "python3 命令",
+    "count": 5
+  },
+  {
+    "id": "py-tag-229",
+    "name": "IDLE",
+    "slug": "IDLE",
+    "count": 5
+  },
+  {
+    "id": "py-tag-230",
+    "name": "VS Code 安装",
+    "slug": "VS Code 安装",
+    "count": 5
+  },
+  {
+    "id": "py-tag-231",
+    "name": "VS Code Python 扩展",
+    "slug": "VS Code Python 扩展",
+    "count": 5
+  },
+  {
+    "id": "py-tag-232",
+    "name": "PyCharm",
+    "slug": "PyCharm",
+    "count": 5
+  },
+  {
+    "id": "py-tag-233",
+    "name": "Jupyter Notebook",
+    "slug": "Jupyter Notebook",
+    "count": 5
+  },
+  {
+    "id": "py-tag-234",
+    "name": "REPL",
+    "slug": "REPL",
+    "count": 7
+  },
+  {
+    "id": "py-tag-235",
+    "name": "注释的作用",
+    "slug": "注释的作用",
+    "count": 5
+  },
+  {
+    "id": "py-tag-236",
+    "name": "print Hello",
+    "slug": "print Hello",
+    "count": 5
+  },
+  {
+    "id": "py-tag-237",
+    "name": "运行第一个程序",
+    "slug": "运行第一个程序",
+    "count": 5
+  },
+  {
+    "id": "py-tag-238",
+    "name": "缩进基础",
+    "slug": "缩进基础",
+    "count": 5
+  },
+  {
+    "id": "py-tag-239",
+    "name": "PEP 8 简介",
+    "slug": "PEP 8 简介",
+    "count": 5
+  },
+  {
+    "id": "py-tag-240",
+    "name": "编码 UTF-8",
+    "slug": "编码 UTF-8",
+    "count": 5
+  },
+  {
+    "id": "py-tag-241",
+    "name": "源文件扩展名 py",
+    "slug": "源文件扩展名 py",
+    "count": 5
+  },
+  {
+    "id": "py-tag-242",
+    "name": "虚拟环境概念",
+    "slug": "虚拟环境概念",
+    "count": 5
+  },
+  {
+    "id": "py-tag-243",
+    "name": "Python 之禅",
+    "slug": "Python 之禅",
+    "count": 5
+  },
+  {
+    "id": "py-tag-244",
+    "name": "Python 跨平台",
+    "slug": "Python 跨平台",
+    "count": 5
+  },
+  {
+    "id": "py-tag-245",
+    "name": "Python 动态类型特性",
+    "slug": "Python 动态类型特性",
+    "count": 5
+  },
+  {
+    "id": "py-tag-246",
+    "name": "print 函数",
+    "slug": "print 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-247",
+    "name": "print 多参数",
+    "slug": "print 多参数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-248",
+    "name": "print sep 参数",
+    "slug": "print sep 参数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-249",
+    "name": "print end 参数",
+    "slug": "print end 参数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-250",
+    "name": "input 函数",
+    "slug": "input 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-251",
+    "name": "input 返回字符串",
+    "slug": "input 返回字符串",
+    "count": 5
+  },
+  {
+    "id": "py-tag-252",
+    "name": "变量定义",
+    "slug": "变量定义",
+    "count": 5
+  },
+  {
+    "id": "py-tag-253",
+    "name": "变量赋值",
+    "slug": "变量赋值",
+    "count": 5
+  },
+  {
+    "id": "py-tag-254",
+    "name": "变量命名规则",
+    "slug": "变量命名规则",
+    "count": 5
+  },
+  {
+    "id": "py-tag-255",
+    "name": "snake_case 命名",
+    "slug": "snake_case 命名",
+    "count": 5
+  },
+  {
+    "id": "py-tag-256",
+    "name": "关键字列表",
+    "slug": "关键字列表",
+    "count": 5
+  },
+  {
+    "id": "py-tag-257",
+    "name": "单行注释",
+    "slug": "单行注释",
+    "count": 5
+  },
+  {
+    "id": "py-tag-258",
+    "name": "多行注释",
+    "slug": "多行注释",
+    "count": 5
+  },
+  {
+    "id": "py-tag-259",
+    "name": "缩进错误",
+    "slug": "缩进错误",
+    "count": 5
+  },
+  {
+    "id": "py-tag-260",
+    "name": "代码块",
+    "slug": "代码块",
+    "count": 5
+  },
+  {
+    "id": "py-tag-261",
+    "name": "字符串字面量",
+    "slug": "字符串字面量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-262",
+    "name": "字符串引号",
+    "slug": "字符串引号",
+    "count": 5
+  },
+  {
+    "id": "py-tag-263",
+    "name": "f-string",
+    "slug": "f-string",
+    "count": 5
+  },
+  {
+    "id": "py-tag-264",
+    "name": "format 方法",
+    "slug": "format 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-265",
+    "name": "类型转换 int",
+    "slug": "类型转换 int",
+    "count": 5
+  },
+  {
+    "id": "py-tag-266",
+    "name": "类型转换 float",
+    "slug": "类型转换 float",
+    "count": 5
+  },
+  {
+    "id": "py-tag-267",
+    "name": "类型转换 str",
+    "slug": "类型转换 str",
+    "count": 5
+  },
+  {
+    "id": "py-tag-268",
+    "name": "type 函数",
+    "slug": "type 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-269",
+    "name": "表达式与语句",
+    "slug": "表达式与语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-270",
+    "name": "运算符概览",
+    "slug": "运算符概览",
+    "count": 5
+  },
+  {
+    "id": "py-tag-271",
+    "name": "赋值运算符",
+    "slug": "赋值运算符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-272",
+    "name": "多重赋值",
+    "slug": "多重赋值",
+    "count": 5
+  },
+  {
+    "id": "py-tag-273",
+    "name": "常量约定",
+    "slug": "常量约定",
+    "count": 5
+  },
+  {
+    "id": "py-tag-274",
+    "name": "海象运算符",
+    "slug": "海象运算符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-275",
+    "name": "链式比较",
+    "slug": "链式比较",
+    "count": 5
+  },
+  {
+    "id": "py-tag-276",
+    "name": "位运算符",
+    "slug": "位运算符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-277",
+    "name": "del 删除变量",
+    "slug": "del 删除变量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-278",
+    "name": "is 与 == 区别",
+    "slug": "is 与 == 区别",
+    "count": 5
+  },
+  {
+    "id": "py-tag-279",
+    "name": "小整数池",
+    "slug": "小整数池",
+    "count": 5
+  },
+  {
+    "id": "py-tag-280",
+    "name": "字符串驻留",
+    "slug": "字符串驻留",
+    "count": 5
+  },
+  {
+    "id": "py-tag-281",
+    "name": "int 整数",
+    "slug": "int 整数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-282",
+    "name": "float 浮点数",
+    "slug": "float 浮点数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-283",
+    "name": "浮点精度问题",
+    "slug": "浮点精度问题",
+    "count": 5
+  },
+  {
+    "id": "py-tag-284",
+    "name": "bool 布尔",
+    "slug": "bool 布尔",
+    "count": 5
+  },
+  {
+    "id": "py-tag-285",
+    "name": "True False",
+    "slug": "True False",
+    "count": 5
+  },
+  {
+    "id": "py-tag-286",
+    "name": "None",
+    "slug": "None",
+    "count": 7
+  },
+  {
+    "id": "py-tag-287",
+    "name": "str 字符串",
+    "slug": "str 字符串",
+    "count": 5
+  },
+  {
+    "id": "py-tag-288",
+    "name": "字符串索引",
+    "slug": "字符串索引",
+    "count": 5
+  },
+  {
+    "id": "py-tag-289",
+    "name": "字符串负索引",
+    "slug": "字符串负索引",
+    "count": 5
+  },
+  {
+    "id": "py-tag-290",
+    "name": "字符串切片",
+    "slug": "字符串切片",
+    "count": 5
+  },
+  {
+    "id": "py-tag-291",
+    "name": "字符串长度 len",
+    "slug": "字符串长度 len",
+    "count": 5
+  },
+  {
+    "id": "py-tag-292",
+    "name": "字符串拼接",
+    "slug": "字符串拼接",
+    "count": 5
+  },
+  {
+    "id": "py-tag-293",
+    "name": "字符串重复",
+    "slug": "字符串重复",
+    "count": 5
+  },
+  {
+    "id": "py-tag-294",
+    "name": "split 方法",
+    "slug": "split 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-295",
+    "name": "join 方法",
+    "slug": "join 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-296",
+    "name": "replace 方法",
+    "slug": "replace 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-297",
+    "name": "strip 方法",
+    "slug": "strip 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-298",
+    "name": "upper lower",
+    "slug": "upper lower",
+    "count": 5
+  },
+  {
+    "id": "py-tag-299",
+    "name": "find index",
+    "slug": "find index",
+    "count": 5
+  },
+  {
+    "id": "py-tag-300",
+    "name": "startswith endswith",
+    "slug": "startswith endswith",
+    "count": 5
+  },
+  {
+    "id": "py-tag-301",
+    "name": "isdigit isalpha",
+    "slug": "isdigit isalpha",
+    "count": 5
+  },
+  {
+    "id": "py-tag-302",
+    "name": "字符串不可变",
+    "slug": "字符串不可变",
+    "count": 5
+  },
+  {
+    "id": "py-tag-303",
+    "name": "转义字符",
+    "slug": "转义字符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-304",
+    "name": "原始字符串",
+    "slug": "原始字符串",
+    "count": 5
+  },
+  {
+    "id": "py-tag-305",
+    "name": "列表字面量",
+    "slug": "列表字面量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-306",
+    "name": "列表索引",
+    "slug": "列表索引",
+    "count": 5
+  },
+  {
+    "id": "py-tag-307",
+    "name": "列表负索引",
+    "slug": "列表负索引",
+    "count": 5
+  },
+  {
+    "id": "py-tag-308",
+    "name": "列表切片",
+    "slug": "列表切片",
+    "count": 5
+  },
+  {
+    "id": "py-tag-309",
+    "name": "append 方法",
+    "slug": "append 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-310",
+    "name": "insert 方法",
+    "slug": "insert 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-311",
+    "name": "extend 方法",
+    "slug": "extend 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-312",
+    "name": "pop 方法",
+    "slug": "pop 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-313",
+    "name": "remove 方法",
+    "slug": "remove 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-314",
+    "name": "列表 del",
+    "slug": "列表 del",
+    "count": 5
+  },
+  {
+    "id": "py-tag-315",
+    "name": "列表修改元素",
+    "slug": "列表修改元素",
+    "count": 5
+  },
+  {
+    "id": "py-tag-316",
+    "name": "列表长度",
+    "slug": "列表长度",
+    "count": 5
+  },
+  {
+    "id": "py-tag-317",
+    "name": "列表排序 sort",
+    "slug": "列表排序 sort",
+    "count": 5
+  },
+  {
+    "id": "py-tag-318",
+    "name": "sorted 函数",
+    "slug": "sorted 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-319",
+    "name": "列表反转 reverse",
+    "slug": "列表反转 reverse",
+    "count": 5
+  },
+  {
+    "id": "py-tag-320",
+    "name": "列表遍历",
+    "slug": "列表遍历",
+    "count": 5
+  },
+  {
+    "id": "py-tag-321",
+    "name": "嵌套列表",
+    "slug": "嵌套列表",
+    "count": 5
+  },
+  {
+    "id": "py-tag-322",
+    "name": "列表浅拷贝",
+    "slug": "列表浅拷贝",
+    "count": 5
+  },
+  {
+    "id": "py-tag-323",
+    "name": "列表深拷贝",
+    "slug": "列表深拷贝",
+    "count": 5
+  },
+  {
+    "id": "py-tag-324",
+    "name": "列表可变性",
+    "slug": "列表可变性",
+    "count": 5
+  },
+  {
+    "id": "py-tag-325",
+    "name": "元组字面量",
+    "slug": "元组字面量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-326",
+    "name": "元组不可变",
+    "slug": "元组不可变",
+    "count": 5
+  },
+  {
+    "id": "py-tag-327",
+    "name": "元组索引",
+    "slug": "元组索引",
+    "count": 5
+  },
+  {
+    "id": "py-tag-328",
+    "name": "元组解包",
+    "slug": "元组解包",
+    "count": 5
+  },
+  {
+    "id": "py-tag-329",
+    "name": "单元素元组",
+    "slug": "单元素元组",
+    "count": 5
+  },
+  {
+    "id": "py-tag-330",
+    "name": "元组 vs 列表",
+    "slug": "元组 vs 列表",
+    "count": 5
+  },
+  {
+    "id": "py-tag-331",
+    "name": "字典字面量",
+    "slug": "字典字面量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-332",
+    "name": "字典访问",
+    "slug": "字典访问",
+    "count": 5
+  },
+  {
+    "id": "py-tag-333",
+    "name": "字典添加",
+    "slug": "字典添加",
+    "count": 5
+  },
+  {
+    "id": "py-tag-334",
+    "name": "字典修改",
+    "slug": "字典修改",
+    "count": 5
+  },
+  {
+    "id": "py-tag-335",
+    "name": "字典删除",
+    "slug": "字典删除",
+    "count": 5
+  },
+  {
+    "id": "py-tag-336",
+    "name": "字典 keys",
+    "slug": "字典 keys",
+    "count": 5
+  },
+  {
+    "id": "py-tag-337",
+    "name": "字典 values",
+    "slug": "字典 values",
+    "count": 5
+  },
+  {
+    "id": "py-tag-338",
+    "name": "字典 items",
+    "slug": "字典 items",
+    "count": 5
+  },
+  {
+    "id": "py-tag-339",
+    "name": "字典遍历",
+    "slug": "字典遍历",
+    "count": 5
+  },
+  {
+    "id": "py-tag-340",
+    "name": "字典 get 方法",
+    "slug": "字典 get 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-341",
+    "name": "字典推导式",
+    "slug": "字典推导式",
+    "count": 5
+  },
+  {
+    "id": "py-tag-342",
+    "name": "字典键不可变要求",
+    "slug": "字典键不可变要求",
+    "count": 5
+  },
+  {
+    "id": "py-tag-343",
+    "name": "集合字面量",
+    "slug": "集合字面量",
+    "count": 5
+  },
+  {
+    "id": "py-tag-344",
+    "name": "集合去重",
+    "slug": "集合去重",
+    "count": 5
+  },
+  {
+    "id": "py-tag-345",
+    "name": "集合 add remove",
+    "slug": "集合 add remove",
+    "count": 5
+  },
+  {
+    "id": "py-tag-346",
+    "name": "集合运算 并集",
+    "slug": "集合运算 并集",
+    "count": 5
+  },
+  {
+    "id": "py-tag-347",
+    "name": "集合运算 交集",
+    "slug": "集合运算 交集",
+    "count": 5
+  },
+  {
+    "id": "py-tag-348",
+    "name": "集合运算 差集",
+    "slug": "集合运算 差集",
+    "count": 5
+  },
+  {
+    "id": "py-tag-349",
+    "name": "frozen set",
+    "slug": "frozen set",
+    "count": 5
+  },
+  {
+    "id": "py-tag-350",
+    "name": "in 运算符",
+    "slug": "in 运算符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-351",
+    "name": "可变与不可变总结",
+    "slug": "可变与不可变总结",
+    "count": 5
+  },
+  {
+    "id": "py-tag-352",
+    "name": "类型转换场景",
+    "slug": "类型转换场景",
+    "count": 5
+  },
+  {
+    "id": "py-tag-353",
+    "name": "if 语句",
+    "slug": "if 语句",
+    "count": 9
+  },
+  {
+    "id": "py-tag-354",
+    "name": "elif 语句",
+    "slug": "elif 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-355",
+    "name": "else 语句",
+    "slug": "else 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-356",
+    "name": "比较运算符",
+    "slug": "比较运算符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-357",
+    "name": "逻辑运算符 and",
+    "slug": "逻辑运算符 and",
+    "count": 5
+  },
+  {
+    "id": "py-tag-358",
+    "name": "逻辑运算符 or",
+    "slug": "逻辑运算符 or",
+    "count": 5
+  },
+  {
+    "id": "py-tag-359",
+    "name": "逻辑运算符 not",
+    "slug": "逻辑运算符 not",
+    "count": 5
+  },
+  {
+    "id": "py-tag-360",
+    "name": "布尔表达式",
+    "slug": "布尔表达式",
+    "count": 5
+  },
+  {
+    "id": "py-tag-361",
+    "name": "条件嵌套",
+    "slug": "条件嵌套",
+    "count": 5
+  },
+  {
+    "id": "py-tag-362",
+    "name": "三元表达式",
+    "slug": "三元表达式",
+    "count": 5
+  },
+  {
+    "id": "py-tag-363",
+    "name": "for 遍历列表",
+    "slug": "for 遍历列表",
+    "count": 5
+  },
+  {
+    "id": "py-tag-364",
+    "name": "for 遍历字符串",
+    "slug": "for 遍历字符串",
+    "count": 5
+  },
+  {
+    "id": "py-tag-365",
+    "name": "range 函数",
+    "slug": "range 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-366",
+    "name": "range start stop step",
+    "slug": "range start stop step",
+    "count": 5
+  },
+  {
+    "id": "py-tag-367",
+    "name": "enumerate",
+    "slug": "enumerate",
+    "count": 5
+  },
+  {
+    "id": "py-tag-368",
+    "name": "while 条件",
+    "slug": "while 条件",
+    "count": 5
+  },
+  {
+    "id": "py-tag-369",
+    "name": "死循环",
+    "slug": "死循环",
+    "count": 5
+  },
+  {
+    "id": "py-tag-370",
+    "name": "break 语句",
+    "slug": "break 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-371",
+    "name": "continue 语句",
+    "slug": "continue 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-372",
+    "name": "pass 语句",
+    "slug": "pass 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-373",
+    "name": "循环 else",
+    "slug": "循环 else",
+    "count": 5
+  },
+  {
+    "id": "py-tag-374",
+    "name": "嵌套循环",
+    "slug": "嵌套循环",
+    "count": 5
+  },
+  {
+    "id": "py-tag-375",
+    "name": "循环与列表",
+    "slug": "循环与列表",
+    "count": 5
+  },
+  {
+    "id": "py-tag-376",
+    "name": "zip 并行遍历",
+    "slug": "zip 并行遍历",
+    "count": 5
+  },
+  {
+    "id": "py-tag-377",
+    "name": "迭代器概念",
+    "slug": "迭代器概念",
+    "count": 5
+  },
+  {
+    "id": "py-tag-378",
+    "name": "可迭代对象",
+    "slug": "可迭代对象",
+    "count": 7
+  },
+  {
+    "id": "py-tag-379",
+    "name": "match 语句",
+    "slug": "match 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-380",
+    "name": "def 定义函数",
+    "slug": "def 定义函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-381",
+    "name": "函数调用",
+    "slug": "函数调用",
+    "count": 5
+  },
+  {
+    "id": "py-tag-382",
+    "name": "形参与实参",
+    "slug": "形参与实参",
+    "count": 5
+  },
+  {
+    "id": "py-tag-383",
+    "name": "位置参数",
+    "slug": "位置参数",
+    "count": 9
+  },
+  {
+    "id": "py-tag-384",
+    "name": "关键字参数",
+    "slug": "关键字参数",
+    "count": 9
+  },
+  {
+    "id": "py-tag-385",
+    "name": "默认参数",
+    "slug": "默认参数",
+    "count": 9
+  },
+  {
+    "id": "py-tag-386",
+    "name": "可变默认参数陷阱",
+    "slug": "可变默认参数陷阱",
+    "count": 5
+  },
+  {
+    "id": "py-tag-387",
+    "name": "args 可变参数",
+    "slug": "args 可变参数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-388",
+    "name": "kwargs 关键字参数",
+    "slug": "kwargs 关键字参数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-389",
+    "name": "return 返回值",
+    "slug": "return 返回值",
+    "count": 5
+  },
+  {
+    "id": "py-tag-390",
+    "name": "多返回值",
+    "slug": "多返回值",
+    "count": 9
+  },
+  {
+    "id": "py-tag-391",
+    "name": "无返回值 None",
+    "slug": "无返回值 None",
+    "count": 5
+  },
+  {
+    "id": "py-tag-392",
+    "name": "函数文档字符串",
+    "slug": "函数文档字符串",
+    "count": 5
+  },
+  {
+    "id": "py-tag-393",
+    "name": "lambda 表达式",
+    "slug": "lambda 表达式",
+    "count": 5
+  },
+  {
+    "id": "py-tag-394",
+    "name": "匿名函数",
+    "slug": "匿名函数",
+    "count": 7
+  },
+  {
+    "id": "py-tag-395",
+    "name": "高阶函数",
+    "slug": "高阶函数",
+    "count": 11
+  },
+  {
+    "id": "py-tag-396",
+    "name": "map 函数",
+    "slug": "map 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-397",
+    "name": "filter 函数",
+    "slug": "filter 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-398",
+    "name": "局部作用域",
+    "slug": "局部作用域",
+    "count": 5
+  },
+  {
+    "id": "py-tag-399",
+    "name": "全局作用域",
+    "slug": "全局作用域",
+    "count": 5
+  },
+  {
+    "id": "py-tag-400",
+    "name": "global 关键字",
+    "slug": "global 关键字",
+    "count": 5
+  },
+  {
+    "id": "py-tag-401",
+    "name": "nonlocal 关键字",
+    "slug": "nonlocal 关键字",
+    "count": 5
+  },
+  {
+    "id": "py-tag-402",
+    "name": "LEGB 规则",
+    "slug": "LEGB 规则",
+    "count": 9
+  },
+  {
+    "id": "py-tag-403",
+    "name": "闭包",
+    "slug": "闭包",
+    "count": 11
+  },
+  {
+    "id": "py-tag-404",
+    "name": "递归",
+    "slug": "递归",
+    "count": 5
+  },
+  {
+    "id": "py-tag-405",
+    "name": "递归终止条件",
+    "slug": "递归终止条件",
+    "count": 5
+  },
+  {
+    "id": "py-tag-406",
+    "name": "import 语句",
+    "slug": "import 语句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-407",
+    "name": "from import",
+    "slug": "from import",
+    "count": 5
+  },
+  {
+    "id": "py-tag-408",
+    "name": "import as",
+    "slug": "import as",
+    "count": 5
+  },
+  {
+    "id": "py-tag-409",
+    "name": "自定义模块",
+    "slug": "自定义模块",
+    "count": 5
+  },
+  {
+    "id": "py-tag-410",
+    "name": "name main",
+    "slug": "name main",
+    "count": 5
+  },
+  {
+    "id": "py-tag-411",
+    "name": "包的概念",
+    "slug": "包的概念",
+    "count": 5
+  },
+  {
+    "id": "py-tag-412",
+    "name": "init py",
+    "slug": "init py",
+    "count": 9
+  },
+  {
+    "id": "py-tag-413",
+    "name": "模块搜索路径",
+    "slug": "模块搜索路径",
+    "count": 5
+  },
+  {
+    "id": "py-tag-414",
+    "name": "标准库模块",
+    "slug": "标准库模块",
+    "count": 5
+  },
+  {
+    "id": "py-tag-415",
+    "name": "open 函数",
+    "slug": "open 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-416",
+    "name": "打开模式 r",
+    "slug": "打开模式 r",
+    "count": 5
+  },
+  {
+    "id": "py-tag-417",
+    "name": "打开模式 w",
+    "slug": "打开模式 w",
+    "count": 5
+  },
+  {
+    "id": "py-tag-418",
+    "name": "打开模式 a",
+    "slug": "打开模式 a",
+    "count": 5
+  },
+  {
+    "id": "py-tag-419",
+    "name": "read 方法",
+    "slug": "read 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-420",
+    "name": "readline 方法",
+    "slug": "readline 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-421",
+    "name": "readlines 方法",
+    "slug": "readlines 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-422",
+    "name": "write 方法",
+    "slug": "write 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-423",
+    "name": "writelines 方法",
+    "slug": "writelines 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-424",
+    "name": "文件关闭",
+    "slug": "文件关闭",
+    "count": 5
+  },
+  {
+    "id": "py-tag-425",
+    "name": "文件路径",
+    "slug": "文件路径",
+    "count": 5
+  },
+  {
+    "id": "py-tag-426",
+    "name": "相对路径",
+    "slug": "相对路径",
+    "count": 5
+  },
+  {
+    "id": "py-tag-427",
+    "name": "绝对路径",
+    "slug": "绝对路径",
+    "count": 5
+  },
+  {
+    "id": "py-tag-428",
+    "name": "try except",
+    "slug": "try except",
+    "count": 9
+  },
+  {
+    "id": "py-tag-429",
+    "name": "多个 except",
+    "slug": "多个 except",
+    "count": 5
+  },
+  {
+    "id": "py-tag-430",
+    "name": "except Exception",
+    "slug": "except Exception",
+    "count": 5
+  },
+  {
+    "id": "py-tag-431",
+    "name": "else 子句",
+    "slug": "else 子句",
+    "count": 9
+  },
+  {
+    "id": "py-tag-432",
+    "name": "finally 子句",
+    "slug": "finally 子句",
+    "count": 5
+  },
+  {
+    "id": "py-tag-433",
+    "name": "raise 抛出",
+    "slug": "raise 抛出",
+    "count": 5
+  },
+  {
+    "id": "py-tag-434",
+    "name": "自定义异常",
+    "slug": "自定义异常",
+    "count": 9
+  },
+  {
+    "id": "py-tag-435",
+    "name": "ValueError",
+    "slug": "ValueError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-436",
+    "name": "TypeError",
+    "slug": "TypeError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-437",
+    "name": "FileNotFoundError",
+    "slug": "FileNotFoundError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-438",
+    "name": "IndexError",
+    "slug": "IndexError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-439",
+    "name": "KeyError",
+    "slug": "KeyError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-440",
+    "name": "异常链",
+    "slug": "异常链",
+    "count": 9
+  },
+  {
+    "id": "py-tag-441",
+    "name": "class 定义",
+    "slug": "class 定义",
+    "count": 5
+  },
+  {
+    "id": "py-tag-442",
+    "name": "对象实例",
+    "slug": "对象实例",
+    "count": 5
+  },
+  {
+    "id": "py-tag-443",
+    "name": "init 方法",
+    "slug": "init 方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-444",
+    "name": "self 参数",
+    "slug": "self 参数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-445",
+    "name": "实例属性",
+    "slug": "实例属性",
+    "count": 9
+  },
+  {
+    "id": "py-tag-446",
+    "name": "实例方法",
+    "slug": "实例方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-447",
+    "name": "类属性",
+    "slug": "类属性",
+    "count": 9
+  },
+  {
+    "id": "py-tag-448",
+    "name": "类方法",
+    "slug": "类方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-449",
+    "name": "静态方法",
+    "slug": "静态方法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-450",
+    "name": "str 方法",
+    "slug": "str 方法",
+    "count": 9
+  },
+  {
+    "id": "py-tag-451",
+    "name": "repr 方法",
+    "slug": "repr 方法",
+    "count": 9
+  },
+  {
+    "id": "py-tag-452",
+    "name": "继承语法",
+    "slug": "继承语法",
+    "count": 5
+  },
+  {
+    "id": "py-tag-453",
+    "name": "super 函数",
+    "slug": "super 函数",
+    "count": 5
+  },
+  {
+    "id": "py-tag-454",
+    "name": "方法重写",
+    "slug": "方法重写",
+    "count": 5
+  },
+  {
+    "id": "py-tag-455",
+    "name": "多态",
+    "slug": "多态",
+    "count": 10
+  },
+  {
+    "id": "py-tag-456",
+    "name": "封装",
+    "slug": "封装",
+    "count": 6
+  },
+  {
+    "id": "py-tag-457",
+    "name": "私有属性",
+    "slug": "私有属性",
+    "count": 5
+  },
+  {
+    "id": "py-tag-458",
+    "name": "属性访问 protected",
+    "slug": "属性访问 protected",
+    "count": 5
+  },
+  {
+    "id": "py-tag-459",
+    "name": "object 类",
+    "slug": "object 类",
+    "count": 5
+  },
+  {
+    "id": "py-tag-460",
+    "name": "isinstance",
+    "slug": "isinstance",
+    "count": 5
+  },
+  {
+    "id": "py-tag-461",
+    "name": "issubclass",
+    "slug": "issubclass",
+    "count": 5
+  },
+  {
+    "id": "py-tag-462",
+    "name": "组合",
+    "slug": "组合",
+    "count": 5
+  },
+  {
+    "id": "py-tag-463",
+    "name": "dict 属性",
+    "slug": "dict 属性",
+    "count": 5
+  },
+  {
+    "id": "py-tag-464",
+    "name": "property 装饰器",
+    "slug": "property 装饰器",
+    "count": 5
+  },
+  {
+    "id": "py-tag-465",
+    "name": "datetime date",
+    "slug": "datetime date",
+    "count": 5
+  },
+  {
+    "id": "py-tag-466",
+    "name": "datetime time",
+    "slug": "datetime time",
+    "count": 5
+  },
+  {
+    "id": "py-tag-467",
+    "name": "datetime datetime",
+    "slug": "datetime datetime",
+    "count": 5
+  },
+  {
+    "id": "py-tag-468",
+    "name": "datetime now",
+    "slug": "datetime now",
+    "count": 5
+  },
+  {
+    "id": "py-tag-469",
+    "name": "strftime",
+    "slug": "strftime",
+    "count": 9
+  },
+  {
+    "id": "py-tag-470",
+    "name": "strptime",
+    "slug": "strptime",
+    "count": 9
+  },
+  {
+    "id": "py-tag-471",
+    "name": "timedelta",
+    "slug": "timedelta",
+    "count": 9
+  },
+  {
+    "id": "py-tag-472",
+    "name": "random random",
+    "slug": "random random",
+    "count": 5
+  },
+  {
+    "id": "py-tag-473",
+    "name": "random randint",
+    "slug": "random randint",
+    "count": 5
+  },
+  {
+    "id": "py-tag-474",
+    "name": "random choice",
+    "slug": "random choice",
+    "count": 5
+  },
+  {
+    "id": "py-tag-475",
+    "name": "random shuffle",
+    "slug": "random shuffle",
+    "count": 5
+  },
+  {
+    "id": "py-tag-476",
+    "name": "random sample",
+    "slug": "random sample",
+    "count": 5
+  },
+  {
+    "id": "py-tag-477",
+    "name": "random seed",
+    "slug": "random seed",
+    "count": 5
+  },
+  {
+    "id": "py-tag-478",
+    "name": "pathlib Path",
+    "slug": "pathlib Path",
+    "count": 5
+  },
+  {
+    "id": "py-tag-479",
+    "name": "Path exists",
+    "slug": "Path exists",
+    "count": 5
+  },
+  {
+    "id": "py-tag-480",
+    "name": "Path 读写",
+    "slug": "Path 读写",
+    "count": 5
+  },
+  {
+    "id": "py-tag-481",
+    "name": "os path",
+    "slug": "os path",
+    "count": 5
+  },
+  {
+    "id": "py-tag-482",
+    "name": "os getcwd",
+    "slug": "os getcwd",
+    "count": 5
+  },
+  {
+    "id": "py-tag-483",
+    "name": "os listdir",
+    "slug": "os listdir",
+    "count": 5
+  },
+  {
+    "id": "py-tag-484",
+    "name": "math sqrt",
+    "slug": "math sqrt",
+    "count": 5
+  },
+  {
+    "id": "py-tag-485",
+    "name": "math pi",
+    "slug": "math pi",
+    "count": 5
+  },
+  {
+    "id": "py-tag-486",
+    "name": "math ceil floor",
+    "slug": "math ceil floor",
+    "count": 5
+  },
+  {
+    "id": "py-tag-487",
+    "name": "collections Counter",
+    "slug": "collections Counter",
+    "count": 5
+  },
+  {
+    "id": "py-tag-488",
+    "name": "collections defaultdict",
+    "slug": "collections defaultdict",
+    "count": 5
+  },
+  {
+    "id": "py-tag-489",
+    "name": "collections OrderedDict",
+    "slug": "collections OrderedDict",
+    "count": 5
+  },
+  {
+    "id": "py-tag-490",
+    "name": "sys argv",
+    "slug": "sys argv",
+    "count": 5
+  },
+  {
+    "id": "py-tag-491",
+    "name": "json dumps",
+    "slug": "json dumps",
+    "count": 5
+  },
+  {
+    "id": "py-tag-492",
+    "name": "json loads",
+    "slug": "json loads",
+    "count": 5
+  },
+  {
+    "id": "py-tag-493",
+    "name": "json dump 文件",
+    "slug": "json dump 文件",
+    "count": 5
+  },
+  {
+    "id": "py-tag-494",
+    "name": "json load 文件",
+    "slug": "json load 文件",
+    "count": 5
+  },
+  {
+    "id": "py-tag-495",
+    "name": "JSON 序列化限制",
+    "slug": "JSON 序列化限制",
+    "count": 5
+  },
+  {
+    "id": "py-tag-496",
+    "name": "csv reader",
+    "slug": "csv reader",
+    "count": 5
+  },
+  {
+    "id": "py-tag-497",
+    "name": "csv writer",
+    "slug": "csv writer",
+    "count": 5
+  },
+  {
+    "id": "py-tag-498",
+    "name": "csv DictReader",
+    "slug": "csv DictReader",
+    "count": 5
+  },
+  {
+    "id": "py-tag-499",
+    "name": "csv DictWriter",
+    "slug": "csv DictWriter",
+    "count": 5
+  },
+  {
+    "id": "py-tag-500",
+    "name": "CSV 逗号分隔",
+    "slug": "CSV 逗号分隔",
+    "count": 5
+  },
+  {
+    "id": "py-tag-501",
+    "name": "文本读取逐行",
+    "slug": "文本读取逐行",
+    "count": 5
+  },
+  {
+    "id": "py-tag-502",
+    "name": "文本写入",
+    "slug": "文本写入",
+    "count": 5
+  },
+  {
+    "id": "py-tag-503",
+    "name": "编码指定 utf8",
+    "slug": "编码指定 utf8",
+    "count": 5
+  },
+  {
+    "id": "py-tag-504",
+    "name": "数据转换思路",
+    "slug": "数据转换思路",
+    "count": 5
+  },
+  {
+    "id": "py-tag-505",
+    "name": "JSON 到 CSV",
+    "slug": "JSON 到 CSV",
+    "count": 5
+  },
+  {
+    "id": "py-tag-506",
+    "name": "CSV 到 JSON",
+    "slug": "CSV 到 JSON",
+    "count": 5
+  },
+  {
+    "id": "py-tag-507",
+    "name": "结构化数据处理",
+    "slug": "结构化数据处理",
+    "count": 5
+  },
+  {
+    "id": "py-tag-508",
+    "name": "print 调试",
+    "slug": "print 调试",
+    "count": 5
+  },
+  {
+    "id": "py-tag-509",
+    "name": "断点调试",
+    "slug": "断点调试",
+    "count": 5
+  },
+  {
+    "id": "py-tag-510",
+    "name": "pdb 模块",
+    "slug": "pdb 模块",
+    "count": 5
+  },
+  {
+    "id": "py-tag-511",
+    "name": "VS Code 调试",
+    "slug": "VS Code 调试",
+    "count": 5
+  },
+  {
+    "id": "py-tag-512",
+    "name": "阅读错误信息",
+    "slug": "阅读错误信息",
+    "count": 5
+  },
+  {
+    "id": "py-tag-513",
+    "name": "Traceback 理解",
+    "slug": "Traceback 理解",
+    "count": 5
+  },
+  {
+    "id": "py-tag-514",
+    "name": "缩进错误排查",
+    "slug": "缩进错误排查",
+    "count": 5
+  },
+  {
+    "id": "py-tag-515",
+    "name": "NameError",
+    "slug": "NameError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-516",
+    "name": "AttributeError",
+    "slug": "AttributeError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-517",
+    "name": "ZeroDivisionError",
+    "slug": "ZeroDivisionError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-518",
+    "name": "IndentationError",
+    "slug": "IndentationError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-519",
+    "name": "SyntaxError",
+    "slug": "SyntaxError",
+    "count": 5
+  },
+  {
+    "id": "py-tag-520",
+    "name": "PEP 8 缩进",
+    "slug": "PEP 8 缩进",
+    "count": 5
+  },
+  {
+    "id": "py-tag-521",
+    "name": "PEP 8 命名",
+    "slug": "PEP 8 命名",
+    "count": 5
+  },
+  {
+    "id": "py-tag-522",
+    "name": "行长度限制",
+    "slug": "行长度限制",
+    "count": 5
+  },
+  {
+    "id": "py-tag-523",
+    "name": "import 顺序",
+    "slug": "import 顺序",
+    "count": 5
+  },
+  {
+    "id": "py-tag-524",
+    "name": "pip install",
+    "slug": "pip install",
+    "count": 9
+  },
+  {
+    "id": "py-tag-525",
+    "name": "pip list",
+    "slug": "pip list",
+    "count": 5
+  },
+  {
+    "id": "py-tag-526",
+    "name": "pip uninstall",
+    "slug": "pip uninstall",
+    "count": 5
+  },
+  {
+    "id": "py-tag-527",
+    "name": "venv 创建",
+    "slug": "venv 创建",
+    "count": 5
+  },
+  {
+    "id": "py-tag-528",
+    "name": "venv 激活",
+    "slug": "venv 激活",
+    "count": 5
+  },
+  {
+    "id": "py-tag-529",
+    "name": "requirements txt",
+    "slug": "requirements txt",
+    "count": 5
+  },
+  {
+    "id": "py-tag-530",
+    "name": "虚拟环境作用",
+    "slug": "虚拟环境作用",
+    "count": 5
+  },
+  {
+    "id": "py-tag-531",
+    "name": "计算器项目结构",
+    "slug": "计算器项目结构",
+    "count": 5
+  },
+  {
+    "id": "py-tag-532",
+    "name": "计算器函数设计",
+    "slug": "计算器函数设计",
+    "count": 5
+  },
+  {
+    "id": "py-tag-533",
+    "name": "计算器循环交互",
+    "slug": "计算器循环交互",
+    "count": 5
+  },
+  {
+    "id": "py-tag-534",
+    "name": "通讯录数据结构",
+    "slug": "通讯录数据结构",
+    "count": 5
+  },
+  {
+    "id": "py-tag-535",
+    "name": "通讯录增删改查",
+    "slug": "通讯录增删改查",
+    "count": 5
+  },
+  {
+    "id": "py-tag-536",
+    "name": "通讯录文件存储",
+    "slug": "通讯录文件存储",
+    "count": 5
+  },
+  {
+    "id": "py-tag-537",
+    "name": "待办清单列表",
+    "slug": "待办清单列表",
+    "count": 5
+  },
+  {
+    "id": "py-tag-538",
+    "name": "待办清单状态",
+    "slug": "待办清单状态",
+    "count": 5
+  },
+  {
+    "id": "py-tag-539",
+    "name": "待办清单持久化",
+    "slug": "待办清单持久化",
+    "count": 5
+  },
+  {
+    "id": "py-tag-540",
+    "name": "成绩管理字典",
+    "slug": "成绩管理字典",
+    "count": 5
+  },
+  {
+    "id": "py-tag-541",
+    "name": "成绩统计平均",
+    "slug": "成绩统计平均",
+    "count": 5
+  },
+  {
+    "id": "py-tag-542",
+    "name": "成绩排序输出",
+    "slug": "成绩排序输出",
+    "count": 5
+  },
+  {
+    "id": "py-tag-543",
+    "name": "文件整理分类",
+    "slug": "文件整理分类",
+    "count": 5
+  },
+  {
+    "id": "py-tag-544",
+    "name": "文件整理移动",
+    "slug": "文件整理移动",
+    "count": 5
+  },
+  {
+    "id": "py-tag-545",
+    "name": "pathlib 批量操作",
+    "slug": "pathlib 批量操作",
+    "count": 5
+  },
+  {
+    "id": "py-tag-546",
+    "name": "JSON CSV 转换流程",
+    "slug": "JSON CSV 转换流程",
+    "count": 5
+  },
+  {
+    "id": "py-tag-547",
+    "name": "命令行参数 sys argv",
+    "slug": "命令行参数 sys argv",
+    "count": 5
+  },
+  {
+    "id": "py-tag-548",
+    "name": "argparse 入门",
+    "slug": "argparse 入门",
+    "count": 5
+  },
+  {
+    "id": "py-tag-549",
+    "name": "项目目录结构",
+    "slug": "项目目录结构",
+    "count": 5
+  },
+  {
+    "id": "py-tag-550",
+    "name": "项目 README",
+    "slug": "项目 README",
+    "count": 4
+  },
+  {
+    "id": "py-tag-551",
+    "name": "代码组织模块化",
+    "slug": "代码组织模块化",
+    "count": 4
+  },
+  {
+    "id": "py-tag-552",
+    "name": "后续方向概览",
+    "slug": "后续方向概览",
+    "count": 4
+  },
+  {
+    "id": "py-tag-553",
+    "name": "数据分析方向",
+    "slug": "数据分析方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-554",
+    "name": "自动化办公方向",
+    "slug": "自动化办公方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-555",
+    "name": "爬虫方向",
+    "slug": "爬虫方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-556",
+    "name": "Web 开发方向",
+    "slug": "Web 开发方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-557",
+    "name": "AI 应用方向",
+    "slug": "AI 应用方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-558",
+    "name": "算法方向",
+    "slug": "算法方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-559",
+    "name": "综合复习重点",
+    "slug": "综合复习重点",
+    "count": 4
+  },
+  {
+    "id": "py-tag-560",
+    "name": "面试基础要点",
+    "slug": "面试基础要点",
+    "count": 4
+  },
+  {
+    "id": "py-tag-561",
+    "name": "学习资源推荐",
+    "slug": "学习资源推荐",
+    "count": 4
+  },
+  {
+    "id": "py-tag-562",
+    "name": "pip 配置镜像源",
+    "slug": "pip 配置镜像源",
+    "count": 4
+  },
+  {
+    "id": "py-tag-563",
+    "name": "pip show 查看包信息",
+    "slug": "pip show 查看包信息",
+    "count": 4
+  },
+  {
+    "id": "py-tag-564",
+    "name": "Python 官方文档使用",
+    "slug": "Python 官方文档使用",
+    "count": 4
+  },
+  {
+    "id": "py-tag-565",
+    "name": "Python 社区与 PEP",
+    "slug": "Python 社区与 PEP",
+    "count": 4
+  },
+  {
+    "id": "py-tag-566",
+    "name": "虚拟环境 pipenv",
+    "slug": "虚拟环境 pipenv",
+    "count": 4
+  },
+  {
+    "id": "py-tag-567",
+    "name": "conda 环境管理",
+    "slug": "conda 环境管理",
+    "count": 4
+  },
+  {
+    "id": "py-tag-568",
+    "name": "Python 版本管理 pyenv",
+    "slug": "Python 版本管理 pyenv",
+    "count": 4
+  },
+  {
+    "id": "py-tag-569",
+    "name": "shebang 行",
+    "slug": "shebang 行",
+    "count": 4
+  },
+  {
+    "id": "py-tag-570",
+    "name": "编码声明行",
+    "slug": "编码声明行",
+    "count": 4
+  },
+  {
+    "id": "py-tag-571",
+    "name": "print 格式化输出详解",
+    "slug": "print 格式化输出详解",
+    "count": 4
+  },
+  {
+    "id": "py-tag-572",
+    "name": "多重赋值解包",
+    "slug": "多重赋值解包",
+    "count": 4
+  },
+  {
+    "id": "py-tag-573",
+    "name": "常量命名约定",
+    "slug": "常量命名约定",
+    "count": 4
+  },
+  {
+    "id": "py-tag-574",
+    "name": "三引号字符串",
+    "slug": "三引号字符串",
+    "count": 4
+  },
+  {
+    "id": "py-tag-575",
+    "name": "字符串模板 Template",
+    "slug": "字符串模板 Template",
+    "count": 4
+  },
+  {
+    "id": "py-tag-576",
+    "name": "字符串 center ljust rjust",
+    "slug": "字符串 center ljust rjust",
+    "count": 4
+  },
+  {
+    "id": "py-tag-577",
+    "name": "字符串 count 方法",
+    "slug": "字符串 count 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-578",
+    "name": "字符串 isnumeric",
+    "slug": "字符串 isnumeric",
+    "count": 4
+  },
+  {
+    "id": "py-tag-579",
+    "name": "字符串 zfill",
+    "slug": "字符串 zfill",
+    "count": 4
+  },
+  {
+    "id": "py-tag-580",
+    "name": "字符串 partition",
+    "slug": "字符串 partition",
+    "count": 4
+  },
+  {
+    "id": "py-tag-581",
+    "name": "列表 index 方法",
+    "slug": "列表 index 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-582",
+    "name": "列表 count 方法",
+    "slug": "列表 count 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-583",
+    "name": "列表 clear 方法",
+    "slug": "列表 clear 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-584",
+    "name": "列表 copy 方法",
+    "slug": "列表 copy 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-585",
+    "name": "字典 pop 方法",
+    "slug": "字典 pop 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-586",
+    "name": "字典 update 方法",
+    "slug": "字典 update 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-587",
+    "name": "字典 fromkeys",
+    "slug": "字典 fromkeys",
+    "count": 4
+  },
+  {
+    "id": "py-tag-588",
+    "name": "集合 issubset",
+    "slug": "集合 issubset",
+    "count": 4
+  },
+  {
+    "id": "py-tag-589",
+    "name": "集合 issuperset",
+    "slug": "集合 issuperset",
+    "count": 4
+  },
+  {
+    "id": "py-tag-590",
+    "name": "集合 symmetric_difference",
+    "slug": "集合 symmetric_difference",
+    "count": 4
+  },
+  {
+    "id": "py-tag-591",
+    "name": "切片赋值",
+    "slug": "切片赋值",
+    "count": 4
+  },
+  {
+    "id": "py-tag-592",
+    "name": "bytes 与 bytearray",
+    "slug": "bytes 与 bytearray",
+    "count": 4
+  },
+  {
+    "id": "py-tag-593",
+    "name": "枚举类型 Enum",
+    "slug": "枚举类型 Enum",
+    "count": 4
+  },
+  {
+    "id": "py-tag-594",
+    "name": "类型转换场景总结",
+    "slug": "类型转换场景总结",
+    "count": 4
+  },
+  {
+    "id": "py-tag-595",
+    "name": "内存视图 memoryview",
+    "slug": "内存视图 memoryview",
+    "count": 4
+  },
+  {
+    "id": "py-tag-596",
+    "name": "海象运算符在循环中",
+    "slug": "海象运算符在循环中",
+    "count": 4
+  },
+  {
+    "id": "py-tag-597",
+    "name": "for else 应用场景",
+    "slug": "for else 应用场景",
+    "count": 4
+  },
+  {
+    "id": "py-tag-598",
+    "name": "while else 应用场景",
+    "slug": "while else 应用场景",
+    "count": 4
+  },
+  {
+    "id": "py-tag-599",
+    "name": "迭代器 iter next",
+    "slug": "迭代器 iter next",
+    "count": 4
+  },
+  {
+    "id": "py-tag-600",
+    "name": "生成器入门 yield",
+    "slug": "生成器入门 yield",
+    "count": 4
+  },
+  {
+    "id": "py-tag-601",
+    "name": "生成器表达式",
+    "slug": "生成器表达式",
+    "count": 8
+  },
+  {
+    "id": "py-tag-602",
+    "name": "列表推导式双循环",
+    "slug": "列表推导式双循环",
+    "count": 4
+  },
+  {
+    "id": "py-tag-603",
+    "name": "集合推导式",
+    "slug": "集合推导式",
+    "count": 4
+  },
+  {
+    "id": "py-tag-604",
+    "name": "条件表达式嵌套",
+    "slug": "条件表达式嵌套",
+    "count": 4
+  },
+  {
+    "id": "py-tag-605",
+    "name": "短路求值",
+    "slug": "短路求值",
+    "count": 4
+  },
+  {
+    "id": "py-tag-606",
+    "name": "any 函数",
+    "slug": "any 函数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-607",
+    "name": "all 函数",
+    "slug": "all 函数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-608",
+    "name": "sorted key 参数",
+    "slug": "sorted key 参数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-609",
+    "name": "reversed 函数",
+    "slug": "reversed 函数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-610",
+    "name": "itertools 入门",
+    "slug": "itertools 入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-611",
+    "name": "函数注解类型提示",
+    "slug": "函数注解类型提示",
+    "count": 4
+  },
+  {
+    "id": "py-tag-612",
+    "name": "typing 模块入门",
+    "slug": "typing 模块入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-613",
+    "name": "callable 可调用对象",
+    "slug": "callable 可调用对象",
+    "count": 4
+  },
+  {
+    "id": "py-tag-614",
+    "name": "偏函数 functools partial",
+    "slug": "偏函数 functools partial",
+    "count": 4
+  },
+  {
+    "id": "py-tag-615",
+    "name": "装饰器带参数",
+    "slug": "装饰器带参数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-616",
+    "name": "装饰器 stacked",
+    "slug": "装饰器 stacked",
+    "count": 4
+  },
+  {
+    "id": "py-tag-617",
+    "name": "递归汉诺塔",
+    "slug": "递归汉诺塔",
+    "count": 4
+  },
+  {
+    "id": "py-tag-618",
+    "name": "递归二分查找",
+    "slug": "递归二分查找",
+    "count": 4
+  },
+  {
+    "id": "py-tag-619",
+    "name": "变量作用域 nonlocal 闭包",
+    "slug": "变量作用域 nonlocal 闭包",
+    "count": 4
+  },
+  {
+    "id": "py-tag-620",
+    "name": "模块 name 惯例",
+    "slug": "模块 name 惯例",
+    "count": 4
+  },
+  {
+    "id": "py-tag-621",
+    "name": "包相对导入",
+    "slug": "包相对导入",
+    "count": 4
+  },
+  {
+    "id": "py-tag-622",
+    "name": "all 列表",
+    "slug": "all 列表",
+    "count": 4
+  },
+  {
+    "id": "py-tag-623",
+    "name": "functools wraps",
+    "slug": "functools wraps",
+    "count": 4
+  },
+  {
+    "id": "py-tag-624",
+    "name": "functools lru_cache",
+    "slug": "functools lru_cache",
+    "count": 4
+  },
+  {
+    "id": "py-tag-625",
+    "name": "函数式编程范式",
+    "slug": "函数式编程范式",
+    "count": 4
+  },
+  {
+    "id": "py-tag-626",
+    "name": "文件读写二进制模式",
+    "slug": "文件读写二进制模式",
+    "count": 4
+  },
+  {
+    "id": "py-tag-627",
+    "name": "文件迭代逐行",
+    "slug": "文件迭代逐行",
+    "count": 4
+  },
+  {
+    "id": "py-tag-628",
+    "name": "with 多文件同时打开",
+    "slug": "with 多文件同时打开",
+    "count": 4
+  },
+  {
+    "id": "py-tag-629",
+    "name": "csv 大文件处理",
+    "slug": "csv 大文件处理",
+    "count": 4
+  },
+  {
+    "id": "py-tag-630",
+    "name": "异常捕获顺序原则",
+    "slug": "异常捕获顺序原则",
+    "count": 4
+  },
+  {
+    "id": "py-tag-631",
+    "name": "自定义异常继承体系",
+    "slug": "自定义异常继承体系",
+    "count": 4
+  },
+  {
+    "id": "py-tag-632",
+    "name": "raise from 异常链",
+    "slug": "raise from 异常链",
+    "count": 4
+  },
+  {
+    "id": "py-tag-633",
+    "name": "finally 执行时机",
+    "slug": "finally 执行时机",
+    "count": 4
+  },
+  {
+    "id": "py-tag-634",
+    "name": "断言 assert",
+    "slug": "断言 assert",
+    "count": 4
+  },
+  {
+    "id": "py-tag-635",
+    "name": "上下文管理器 contextmanager",
+    "slug": "上下文管理器 contextmanager",
+    "count": 4
+  },
+  {
+    "id": "py-tag-636",
+    "name": "文件编码识别",
+    "slug": "文件编码识别",
+    "count": 4
+  },
+  {
+    "id": "py-tag-637",
+    "name": "路径操作 os path 常用",
+    "slug": "路径操作 os path 常用",
+    "count": 4
+  },
+  {
+    "id": "py-tag-638",
+    "name": "临时文件 tempfile",
+    "slug": "临时文件 tempfile",
+    "count": 4
+  },
+  {
+    "id": "py-tag-639",
+    "name": "shutil 文件操作",
+    "slug": "shutil 文件操作",
+    "count": 4
+  },
+  {
+    "id": "py-tag-640",
+    "name": "pickle 序列化",
+    "slug": "pickle 序列化",
+    "count": 4
+  },
+  {
+    "id": "py-tag-641",
+    "name": "类属性与实例属性区别",
+    "slug": "类属性与实例属性区别",
+    "count": 4
+  },
+  {
+    "id": "py-tag-642",
+    "name": "类方法 cls 参数",
+    "slug": "类方法 cls 参数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-643",
+    "name": "静态方法适用场景",
+    "slug": "静态方法适用场景",
+    "count": 4
+  },
+  {
+    "id": "py-tag-644",
+    "name": "继承链 super 调用顺序",
+    "slug": "继承链 super 调用顺序",
+    "count": 4
+  },
+  {
+    "id": "py-tag-645",
+    "name": "多态方法分发",
+    "slug": "多态方法分发",
+    "count": 4
+  },
+  {
+    "id": "py-tag-646",
+    "name": "property 设置器删除器",
+    "slug": "property 设置器删除器",
+    "count": 4
+  },
+  {
+    "id": "py-tag-647",
+    "name": "多重继承 MRO",
+    "slug": "多重继承 MRO",
+    "count": 4
+  },
+  {
+    "id": "py-tag-648",
+    "name": "抽象基类 ABC",
+    "slug": "抽象基类 ABC",
+    "count": 4
+  },
+  {
+    "id": "py-tag-649",
+    "name": "鸭子类型",
+    "slug": "鸭子类型",
+    "count": 9
+  },
+  {
+    "id": "py-tag-650",
+    "name": "dataclass 装饰器",
+    "slug": "dataclass 装饰器",
+    "count": 4
+  },
+  {
+    "id": "py-tag-651",
+    "name": "slots 优化",
+    "slug": "slots 优化",
+    "count": 4
+  },
+  {
+    "id": "py-tag-652",
+    "name": "类方法替代构造",
+    "slug": "类方法替代构造",
+    "count": 4
+  },
+  {
+    "id": "py-tag-653",
+    "name": "运算符重载",
+    "slug": "运算符重载",
+    "count": 4
+  },
+  {
+    "id": "py-tag-654",
+    "name": "描述符入门",
+    "slug": "描述符入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-655",
+    "name": "元类入门",
+    "slug": "元类入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-656",
+    "name": "collections namedtuple",
+    "slug": "collections namedtuple",
+    "count": 4
+  },
+  {
+    "id": "py-tag-657",
+    "name": "协议 Protocol",
+    "slug": "协议 Protocol",
+    "count": 4
+  },
+  {
+    "id": "py-tag-658",
+    "name": "datetime 时区概念",
+    "slug": "datetime 时区概念",
+    "count": 4
+  },
+  {
+    "id": "py-tag-659",
+    "name": "strftime 格式符大全",
+    "slug": "strftime 格式符大全",
+    "count": 4
+  },
+  {
+    "id": "py-tag-660",
+    "name": "timedelta 日期计算",
+    "slug": "timedelta 日期计算",
+    "count": 4
+  },
+  {
+    "id": "py-tag-661",
+    "name": "random 随机种子复现",
+    "slug": "random 随机种子复现",
+    "count": 4
+  },
+  {
+    "id": "py-tag-662",
+    "name": "random 不重复抽样",
+    "slug": "random 不重复抽样",
+    "count": 4
+  },
+  {
+    "id": "py-tag-663",
+    "name": "random choices 加权",
+    "slug": "random choices 加权",
+    "count": 4
+  },
+  {
+    "id": "py-tag-664",
+    "name": "pathlib 路径拼接 slash",
+    "slug": "pathlib 路径拼接 slash",
+    "count": 4
+  },
+  {
+    "id": "py-tag-665",
+    "name": "pathlib glob 匹配",
+    "slug": "pathlib glob 匹配",
+    "count": 4
+  },
+  {
+    "id": "py-tag-666",
+    "name": "os path 与 pathlib 对比",
+    "slug": "os path 与 pathlib 对比",
+    "count": 4
+  },
+  {
+    "id": "py-tag-667",
+    "name": "Counter 计数统计",
+    "slug": "Counter 计数统计",
+    "count": 4
+  },
+  {
+    "id": "py-tag-668",
+    "name": "defaultdict 默认工厂",
+    "slug": "defaultdict 默认工厂",
+    "count": 4
+  },
+  {
+    "id": "py-tag-669",
+    "name": "OrderedDict 有序字典",
+    "slug": "OrderedDict 有序字典",
+    "count": 4
+  },
+  {
+    "id": "py-tag-670",
+    "name": "collections deque",
+    "slug": "collections deque",
+    "count": 4
+  },
+  {
+    "id": "py-tag-671",
+    "name": "itertools chain",
+    "slug": "itertools chain",
+    "count": 4
+  },
+  {
+    "id": "py-tag-672",
+    "name": "itertools islice",
+    "slug": "itertools islice",
+    "count": 4
+  },
+  {
+    "id": "py-tag-673",
+    "name": "time 模块时间戳",
+    "slug": "time 模块时间戳",
+    "count": 4
+  },
+  {
+    "id": "py-tag-674",
+    "name": "os environ 环境变量",
+    "slug": "os environ 环境变量",
+    "count": 4
+  },
+  {
+    "id": "py-tag-675",
+    "name": "sys path 模块路径",
+    "slug": "sys path 模块路径",
+    "count": 4
+  },
+  {
+    "id": "py-tag-676",
+    "name": "platform 模块",
+    "slug": "platform 模块",
+    "count": 4
+  },
+  {
+    "id": "py-tag-677",
+    "name": "json 中文编码 ensure_ascii",
+    "slug": "json 中文编码 ensure_ascii",
+    "count": 4
+  },
+  {
+    "id": "py-tag-678",
+    "name": "csv 表头处理",
+    "slug": "csv 表头处理",
+    "count": 4
+  },
+  {
+    "id": "py-tag-679",
+    "name": "csv 引号与分隔符",
+    "slug": "csv 引号与分隔符",
+    "count": 4
+  },
+  {
+    "id": "py-tag-680",
+    "name": "json 序列化自定义对象",
+    "slug": "json 序列化自定义对象",
+    "count": 4
+  },
+  {
+    "id": "py-tag-681",
+    "name": "xml 解析入门",
+    "slug": "xml 解析入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-682",
+    "name": "yaml 格式简介",
+    "slug": "yaml 格式简介",
+    "count": 4
+  },
+  {
+    "id": "py-tag-683",
+    "name": "ini 配置文件 configparser",
+    "slug": "ini 配置文件 configparser",
+    "count": 4
+  },
+  {
+    "id": "py-tag-684",
+    "name": "正则表达式入门 re",
+    "slug": "正则表达式入门 re",
+    "count": 4
+  },
+  {
+    "id": "py-tag-685",
+    "name": "re search 匹配",
+    "slug": "re search 匹配",
+    "count": 4
+  },
+  {
+    "id": "py-tag-686",
+    "name": "re findall 查找",
+    "slug": "re findall 查找",
+    "count": 4
+  },
+  {
+    "id": "py-tag-687",
+    "name": "re sub 替换",
+    "slug": "re sub 替换",
+    "count": 4
+  },
+  {
+    "id": "py-tag-688",
+    "name": "re compile 预编译",
+    "slug": "re compile 预编译",
+    "count": 4
+  },
+  {
+    "id": "py-tag-689",
+    "name": "正则表达式分组",
+    "slug": "正则表达式分组",
+    "count": 4
+  },
+  {
+    "id": "py-tag-690",
+    "name": "正则表达式量词",
+    "slug": "正则表达式量词",
+    "count": 4
+  },
+  {
+    "id": "py-tag-691",
+    "name": "正则表达式字符类",
+    "slug": "正则表达式字符类",
+    "count": 4
+  },
+  {
+    "id": "py-tag-692",
+    "name": "re 忽略大小写",
+    "slug": "re 忽略大小写",
+    "count": 4
+  },
+  {
+    "id": "py-tag-693",
+    "name": "re 多行模式",
+    "slug": "re 多行模式",
+    "count": 4
+  },
+  {
+    "id": "py-tag-694",
+    "name": "logging 日志入门",
+    "slug": "logging 日志入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-695",
+    "name": "unittest 单元测试",
+    "slug": "unittest 单元测试",
+    "count": 4
+  },
+  {
+    "id": "py-tag-696",
+    "name": "doctest 文档测试",
+    "slug": "doctest 文档测试",
+    "count": 4
+  },
+  {
+    "id": "py-tag-697",
+    "name": "性能分析 timeit",
+    "slug": "性能分析 timeit",
+    "count": 4
+  },
+  {
+    "id": "py-tag-698",
+    "name": "cProfile 性能分析",
+    "slug": "cProfile 性能分析",
+    "count": 4
+  },
+  {
+    "id": "py-tag-699",
+    "name": "代码质量 pylint",
+    "slug": "代码质量 pylint",
+    "count": 4
+  },
+  {
+    "id": "py-tag-700",
+    "name": "类型检查 mypy",
+    "slug": "类型检查 mypy",
+    "count": 4
+  },
+  {
+    "id": "py-tag-701",
+    "name": "代码格式化 black",
+    "slug": "代码格式化 black",
+    "count": 4
+  },
+  {
+    "id": "py-tag-702",
+    "name": "isort 导入排序",
+    "slug": "isort 导入排序",
+    "count": 4
+  },
+  {
+    "id": "py-tag-703",
+    "name": "pre-commit 钩子",
+    "slug": "pre-commit 钩子",
+    "count": 4
+  },
+  {
+    "id": "py-tag-704",
+    "name": "CI 持续集成概念",
+    "slug": "CI 持续集成概念",
+    "count": 4
+  },
+  {
+    "id": "py-tag-705",
+    "name": "README 编写规范",
+    "slug": "README 编写规范",
+    "count": 4
+  },
+  {
+    "id": "py-tag-706",
+    "name": "LICENSE 选择",
+    "slug": "LICENSE 选择",
+    "count": 4
+  },
+  {
+    "id": "py-tag-707",
+    "name": "docstring 规范",
+    "slug": "docstring 规范",
+    "count": 4
+  },
+  {
+    "id": "py-tag-708",
+    "name": "type hint 实践",
+    "slug": "type hint 实践",
+    "count": 4
+  },
+  {
+    "id": "py-tag-709",
+    "name": "项目异常捕获设计",
+    "slug": "项目异常捕获设计",
+    "count": 4
+  },
+  {
+    "id": "py-tag-710",
+    "name": "项目函数拆分原则",
+    "slug": "项目函数拆分原则",
+    "count": 4
+  },
+  {
+    "id": "py-tag-711",
+    "name": "项目数据与逻辑分离",
+    "slug": "项目数据与逻辑分离",
+    "count": 4
+  },
+  {
+    "id": "py-tag-712",
+    "name": "项目配置文件管理",
+    "slug": "项目配置文件管理",
+    "count": 4
+  },
+  {
+    "id": "py-tag-713",
+    "name": "项目日志集成",
+    "slug": "项目日志集成",
+    "count": 4
+  },
+  {
+    "id": "py-tag-714",
+    "name": "项目测试策略",
+    "slug": "项目测试策略",
+    "count": 4
+  },
+  {
+    "id": "py-tag-715",
+    "name": "requirements 管理最佳实践",
+    "slug": "requirements 管理最佳实践",
+    "count": 4
+  },
+  {
+    "id": "py-tag-716",
+    "name": "setup py 入门",
+    "slug": "setup py 入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-717",
+    "name": "pyproject toml 简介",
+    "slug": "pyproject toml 简介",
+    "count": 4
+  },
+  {
+    "id": "py-tag-718",
+    "name": "虚拟环境隔离实践",
+    "slug": "虚拟环境隔离实践",
+    "count": 4
+  },
+  {
+    "id": "py-tag-719",
+    "name": "命令行工具设计模式",
+    "slug": "命令行工具设计模式",
+    "count": 4
+  },
+  {
+    "id": "py-tag-720",
+    "name": "argparse 可选参数",
+    "slug": "argparse 可选参数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-721",
+    "name": "argparse 子命令",
+    "slug": "argparse 子命令",
+    "count": 4
+  },
+  {
+    "id": "py-tag-722",
+    "name": "argparse 参数类型",
+    "slug": "argparse 参数类型",
+    "count": 4
+  },
+  {
+    "id": "py-tag-723",
+    "name": "subprocess 调用外部命令",
+    "slug": "subprocess 调用外部命令",
+    "count": 4
+  },
+  {
+    "id": "py-tag-724",
+    "name": "数据分析 pandas 入门",
+    "slug": "数据分析 pandas 入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-725",
+    "name": "自动化办公 openpyxl",
+    "slug": "自动化办公 openpyxl",
+    "count": 4
+  },
+  {
+    "id": "py-tag-726",
+    "name": "爬虫 requests 入门",
+    "slug": "爬虫 requests 入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-727",
+    "name": "Web 框架 Flask 入门",
+    "slug": "Web 框架 Flask 入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-728",
+    "name": "AI 应用原理概述",
+    "slug": "AI 应用原理概述",
+    "count": 4
+  },
+  {
+    "id": "py-tag-729",
+    "name": "算法与数据结构方向",
+    "slug": "算法与数据结构方向",
+    "count": 4
+  },
+  {
+    "id": "py-tag-730",
+    "name": "竞赛编程入门",
+    "slug": "竞赛编程入门",
+    "count": 4
+  },
+  {
+    "id": "py-tag-731",
+    "name": "开源项目贡献指南",
+    "slug": "开源项目贡献指南",
+    "count": 4
+  },
+  {
+    "id": "py-tag-732",
+    "name": "技术博客写作",
+    "slug": "技术博客写作",
+    "count": 4
+  },
+  {
+    "id": "py-tag-733",
+    "name": "代码审查 Code Review",
+    "slug": "代码审查 Code Review",
+    "count": 4
+  },
+  {
+    "id": "py-tag-734",
+    "name": "Python",
+    "slug": "Python",
+    "count": 3098
+  },
+  {
+    "id": "py-tag-735",
+    "name": "open",
+    "slug": "open",
+    "count": 5
+  },
+  {
+    "id": "py-tag-736",
+    "name": "iter",
+    "slug": "iter",
+    "count": 4
+  },
+  {
+    "id": "py-tag-737",
+    "name": "next",
+    "slug": "next",
+    "count": 4
+  },
+  {
+    "id": "py-tag-738",
+    "name": "len",
+    "slug": "len",
+    "count": 4
+  },
+  {
+    "id": "py-tag-739",
+    "name": "repr",
+    "slug": "repr",
+    "count": 4
+  },
+  {
+    "id": "py-tag-740",
+    "name": "str",
+    "slug": "str",
+    "count": 4
+  },
+  {
+    "id": "py-tag-741",
+    "name": "int",
+    "slug": "int",
+    "count": 4
+  },
+  {
+    "id": "py-tag-742",
+    "name": "float",
+    "slug": "float",
+    "count": 4
+  },
+  {
+    "id": "py-tag-743",
+    "name": "bool",
+    "slug": "bool",
+    "count": 4
+  },
+  {
+    "id": "py-tag-744",
+    "name": "list",
+    "slug": "list",
+    "count": 4
+  },
+  {
+    "id": "py-tag-745",
+    "name": "dict",
+    "slug": "dict",
+    "count": 4
+  },
+  {
+    "id": "py-tag-746",
+    "name": "set",
+    "slug": "set",
+    "count": 4
+  },
+  {
+    "id": "py-tag-747",
+    "name": "elif",
+    "slug": "elif",
+    "count": 4
+  },
+  {
+    "id": "py-tag-748",
+    "name": "else",
+    "slug": "else",
+    "count": 4
+  },
+  {
+    "id": "py-tag-749",
+    "name": "嵌套条件",
+    "slug": "嵌套条件",
+    "count": 4
+  },
+  {
+    "id": "py-tag-750",
+    "name": "条件表达式",
+    "slug": "条件表达式",
+    "count": 4
+  },
+  {
+    "id": "py-tag-751",
+    "name": "break",
+    "slug": "break",
+    "count": 4
+  },
+  {
+    "id": "py-tag-752",
+    "name": "continue",
+    "slug": "continue",
+    "count": 4
+  },
+  {
+    "id": "py-tag-753",
+    "name": "pass",
+    "slug": "pass",
+    "count": 4
+  },
+  {
+    "id": "py-tag-754",
+    "name": "else in loop",
+    "slug": "else in loop",
+    "count": 4
+  },
+  {
+    "id": "py-tag-755",
+    "name": "循环嵌套",
+    "slug": "循环嵌套",
+    "count": 4
+  },
+  {
+    "id": "py-tag-756",
+    "name": "迭代协议",
+    "slug": "迭代协议",
+    "count": 4
+  },
+  {
+    "id": "py-tag-757",
+    "name": "生成器函数",
+    "slug": "生成器函数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-758",
+    "name": "yield",
+    "slug": "yield",
+    "count": 4
+  },
+  {
+    "id": "py-tag-759",
+    "name": "yield from",
+    "slug": "yield from",
+    "count": 4
+  },
+  {
+    "id": "py-tag-760",
+    "name": "装饰器",
+    "slug": "装饰器",
+    "count": 6
+  },
+  {
+    "id": "py-tag-761",
+    "name": "带参装饰器",
+    "slug": "带参装饰器",
+    "count": 4
+  },
+  {
+    "id": "py-tag-762",
+    "name": "functools.wraps",
+    "slug": "functools.wraps",
+    "count": 4
+  },
+  {
+    "id": "py-tag-763",
+    "name": "类定义",
+    "slug": "类定义",
+    "count": 4
+  },
+  {
+    "id": "py-tag-764",
+    "name": "实例化",
+    "slug": "实例化",
+    "count": 4
+  },
+  {
+    "id": "py-tag-765",
+    "name": "self",
+    "slug": "self",
+    "count": 4
+  },
+  {
+    "id": "py-tag-766",
+    "name": "构造方法",
+    "slug": "构造方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-767",
+    "name": "析构方法",
+    "slug": "析构方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-768",
+    "name": "多重继承",
+    "slug": "多重继承",
+    "count": 4
+  },
+  {
+    "id": "py-tag-769",
+    "name": "MRO",
+    "slug": "MRO",
+    "count": 5
+  },
+  {
+    "id": "py-tag-770",
+    "name": "super",
+    "slug": "super",
+    "count": 5
+  },
+  {
+    "id": "py-tag-771",
+    "name": "eq 方法",
+    "slug": "eq 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-772",
+    "name": "hash 方法",
+    "slug": "hash 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-773",
+    "name": "getitem",
+    "slug": "getitem",
+    "count": 4
+  },
+  {
+    "id": "py-tag-774",
+    "name": "setitem",
+    "slug": "setitem",
+    "count": 4
+  },
+  {
+    "id": "py-tag-775",
+    "name": "iter 方法",
+    "slug": "iter 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-776",
+    "name": "next 方法",
+    "slug": "next 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-777",
+    "name": "call 方法",
+    "slug": "call 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-778",
+    "name": "len 方法",
+    "slug": "len 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-779",
+    "name": "cmp 方法",
+    "slug": "cmp 方法",
+    "count": 4
+  },
+  {
+    "id": "py-tag-780",
+    "name": "描述符",
+    "slug": "描述符",
+    "count": 5
+  },
+  {
+    "id": "py-tag-781",
+    "name": "property",
+    "slug": "property",
+    "count": 5
+  },
+  {
+    "id": "py-tag-782",
+    "name": "staticmethod",
+    "slug": "staticmethod",
+    "count": 5
+  },
+  {
+    "id": "py-tag-783",
+    "name": "classmethod",
+    "slug": "classmethod",
+    "count": 4
+  },
+  {
+    "id": "py-tag-784",
+    "name": "抽象基类",
+    "slug": "抽象基类",
+    "count": 4
+  },
+  {
+    "id": "py-tag-785",
+    "name": "abc 模块",
+    "slug": "abc 模块",
+    "count": 4
+  },
+  {
+    "id": "py-tag-786",
+    "name": "命名空间",
+    "slug": "命名空间",
+    "count": 6
+  },
+  {
+    "id": "py-tag-787",
+    "name": "global",
+    "slug": "global",
+    "count": 4
+  },
+  {
+    "id": "py-tag-788",
+    "name": "nonlocal",
+    "slug": "nonlocal",
+    "count": 4
+  },
+  {
+    "id": "py-tag-789",
+    "name": "异常层次",
+    "slug": "异常层次",
+    "count": 4
+  },
+  {
+    "id": "py-tag-790",
+    "name": "finally",
+    "slug": "finally",
+    "count": 5
+  },
+  {
+    "id": "py-tag-791",
+    "name": "raise",
+    "slug": "raise",
+    "count": 5
+  },
+  {
+    "id": "py-tag-792",
+    "name": "断言",
+    "slug": "断言",
+    "count": 4
+  },
+  {
+    "id": "py-tag-793",
+    "name": "enter exit",
+    "slug": "enter exit",
+    "count": 4
+  },
+  {
+    "id": "py-tag-794",
+    "name": "contextlib",
+    "slug": "contextlib",
+    "count": 4
+  },
+  {
+    "id": "py-tag-795",
+    "name": "文件打开",
+    "slug": "文件打开",
+    "count": 4
+  },
+  {
+    "id": "py-tag-796",
+    "name": "文件追加",
+    "slug": "文件追加",
+    "count": 4
+  },
+  {
+    "id": "py-tag-797",
+    "name": "二进制文件",
+    "slug": "二进制文件",
+    "count": 4
+  },
+  {
+    "id": "py-tag-798",
+    "name": "文件指针",
+    "slug": "文件指针",
+    "count": 4
+  },
+  {
+    "id": "py-tag-799",
+    "name": "with 语句",
+    "slug": "with 语句",
+    "count": 4
+  },
+  {
+    "id": "py-tag-800",
+    "name": "Path 对象",
+    "slug": "Path 对象",
+    "count": 4
+  },
+  {
+    "id": "py-tag-801",
+    "name": "目录操作",
+    "slug": "目录操作",
+    "count": 4
+  },
+  {
+    "id": "py-tag-802",
+    "name": "文件遍历",
+    "slug": "文件遍历",
+    "count": 4
+  },
+  {
+    "id": "py-tag-803",
+    "name": "路径拼接",
+    "slug": "路径拼接",
+    "count": 4
+  },
+  {
+    "id": "py-tag-804",
+    "name": "JSON 解析",
+    "slug": "JSON 解析",
+    "count": 4
+  },
+  {
+    "id": "py-tag-805",
+    "name": "JSON 序列化",
+    "slug": "JSON 序列化",
+    "count": 4
+  },
+  {
+    "id": "py-tag-806",
+    "name": "CSV 读取",
+    "slug": "CSV 读取",
+    "count": 4
+  },
+  {
+    "id": "py-tag-807",
+    "name": "CSV 写入",
+    "slug": "CSV 写入",
+    "count": 4
+  },
+  {
+    "id": "py-tag-808",
+    "name": "pickle",
+    "slug": "pickle",
+    "count": 5
+  },
+  {
+    "id": "py-tag-809",
+    "name": "shelve",
+    "slug": "shelve",
+    "count": 5
+  },
+  {
+    "id": "py-tag-810",
+    "name": "正则匹配",
+    "slug": "正则匹配",
+    "count": 4
+  },
+  {
+    "id": "py-tag-811",
+    "name": "正则替换",
+    "slug": "正则替换",
+    "count": 4
+  },
+  {
+    "id": "py-tag-812",
+    "name": "正则分割",
+    "slug": "正则分割",
+    "count": 4
+  },
+  {
+    "id": "py-tag-813",
+    "name": "正则分组",
+    "slug": "正则分组",
+    "count": 4
+  },
+  {
+    "id": "py-tag-814",
+    "name": "量词",
+    "slug": "量词",
+    "count": 4
+  },
+  {
+    "id": "py-tag-815",
+    "name": "锚点",
+    "slug": "锚点",
+    "count": 4
+  },
+  {
+    "id": "py-tag-816",
+    "name": "字符类",
+    "slug": "字符类",
+    "count": 4
+  },
+  {
+    "id": "py-tag-817",
+    "name": "贪婪匹配",
+    "slug": "贪婪匹配",
+    "count": 4
+  },
+  {
+    "id": "py-tag-818",
+    "name": "re 模块",
+    "slug": "re 模块",
+    "count": 4
+  },
+  {
+    "id": "py-tag-819",
+    "name": "函数定义",
+    "slug": "函数定义",
+    "count": 4
+  },
+  {
+    "id": "py-tag-820",
+    "name": "可变参数",
+    "slug": "可变参数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-821",
+    "name": "keyword-only",
+    "slug": "keyword-only",
+    "count": 4
+  },
+  {
+    "id": "py-tag-822",
+    "name": "lambda",
+    "slug": "lambda",
+    "count": 4
+  },
+  {
+    "id": "py-tag-823",
+    "name": "map filter reduce",
+    "slug": "map filter reduce",
+    "count": 4
+  },
+  {
+    "id": "py-tag-824",
+    "name": "partial",
+    "slug": "partial",
+    "count": 8
+  },
+  {
+    "id": "py-tag-825",
+    "name": "装饰器应用",
+    "slug": "装饰器应用",
+    "count": 4
+  },
+  {
+    "id": "py-tag-826",
+    "name": "模块导入",
+    "slug": "模块导入",
+    "count": 4
+  },
+  {
+    "id": "py-tag-827",
+    "name": "import from",
+    "slug": "import from",
+    "count": 4
+  },
+  {
+    "id": "py-tag-828",
+    "name": "as 别名",
+    "slug": "as 别名",
+    "count": 4
+  },
+  {
+    "id": "py-tag-829",
+    "name": "包结构",
+    "slug": "包结构",
+    "count": 4
+  },
+  {
+    "id": "py-tag-830",
+    "name": "all",
+    "slug": "all",
+    "count": 4
+  },
+  {
+    "id": "py-tag-831",
+    "name": "相对导入",
+    "slug": "相对导入",
+    "count": 4
+  },
+  {
+    "id": "py-tag-832",
+    "name": "绝对导入",
+    "slug": "绝对导入",
+    "count": 4
+  },
+  {
+    "id": "py-tag-833",
+    "name": "name 属性",
+    "slug": "name 属性",
+    "count": 4
+  },
+  {
+    "id": "py-tag-834",
+    "name": "第三方库",
+    "slug": "第三方库",
+    "count": 38
+  },
+  {
+    "id": "py-tag-835",
+    "name": "虚拟环境",
+    "slug": "虚拟环境",
+    "count": 9
+  },
+  {
+    "id": "py-tag-836",
+    "name": "requirements",
+    "slug": "requirements",
+    "count": 5
+  },
+  {
+    "id": "py-tag-837",
+    "name": "setup py",
+    "slug": "setup py",
+    "count": 4
+  },
+  {
+    "id": "py-tag-838",
+    "name": "pyproject",
+    "slug": "pyproject",
+    "count": 5
+  },
+  {
+    "id": "py-tag-839",
+    "name": "wheels",
+    "slug": "wheels",
+    "count": 5
+  },
+  {
+    "id": "py-tag-840",
+    "name": "date",
+    "slug": "date",
+    "count": 4
+  },
+  {
+    "id": "py-tag-841",
+    "name": "time",
+    "slug": "time",
+    "count": 4
+  },
+  {
+    "id": "py-tag-842",
+    "name": "timezone",
+    "slug": "timezone",
+    "count": 4
+  },
+  {
+    "id": "py-tag-843",
+    "name": "collections",
+    "slug": "collections",
+    "count": 4
+  },
+  {
+    "id": "py-tag-844",
+    "name": "Counter",
+    "slug": "Counter",
+    "count": 4
+  },
+  {
+    "id": "py-tag-845",
+    "name": "defaultdict",
+    "slug": "defaultdict",
+    "count": 4
+  },
+  {
+    "id": "py-tag-846",
+    "name": "OrderedDict",
+    "slug": "OrderedDict",
+    "count": 4
+  },
+  {
+    "id": "py-tag-847",
+    "name": "deque",
+    "slug": "deque",
+    "count": 4
+  },
+  {
+    "id": "py-tag-848",
+    "name": "namedtuple",
+    "slug": "namedtuple",
+    "count": 4
+  },
+  {
+    "id": "py-tag-849",
+    "name": "ChainMap",
+    "slug": "ChainMap",
+    "count": 4
+  },
+  {
+    "id": "py-tag-850",
+    "name": "itertools",
+    "slug": "itertools",
+    "count": 4
+  },
+  {
+    "id": "py-tag-851",
+    "name": "chain",
+    "slug": "chain",
+    "count": 4
+  },
+  {
+    "id": "py-tag-852",
+    "name": "combinations",
+    "slug": "combinations",
+    "count": 4
+  },
+  {
+    "id": "py-tag-853",
+    "name": "permutations",
+    "slug": "permutations",
+    "count": 4
+  },
+  {
+    "id": "py-tag-854",
+    "name": "product",
+    "slug": "product",
+    "count": 4
+  },
+  {
+    "id": "py-tag-855",
+    "name": "groupby",
+    "slug": "groupby",
+    "count": 5
+  },
+  {
+    "id": "py-tag-856",
+    "name": "accumulate",
+    "slug": "accumulate",
+    "count": 4
+  },
+  {
+    "id": "py-tag-857",
+    "name": "functools",
+    "slug": "functools",
+    "count": 4
+  },
+  {
+    "id": "py-tag-858",
+    "name": "reduce",
+    "slug": "reduce",
+    "count": 4
+  },
+  {
+    "id": "py-tag-859",
+    "name": "lru_cache",
+    "slug": "lru_cache",
+    "count": 4
+  },
+  {
+    "id": "py-tag-860",
+    "name": "wraps",
+    "slug": "wraps",
+    "count": 4
+  },
+  {
+    "id": "py-tag-861",
+    "name": "os 模块",
+    "slug": "os 模块",
+    "count": 4
+  },
+  {
+    "id": "py-tag-862",
+    "name": "os.path",
+    "slug": "os.path",
+    "count": 4
+  },
+  {
+    "id": "py-tag-863",
+    "name": "sys 模块",
+    "slug": "sys 模块",
+    "count": 4
+  },
+  {
+    "id": "py-tag-864",
+    "name": "platform",
+    "slug": "platform",
+    "count": 5
+  },
+  {
+    "id": "py-tag-865",
+    "name": "argv",
+    "slug": "argv",
+    "count": 5
+  },
+  {
+    "id": "py-tag-866",
+    "name": "stdin",
+    "slug": "stdin",
+    "count": 5
+  },
+  {
+    "id": "py-tag-867",
+    "name": "stdout",
+    "slug": "stdout",
+    "count": 5
+  },
+  {
+    "id": "py-tag-868",
+    "name": "stderr",
+    "slug": "stderr",
+    "count": 5
+  },
+  {
+    "id": "py-tag-869",
+    "name": "subprocess",
+    "slug": "subprocess",
+    "count": 4
+  },
+  {
+    "id": "py-tag-870",
+    "name": "Popen",
+    "slug": "Popen",
+    "count": 4
+  },
+  {
+    "id": "py-tag-871",
+    "name": "run 函数",
+    "slug": "run 函数",
+    "count": 4
+  },
+  {
+    "id": "py-tag-872",
+    "name": "logging",
+    "slug": "logging",
+    "count": 5
+  },
+  {
+    "id": "py-tag-873",
+    "name": "Logger",
+    "slug": "Logger",
+    "count": 4
+  },
+  {
+    "id": "py-tag-874",
+    "name": "Handler",
+    "slug": "Handler",
+    "count": 4
+  },
+  {
+    "id": "py-tag-875",
+    "name": "Formatter",
+    "slug": "Formatter",
+    "count": 4
+  },
+  {
+    "id": "py-tag-876",
+    "name": "unittest",
+    "slug": "unittest",
+    "count": 5
+  },
+  {
+    "id": "py-tag-877",
+    "name": "TestCase",
+    "slug": "TestCase",
+    "count": 4
+  },
+  {
+    "id": "py-tag-878",
+    "name": "assert",
+    "slug": "assert",
+    "count": 5
+  },
+  {
+    "id": "py-tag-879",
+    "name": "mock",
+    "slug": "mock",
+    "count": 5
+  },
+  {
+    "id": "py-tag-880",
+    "name": "pytest",
+    "slug": "pytest",
+    "count": 6
+  },
+  {
+    "id": "py-tag-881",
+    "name": "fixture",
+    "slug": "fixture",
+    "count": 5
+  },
+  {
+    "id": "py-tag-882",
+    "name": "parametrize",
+    "slug": "parametrize",
+    "count": 5
+  },
+  {
+    "id": "py-tag-883",
+    "name": "coverage",
+    "slug": "coverage",
+    "count": 5
+  },
+  {
+    "id": "py-tag-884",
     "name": "typing",
-    "description": "typing 相关的内容标签。",
-    "count": 0
+    "slug": "typing",
+    "count": 5
   },
   {
-    "id": "py-tag-0246",
-    "name": "类型检查",
-    "description": "类型检查 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-885",
+    "name": "List",
+    "slug": "List",
+    "count": 5
   },
   {
-    "id": "py-tag-0247",
-    "name": "mypy",
-    "description": "mypy 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-886",
+    "name": "Dict",
+    "slug": "Dict",
+    "count": 5
   },
   {
-    "id": "py-tag-0248",
-    "name": "代码质量",
-    "description": "代码质量 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-887",
+    "name": "Tuple",
+    "slug": "Tuple",
+    "count": 5
   },
   {
-    "id": "py-tag-0249",
-    "name": "审计",
-    "description": "审计 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-888",
+    "name": "Optional",
+    "slug": "Optional",
+    "count": 5
   },
   {
-    "id": "py-tag-0250",
-    "name": "审查",
-    "description": "审查 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-889",
+    "name": "Union",
+    "slug": "Union",
+    "count": 5
   },
   {
-    "id": "py-tag-0251",
-    "name": "CI",
-    "description": "CI 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-890",
+    "name": "Callable",
+    "slug": "Callable",
+    "count": 5
   },
   {
-    "id": "py-tag-0252",
-    "name": "CD",
-    "description": "CD 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-891",
+    "name": "TypeVar",
+    "slug": "TypeVar",
+    "count": 5
   },
   {
-    "id": "py-tag-0253",
+    "id": "py-tag-892",
+    "name": "single_choice",
+    "slug": "single_choice",
+    "count": 900
+  },
+  {
+    "id": "py-tag-893",
+    "name": "multiple_choice",
+    "slug": "multiple_choice",
+    "count": 350
+  },
+  {
+    "id": "py-tag-894",
+    "name": "true_false",
+    "slug": "true_false",
+    "count": 300
+  },
+  {
+    "id": "py-tag-895",
+    "name": "fill_blank",
+    "slug": "fill_blank",
+    "count": 300
+  },
+  {
+    "id": "py-tag-896",
+    "name": "short_answer",
+    "slug": "short_answer",
+    "count": 250
+  },
+  {
+    "id": "py-tag-897",
+    "name": "calculation",
+    "slug": "calculation",
+    "count": 100
+  },
+  {
+    "id": "py-tag-898",
+    "name": "case_analysis",
+    "slug": "case_analysis",
+    "count": 150
+  },
+  {
+    "id": "py-tag-899",
+    "name": "code",
+    "slug": "code",
+    "count": 150
+  },
+  {
+    "id": "py-tag-900",
+    "name": "数据分析",
+    "slug": "数据分析",
+    "count": 2
+  },
+  {
+    "id": "py-tag-901",
+    "name": "案例",
+    "slug": "案例",
+    "count": 200
+  },
+  {
+    "id": "py-tag-902",
+    "name": "Web 开发",
+    "slug": "Web 开发",
+    "count": 7
+  },
+  {
+    "id": "py-tag-903",
+    "name": "爬虫项目",
+    "slug": "爬虫项目",
+    "count": 2
+  },
+  {
+    "id": "py-tag-904",
+    "name": "API 设计",
+    "slug": "API 设计",
+    "count": 7
+  },
+  {
+    "id": "py-tag-905",
+    "name": "自动化脚本",
+    "slug": "自动化脚本",
+    "count": 2
+  },
+  {
+    "id": "py-tag-906",
+    "name": "文件处理",
+    "slug": "文件处理",
+    "count": 2
+  },
+  {
+    "id": "py-tag-907",
+    "name": "日志分析",
+    "slug": "日志分析",
+    "count": 2
+  },
+  {
+    "id": "py-tag-908",
+    "name": "报表生成",
+    "slug": "报表生成",
+    "count": 2
+  },
+  {
+    "id": "py-tag-909",
+    "name": "任务调度",
+    "slug": "任务调度",
+    "count": 2
+  },
+  {
+    "id": "py-tag-910",
+    "name": "配置管理",
+    "slug": "配置管理",
+    "count": 2
+  },
+  {
+    "id": "py-tag-911",
+    "name": "环境部署",
+    "slug": "环境部署",
+    "count": 2
+  },
+  {
+    "id": "py-tag-912",
+    "name": "性能优化",
+    "slug": "性能优化",
+    "count": 7
+  },
+  {
+    "id": "py-tag-913",
+    "name": "内存优化",
+    "slug": "内存优化",
+    "count": 2
+  },
+  {
+    "id": "py-tag-914",
+    "name": "并发处理",
+    "slug": "并发处理",
+    "count": 2
+  },
+  {
+    "id": "py-tag-915",
+    "name": "异步编程",
+    "slug": "异步编程",
+    "count": 1
+  },
+  {
+    "id": "py-tag-916",
+    "name": "数据库操作",
+    "slug": "数据库操作",
+    "count": 1
+  },
+  {
+    "id": "py-tag-917",
+    "name": "ORM 使用",
+    "slug": "ORM 使用",
+    "count": 1
+  },
+  {
+    "id": "py-tag-918",
+    "name": "缓存设计",
+    "slug": "缓存设计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-919",
+    "name": "认证授权",
+    "slug": "认证授权",
+    "count": 6
+  },
+  {
+    "id": "py-tag-920",
+    "name": "权限管理",
+    "slug": "权限管理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-921",
+    "name": "错误处理",
+    "slug": "错误处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-922",
+    "name": "日志记录",
+    "slug": "日志记录",
+    "count": 1
+  },
+  {
+    "id": "py-tag-923",
+    "name": "单元测试",
+    "slug": "单元测试",
+    "count": 13
+  },
+  {
+    "id": "py-tag-924",
+    "name": "集成测试",
+    "slug": "集成测试",
+    "count": 1
+  },
+  {
+    "id": "py-tag-925",
+    "name": "E2E 测试",
+    "slug": "E2E 测试",
+    "count": 1
+  },
+  {
+    "id": "py-tag-926",
     "name": "持续集成",
-    "description": "持续集成 相关的内容标签。",
-    "count": 0
+    "slug": "持续集成",
+    "count": 6
   },
   {
-    "id": "py-tag-0254",
-    "name": "GitHub Actions",
-    "description": "GitHub Actions 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-927",
+    "name": "代码审查",
+    "slug": "代码审查",
+    "count": 6
   },
   {
-    "id": "py-tag-0255",
-    "name": "GitLab CI",
-    "description": "GitLab CI 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0256",
-    "name": "Jenkins",
-    "description": "Jenkins 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0257",
-    "name": "Docker",
-    "description": "Docker 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0258",
-    "name": "容器",
-    "description": "容器 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0259",
-    "name": "部署",
-    "description": "部署 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0260",
-    "name": "DevOps",
-    "description": "DevOps 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0261",
-    "name": "版本控制",
-    "description": "版本控制 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0262",
-    "name": "Git",
-    "description": "Git 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0263",
-    "name": "GitHub",
-    "description": "GitHub 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0264",
-    "name": "GitLab",
-    "description": "GitLab 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0265",
-    "name": "代码托管",
-    "description": "代码托管 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0266",
-    "name": "分支",
-    "description": "分支 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0267",
-    "name": "合并",
-    "description": "合并 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0268",
-    "name": "冲突",
-    "description": "冲突 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0269",
+    "id": "py-tag-928",
     "name": "版本管理",
-    "description": "版本管理 相关的内容标签。",
-    "count": 0
+    "slug": "版本管理",
+    "count": 1
   },
   {
-    "id": "py-tag-0270",
-    "name": "发布管理",
-    "description": "发布管理 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-929",
+    "name": "依赖管理",
+    "slug": "依赖管理",
+    "count": 1
   },
   {
-    "id": "py-tag-0271",
-    "name": "设计模式",
-    "description": "设计模式 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-930",
+    "name": "发布流程",
+    "slug": "发布流程",
+    "count": 1
   },
   {
-    "id": "py-tag-0272",
-    "name": "单例",
-    "description": "单例 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-931",
+    "name": "容器化",
+    "slug": "容器化",
+    "count": 6
   },
   {
-    "id": "py-tag-0273",
-    "name": "工厂",
-    "description": "工厂 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-932",
+    "name": "微服务",
+    "slug": "微服务",
+    "count": 6
   },
   {
-    "id": "py-tag-0274",
-    "name": "观察者",
-    "description": "观察者 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-933",
+    "name": "消息队列",
+    "slug": "消息队列",
+    "count": 1
   },
   {
-    "id": "py-tag-0275",
-    "name": "策略",
-    "description": "策略 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-934",
+    "name": "实时通信",
+    "slug": "实时通信",
+    "count": 1
   },
   {
-    "id": "py-tag-0276",
-    "name": "MVC",
-    "description": "MVC 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-935",
+    "name": "机器学习",
+    "slug": "机器学习",
+    "count": 6
   },
   {
-    "id": "py-tag-0277",
-    "name": "架构",
-    "description": "架构 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-936",
+    "name": "深度学习",
+    "slug": "深度学习",
+    "count": 6
   },
   {
-    "id": "py-tag-0278",
-    "name": "软件设计",
-    "description": "软件设计 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-937",
+    "name": "模型部署",
+    "slug": "模型部署",
+    "count": 1
   },
   {
-    "id": "py-tag-0279",
-    "name": "代码组织",
-    "description": "代码组织 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-938",
+    "name": "特征工程",
+    "slug": "特征工程",
+    "count": 1
   },
   {
-    "id": "py-tag-0280",
-    "name": "项目结构",
-    "description": "项目结构 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-939",
+    "name": "数据预处理",
+    "slug": "数据预处理",
+    "count": 1
   },
   {
-    "id": "py-tag-0281",
-    "name": "工程实践",
-    "description": "工程实践 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-940",
+    "name": "模型评估",
+    "slug": "模型评估",
+    "count": 1
   },
   {
-    "id": "py-tag-0282",
-    "name": "最佳实践",
-    "description": "最佳实践 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-941",
+    "name": "超参调优",
+    "slug": "超参调优",
+    "count": 1
   },
   {
-    "id": "py-tag-0283",
-    "name": "规范",
-    "description": "规范 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-942",
+    "name": "模型压缩",
+    "slug": "模型压缩",
+    "count": 1
   },
   {
-    "id": "py-tag-0284",
-    "name": "原则",
-    "description": "原则 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-943",
+    "name": "边缘部署",
+    "slug": "边缘部署",
+    "count": 1
   },
   {
-    "id": "py-tag-0285",
-    "name": "DRY",
-    "description": "DRY 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-944",
+    "name": "推理优化",
+    "slug": "推理优化",
+    "count": 1
   },
   {
-    "id": "py-tag-0286",
-    "name": "KISS",
-    "description": "KISS 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-945",
+    "name": "向量检索",
+    "slug": "向量检索",
+    "count": 1
   },
   {
-    "id": "py-tag-0287",
-    "name": "YAGNI",
-    "description": "YAGNI 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-946",
+    "name": "RAG 系统",
+    "slug": "RAG 系统",
+    "count": 1
   },
   {
-    "id": "py-tag-0288",
-    "name": "SOLID",
-    "description": "SOLID 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-947",
+    "name": "Agent 开发",
+    "slug": "Agent 开发",
+    "count": 1
   },
   {
-    "id": "py-tag-0289",
-    "name": "重构",
-    "description": "重构 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-948",
+    "name": "工具调用",
+    "slug": "工具调用",
+    "count": 1
   },
   {
-    "id": "py-tag-0290",
-    "name": "代码复用",
-    "description": "代码复用 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-949",
+    "name": "Prompt 工程",
+    "slug": "Prompt 工程",
+    "count": 1
   },
   {
-    "id": "py-tag-0291",
-    "name": "编程思想",
-    "description": "编程思想 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-950",
+    "name": "多模态处理",
+    "slug": "多模态处理",
+    "count": 1
   },
   {
-    "id": "py-tag-0292",
-    "name": "函数式",
-    "description": "函数式 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-951",
+    "name": "图像识别",
+    "slug": "图像识别",
+    "count": 1
   },
   {
-    "id": "py-tag-0293",
-    "name": "命令式",
-    "description": "命令式 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-952",
+    "name": "语音识别",
+    "slug": "语音识别",
+    "count": 1
   },
   {
-    "id": "py-tag-0294",
-    "name": "声明式",
-    "description": "声明式 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-953",
+    "name": "NLP 处理",
+    "slug": "NLP 处理",
+    "count": 1
   },
   {
-    "id": "py-tag-0295",
-    "name": "面向对象",
-    "description": "面向对象 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0296",
-    "name": "泛型",
-    "description": "泛型 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0297",
-    "name": "元编程",
-    "description": "元编程 相关的内容标签。",
-    "count": 0
-  },
-  {
-    "id": "py-tag-0298",
+    "id": "py-tag-954",
     "name": "推荐系统",
-    "description": "推荐系统 相关的内容标签。",
-    "count": 0
+    "slug": "推荐系统",
+    "count": 1
   },
   {
-    "id": "py-tag-0299",
-    "name": "搜索算法",
-    "description": "搜索算法 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-955",
+    "name": "搜索引擎",
+    "slug": "搜索引擎",
+    "count": 1
   },
   {
-    "id": "py-tag-0300",
-    "name": "排序算法",
-    "description": "排序算法 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-956",
+    "name": "知识图谱",
+    "slug": "知识图谱",
+    "count": 1
   },
   {
-    "id": "py-tag-0301",
-    "name": "数据结构",
-    "description": "数据结构 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-957",
+    "name": "时序预测",
+    "slug": "时序预测",
+    "count": 1
   },
   {
-    "id": "py-tag-0302",
-    "name": "栈",
-    "description": "栈 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-958",
+    "name": "异常检测",
+    "slug": "异常检测",
+    "count": 1
   },
   {
-    "id": "py-tag-0303",
-    "name": "队列",
-    "description": "队列 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-959",
+    "name": "聚类分析",
+    "slug": "聚类分析",
+    "count": 1
   },
   {
-    "id": "py-tag-0304",
-    "name": "链表",
-    "description": "链表 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-960",
+    "name": "分类任务",
+    "slug": "分类任务",
+    "count": 1
   },
   {
-    "id": "py-tag-0305",
-    "name": "树",
-    "description": "树 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-961",
+    "name": "回归任务",
+    "slug": "回归任务",
+    "count": 1
   },
   {
-    "id": "py-tag-0306",
-    "name": "图",
-    "description": "图 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-962",
+    "name": "强化学习",
+    "slug": "强化学习",
+    "count": 1
   },
   {
-    "id": "py-tag-0307",
-    "name": "堆",
-    "description": "堆 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-963",
+    "name": "游戏开发",
+    "slug": "游戏开发",
+    "count": 1
   },
   {
-    "id": "py-tag-0308",
-    "name": "哈希表",
-    "description": "哈希表 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-964",
+    "name": "图形渲染",
+    "slug": "图形渲染",
+    "count": 1
   },
   {
-    "id": "py-tag-0309",
-    "name": "集合操作",
-    "description": "集合操作 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-965",
+    "name": "动画系统",
+    "slug": "动画系统",
+    "count": 1
   },
   {
-    "id": "py-tag-0310",
-    "name": "算法",
-    "description": "算法 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-966",
+    "name": "物理引擎",
+    "slug": "物理引擎",
+    "count": 1
   },
   {
-    "id": "py-tag-0311",
-    "name": "复杂度",
-    "description": "复杂度 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-967",
+    "name": "碰撞检测",
+    "slug": "碰撞检测",
+    "count": 1
   },
   {
-    "id": "py-tag-0312",
-    "name": "大O",
-    "description": "大O 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-968",
+    "name": "路径规划",
+    "slug": "路径规划",
+    "count": 1
   },
   {
-    "id": "py-tag-0313",
-    "name": "时间复杂度",
-    "description": "时间复杂度 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-969",
+    "name": "AI 寻路",
+    "slug": "AI 寻路",
+    "count": 1
   },
   {
-    "id": "py-tag-0314",
-    "name": "空间复杂度",
-    "description": "空间复杂度 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-970",
+    "name": "游戏 AI",
+    "slug": "游戏 AI",
+    "count": 1
   },
   {
-    "id": "py-tag-0315",
-    "name": "递归算法",
-    "description": "递归算法 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-971",
+    "name": "游戏服务器",
+    "slug": "游戏服务器",
+    "count": 1
   },
   {
-    "id": "py-tag-0316",
-    "name": "动态规划",
-    "description": "动态规划 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-972",
+    "name": "多人同步",
+    "slug": "多人同步",
+    "count": 1
   },
   {
-    "id": "py-tag-0317",
-    "name": "贪心",
-    "description": "贪心 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-973",
+    "name": "状态管理",
+    "slug": "状态管理",
+    "count": 1
   },
   {
-    "id": "py-tag-0318",
+    "id": "py-tag-974",
+    "name": "事件系统",
+    "slug": "事件系统",
+    "count": 1
+  },
+  {
+    "id": "py-tag-975",
+    "name": "UI 系统",
+    "slug": "UI 系统",
+    "count": 1
+  },
+  {
+    "id": "py-tag-976",
+    "name": "音效管理",
+    "slug": "音效管理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-977",
+    "name": "资源加载",
+    "slug": "资源加载",
+    "count": 1
+  },
+  {
+    "id": "py-tag-978",
+    "name": "场景管理",
+    "slug": "场景管理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-979",
+    "name": "存档系统",
+    "slug": "存档系统",
+    "count": 1
+  },
+  {
+    "id": "py-tag-980",
+    "name": "排行榜",
+    "slug": "排行榜",
+    "count": 1
+  },
+  {
+    "id": "py-tag-981",
+    "name": "成就系统",
+    "slug": "成就系统",
+    "count": 1
+  },
+  {
+    "id": "py-tag-982",
+    "name": "支付集成",
+    "slug": "支付集成",
+    "count": 1
+  },
+  {
+    "id": "py-tag-983",
+    "name": "广告集成",
+    "slug": "广告集成",
+    "count": 1
+  },
+  {
+    "id": "py-tag-984",
+    "name": "数据分析 SDK",
+    "slug": "数据分析 SDK",
+    "count": 1
+  },
+  {
+    "id": "py-tag-985",
+    "name": "崩溃上报",
+    "slug": "崩溃上报",
+    "count": 1
+  },
+  {
+    "id": "py-tag-986",
+    "name": "热更新",
+    "slug": "热更新",
+    "count": 1
+  },
+  {
+    "id": "py-tag-987",
+    "name": "反作弊",
+    "slug": "反作弊",
+    "count": 1
+  },
+  {
+    "id": "py-tag-988",
+    "name": "加密通信",
+    "slug": "加密通信",
+    "count": 1
+  },
+  {
+    "id": "py-tag-989",
+    "name": "协议设计",
+    "slug": "协议设计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-990",
+    "name": "网络同步",
+    "slug": "网络同步",
+    "count": 1
+  },
+  {
+    "id": "py-tag-991",
+    "name": "延迟优化",
+    "slug": "延迟优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-992",
+    "name": "带宽优化",
+    "slug": "带宽优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-993",
+    "name": "丢包处理",
+    "slug": "丢包处理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-994",
+    "name": "断线重连",
+    "slug": "断线重连",
+    "count": 1
+  },
+  {
+    "id": "py-tag-995",
+    "name": "心跳机制",
+    "slug": "心跳机制",
+    "count": 1
+  },
+  {
+    "id": "py-tag-996",
+    "name": "服务器架构",
+    "slug": "服务器架构",
+    "count": 1
+  },
+  {
+    "id": "py-tag-997",
+    "name": "负载均衡",
+    "slug": "负载均衡",
+    "count": 1
+  },
+  {
+    "id": "py-tag-998",
+    "name": "服务发现",
+    "slug": "服务发现",
+    "count": 1
+  },
+  {
+    "id": "py-tag-999",
+    "name": "配置中心",
+    "slug": "配置中心",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1000",
+    "name": "网关设计",
+    "slug": "网关设计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1001",
+    "name": "限流熔断",
+    "slug": "限流熔断",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1002",
+    "name": "链路追踪",
+    "slug": "链路追踪",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1003",
+    "name": "监控告警",
+    "slug": "监控告警",
+    "count": 6
+  },
+  {
+    "id": "py-tag-1004",
+    "name": "日志聚合",
+    "slug": "日志聚合",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1005",
+    "name": "指标采集",
+    "slug": "指标采集",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1006",
+    "name": "性能剖析",
+    "slug": "性能剖析",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1007",
+    "name": "内存泄漏",
+    "slug": "内存泄漏",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1008",
+    "name": "死锁排查",
+    "slug": "死锁排查",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1009",
+    "name": "CPU 优化",
+    "slug": "CPU 优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1010",
+    "name": "磁盘优化",
+    "slug": "磁盘优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1011",
+    "name": "网络优化",
+    "slug": "网络优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1012",
+    "name": "数据库优化",
+    "slug": "数据库优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1013",
+    "name": "索引优化",
+    "slug": "索引优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1014",
+    "name": "查询优化",
+    "slug": "查询优化",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1015",
+    "name": "分库分表",
+    "slug": "分库分表",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1016",
+    "name": "读写分离",
+    "slug": "读写分离",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1017",
+    "name": "主从同步",
+    "slug": "主从同步",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1018",
+    "name": "集群部署",
+    "slug": "集群部署",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1019",
+    "name": "容灾备份",
+    "slug": "容灾备份",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1020",
+    "name": "数据迁移",
+    "slug": "数据迁移",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1021",
+    "name": "版本升级",
+    "slug": "版本升级",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1022",
+    "name": "灰度发布",
+    "slug": "灰度发布",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1023",
+    "name": "A/B 测试",
+    "slug": "A/B 测试",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1024",
+    "name": "特性开关",
+    "slug": "特性开关",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1025",
+    "name": "回滚机制",
+    "slug": "回滚机制",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1026",
+    "name": "故障排查",
+    "slug": "故障排查",
+    "count": 6
+  },
+  {
+    "id": "py-tag-1027",
+    "name": "应急响应",
+    "slug": "应急响应",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1028",
+    "name": "安全加固",
+    "slug": "安全加固",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1029",
+    "name": "漏洞修复",
+    "slug": "漏洞修复",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1030",
+    "name": "渗透测试",
+    "slug": "渗透测试",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1031",
+    "name": "代码审计",
+    "slug": "代码审计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1032",
+    "name": "安全扫描",
+    "slug": "安全扫描",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1033",
+    "name": "合规检查",
+    "slug": "合规检查",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1034",
+    "name": "隐私保护",
+    "slug": "隐私保护",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1035",
+    "name": "数据脱敏",
+    "slug": "数据脱敏",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1036",
+    "name": "访问控制",
+    "slug": "访问控制",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1037",
+    "name": "加密存储",
+    "slug": "加密存储",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1038",
+    "name": "密钥管理",
+    "slug": "密钥管理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1039",
+    "name": "证书管理",
+    "slug": "证书管理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1040",
+    "name": "安全传输",
+    "slug": "安全传输",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1041",
+    "name": "防重放攻击",
+    "slug": "防重放攻击",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1042",
+    "name": "防 SQL 注入",
+    "slug": "防 SQL 注入",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1043",
+    "name": "防 XSS",
+    "slug": "防 XSS",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1044",
+    "name": "防 CSRF",
+    "slug": "防 CSRF",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1045",
+    "name": "防 DDoS",
+    "slug": "防 DDoS",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1046",
+    "name": "WAF 配置",
+    "slug": "WAF 配置",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1047",
+    "name": "入侵检测",
+    "slug": "入侵检测",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1048",
+    "name": "日志审计",
+    "slug": "日志审计",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1049",
+    "name": "行为分析",
+    "slug": "行为分析",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1050",
+    "name": "风控系统",
+    "slug": "风控系统",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1051",
+    "name": "反欺诈",
+    "slug": "反欺诈",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1052",
+    "name": "身份验证",
+    "slug": "身份验证",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1053",
+    "name": "多因素认证",
+    "slug": "多因素认证",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1054",
+    "name": "单点登录",
+    "slug": "单点登录",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1055",
+    "name": "OAuth",
+    "slug": "OAuth",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1056",
+    "name": "JWT",
+    "slug": "JWT",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1057",
+    "name": "Session 管理",
+    "slug": "Session 管理",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1058",
+    "name": "Token 刷新",
+    "slug": "Token 刷新",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1059",
+    "name": "权限模型",
+    "slug": "权限模型",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1060",
+    "name": "RBAC",
+    "slug": "RBAC",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1061",
+    "name": "ABAC",
+    "slug": "ABAC",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1062",
+    "name": "数据权限",
+    "slug": "数据权限",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1063",
+    "name": "功能权限",
+    "slug": "功能权限",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1064",
+    "name": "菜单权限",
+    "slug": "菜单权限",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1065",
+    "name": "按钮权限",
+    "slug": "按钮权限",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1066",
+    "name": "API 网关",
+    "slug": "API 网关",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1067",
+    "name": "服务编排",
+    "slug": "服务编排",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1068",
+    "name": "工作流",
+    "slug": "工作流",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1069",
+    "name": "规则引擎",
+    "slug": "规则引擎",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1070",
+    "name": "定时任务",
+    "slug": "定时任务",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1071",
+    "name": "异步任务",
+    "slug": "异步任务",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1072",
+    "name": "延迟队列",
+    "slug": "延迟队列",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1073",
+    "name": "死信队列",
+    "slug": "死信队列",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1074",
+    "name": "消息可靠性",
+    "slug": "消息可靠性",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1075",
+    "name": "幂等性",
+    "slug": "幂等性",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1076",
+    "name": "分布式事务",
+    "slug": "分布式事务",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1077",
+    "name": "Saga 模式",
+    "slug": "Saga 模式",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1078",
+    "name": "TCC",
+    "slug": "TCC",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1079",
+    "name": "两阶段提交",
+    "slug": "两阶段提交",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1080",
+    "name": "最终一致性",
+    "slug": "最终一致性",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1081",
+    "name": "强一致性",
+    "slug": "强一致性",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1082",
+    "name": "阶段测试",
+    "slug": "阶段测试",
+    "count": 12
+  },
+  {
+    "id": "py-tag-1083",
+    "name": "综合测试",
+    "slug": "综合测试",
+    "count": 11
+  },
+  {
+    "id": "py-tag-1084",
+    "name": "模拟考试",
+    "slug": "模拟考试",
+    "count": 11
+  },
+  {
+    "id": "py-tag-1085",
+    "name": "专项测试",
+    "slug": "专项测试",
+    "count": 11
+  },
+  {
+    "id": "py-tag-1086",
+    "name": "能力测评",
+    "slug": "能力测评",
+    "count": 11
+  },
+  {
+    "id": "py-tag-1087",
+    "name": "认证模拟",
+    "slug": "认证模拟",
+    "count": 11
+  },
+  {
+    "id": "py-tag-1088",
+    "name": "面试模拟",
+    "slug": "面试模拟",
+    "count": 11
+  },
+  {
+    "id": "py-tag-1089",
+    "name": "Python 小项目实战",
+    "slug": "Python 小项目实战",
+    "count": 7
+  },
+  {
+    "id": "py-tag-1090",
+    "name": "基础概念",
+    "slug": "基础概念",
+    "count": 34
+  },
+  {
+    "id": "py-tag-1091",
+    "name": "解释器",
+    "slug": "解释器",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1092",
+    "name": "控制结构",
+    "slug": "控制结构",
+    "count": 34
+  },
+  {
+    "id": "py-tag-1093",
+    "name": "GIL",
+    "slug": "GIL",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1094",
+    "name": "类与对象",
+    "slug": "类与对象",
+    "count": 34
+  },
+  {
+    "id": "py-tag-1095",
+    "name": "PEP",
+    "slug": "PEP",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1096",
+    "name": "文件IO",
+    "slug": "文件IO",
+    "count": 34
+  },
+  {
+    "id": "py-tag-1097",
+    "name": "脚本",
+    "slug": "脚本",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1098",
+    "name": "字节码",
+    "slug": "字节码",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1099",
+    "name": "AST",
+    "slug": "AST",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1100",
+    "name": "编译",
+    "slug": "编译",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1101",
+    "name": "变量",
+    "slug": "变量",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1102",
+    "name": "赋值",
+    "slug": "赋值",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1103",
+    "name": "常量",
+    "slug": "常量",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1104",
+    "name": "字面量",
+    "slug": "字面量",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1105",
+    "name": "标识符",
+    "slug": "标识符",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1106",
+    "name": "关键字",
+    "slug": "关键字",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1107",
+    "name": "保留字",
+    "slug": "保留字",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1108",
+    "name": "LEGB",
+    "slug": "LEGB",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1109",
+    "name": "整数",
+    "slug": "整数",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1110",
+    "name": "浮点数",
+    "slug": "浮点数",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1111",
+    "name": "复数",
+    "slug": "复数",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1112",
+    "name": "布尔",
+    "slug": "布尔",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1113",
+    "name": "True",
+    "slug": "True",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1114",
+    "name": "False",
+    "slug": "False",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1115",
+    "name": "bytes",
+    "slug": "bytes",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1116",
+    "name": "bytearray",
+    "slug": "bytearray",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1117",
+    "name": "元组",
+    "slug": "元组",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1118",
+    "name": "集合",
+    "slug": "集合",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1119",
+    "name": "frozenset",
+    "slug": "frozenset",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1120",
+    "name": "range",
+    "slug": "range",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1121",
+    "name": "迭代器",
+    "slug": "迭代器",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1122",
+    "name": "生成器",
+    "slug": "生成器",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1123",
+    "name": "协程",
+    "slug": "协程",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1124",
+    "name": "切片",
+    "slug": "切片",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1125",
+    "name": "索引",
+    "slug": "索引",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1126",
+    "name": "解包",
+    "slug": "解包",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1127",
+    "name": "推导式",
+    "slug": "推导式",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1128",
+    "name": "纯函数",
+    "slug": "纯函数",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1129",
+    "name": "副作用",
+    "slug": "副作用",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1130",
+    "name": "对象",
+    "slug": "对象",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1131",
+    "name": "实例",
+    "slug": "实例",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1132",
+    "name": "属性",
+    "slug": "属性",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1133",
+    "name": "抽象",
+    "slug": "抽象",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1134",
+    "name": "接口",
+    "slug": "接口",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1135",
+    "name": "元类",
+    "slug": "元类",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1136",
+    "name": "type",
+    "slug": "type",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1137",
+    "name": "object",
+    "slug": "object",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1138",
+    "name": "包",
+    "slug": "包",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1139",
+    "name": "import",
+    "slug": "import",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1140",
+    "name": "from",
+    "slug": "from",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1141",
+    "name": "as",
+    "slug": "as",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1142",
+    "name": "__init__",
+    "slug": "__init__",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1143",
+    "name": "__all__",
+    "slug": "__all__",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1144",
+    "name": "__name__",
+    "slug": "__name__",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1145",
+    "name": "__main__",
+    "slug": "__main__",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1146",
+    "name": "if __name__",
+    "slug": "if __name__",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1147",
+    "name": "try",
+    "slug": "try",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1148",
+    "name": "except",
+    "slug": "except",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1149",
+    "name": "错误",
+    "slug": "错误",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1150",
     "name": "回溯",
-    "description": "回溯 相关的内容标签。",
-    "count": 0
+    "slug": "回溯",
+    "count": 1
   },
   {
-    "id": "py-tag-0319",
-    "name": "分治",
-    "description": "分治 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1151",
+    "name": "traceback",
+    "slug": "traceback",
+    "count": 1
   },
   {
-    "id": "py-tag-0320",
-    "name": "二分",
-    "description": "二分 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1152",
+    "name": "close",
+    "slug": "close",
+    "count": 1
   },
   {
-    "id": "py-tag-0321",
-    "name": "排序",
-    "description": "排序 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1153",
+    "name": "read",
+    "slug": "read",
+    "count": 1
   },
   {
-    "id": "py-tag-0322",
-    "name": "查找",
-    "description": "查找 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1154",
+    "name": "write",
+    "slug": "write",
+    "count": 1
   },
   {
-    "id": "py-tag-0323",
-    "name": "遍历",
-    "description": "遍历 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1155",
+    "name": "seek",
+    "slug": "seek",
+    "count": 1
   },
   {
-    "id": "py-tag-0324",
-    "name": "BFS",
-    "description": "BFS 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1156",
+    "name": "tell",
+    "slug": "tell",
+    "count": 1
   },
   {
-    "id": "py-tag-0325",
-    "name": "DFS",
-    "description": "DFS 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1157",
+    "name": "flush",
+    "slug": "flush",
+    "count": 1
   },
   {
-    "id": "py-tag-0326",
-    "name": "面试",
-    "description": "面试 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1158",
+    "name": "encoding",
+    "slug": "encoding",
+    "count": 1
   },
   {
-    "id": "py-tag-0327",
-    "name": "笔试",
-    "description": "笔试 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1159",
+    "name": "newline",
+    "slug": "newline",
+    "count": 1
   },
   {
-    "id": "py-tag-0328",
-    "name": "算法面试",
-    "description": "算法面试 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1160",
+    "name": "Path",
+    "slug": "Path",
+    "count": 1
   },
   {
-    "id": "py-tag-0329",
-    "name": "编程题",
-    "description": "编程题 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1161",
+    "name": "glob",
+    "slug": "glob",
+    "count": 1
   },
   {
-    "id": "py-tag-0330",
-    "name": "刷题",
-    "description": "刷题 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1162",
+    "name": "rglob",
+    "slug": "rglob",
+    "count": 1
   },
   {
-    "id": "py-tag-0331",
-    "name": "LeetCode",
-    "description": "LeetCode 相关的内容标签。",
-    "count": 0
+    "id": "py-tag-1163",
+    "name": "walk",
+    "slug": "walk",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1164",
+    "name": "exists",
+    "slug": "exists",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1165",
+    "name": "is_file",
+    "slug": "is_file",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1166",
+    "name": "is_dir",
+    "slug": "is_dir",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1167",
+    "name": "mkdir",
+    "slug": "mkdir",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1168",
+    "name": "rmdir",
+    "slug": "rmdir",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1169",
+    "name": "os",
+    "slug": "os",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1170",
+    "name": "sys",
+    "slug": "sys",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1171",
+    "name": "environ",
+    "slug": "environ",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1172",
+    "name": "exit",
+    "slug": "exit",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1173",
+    "name": "quit",
+    "slug": "quit",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1174",
+    "name": "configparser",
+    "slug": "configparser",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1175",
+    "name": "argparse",
+    "slug": "argparse",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1176",
+    "name": "Set",
+    "slug": "Set",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1177",
+    "name": "Generic",
+    "slug": "Generic",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1178",
+    "name": "dataclass",
+    "slug": "dataclass",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1179",
+    "name": "field",
+    "slug": "field",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1180",
+    "name": "Enum",
+    "slug": "Enum",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1181",
+    "name": "IntEnum",
+    "slug": "IntEnum",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1182",
+    "name": "Flag",
+    "slug": "Flag",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1183",
+    "name": "Literal",
+    "slug": "Literal",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1184",
+    "name": "TypedDict",
+    "slug": "TypedDict",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1185",
+    "name": "Protocol",
+    "slug": "Protocol",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1186",
+    "name": "Final",
+    "slug": "Final",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1187",
+    "name": "Annotated",
+    "slug": "Annotated",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1188",
+    "name": "async",
+    "slug": "async",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1189",
+    "name": "await",
+    "slug": "await",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1190",
+    "name": "coroutine",
+    "slug": "coroutine",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1191",
+    "name": "Task",
+    "slug": "Task",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1192",
+    "name": "Future",
+    "slug": "Future",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1193",
+    "name": "gather",
+    "slug": "gather",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1194",
+    "name": "wait",
+    "slug": "wait",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1195",
+    "name": "sleep",
+    "slug": "sleep",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1196",
+    "name": "run",
+    "slug": "run",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1197",
+    "name": "create_task",
+    "slug": "create_task",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1198",
+    "name": "threading",
+    "slug": "threading",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1199",
+    "name": "Thread",
+    "slug": "Thread",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1200",
+    "name": "Lock",
+    "slug": "Lock",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1201",
+    "name": "RLock",
+    "slug": "RLock",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1202",
+    "name": "Event",
+    "slug": "Event",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1203",
+    "name": "Condition",
+    "slug": "Condition",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1204",
+    "name": "Semaphore",
+    "slug": "Semaphore",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1205",
+    "name": "Queue",
+    "slug": "Queue",
+    "count": 2
+  },
+  {
+    "id": "py-tag-1206",
+    "name": "multiprocessing",
+    "slug": "multiprocessing",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1207",
+    "name": "Process",
+    "slug": "Process",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1208",
+    "name": "Pool",
+    "slug": "Pool",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1209",
+    "name": "Pipe",
+    "slug": "Pipe",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1210",
+    "name": "shared_memory",
+    "slug": "shared_memory",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1211",
+    "name": "atomic",
+    "slug": "atomic",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1212",
+    "name": "volatile",
+    "slug": "volatile",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1213",
+    "name": "synchronized",
+    "slug": "synchronized",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1214",
+    "name": "concurrent",
+    "slug": "concurrent",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1215",
+    "name": "parallel",
+    "slug": "parallel",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1216",
+    "name": "asyncio",
+    "slug": "asyncio",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1217",
+    "name": "socket",
+    "slug": "socket",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1218",
+    "name": "TCP",
+    "slug": "TCP",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1219",
+    "name": "UDP",
+    "slug": "UDP",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1220",
+    "name": "HTTP",
+    "slug": "HTTP",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1221",
+    "name": "HTTPS",
+    "slug": "HTTPS",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1222",
+    "name": "URL",
+    "slug": "URL",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1223",
+    "name": "URI",
+    "slug": "URI",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1224",
+    "name": "request",
+    "slug": "request",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1225",
+    "name": "response",
+    "slug": "response",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1226",
+    "name": "header",
+    "slug": "header",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1227",
+    "name": "flask",
+    "slug": "flask",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1228",
+    "name": "django",
+    "slug": "django",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1229",
+    "name": "fastapi",
+    "slug": "fastapi",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1230",
+    "name": "tornado",
+    "slug": "tornado",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1231",
+    "name": "starlette",
+    "slug": "starlette",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1232",
+    "name": "uvicorn",
+    "slug": "uvicorn",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1233",
+    "name": "gunicorn",
+    "slug": "gunicorn",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1234",
+    "name": "wsgi",
+    "slug": "wsgi",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1235",
+    "name": "asgi",
+    "slug": "asgi",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1236",
+    "name": "middleware",
+    "slug": "middleware",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1237",
+    "name": "sqlalchemy",
+    "slug": "sqlalchemy",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1238",
+    "name": "orm",
+    "slug": "orm",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1239",
+    "name": "session",
+    "slug": "session",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1240",
+    "name": "model",
+    "slug": "model",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1241",
+    "name": "query",
+    "slug": "query",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1242",
+    "name": "transaction",
+    "slug": "transaction",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1243",
+    "name": "commit",
+    "slug": "commit",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1244",
+    "name": "rollback",
+    "slug": "rollback",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1245",
+    "name": "migration",
+    "slug": "migration",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1246",
+    "name": "alembic",
+    "slug": "alembic",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1247",
+    "name": "numpy",
+    "slug": "numpy",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1248",
+    "name": "ndarray",
+    "slug": "ndarray",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1249",
+    "name": "broadcast",
+    "slug": "broadcast",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1250",
+    "name": "vectorize",
+    "slug": "vectorize",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1251",
+    "name": "pandas",
+    "slug": "pandas",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1252",
+    "name": "DataFrame",
+    "slug": "DataFrame",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1253",
+    "name": "Series",
+    "slug": "Series",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1254",
+    "name": "merge",
+    "slug": "merge",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1255",
+    "name": "pivot",
+    "slug": "pivot",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1256",
+    "name": "matplotlib",
+    "slug": "matplotlib",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1257",
+    "name": "seaborn",
+    "slug": "seaborn",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1258",
+    "name": "plot",
+    "slug": "plot",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1259",
+    "name": "scatter",
+    "slug": "scatter",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1260",
+    "name": "bar",
+    "slug": "bar",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1261",
+    "name": "histogram",
+    "slug": "histogram",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1262",
+    "name": "heatmap",
+    "slug": "heatmap",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1263",
+    "name": "subplots",
+    "slug": "subplots",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1264",
+    "name": "figure",
+    "slug": "figure",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1265",
+    "name": "axes",
+    "slug": "axes",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1266",
+    "name": "scikit-learn",
+    "slug": "scikit-learn",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1267",
+    "name": "fit",
+    "slug": "fit",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1268",
+    "name": "predict",
+    "slug": "predict",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1269",
+    "name": "transform",
+    "slug": "transform",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1270",
+    "name": "pipeline",
+    "slug": "pipeline",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1271",
+    "name": "cross_val",
+    "slug": "cross_val",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1272",
+    "name": "grid_search",
+    "slug": "grid_search",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1273",
+    "name": "feature",
+    "slug": "feature",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1274",
+    "name": "label",
+    "slug": "label",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1275",
+    "name": "metric",
+    "slug": "metric",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1276",
+    "name": "tensorflow",
+    "slug": "tensorflow",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1277",
+    "name": "pytorch",
+    "slug": "pytorch",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1278",
+    "name": "keras",
+    "slug": "keras",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1279",
+    "name": "tensor",
+    "slug": "tensor",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1280",
+    "name": "gradient",
+    "slug": "gradient",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1281",
+    "name": "optimizer",
+    "slug": "optimizer",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1282",
+    "name": "loss",
+    "slug": "loss",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1283",
+    "name": "epoch",
+    "slug": "epoch",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1284",
+    "name": "batch",
+    "slug": "batch",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1285",
+    "name": "inference",
+    "slug": "inference",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1286",
+    "name": "transformer",
+    "slug": "transformer",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1287",
+    "name": "attention",
+    "slug": "attention",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1288",
+    "name": "embedding",
+    "slug": "embedding",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1289",
+    "name": "tokenizer",
+    "slug": "tokenizer",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1290",
+    "name": "LLM",
+    "slug": "LLM",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1291",
+    "name": "GPT",
+    "slug": "GPT",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1292",
+    "name": "BERT",
+    "slug": "BERT",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1293",
+    "name": "RAG",
+    "slug": "RAG",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1294",
+    "name": "agent",
+    "slug": "agent",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1295",
+    "name": "prompt",
+    "slug": "prompt",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1296",
+    "name": "docker",
+    "slug": "docker",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1297",
+    "name": "container",
+    "slug": "container",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1298",
+    "name": "image",
+    "slug": "image",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1299",
+    "name": "kubernetes",
+    "slug": "kubernetes",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1300",
+    "name": "pod",
+    "slug": "pod",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1301",
+    "name": "service",
+    "slug": "service",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1302",
+    "name": "deployment",
+    "slug": "deployment",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1303",
+    "name": "helm",
+    "slug": "helm",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1304",
+    "name": "CI/CD",
+    "slug": "CI/CD",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1305",
+    "name": "github actions",
+    "slug": "github actions",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1306",
+    "name": "mypy",
+    "slug": "mypy",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1307",
+    "name": "black",
+    "slug": "black",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1308",
+    "name": "isort",
+    "slug": "isort",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1309",
+    "name": "flake8",
+    "slug": "flake8",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1310",
+    "name": "pylint",
+    "slug": "pylint",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1311",
+    "name": "ruff",
+    "slug": "ruff",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1312",
+    "name": "poetry",
+    "slug": "poetry",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1313",
+    "name": "conda",
+    "slug": "conda",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1314",
+    "name": "egg",
+    "slug": "egg",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1315",
+    "name": "setup.py",
+    "slug": "setup.py",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1316",
+    "name": "toml",
+    "slug": "toml",
+    "count": 1
+  },
+  {
+    "id": "py-tag-1317",
+    "name": "环境配置",
+    "slug": "环境配置",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1318",
+    "name": "FAQ",
+    "slug": "FAQ",
+    "count": 200
+  },
+  {
+    "id": "py-tag-1319",
+    "name": "版本选择",
+    "slug": "版本选择",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1320",
+    "name": "包管理",
+    "slug": "包管理",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1321",
+    "name": "IDE 选择",
+    "slug": "IDE 选择",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1322",
+    "name": "调试技巧",
+    "slug": "调试技巧",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1323",
+    "name": "代码规范",
+    "slug": "代码规范",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1324",
+    "name": "性能问题",
+    "slug": "性能问题",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1325",
+    "name": "内存问题",
+    "slug": "内存问题",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1326",
+    "name": "并发问题",
+    "slug": "并发问题",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1327",
+    "name": "异常处理",
+    "slug": "异常处理",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1328",
+    "name": "文件操作",
+    "slug": "文件操作",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1329",
+    "name": "网络编程",
+    "slug": "网络编程",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1330",
+    "name": "数据库",
+    "slug": "数据库",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1331",
+    "name": "数据科学",
+    "slug": "数据科学",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1332",
+    "name": "爬虫开发",
+    "slug": "爬虫开发",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1333",
+    "name": "自动化",
+    "slug": "自动化",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1334",
+    "name": "部署运维",
+    "slug": "部署运维",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1335",
+    "name": "测试",
+    "slug": "测试",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1336",
+    "name": "文档",
+    "slug": "文档",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1337",
+    "name": "版本控制",
+    "slug": "版本控制",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1338",
+    "name": "团队协作",
+    "slug": "团队协作",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1339",
+    "name": "安全",
+    "slug": "安全",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1340",
+    "name": "加密",
+    "slug": "加密",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1341",
+    "name": "云原生",
+    "slug": "云原生",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1342",
+    "name": "日志",
+    "slug": "日志",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1343",
+    "name": "架构设计",
+    "slug": "架构设计",
+    "count": 5
+  },
+  {
+    "id": "py-tag-1344",
+    "name": "设计模式",
+    "slug": "设计模式",
+    "count": 5
   }
 ]
