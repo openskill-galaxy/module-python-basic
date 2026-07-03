@@ -4345,7 +4345,7 @@
     ]
   },
   {
-    "id": "py-lesson-100",
+    "id": "py-lesson-099",
     "slug": "变量与赋值深入",
     "courseId": "py-course-01",
     "title": "变量与赋值深入",
@@ -4390,7 +4390,7 @@
     ]
   },
   {
-    "id": "py-lesson-101",
+    "id": "py-lesson-100",
     "slug": "数据类型转换",
     "courseId": "py-course-01",
     "title": "数据类型转换",
@@ -4435,7 +4435,7 @@
     ]
   },
   {
-    "id": "py-lesson-102",
+    "id": "py-lesson-101",
     "slug": "运算符综合",
     "courseId": "py-course-01",
     "title": "运算符综合",
@@ -4480,7 +4480,7 @@
     ]
   },
   {
-    "id": "py-lesson-103",
+    "id": "py-lesson-102",
     "slug": "字符串方法详解",
     "courseId": "py-course-01",
     "title": "字符串方法详解",
@@ -4525,7 +4525,7 @@
     ]
   },
   {
-    "id": "py-lesson-104",
+    "id": "py-lesson-103",
     "slug": "列表推导式",
     "courseId": "py-course-01",
     "title": "列表推导式",
@@ -4570,7 +4570,7 @@
     ]
   },
   {
-    "id": "py-lesson-105",
+    "id": "py-lesson-104",
     "slug": "元组与命名元组",
     "courseId": "py-course-01",
     "title": "元组与命名元组",
@@ -4615,7 +4615,7 @@
     ]
   },
   {
-    "id": "py-lesson-106",
+    "id": "py-lesson-105",
     "slug": "字典高级用法",
     "courseId": "py-course-01",
     "title": "字典高级用法",
@@ -4660,7 +4660,7 @@
     ]
   },
   {
-    "id": "py-lesson-107",
+    "id": "py-lesson-106",
     "slug": "集合运算",
     "courseId": "py-course-01",
     "title": "集合运算",
@@ -4705,7 +4705,7 @@
     ]
   },
   {
-    "id": "py-lesson-108",
+    "id": "py-lesson-107",
     "slug": "迭代器与生成器",
     "courseId": "py-course-02",
     "title": "迭代器与生成器",
@@ -4750,7 +4750,7 @@
     ]
   },
   {
-    "id": "py-lesson-109",
+    "id": "py-lesson-108",
     "slug": "装饰器入门",
     "courseId": "py-course-02",
     "title": "装饰器入门",
@@ -4795,7 +4795,7 @@
     ]
   },
   {
-    "id": "py-lesson-110",
+    "id": "py-lesson-109",
     "slug": "上下文管理器",
     "courseId": "py-course-02",
     "title": "上下文管理器",
@@ -4840,7 +4840,7 @@
     ]
   },
   {
-    "id": "py-lesson-111",
+    "id": "py-lesson-110",
     "slug": "异常处理进阶",
     "courseId": "py-course-02",
     "title": "异常处理进阶",
@@ -4885,7 +4885,7 @@
     ]
   },
   {
-    "id": "py-lesson-112",
+    "id": "py-lesson-111",
     "slug": "文件读写模式",
     "courseId": "py-course-02",
     "title": "文件读写模式",
@@ -4930,7 +4930,7 @@
     ]
   },
   {
-    "id": "py-lesson-113",
+    "id": "py-lesson-112",
     "slug": "路径处理 pathlib",
     "courseId": "py-course-03",
     "title": "路径处理 pathlib",
@@ -4975,7 +4975,7 @@
     ]
   },
   {
-    "id": "py-lesson-114",
+    "id": "py-lesson-113",
     "slug": "JSON 与序列化",
     "courseId": "py-course-04",
     "title": "JSON 与序列化",
@@ -5020,7 +5020,7 @@
     ]
   },
   {
-    "id": "py-lesson-115",
+    "id": "py-lesson-114",
     "slug": "CSV 处理",
     "courseId": "py-course-04",
     "title": "CSV 处理",
@@ -5065,7 +5065,7 @@
     ]
   },
   {
-    "id": "py-lesson-116",
+    "id": "py-lesson-115",
     "slug": "正则表达式基础",
     "courseId": "py-course-04",
     "title": "正则表达式基础",
@@ -5110,7 +5110,7 @@
     ]
   },
   {
-    "id": "py-lesson-117",
+    "id": "py-lesson-116",
     "slug": "正则进阶",
     "courseId": "py-course-04",
     "title": "正则进阶",
@@ -5155,7 +5155,7 @@
     ]
   },
   {
-    "id": "py-lesson-118",
+    "id": "py-lesson-117",
     "slug": "函数参数进阶",
     "courseId": "py-course-04",
     "title": "函数参数进阶",
@@ -5200,7 +5200,7 @@
     ]
   },
   {
-    "id": "py-lesson-119",
+    "id": "py-lesson-118",
     "slug": "lambda 与高阶函数",
     "courseId": "py-course-04",
     "title": "lambda 与高阶函数",
@@ -5245,7 +5245,7 @@
     ]
   },
   {
-    "id": "py-lesson-120",
+    "id": "py-lesson-119",
     "slug": "闭包与作用域",
     "courseId": "py-course-05",
     "title": "闭包与作用域",
@@ -5290,7 +5290,7 @@
     ]
   },
   {
-    "id": "py-lesson-121",
+    "id": "py-lesson-120",
     "slug": "面向对象基础",
     "courseId": "py-course-05",
     "title": "面向对象基础",
@@ -5335,7 +5335,7 @@
     ]
   },
   {
-    "id": "py-lesson-122",
+    "id": "py-lesson-121",
     "slug": "继承与多态",
     "courseId": "py-course-05",
     "title": "继承与多态",
@@ -5380,7 +5380,7 @@
     ]
   },
   {
-    "id": "py-lesson-123",
+    "id": "py-lesson-122",
     "slug": "魔术方法",
     "courseId": "py-course-06",
     "title": "魔术方法",
@@ -5425,7 +5425,7 @@
     ]
   },
   {
-    "id": "py-lesson-124",
+    "id": "py-lesson-123",
     "slug": "属性与描述符",
     "courseId": "py-course-06",
     "title": "属性与描述符",
@@ -5470,7 +5470,7 @@
     ]
   },
   {
-    "id": "py-lesson-125",
+    "id": "py-lesson-124",
     "slug": "类方法与静态方法",
     "courseId": "py-course-06",
     "title": "类方法与静态方法",
@@ -5515,7 +5515,7 @@
     ]
   },
   {
-    "id": "py-lesson-126",
+    "id": "py-lesson-125",
     "slug": "抽象类与接口",
     "courseId": "py-course-06",
     "title": "抽象类与接口",
@@ -5560,7 +5560,7 @@
     ]
   },
   {
-    "id": "py-lesson-127",
+    "id": "py-lesson-126",
     "slug": "模块与包",
     "courseId": "py-course-06",
     "title": "模块与包",
@@ -5605,7 +5605,7 @@
     ]
   },
   {
-    "id": "py-lesson-128",
+    "id": "py-lesson-127",
     "slug": "导入机制",
     "courseId": "py-course-06",
     "title": "导入机制",
@@ -5650,7 +5650,7 @@
     ]
   },
   {
-    "id": "py-lesson-129",
+    "id": "py-lesson-128",
     "slug": "标准库概览",
     "courseId": "py-course-06",
     "title": "标准库概览",
@@ -5695,7 +5695,7 @@
     ]
   },
   {
-    "id": "py-lesson-130",
+    "id": "py-lesson-129",
     "slug": "datetime 时间处理",
     "courseId": "py-course-07",
     "title": "datetime 时间处理",
@@ -5740,7 +5740,7 @@
     ]
   },
   {
-    "id": "py-lesson-131",
+    "id": "py-lesson-130",
     "slug": "collections 工具",
     "courseId": "py-course-07",
     "title": "collections 工具",
@@ -5785,7 +5785,7 @@
     ]
   },
   {
-    "id": "py-lesson-132",
+    "id": "py-lesson-131",
     "slug": "itertools 模块",
     "courseId": "py-course-07",
     "title": "itertools 模块",
@@ -5830,7 +5830,7 @@
     ]
   },
   {
-    "id": "py-lesson-133",
+    "id": "py-lesson-132",
     "slug": "functools 模块",
     "courseId": "py-course-07",
     "title": "functools 模块",
@@ -5875,7 +5875,7 @@
     ]
   },
   {
-    "id": "py-lesson-134",
+    "id": "py-lesson-133",
     "slug": "os 系统接口",
     "courseId": "py-course-07",
     "title": "os 系统接口",
@@ -5920,7 +5920,7 @@
     ]
   },
   {
-    "id": "py-lesson-135",
+    "id": "py-lesson-134",
     "slug": "sys 与解释器",
     "courseId": "py-course-07",
     "title": "sys 与解释器",
@@ -5965,7 +5965,7 @@
     ]
   },
   {
-    "id": "py-lesson-136",
+    "id": "py-lesson-135",
     "slug": "subprocess 子进程",
     "courseId": "py-course-07",
     "title": "subprocess 子进程",
@@ -6010,7 +6010,7 @@
     ]
   },
   {
-    "id": "py-lesson-137",
+    "id": "py-lesson-136",
     "slug": "日志 logging",
     "courseId": "py-course-07",
     "title": "日志 logging",
@@ -6055,7 +6055,7 @@
     ]
   },
   {
-    "id": "py-lesson-138",
+    "id": "py-lesson-137",
     "slug": "单元测试 unittest",
     "courseId": "py-course-08",
     "title": "单元测试 unittest",
@@ -6100,7 +6100,7 @@
     ]
   },
   {
-    "id": "py-lesson-139",
+    "id": "py-lesson-138",
     "slug": "性能计时",
     "courseId": "py-course-08",
     "title": "性能计时",
@@ -6145,7 +6145,7 @@
     ]
   },
   {
-    "id": "py-lesson-140",
+    "id": "py-lesson-139",
     "slug": "虚拟环境与依赖",
     "courseId": "py-course-08",
     "title": "虚拟环境与依赖",
@@ -6190,7 +6190,7 @@
     ]
   },
   {
-    "id": "py-lesson-141",
+    "id": "py-lesson-140",
     "slug": "pip 与 requirements",
     "courseId": "py-course-08",
     "title": "pip 与 requirements",
@@ -6235,7 +6235,7 @@
     ]
   },
   {
-    "id": "py-lesson-142",
+    "id": "py-lesson-141",
     "slug": "类型注解基础",
     "courseId": "py-course-08",
     "title": "类型注解基础",
@@ -6280,7 +6280,7 @@
     ]
   },
   {
-    "id": "py-lesson-143",
+    "id": "py-lesson-142",
     "slug": "typing 进阶",
     "courseId": "py-course-08",
     "title": "typing 进阶",
@@ -6325,7 +6325,7 @@
     ]
   },
   {
-    "id": "py-lesson-144",
+    "id": "py-lesson-143",
     "slug": "数据类 dataclass",
     "courseId": "py-course-08",
     "title": "数据类 dataclass",
@@ -6370,7 +6370,7 @@
     ]
   },
   {
-    "id": "py-lesson-145",
+    "id": "py-lesson-144",
     "slug": "枚举 Enum",
     "courseId": "py-course-08",
     "title": "枚举 Enum",
@@ -6415,7 +6415,7 @@
     ]
   },
   {
-    "id": "py-lesson-146",
+    "id": "py-lesson-145",
     "slug": "异步基础 async",
     "courseId": "py-course-09",
     "title": "异步基础 async",
@@ -6460,7 +6460,7 @@
     ]
   },
   {
-    "id": "py-lesson-147",
+    "id": "py-lesson-146",
     "slug": "事件循环",
     "courseId": "py-course-09",
     "title": "事件循环",
@@ -6505,7 +6505,7 @@
     ]
   },
   {
-    "id": "py-lesson-148",
+    "id": "py-lesson-147",
     "slug": "协程与任务",
     "courseId": "py-course-09",
     "title": "协程与任务",
@@ -6550,7 +6550,7 @@
     ]
   },
   {
-    "id": "py-lesson-149",
+    "id": "py-lesson-148",
     "slug": "并发与多线程",
     "courseId": "py-course-09",
     "title": "并发与多线程",
@@ -6595,7 +6595,7 @@
     ]
   },
   {
-    "id": "py-lesson-150",
+    "id": "py-lesson-149",
     "slug": "多进程处理",
     "courseId": "py-course-09",
     "title": "多进程处理",
@@ -6640,7 +6640,7 @@
     ]
   },
   {
-    "id": "py-lesson-151",
+    "id": "py-lesson-150",
     "slug": "队列与同步",
     "courseId": "py-course-09",
     "title": "队列与同步",
@@ -6685,7 +6685,7 @@
     ]
   },
   {
-    "id": "py-lesson-152",
+    "id": "py-lesson-151",
     "slug": "数据库 sqlite3",
     "courseId": "py-course-09",
     "title": "数据库 sqlite3",
@@ -6730,7 +6730,7 @@
     ]
   },
   {
-    "id": "py-lesson-153",
+    "id": "py-lesson-152",
     "slug": "网络请求 urllib",
     "courseId": "py-course-09",
     "title": "网络请求 urllib",
@@ -6775,7 +6775,7 @@
     ]
   },
   {
-    "id": "py-lesson-154",
+    "id": "py-lesson-153",
     "slug": "socket 编程",
     "courseId": "py-course-10",
     "title": "socket 编程",
@@ -6820,7 +6820,7 @@
     ]
   },
   {
-    "id": "py-lesson-155",
+    "id": "py-lesson-154",
     "slug": "HTTP 客户端",
     "courseId": "py-course-10",
     "title": "HTTP 客户端",
@@ -6865,7 +6865,7 @@
     ]
   },
   {
-    "id": "py-lesson-156",
+    "id": "py-lesson-155",
     "slug": "邮件发送",
     "courseId": "py-course-10",
     "title": "邮件发送",
@@ -6910,7 +6910,7 @@
     ]
   },
   {
-    "id": "py-lesson-157",
+    "id": "py-lesson-156",
     "slug": "命令行参数 argparse",
     "courseId": "py-course-10",
     "title": "命令行参数 argparse",
@@ -6955,7 +6955,7 @@
     ]
   },
   {
-    "id": "py-lesson-158",
+    "id": "py-lesson-157",
     "slug": "配置文件处理",
     "courseId": "py-course-10",
     "title": "配置文件处理",
@@ -7000,7 +7000,7 @@
     ]
   },
   {
-    "id": "py-lesson-159",
+    "id": "py-lesson-158",
     "slug": "环境变量",
     "courseId": "py-course-10",
     "title": "环境变量",
@@ -7045,7 +7045,7 @@
     ]
   },
   {
-    "id": "py-lesson-160",
+    "id": "py-lesson-159",
     "slug": "加密与哈希",
     "courseId": "py-course-10",
     "title": "加密与哈希",
@@ -7090,7 +7090,7 @@
     ]
   },
   {
-    "id": "py-lesson-161",
+    "id": "py-lesson-160",
     "slug": "base64 编码",
     "courseId": "py-course-10",
     "title": "base64 编码",
@@ -7135,7 +7135,7 @@
     ]
   },
   {
-    "id": "py-lesson-162",
+    "id": "py-lesson-161",
     "slug": "压缩与归档",
     "courseId": "py-course-12",
     "title": "压缩与归档",
@@ -7180,7 +7180,7 @@
     ]
   },
   {
-    "id": "py-lesson-163",
+    "id": "py-lesson-162",
     "slug": "图像处理基础",
     "courseId": "py-course-12",
     "title": "图像处理基础",
@@ -7225,7 +7225,7 @@
     ]
   },
   {
-    "id": "py-lesson-164",
+    "id": "py-lesson-163",
     "slug": "音频处理入门",
     "courseId": "py-course-12",
     "title": "音频处理入门",
@@ -7270,7 +7270,7 @@
     ]
   },
   {
-    "id": "py-lesson-165",
+    "id": "py-lesson-164",
     "slug": "Pandas 数据分析",
     "courseId": "py-course-12",
     "title": "Pandas 数据分析",
@@ -7315,7 +7315,7 @@
     ]
   },
   {
-    "id": "py-lesson-166",
+    "id": "py-lesson-165",
     "slug": "NumPy 数组",
     "courseId": "py-course-12",
     "title": "NumPy 数组",
@@ -7360,7 +7360,7 @@
     ]
   },
   {
-    "id": "py-lesson-167",
+    "id": "py-lesson-166",
     "slug": "Matplotlib 绘图",
     "courseId": "py-course-12",
     "title": "Matplotlib 绘图",
@@ -7405,7 +7405,7 @@
     ]
   },
   {
-    "id": "py-lesson-168",
+    "id": "py-lesson-167",
     "slug": "数据分析流程",
     "courseId": "py-course-12",
     "title": "数据分析流程",
@@ -7450,7 +7450,7 @@
     ]
   },
   {
-    "id": "py-lesson-169",
+    "id": "py-lesson-168",
     "slug": "数据清洗",
     "courseId": "py-course-12",
     "title": "数据清洗",
@@ -7495,7 +7495,7 @@
     ]
   },
   {
-    "id": "py-lesson-170",
+    "id": "py-lesson-169",
     "slug": "数据可视化",
     "courseId": "py-course-12",
     "title": "数据可视化",
@@ -7540,7 +7540,7 @@
     ]
   },
   {
-    "id": "py-lesson-171",
+    "id": "py-lesson-170",
     "slug": "机器学习入门",
     "courseId": "py-course-12",
     "title": "机器学习入门",
@@ -7583,5 +7583,195 @@
       "Python 后续学习路线与综合复习",
       "机器学习入门"
     ]
+  },
+  {
+    "id": "py-lesson-171",
+    "courseId": "py-course-02",
+    "order": 15,
+    "title": "Python 基础语法拓展2",
+    "slug": "basic-syntax-ext-2",
+    "summary": "Python 基础语法拓展内容",
+    "content": "# Python 基础语法拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-172",
+    "courseId": "py-course-03",
+    "order": 15,
+    "title": "Python 内置数据类型拓展3",
+    "slug": "built-in-types-ext-3",
+    "summary": "Python 内置数据类型拓展内容",
+    "content": "# Python 内置数据类型拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-173",
+    "courseId": "py-course-04",
+    "order": 15,
+    "title": "条件判断与循环拓展4",
+    "slug": "control-flow-ext-4",
+    "summary": "条件判断与循环拓展内容",
+    "content": "# 条件判断与循环拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-174",
+    "courseId": "py-course-05",
+    "order": 15,
+    "title": "函数与模块拓展5",
+    "slug": "functions-and-modules-ext-5",
+    "summary": "函数与模块拓展内容",
+    "content": "# 函数与模块拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-175",
+    "courseId": "py-course-06",
+    "order": 15,
+    "title": "文件处理与异常处理拓展6",
+    "slug": "files-and-exceptions-ext-6",
+    "summary": "文件处理与异常处理拓展内容",
+    "content": "# 文件处理与异常处理拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-176",
+    "courseId": "py-course-07",
+    "order": 15,
+    "title": "面向对象编程基础拓展7",
+    "slug": "oop-basics-ext-7",
+    "summary": "面向对象编程基础拓展内容",
+    "content": "# 面向对象编程基础拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-177",
+    "courseId": "py-course-08",
+    "order": 15,
+    "title": "常用标准库入门拓展8",
+    "slug": "standard-library-ext-8",
+    "summary": "常用标准库入门拓展内容",
+    "content": "# 常用标准库入门拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-178",
+    "courseId": "py-course-09",
+    "order": 15,
+    "title": "数据文件处理：JSON、CSV、文本拓展9",
+    "slug": "data-files-ext-9",
+    "summary": "数据文件处理：JSON、CSV、文本拓展内容",
+    "content": "# 数据文件处理：JSON、CSV、文本拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-179",
+    "courseId": "py-course-10",
+    "order": 15,
+    "title": "Python 调试、规范与工程习惯拓展10",
+    "slug": "debug-and-conventions-ext-10",
+    "summary": "Python 调试、规范与工程习惯拓展内容",
+    "content": "# Python 调试、规范与工程习惯拓展\n\n拓展内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-lesson-180",
+    "courseId": "py-course-01",
+    "order": 15,
+    "title": "Python 入门与环境搭建综合练习",
+    "slug": "intro-and-setup-final",
+    "summary": "Python 入门与环境搭建综合练习",
+    "content": "# Python 入门与环境搭建综合练习\n\n综合练习内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Python"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
   }
 ]

@@ -5098,5 +5098,205 @@
       "第三方库",
       "副作用"
     ]
+  },
+  {
+    "id": "py-glossary-341",
+    "term": "模块341",
+    "definition": "模块是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-342",
+    "term": "包342",
+    "definition": "包是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-343",
+    "term": "异常343",
+    "definition": "异常是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-344",
+    "term": "文件344",
+    "definition": "文件是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-345",
+    "term": "迭代器345",
+    "definition": "迭代器是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-346",
+    "term": "Python346",
+    "definition": "Python是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-347",
+    "term": "解释器347",
+    "definition": "解释器是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-348",
+    "term": "变量348",
+    "definition": "变量是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-349",
+    "term": "数据类型349",
+    "definition": "数据类型是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-350",
+    "term": "列表350",
+    "definition": "列表是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-351",
+    "term": "字典351",
+    "definition": "字典是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-352",
+    "term": "元组352",
+    "definition": "元组是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-353",
+    "term": "集合353",
+    "definition": "集合是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-354",
+    "term": "函数354",
+    "definition": "函数是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-355",
+    "term": "类355",
+    "definition": "类是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-356",
+    "term": "模块356",
+    "definition": "模块是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-357",
+    "term": "包357",
+    "definition": "包是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-358",
+    "term": "异常358",
+    "definition": "异常是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-359",
+    "term": "文件359",
+    "definition": "文件是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-glossary-360",
+    "term": "迭代器360",
+    "definition": "迭代器是Python中的概念",
+    "category": "Python",
+    "tags": [
+      "Python"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
   }
 ]

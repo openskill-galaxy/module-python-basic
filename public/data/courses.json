@@ -567,5 +567,23 @@
       "巩固基础知识",
       "通过综合测验"
     ]
+  },
+  {
+    "id": "py-course-13",
+    "order": 13,
+    "slug": "Python-FileIO",
+    "title": "文件读写与异常处理",
+    "description": "文件操作、异常处理、上下文管理器。",
+    "estimatedHours": 6,
+    "diff": "easy"
+  },
+  {
+    "id": "py-course-14",
+    "order": 14,
+    "slug": "Python-Package",
+    "title": "模块与包管理",
+    "description": "模块导入、pip、虚拟环境。",
+    "estimatedHours": 6,
+    "diff": "easy"
   }
 ]

@@ -4048,5 +4048,135 @@
       "不可查阅资料",
       "可使用 Python 解释器"
     ]
+  },
+  {
+    "id": "py-exam-91",
+    "title": "条件判断与循环综合测试",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "条件判断与循环"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-92",
+    "title": "Python 内置数据类型综合测试",
+    "difficulty": "medium",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "Python 内置数据类型"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-93",
+    "title": "文件处理与异常处理综合测试",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "文件处理与异常处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-94",
+    "title": "条件判断与循环综合测试",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "条件判断与循环"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-95",
+    "title": "常用标准库入门综合测试",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "常用标准库入门"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-96",
+    "title": "函数与模块综合测试",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "函数与模块"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-97",
+    "title": "面向对象编程基础综合测试",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "面向对象编程基础"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-98",
+    "title": "Python 入门与环境搭建综合测试",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "Python 入门与环境搭建"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-99",
+    "title": "Python 内置数据类型综合测试",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "Python 内置数据类型"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "py-exam-100",
+    "title": "数据文件处理：JSON、CSV、文本综合测试",
+    "difficulty": "medium",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "数据文件处理：JSON、CSV、文本"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
   }
 ]
