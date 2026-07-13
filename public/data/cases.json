@@ -30,7 +30,12 @@
       "py-q-001441",
       "py-q-002161"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Python 历史 实现 数据分析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0001"
+    ]
   },
   {
     "id": "py-case-002",
@@ -63,7 +68,12 @@
       "py-q-001442",
       "py-q-002162"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Python 版本区别 实现 Web 开发 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0002"
+    ]
   },
   {
     "id": "py-case-003",
@@ -96,7 +106,12 @@
       "py-q-001443",
       "py-q-002163"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Python 解释器 实现 爬虫项目 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0003"
+    ]
   },
   {
     "id": "py-case-004",
@@ -129,7 +144,12 @@
       "py-q-001444",
       "py-q-002164"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 CPython 实现 API 设计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0004"
+    ]
   },
   {
     "id": "py-case-005",
@@ -162,7 +182,12 @@
       "py-q-001445",
       "py-q-002165"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 交互式模式 实现 数据处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0005"
+    ]
   },
   {
     "id": "py-case-006",
@@ -195,7 +220,12 @@
       "py-q-001446",
       "py-q-002166"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 脚本模式 实现 自动化脚本 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0006"
+    ]
   },
   {
     "id": "py-case-007",
@@ -228,7 +258,12 @@
       "py-q-001447",
       "py-q-002167"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Windows 安装 Python 实现 文件处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0007"
+    ]
   },
   {
     "id": "py-case-008",
@@ -261,7 +296,12 @@
       "py-q-001448",
       "py-q-002168"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 macOS 安装 Python 实现 日志分析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0008"
+    ]
   },
   {
     "id": "py-case-009",
@@ -294,7 +334,12 @@
       "py-q-001449",
       "py-q-002169"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Linux 安装 Python 实现 数据清洗 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0009"
+    ]
   },
   {
     "id": "py-case-010",
@@ -327,7 +372,12 @@
       "py-q-001450",
       "py-q-002170"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 PATH 环境变量 实现 报表生成 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0010"
+    ]
   },
   {
     "id": "py-case-011",
@@ -360,7 +410,12 @@
       "py-q-001451",
       "py-q-002171"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 python 命令 实现 任务调度 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0011"
+    ]
   },
   {
     "id": "py-case-012",
@@ -393,7 +448,12 @@
       "py-q-001452",
       "py-q-002172"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 python3 命令 实现 配置管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0012"
+    ]
   },
   {
     "id": "py-case-013",
@@ -426,7 +486,12 @@
       "py-q-001453",
       "py-q-002173"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 IDLE 实现 环境部署 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0013"
+    ]
   },
   {
     "id": "py-case-014",
@@ -459,7 +524,12 @@
       "py-q-001454",
       "py-q-002174"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 VS Code 安装 实现 性能优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0014"
+    ]
   },
   {
     "id": "py-case-015",
@@ -492,7 +562,12 @@
       "py-q-001455",
       "py-q-002175"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 VS Code Python 扩展 实现 内存优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0015"
+    ]
   },
   {
     "id": "py-case-016",
@@ -525,7 +600,12 @@
       "py-q-001456",
       "py-q-002176"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 PyCharm 实现 并发处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0016"
+    ]
   },
   {
     "id": "py-case-017",
@@ -558,7 +638,12 @@
       "py-q-001457",
       "py-q-002177"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Jupyter Notebook 实现 异步编程 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0017"
+    ]
   },
   {
     "id": "py-case-018",
@@ -591,7 +676,12 @@
       "py-q-001458",
       "py-q-002178"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 REPL 实现 数据库操作 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0018"
+    ]
   },
   {
     "id": "py-case-019",
@@ -624,7 +714,12 @@
       "py-q-001459",
       "py-q-002179"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 注释的作用 实现 ORM 使用 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0019"
+    ]
   },
   {
     "id": "py-case-020",
@@ -657,7 +752,12 @@
       "py-q-001460",
       "py-q-002180"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 print Hello 实现 缓存设计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0020"
+    ]
   },
   {
     "id": "py-case-021",
@@ -690,7 +790,12 @@
       "py-q-001461",
       "py-q-002181"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 运行第一个程序 实现 认证授权 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0021"
+    ]
   },
   {
     "id": "py-case-022",
@@ -723,7 +828,12 @@
       "py-q-001462",
       "py-q-002182"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 缩进基础 实现 权限管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0022"
+    ]
   },
   {
     "id": "py-case-023",
@@ -756,7 +866,12 @@
       "py-q-001463",
       "py-q-002183"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 PEP 8 简介 实现 错误处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0023"
+    ]
   },
   {
     "id": "py-case-024",
@@ -789,7 +904,12 @@
       "py-q-001464",
       "py-q-002184"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 编码 UTF-8 实现 日志记录 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0024"
+    ]
   },
   {
     "id": "py-case-025",
@@ -822,7 +942,12 @@
       "py-q-001465",
       "py-q-002185"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 源文件扩展名 py 实现 单元测试 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0025"
+    ]
   },
   {
     "id": "py-case-026",
@@ -855,7 +980,12 @@
       "py-q-001466",
       "py-q-002186"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 虚拟环境概念 实现 集成测试 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0026"
+    ]
   },
   {
     "id": "py-case-027",
@@ -888,7 +1018,12 @@
       "py-q-001467",
       "py-q-002187"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Python 之禅 实现 E2E 测试 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0027"
+    ]
   },
   {
     "id": "py-case-028",
@@ -921,7 +1056,12 @@
       "py-q-001468",
       "py-q-002188"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Python 跨平台 实现 持续集成 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0028"
+    ]
   },
   {
     "id": "py-case-029",
@@ -954,7 +1094,12 @@
       "py-q-001469",
       "py-q-002189"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 Python 动态类型特性 实现 代码审查 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0029"
+    ]
   },
   {
     "id": "py-case-030",
@@ -987,7 +1132,12 @@
       "py-q-001470",
       "py-q-002190"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 print 函数 实现 版本管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0030"
+    ]
   },
   {
     "id": "py-case-031",
@@ -1020,7 +1170,12 @@
       "py-q-001471",
       "py-q-002191"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 print 多参数 实现 依赖管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0031"
+    ]
   },
   {
     "id": "py-case-032",
@@ -1053,7 +1208,12 @@
       "py-q-001472",
       "py-q-002192"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 print sep 参数 实现 发布流程 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0032"
+    ]
   },
   {
     "id": "py-case-033",
@@ -1086,7 +1246,12 @@
       "py-q-001473",
       "py-q-002193"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 print end 参数 实现 容器化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0033"
+    ]
   },
   {
     "id": "py-case-034",
@@ -1119,7 +1284,12 @@
       "py-q-001474",
       "py-q-002194"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 input 函数 实现 微服务 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0034"
+    ]
   },
   {
     "id": "py-case-035",
@@ -1152,7 +1322,12 @@
       "py-q-001475",
       "py-q-002195"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 input 返回字符串 实现 消息队列 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0035"
+    ]
   },
   {
     "id": "py-case-036",
@@ -1185,7 +1360,12 @@
       "py-q-001476",
       "py-q-002196"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 变量定义 实现 实时通信 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0036"
+    ]
   },
   {
     "id": "py-case-037",
@@ -1218,7 +1398,12 @@
       "py-q-001477",
       "py-q-002197"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 变量赋值 实现 数据可视化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0037"
+    ]
   },
   {
     "id": "py-case-038",
@@ -1251,7 +1436,12 @@
       "py-q-001478",
       "py-q-002198"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 变量命名规则 实现 机器学习 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0038"
+    ]
   },
   {
     "id": "py-case-039",
@@ -1284,7 +1474,12 @@
       "py-q-001479",
       "py-q-002199"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 snake_case 命名 实现 深度学习 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0039"
+    ]
   },
   {
     "id": "py-case-040",
@@ -1317,7 +1512,12 @@
       "py-q-001480",
       "py-q-002200"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 关键字列表 实现 模型部署 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0040"
+    ]
   },
   {
     "id": "py-case-041",
@@ -1350,7 +1550,12 @@
       "py-q-001481",
       "py-q-002201"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 单行注释 实现 特征工程 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0041"
+    ]
   },
   {
     "id": "py-case-042",
@@ -1383,7 +1588,12 @@
       "py-q-001482",
       "py-q-002202"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 多行注释 实现 数据预处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0042"
+    ]
   },
   {
     "id": "py-case-043",
@@ -1416,7 +1626,12 @@
       "py-q-001483",
       "py-q-002203"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 缩进错误 实现 模型评估 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0043"
+    ]
   },
   {
     "id": "py-case-044",
@@ -1449,7 +1664,12 @@
       "py-q-001484",
       "py-q-002204"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 代码块 实现 超参调优 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0044"
+    ]
   },
   {
     "id": "py-case-045",
@@ -1482,7 +1702,12 @@
       "py-q-001485",
       "py-q-002205"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串字面量 实现 模型压缩 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0045"
+    ]
   },
   {
     "id": "py-case-046",
@@ -1515,7 +1740,12 @@
       "py-q-001486",
       "py-q-002206"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串引号 实现 边缘部署 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0046"
+    ]
   },
   {
     "id": "py-case-047",
@@ -1548,7 +1778,12 @@
       "py-q-001487",
       "py-q-002207"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 f-string 实现 推理优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0047"
+    ]
   },
   {
     "id": "py-case-048",
@@ -1581,7 +1816,12 @@
       "py-q-001488",
       "py-q-002208"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 format 方法 实现 向量检索 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0048"
+    ]
   },
   {
     "id": "py-case-049",
@@ -1614,7 +1854,12 @@
       "py-q-001489",
       "py-q-002209"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 类型转换 int 实现 RAG 系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0049"
+    ]
   },
   {
     "id": "py-case-050",
@@ -1647,7 +1892,12 @@
       "py-q-001490",
       "py-q-002210"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 类型转换 float 实现 Agent 开发 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0050"
+    ]
   },
   {
     "id": "py-case-051",
@@ -1680,7 +1930,12 @@
       "py-q-001491",
       "py-q-002211"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 类型转换 str 实现 工具调用 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0051"
+    ]
   },
   {
     "id": "py-case-052",
@@ -1713,7 +1968,12 @@
       "py-q-001492",
       "py-q-002212"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 type 函数 实现 Prompt 工程 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0052"
+    ]
   },
   {
     "id": "py-case-053",
@@ -1746,7 +2006,12 @@
       "py-q-001493",
       "py-q-002213"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 表达式与语句 实现 多模态处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0053"
+    ]
   },
   {
     "id": "py-case-054",
@@ -1779,7 +2044,12 @@
       "py-q-001494",
       "py-q-002214"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 运算符概览 实现 图像识别 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0054"
+    ]
   },
   {
     "id": "py-case-055",
@@ -1812,7 +2082,12 @@
       "py-q-001495",
       "py-q-002215"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 赋值运算符 实现 语音识别 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0055"
+    ]
   },
   {
     "id": "py-case-056",
@@ -1845,7 +2120,12 @@
       "py-q-001496",
       "py-q-002216"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 多重赋值 实现 NLP 处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0056"
+    ]
   },
   {
     "id": "py-case-057",
@@ -1878,7 +2158,12 @@
       "py-q-001497",
       "py-q-002217"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 常量约定 实现 推荐系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0057"
+    ]
   },
   {
     "id": "py-case-058",
@@ -1911,7 +2196,12 @@
       "py-q-001498",
       "py-q-002218"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 海象运算符 实现 搜索引擎 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0058"
+    ]
   },
   {
     "id": "py-case-059",
@@ -1944,7 +2234,12 @@
       "py-q-001499",
       "py-q-002219"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 链式比较 实现 知识图谱 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0059"
+    ]
   },
   {
     "id": "py-case-060",
@@ -1977,7 +2272,12 @@
       "py-q-001500",
       "py-q-002220"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 位运算符 实现 时序预测 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0060"
+    ]
   },
   {
     "id": "py-case-061",
@@ -2010,7 +2310,12 @@
       "py-q-001501",
       "py-q-002221"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 del 删除变量 实现 异常检测 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0061"
+    ]
   },
   {
     "id": "py-case-062",
@@ -2043,7 +2348,12 @@
       "py-q-001502",
       "py-q-002222"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 is 与 == 区别 实现 聚类分析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0062"
+    ]
   },
   {
     "id": "py-case-063",
@@ -2076,7 +2386,12 @@
       "py-q-001503",
       "py-q-002223"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 小整数池 实现 分类任务 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0063"
+    ]
   },
   {
     "id": "py-case-064",
@@ -2109,7 +2424,12 @@
       "py-q-001504",
       "py-q-002224"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串驻留 实现 回归任务 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0064"
+    ]
   },
   {
     "id": "py-case-065",
@@ -2142,7 +2462,12 @@
       "py-q-001505",
       "py-q-002225"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 int 整数 实现 强化学习 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0065"
+    ]
   },
   {
     "id": "py-case-066",
@@ -2175,7 +2500,12 @@
       "py-q-001506",
       "py-q-002226"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 float 浮点数 实现 游戏开发 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0066"
+    ]
   },
   {
     "id": "py-case-067",
@@ -2208,7 +2538,12 @@
       "py-q-001507",
       "py-q-002227"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 浮点精度问题 实现 图形渲染 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0067"
+    ]
   },
   {
     "id": "py-case-068",
@@ -2241,7 +2576,12 @@
       "py-q-001508",
       "py-q-002228"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 bool 布尔 实现 动画系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0068"
+    ]
   },
   {
     "id": "py-case-069",
@@ -2274,7 +2614,12 @@
       "py-q-001509",
       "py-q-002229"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 True False 实现 物理引擎 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0069"
+    ]
   },
   {
     "id": "py-case-070",
@@ -2307,7 +2652,12 @@
       "py-q-001510",
       "py-q-002230"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 None 实现 碰撞检测 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0070"
+    ]
   },
   {
     "id": "py-case-071",
@@ -2340,7 +2690,12 @@
       "py-q-001511",
       "py-q-002231"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 str 字符串 实现 路径规划 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0071"
+    ]
   },
   {
     "id": "py-case-072",
@@ -2373,7 +2728,12 @@
       "py-q-001512",
       "py-q-002232"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串索引 实现 AI 寻路 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0072"
+    ]
   },
   {
     "id": "py-case-073",
@@ -2406,7 +2766,12 @@
       "py-q-001513",
       "py-q-002233"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串负索引 实现 游戏 AI 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0073"
+    ]
   },
   {
     "id": "py-case-074",
@@ -2439,7 +2804,12 @@
       "py-q-001514",
       "py-q-002234"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串切片 实现 游戏服务器 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0074"
+    ]
   },
   {
     "id": "py-case-075",
@@ -2472,7 +2842,12 @@
       "py-q-001515",
       "py-q-002235"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串长度 len 实现 多人同步 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0075"
+    ]
   },
   {
     "id": "py-case-076",
@@ -2505,7 +2880,12 @@
       "py-q-001516",
       "py-q-002236"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串拼接 实现 状态管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0076"
+    ]
   },
   {
     "id": "py-case-077",
@@ -2538,7 +2918,12 @@
       "py-q-001517",
       "py-q-002237"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串重复 实现 事件系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0077"
+    ]
   },
   {
     "id": "py-case-078",
@@ -2571,7 +2956,12 @@
       "py-q-001518",
       "py-q-002238"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 split 方法 实现 UI 系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0078"
+    ]
   },
   {
     "id": "py-case-079",
@@ -2604,7 +2994,12 @@
       "py-q-001519",
       "py-q-002239"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 join 方法 实现 音效管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0079"
+    ]
   },
   {
     "id": "py-case-080",
@@ -2637,7 +3032,12 @@
       "py-q-001520",
       "py-q-002240"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 replace 方法 实现 资源加载 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0080"
+    ]
   },
   {
     "id": "py-case-081",
@@ -2670,7 +3070,12 @@
       "py-q-001521",
       "py-q-002241"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 strip 方法 实现 场景管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0081"
+    ]
   },
   {
     "id": "py-case-082",
@@ -2703,7 +3108,12 @@
       "py-q-001522",
       "py-q-002242"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 upper lower 实现 存档系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0082"
+    ]
   },
   {
     "id": "py-case-083",
@@ -2736,7 +3146,12 @@
       "py-q-001523",
       "py-q-002243"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 find index 实现 排行榜 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0083"
+    ]
   },
   {
     "id": "py-case-084",
@@ -2769,7 +3184,12 @@
       "py-q-001524",
       "py-q-002244"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 startswith endswith 实现 成就系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0084"
+    ]
   },
   {
     "id": "py-case-085",
@@ -2802,7 +3222,12 @@
       "py-q-001525",
       "py-q-002245"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 isdigit isalpha 实现 支付集成 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0085"
+    ]
   },
   {
     "id": "py-case-086",
@@ -2835,7 +3260,12 @@
       "py-q-001526",
       "py-q-002246"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字符串不可变 实现 广告集成 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0086"
+    ]
   },
   {
     "id": "py-case-087",
@@ -2868,7 +3298,12 @@
       "py-q-001527",
       "py-q-002247"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 转义字符 实现 数据分析 SDK 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0087"
+    ]
   },
   {
     "id": "py-case-088",
@@ -2901,7 +3336,12 @@
       "py-q-001528",
       "py-q-002248"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 原始字符串 实现 崩溃上报 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0088"
+    ]
   },
   {
     "id": "py-case-089",
@@ -2934,7 +3374,12 @@
       "py-q-001529",
       "py-q-002249"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表字面量 实现 热更新 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0089"
+    ]
   },
   {
     "id": "py-case-090",
@@ -2967,7 +3412,12 @@
       "py-q-001530",
       "py-q-002250"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表索引 实现 反作弊 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0090"
+    ]
   },
   {
     "id": "py-case-091",
@@ -3000,7 +3450,12 @@
       "py-q-001531",
       "py-q-002251"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表负索引 实现 加密通信 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0091"
+    ]
   },
   {
     "id": "py-case-092",
@@ -3033,7 +3488,12 @@
       "py-q-001532",
       "py-q-002252"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表切片 实现 协议设计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0092"
+    ]
   },
   {
     "id": "py-case-093",
@@ -3066,7 +3526,12 @@
       "py-q-001533",
       "py-q-002253"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 append 方法 实现 网络同步 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0093"
+    ]
   },
   {
     "id": "py-case-094",
@@ -3099,7 +3564,12 @@
       "py-q-001534",
       "py-q-002254"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 insert 方法 实现 延迟优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0094"
+    ]
   },
   {
     "id": "py-case-095",
@@ -3132,7 +3602,12 @@
       "py-q-001535",
       "py-q-002255"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 extend 方法 实现 带宽优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0095"
+    ]
   },
   {
     "id": "py-case-096",
@@ -3165,7 +3640,12 @@
       "py-q-001536",
       "py-q-002256"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 pop 方法 实现 丢包处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0096"
+    ]
   },
   {
     "id": "py-case-097",
@@ -3198,7 +3678,12 @@
       "py-q-001537",
       "py-q-002257"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 remove 方法 实现 断线重连 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0097"
+    ]
   },
   {
     "id": "py-case-098",
@@ -3231,7 +3716,12 @@
       "py-q-001538",
       "py-q-002258"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表 del 实现 心跳机制 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0098"
+    ]
   },
   {
     "id": "py-case-099",
@@ -3264,7 +3754,12 @@
       "py-q-001539",
       "py-q-002259"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表修改元素 实现 服务器架构 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0099"
+    ]
   },
   {
     "id": "py-case-100",
@@ -3297,7 +3792,12 @@
       "py-q-001540",
       "py-q-002260"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表长度 实现 负载均衡 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0100"
+    ]
   },
   {
     "id": "py-case-101",
@@ -3330,7 +3830,12 @@
       "py-q-001541",
       "py-q-002261"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表排序 sort 实现 服务发现 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0101"
+    ]
   },
   {
     "id": "py-case-102",
@@ -3363,7 +3868,12 @@
       "py-q-001542",
       "py-q-002262"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 sorted 函数 实现 配置中心 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0102"
+    ]
   },
   {
     "id": "py-case-103",
@@ -3396,7 +3906,12 @@
       "py-q-001543",
       "py-q-002263"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表反转 reverse 实现 网关设计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0103"
+    ]
   },
   {
     "id": "py-case-104",
@@ -3429,7 +3944,12 @@
       "py-q-001544",
       "py-q-002264"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表遍历 实现 限流熔断 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0104"
+    ]
   },
   {
     "id": "py-case-105",
@@ -3462,7 +3982,12 @@
       "py-q-001545",
       "py-q-002265"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表推导式 实现 链路追踪 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0105"
+    ]
   },
   {
     "id": "py-case-106",
@@ -3495,7 +4020,12 @@
       "py-q-001546",
       "py-q-002266"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 嵌套列表 实现 监控告警 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0106"
+    ]
   },
   {
     "id": "py-case-107",
@@ -3528,7 +4058,12 @@
       "py-q-001547",
       "py-q-002267"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表浅拷贝 实现 日志聚合 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0107"
+    ]
   },
   {
     "id": "py-case-108",
@@ -3561,7 +4096,12 @@
       "py-q-001548",
       "py-q-002268"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表深拷贝 实现 指标采集 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0108"
+    ]
   },
   {
     "id": "py-case-109",
@@ -3594,7 +4134,12 @@
       "py-q-001549",
       "py-q-002269"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 列表可变性 实现 性能剖析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0109"
+    ]
   },
   {
     "id": "py-case-110",
@@ -3627,7 +4172,12 @@
       "py-q-001550",
       "py-q-002270"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 元组字面量 实现 内存泄漏 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0110"
+    ]
   },
   {
     "id": "py-case-111",
@@ -3660,7 +4210,12 @@
       "py-q-001551",
       "py-q-002271"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 元组不可变 实现 死锁排查 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0111"
+    ]
   },
   {
     "id": "py-case-112",
@@ -3693,7 +4248,12 @@
       "py-q-001552",
       "py-q-002272"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 元组索引 实现 CPU 优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0112"
+    ]
   },
   {
     "id": "py-case-113",
@@ -3726,7 +4286,12 @@
       "py-q-001553",
       "py-q-002273"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 元组解包 实现 磁盘优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0113"
+    ]
   },
   {
     "id": "py-case-114",
@@ -3759,7 +4324,12 @@
       "py-q-001554",
       "py-q-002274"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 单元素元组 实现 网络优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0114"
+    ]
   },
   {
     "id": "py-case-115",
@@ -3792,7 +4362,12 @@
       "py-q-001555",
       "py-q-002275"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 元组 vs 列表 实现 数据库优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0115"
+    ]
   },
   {
     "id": "py-case-116",
@@ -3825,7 +4400,12 @@
       "py-q-001556",
       "py-q-002276"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典字面量 实现 索引优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0116"
+    ]
   },
   {
     "id": "py-case-117",
@@ -3858,7 +4438,12 @@
       "py-q-001557",
       "py-q-002277"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典键值对 实现 查询优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0117"
+    ]
   },
   {
     "id": "py-case-118",
@@ -3891,7 +4476,12 @@
       "py-q-001558",
       "py-q-002278"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典访问 实现 分库分表 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0118"
+    ]
   },
   {
     "id": "py-case-119",
@@ -3924,7 +4514,12 @@
       "py-q-001559",
       "py-q-002279"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典添加 实现 读写分离 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0119"
+    ]
   },
   {
     "id": "py-case-120",
@@ -3957,7 +4552,12 @@
       "py-q-001560",
       "py-q-002280"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典修改 实现 主从同步 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0120"
+    ]
   },
   {
     "id": "py-case-121",
@@ -3990,7 +4590,12 @@
       "py-q-001561",
       "py-q-002281"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典删除 实现 集群部署 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0121"
+    ]
   },
   {
     "id": "py-case-122",
@@ -4023,7 +4628,12 @@
       "py-q-001562",
       "py-q-002282"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典 keys 实现 容灾备份 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0122"
+    ]
   },
   {
     "id": "py-case-123",
@@ -4056,7 +4666,12 @@
       "py-q-001563",
       "py-q-002283"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典 values 实现 数据迁移 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0123"
+    ]
   },
   {
     "id": "py-case-124",
@@ -4089,7 +4704,12 @@
       "py-q-001564",
       "py-q-002284"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典 items 实现 版本升级 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0124"
+    ]
   },
   {
     "id": "py-case-125",
@@ -4122,7 +4742,12 @@
       "py-q-001565",
       "py-q-002285"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典遍历 实现 灰度发布 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0125"
+    ]
   },
   {
     "id": "py-case-126",
@@ -4155,7 +4780,12 @@
       "py-q-001566",
       "py-q-002286"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典 get 方法 实现 A/B 测试 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0126"
+    ]
   },
   {
     "id": "py-case-127",
@@ -4188,7 +4818,12 @@
       "py-q-001567",
       "py-q-002287"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典推导式 实现 特性开关 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0127"
+    ]
   },
   {
     "id": "py-case-128",
@@ -4221,7 +4856,12 @@
       "py-q-001568",
       "py-q-002288"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 字典键不可变要求 实现 回滚机制 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0128"
+    ]
   },
   {
     "id": "py-case-129",
@@ -4254,7 +4894,12 @@
       "py-q-001569",
       "py-q-002289"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 集合字面量 实现 故障排查 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0129"
+    ]
   },
   {
     "id": "py-case-130",
@@ -4287,7 +4932,12 @@
       "py-q-001570",
       "py-q-002290"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 集合去重 实现 应急响应 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0130"
+    ]
   },
   {
     "id": "py-case-131",
@@ -4320,7 +4970,12 @@
       "py-q-001571",
       "py-q-002291"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 集合 add remove 实现 安全加固 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0131"
+    ]
   },
   {
     "id": "py-case-132",
@@ -4353,7 +5008,12 @@
       "py-q-001572",
       "py-q-002292"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 集合运算 并集 实现 漏洞修复 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0132"
+    ]
   },
   {
     "id": "py-case-133",
@@ -4386,7 +5046,12 @@
       "py-q-001573",
       "py-q-002293"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 集合运算 交集 实现 渗透测试 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0133"
+    ]
   },
   {
     "id": "py-case-134",
@@ -4419,7 +5084,12 @@
       "py-q-001574",
       "py-q-002294"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 集合运算 差集 实现 代码审计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0134"
+    ]
   },
   {
     "id": "py-case-135",
@@ -4452,7 +5122,12 @@
       "py-q-001575",
       "py-q-002295"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 frozen set 实现 安全扫描 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0135"
+    ]
   },
   {
     "id": "py-case-136",
@@ -4485,7 +5160,12 @@
       "py-q-001576",
       "py-q-002296"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 in 运算符 实现 合规检查 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0136"
+    ]
   },
   {
     "id": "py-case-137",
@@ -4518,7 +5198,12 @@
       "py-q-001577",
       "py-q-002297"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 可变与不可变总结 实现 隐私保护 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0137"
+    ]
   },
   {
     "id": "py-case-138",
@@ -4551,7 +5236,12 @@
       "py-q-001578",
       "py-q-002298"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 类型转换场景 实现 数据脱敏 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0138"
+    ]
   },
   {
     "id": "py-case-139",
@@ -4584,7 +5274,12 @@
       "py-q-001579",
       "py-q-002299"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 if 语句 实现 访问控制 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0139"
+    ]
   },
   {
     "id": "py-case-140",
@@ -4617,7 +5312,12 @@
       "py-q-001580",
       "py-q-002300"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 elif 语句 实现 加密存储 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0140"
+    ]
   },
   {
     "id": "py-case-141",
@@ -4650,7 +5350,12 @@
       "py-q-001581",
       "py-q-002301"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 else 语句 实现 密钥管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0141"
+    ]
   },
   {
     "id": "py-case-142",
@@ -4683,7 +5388,12 @@
       "py-q-001582",
       "py-q-002302"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 比较运算符 实现 证书管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0142"
+    ]
   },
   {
     "id": "py-case-143",
@@ -4716,7 +5426,12 @@
       "py-q-001583",
       "py-q-002303"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 逻辑运算符 and 实现 安全传输 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0143"
+    ]
   },
   {
     "id": "py-case-144",
@@ -4749,7 +5464,12 @@
       "py-q-001584",
       "py-q-002304"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 逻辑运算符 or 实现 防重放攻击 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0144"
+    ]
   },
   {
     "id": "py-case-145",
@@ -4782,7 +5502,12 @@
       "py-q-001585",
       "py-q-002305"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 逻辑运算符 not 实现 防 SQL 注入 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0145"
+    ]
   },
   {
     "id": "py-case-146",
@@ -4815,7 +5540,12 @@
       "py-q-001586",
       "py-q-002306"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 布尔表达式 实现 防 XSS 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0146"
+    ]
   },
   {
     "id": "py-case-147",
@@ -4848,7 +5578,12 @@
       "py-q-001587",
       "py-q-002307"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 条件嵌套 实现 防 CSRF 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0147"
+    ]
   },
   {
     "id": "py-case-148",
@@ -4881,7 +5616,12 @@
       "py-q-001588",
       "py-q-002308"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 三元表达式 实现 防 DDoS 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0148"
+    ]
   },
   {
     "id": "py-case-149",
@@ -4914,7 +5654,12 @@
       "py-q-001589",
       "py-q-002309"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 for 循环 实现 WAF 配置 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0149"
+    ]
   },
   {
     "id": "py-case-150",
@@ -4947,7 +5692,12 @@
       "py-q-001590",
       "py-q-002310"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 for 遍历列表 实现 入侵检测 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0150"
+    ]
   },
   {
     "id": "py-case-151",
@@ -4980,7 +5730,12 @@
       "py-q-001591",
       "py-q-002311"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 for 遍历字符串 实现 日志审计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0151"
+    ]
   },
   {
     "id": "py-case-152",
@@ -5013,7 +5768,12 @@
       "py-q-001592",
       "py-q-002312"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 range 函数 实现 行为分析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0152"
+    ]
   },
   {
     "id": "py-case-153",
@@ -5046,7 +5806,12 @@
       "py-q-001593",
       "py-q-002313"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 range start stop step 实现 风控系统 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0153"
+    ]
   },
   {
     "id": "py-case-154",
@@ -5079,7 +5844,12 @@
       "py-q-001594",
       "py-q-002314"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 enumerate 实现 反欺诈 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0154"
+    ]
   },
   {
     "id": "py-case-155",
@@ -5112,7 +5882,12 @@
       "py-q-001595",
       "py-q-002315"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 while 循环 实现 身份验证 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0155"
+    ]
   },
   {
     "id": "py-case-156",
@@ -5145,7 +5920,12 @@
       "py-q-001596",
       "py-q-002316"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 while 条件 实现 多因素认证 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0156"
+    ]
   },
   {
     "id": "py-case-157",
@@ -5178,7 +5958,12 @@
       "py-q-001597",
       "py-q-002317"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 死循环 实现 单点登录 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0157"
+    ]
   },
   {
     "id": "py-case-158",
@@ -5211,7 +5996,12 @@
       "py-q-001598",
       "py-q-002318"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 break 语句 实现 OAuth 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0158"
+    ]
   },
   {
     "id": "py-case-159",
@@ -5244,7 +6034,12 @@
       "py-q-001599",
       "py-q-002319"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 continue 语句 实现 JWT 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0159"
+    ]
   },
   {
     "id": "py-case-160",
@@ -5277,7 +6072,12 @@
       "py-q-001600",
       "py-q-002320"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 pass 语句 实现 Session 管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0160"
+    ]
   },
   {
     "id": "py-case-161",
@@ -5310,7 +6110,12 @@
       "py-q-001601",
       "py-q-002321"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 循环 else 实现 Token 刷新 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0161"
+    ]
   },
   {
     "id": "py-case-162",
@@ -5343,7 +6148,12 @@
       "py-q-001602",
       "py-q-002322"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 嵌套循环 实现 权限模型 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0162"
+    ]
   },
   {
     "id": "py-case-163",
@@ -5376,7 +6186,12 @@
       "py-q-001603",
       "py-q-002323"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 循环与列表 实现 RBAC 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0163"
+    ]
   },
   {
     "id": "py-case-164",
@@ -5409,7 +6224,12 @@
       "py-q-001604",
       "py-q-002324"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 zip 并行遍历 实现 ABAC 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0164"
+    ]
   },
   {
     "id": "py-case-165",
@@ -5442,7 +6262,12 @@
       "py-q-001605",
       "py-q-002325"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 迭代器概念 实现 数据权限 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0165"
+    ]
   },
   {
     "id": "py-case-166",
@@ -5475,7 +6300,12 @@
       "py-q-001606",
       "py-q-002326"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 可迭代对象 实现 功能权限 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0166"
+    ]
   },
   {
     "id": "py-case-167",
@@ -5508,7 +6338,12 @@
       "py-q-001607",
       "py-q-002327"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 match 语句 实现 菜单权限 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0167"
+    ]
   },
   {
     "id": "py-case-168",
@@ -5541,7 +6376,12 @@
       "py-q-001608",
       "py-q-002328"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 def 定义函数 实现 按钮权限 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0168"
+    ]
   },
   {
     "id": "py-case-169",
@@ -5574,7 +6414,12 @@
       "py-q-001609",
       "py-q-002329"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 函数调用 实现 API 网关 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0169"
+    ]
   },
   {
     "id": "py-case-170",
@@ -5607,7 +6452,12 @@
       "py-q-001610",
       "py-q-002330"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 形参与实参 实现 服务编排 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0170"
+    ]
   },
   {
     "id": "py-case-171",
@@ -5640,7 +6490,12 @@
       "py-q-001611",
       "py-q-002331"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 位置参数 实现 工作流 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0171"
+    ]
   },
   {
     "id": "py-case-172",
@@ -5673,7 +6528,12 @@
       "py-q-001612",
       "py-q-002332"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 关键字参数 实现 规则引擎 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0172"
+    ]
   },
   {
     "id": "py-case-173",
@@ -5706,7 +6566,12 @@
       "py-q-001613",
       "py-q-002333"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 默认参数 实现 定时任务 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0173"
+    ]
   },
   {
     "id": "py-case-174",
@@ -5739,7 +6604,12 @@
       "py-q-001614",
       "py-q-002334"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 可变默认参数陷阱 实现 异步任务 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0174"
+    ]
   },
   {
     "id": "py-case-175",
@@ -5772,7 +6642,12 @@
       "py-q-001615",
       "py-q-002335"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 args 可变参数 实现 延迟队列 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0175"
+    ]
   },
   {
     "id": "py-case-176",
@@ -5805,7 +6680,12 @@
       "py-q-001616",
       "py-q-002336"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 kwargs 关键字参数 实现 死信队列 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0176"
+    ]
   },
   {
     "id": "py-case-177",
@@ -5838,7 +6718,12 @@
       "py-q-001617",
       "py-q-002337"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 return 返回值 实现 消息可靠性 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0177"
+    ]
   },
   {
     "id": "py-case-178",
@@ -5871,7 +6756,12 @@
       "py-q-001618",
       "py-q-002338"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 多返回值 实现 幂等性 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0178"
+    ]
   },
   {
     "id": "py-case-179",
@@ -5904,7 +6794,12 @@
       "py-q-001619",
       "py-q-002339"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 无返回值 None 实现 分布式事务 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0179"
+    ]
   },
   {
     "id": "py-case-180",
@@ -5937,7 +6832,12 @@
       "py-q-001620",
       "py-q-002340"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 函数文档字符串 实现 Saga 模式 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0180"
+    ]
   },
   {
     "id": "py-case-181",
@@ -5970,7 +6870,12 @@
       "py-q-001621",
       "py-q-002341"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 lambda 表达式 实现 TCC 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0181"
+    ]
   },
   {
     "id": "py-case-182",
@@ -6003,7 +6908,12 @@
       "py-q-001622",
       "py-q-002342"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 匿名函数 实现 两阶段提交 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0182"
+    ]
   },
   {
     "id": "py-case-183",
@@ -6036,7 +6946,12 @@
       "py-q-001623",
       "py-q-002343"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 高阶函数 实现 最终一致性 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0183"
+    ]
   },
   {
     "id": "py-case-184",
@@ -6069,7 +6984,12 @@
       "py-q-001624",
       "py-q-002344"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 map 函数 实现 强一致性 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0184"
+    ]
   },
   {
     "id": "py-case-185",
@@ -6102,7 +7022,12 @@
       "py-q-001625",
       "py-q-002345"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 filter 函数 实现 数据分析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0185"
+    ]
   },
   {
     "id": "py-case-186",
@@ -6135,7 +7060,12 @@
       "py-q-001626",
       "py-q-002346"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 局部作用域 实现 Web 开发 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0186"
+    ]
   },
   {
     "id": "py-case-187",
@@ -6168,7 +7098,12 @@
       "py-q-001627",
       "py-q-002347"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 全局作用域 实现 爬虫项目 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0187"
+    ]
   },
   {
     "id": "py-case-188",
@@ -6201,7 +7136,12 @@
       "py-q-001628",
       "py-q-002348"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 global 关键字 实现 API 设计 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0188"
+    ]
   },
   {
     "id": "py-case-189",
@@ -6234,7 +7174,12 @@
       "py-q-001629",
       "py-q-002349"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 nonlocal 关键字 实现 数据处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0189"
+    ]
   },
   {
     "id": "py-case-190",
@@ -6267,7 +7212,12 @@
       "py-q-001630",
       "py-q-002350"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 LEGB 规则 实现 自动化脚本 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0190"
+    ]
   },
   {
     "id": "py-case-191",
@@ -6300,7 +7250,12 @@
       "py-q-001631",
       "py-q-002351"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 闭包 实现 文件处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0191"
+    ]
   },
   {
     "id": "py-case-192",
@@ -6333,7 +7288,12 @@
       "py-q-001632",
       "py-q-002352"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 装饰器入门 实现 日志分析 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0192"
+    ]
   },
   {
     "id": "py-case-193",
@@ -6366,7 +7326,12 @@
       "py-q-001633",
       "py-q-002353"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 递归 实现 数据清洗 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0193"
+    ]
   },
   {
     "id": "py-case-194",
@@ -6399,7 +7364,12 @@
       "py-q-001634",
       "py-q-002354"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 递归终止条件 实现 报表生成 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0194"
+    ]
   },
   {
     "id": "py-case-195",
@@ -6432,7 +7402,12 @@
       "py-q-001635",
       "py-q-002355"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 import 语句 实现 任务调度 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0195"
+    ]
   },
   {
     "id": "py-case-196",
@@ -6465,7 +7440,12 @@
       "py-q-001636",
       "py-q-002356"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 from import 实现 配置管理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0196"
+    ]
   },
   {
     "id": "py-case-197",
@@ -6498,7 +7478,12 @@
       "py-q-001637",
       "py-q-002357"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 import as 实现 环境部署 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0197"
+    ]
   },
   {
     "id": "py-case-198",
@@ -6531,7 +7516,12 @@
       "py-q-001638",
       "py-q-002358"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 自定义模块 实现 性能优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0198"
+    ]
   },
   {
     "id": "py-case-199",
@@ -6564,7 +7554,12 @@
       "py-q-001639",
       "py-q-002359"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 name main 实现 内存优化 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0199"
+    ]
   },
   {
     "id": "py-case-200",
@@ -6597,7 +7592,12 @@
       "py-q-001640",
       "py-q-002360"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "在某项目中，需要使用 包的概念 实现 并发处理 功能。请分析需求并给出完整解决方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "py-kp-0200"
+    ]
   },
   {
     "id": "py-case-201",
@@ -6605,33 +7605,19 @@
     "description": "通过函数设计掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "函数设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过函数设计掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "函数设计案例201"
   },
   {
     "id": "py-case-202",
@@ -6639,33 +7625,19 @@
     "description": "通过字典用法掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字典用法"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字典用法掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字典用法掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字典用法案例202"
   },
   {
     "id": "py-case-203",
@@ -6673,33 +7645,19 @@
     "description": "通过模块使用掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "模块使用"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过模块使用掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "模块使用案例203"
   },
   {
     "id": "py-case-204",
@@ -6707,33 +7665,19 @@
     "description": "通过Python基础掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "Python基础"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过Python基础掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "python基础案例204"
   },
   {
     "id": "py-case-205",
@@ -6741,33 +7685,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例205"
   },
   {
     "id": "py-case-206",
@@ -6775,33 +7705,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例206"
   },
   {
     "id": "py-case-207",
@@ -6809,33 +7725,19 @@
     "description": "通过字典用法掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字典用法"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字典用法掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字典用法掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字典用法案例207"
   },
   {
     "id": "py-case-208",
@@ -6843,33 +7745,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例208"
   },
   {
     "id": "py-case-209",
@@ -6877,33 +7765,19 @@
     "description": "通过模块使用掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "模块使用"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过模块使用掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "模块使用案例209"
   },
   {
     "id": "py-case-210",
@@ -6911,33 +7785,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例210"
   },
   {
     "id": "py-case-211",
@@ -6945,33 +7805,19 @@
     "description": "通过列表操作掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "列表操作"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过列表操作掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "列表操作案例211"
   },
   {
     "id": "py-case-212",
@@ -6979,33 +7825,19 @@
     "description": "通过字符串处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字符串处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字符串处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字符串处理案例212"
   },
   {
     "id": "py-case-213",
@@ -7013,33 +7845,19 @@
     "description": "通过列表操作掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "列表操作"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过列表操作掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "列表操作案例213"
   },
   {
     "id": "py-case-214",
@@ -7047,33 +7865,19 @@
     "description": "通过模块使用掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "模块使用"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过模块使用掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "模块使用案例214"
   },
   {
     "id": "py-case-215",
@@ -7081,33 +7885,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例215"
   },
   {
     "id": "py-case-216",
@@ -7115,33 +7905,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例216"
   },
   {
     "id": "py-case-217",
@@ -7149,33 +7925,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例217"
   },
   {
     "id": "py-case-218",
@@ -7183,33 +7945,19 @@
     "description": "通过Python基础掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "Python基础"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过Python基础掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "python基础案例218"
   },
   {
     "id": "py-case-219",
@@ -7217,33 +7965,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例219"
   },
   {
     "id": "py-case-220",
@@ -7251,33 +7985,19 @@
     "description": "通过Python基础掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "Python基础"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过Python基础掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "python基础案例220"
   },
   {
     "id": "py-case-221",
@@ -7285,33 +8005,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例221"
   },
   {
     "id": "py-case-222",
@@ -7319,33 +8025,19 @@
     "description": "通过列表操作掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "列表操作"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过列表操作掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "列表操作案例222"
   },
   {
     "id": "py-case-223",
@@ -7353,33 +8045,19 @@
     "description": "通过文件读写掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "文件读写"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过文件读写掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过文件读写掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "文件读写案例223"
   },
   {
     "id": "py-case-224",
@@ -7387,33 +8065,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例224"
   },
   {
     "id": "py-case-225",
@@ -7421,33 +8085,19 @@
     "description": "通过文件读写掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "文件读写"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过文件读写掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过文件读写掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "文件读写案例225"
   },
   {
     "id": "py-case-226",
@@ -7455,33 +8105,19 @@
     "description": "通过字典用法掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字典用法"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字典用法掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字典用法掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字典用法案例226"
   },
   {
     "id": "py-case-227",
@@ -7489,33 +8125,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例227"
   },
   {
     "id": "py-case-228",
@@ -7523,33 +8145,19 @@
     "description": "通过函数设计掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "函数设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过函数设计掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "函数设计案例228"
   },
   {
     "id": "py-case-229",
@@ -7557,33 +8165,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例229"
   },
   {
     "id": "py-case-230",
@@ -7591,33 +8185,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例230"
   },
   {
     "id": "py-case-231",
@@ -7625,33 +8205,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例231"
   },
   {
     "id": "py-case-232",
@@ -7659,33 +8225,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例232"
   },
   {
     "id": "py-case-233",
@@ -7693,33 +8245,19 @@
     "description": "通过列表操作掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "列表操作"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过列表操作掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "列表操作案例233"
   },
   {
     "id": "py-case-234",
@@ -7727,33 +8265,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例234"
   },
   {
     "id": "py-case-235",
@@ -7761,33 +8285,19 @@
     "description": "通过Python基础掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "Python基础"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过Python基础掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "python基础案例235"
   },
   {
     "id": "py-case-236",
@@ -7795,33 +8305,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例236"
   },
   {
     "id": "py-case-237",
@@ -7829,33 +8325,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例237"
   },
   {
     "id": "py-case-238",
@@ -7863,33 +8345,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例238"
   },
   {
     "id": "py-case-239",
@@ -7897,33 +8365,19 @@
     "description": "通过函数设计掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "函数设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过函数设计掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "函数设计案例239"
   },
   {
     "id": "py-case-240",
@@ -7931,33 +8385,19 @@
     "description": "通过字符串处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字符串处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字符串处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字符串处理案例240"
   },
   {
     "id": "py-case-241",
@@ -7965,33 +8405,19 @@
     "description": "通过函数设计掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "函数设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过函数设计掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "函数设计案例241"
   },
   {
     "id": "py-case-242",
@@ -7999,33 +8425,19 @@
     "description": "通过字符串处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字符串处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字符串处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字符串处理案例242"
   },
   {
     "id": "py-case-243",
@@ -8033,33 +8445,19 @@
     "description": "通过字符串处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字符串处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字符串处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字符串处理案例243"
   },
   {
     "id": "py-case-244",
@@ -8067,33 +8465,19 @@
     "description": "通过模块使用掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "模块使用"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过模块使用掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "模块使用案例244"
   },
   {
     "id": "py-case-245",
@@ -8101,33 +8485,19 @@
     "description": "通过列表操作掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "列表操作"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过列表操作掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "列表操作案例245"
   },
   {
     "id": "py-case-246",
@@ -8135,33 +8505,19 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例246"
   },
   {
     "id": "py-case-247",
@@ -8169,33 +8525,19 @@
     "description": "通过Python基础掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "Python基础"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过Python基础掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "python基础案例247"
   },
   {
     "id": "py-case-248",
@@ -8203,33 +8545,19 @@
     "description": "通过文件读写掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "文件读写"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过文件读写掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过文件读写掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "文件读写案例248"
   },
   {
     "id": "py-case-249",
@@ -8237,33 +8565,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例249"
   },
   {
     "id": "py-case-250",
@@ -8271,33 +8585,19 @@
     "description": "通过模块使用掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "模块使用"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过模块使用掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "模块使用案例250"
   },
   {
     "id": "py-case-251",
@@ -8305,33 +8605,19 @@
     "description": "通过模块使用掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "模块使用"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过模块使用掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "模块使用案例251"
   },
   {
     "id": "py-case-252",
@@ -8339,33 +8625,19 @@
     "description": "通过列表操作掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "列表操作"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过列表操作掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "列表操作案例252"
   },
   {
     "id": "py-case-253",
@@ -8373,33 +8645,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例253"
   },
   {
     "id": "py-case-254",
@@ -8407,33 +8665,19 @@
     "description": "通过类和对象掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "类和对象"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过类和对象掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "类和对象案例254"
   },
   {
     "id": "py-case-255",
@@ -8441,33 +8685,19 @@
     "description": "通过字符串处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字符串处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字符串处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字符串处理案例255"
   },
   {
     "id": "py-case-256",
@@ -8475,33 +8705,19 @@
     "description": "通过字符串处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "字符串处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过字符串处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "字符串处理案例256"
   },
   {
     "id": "py-case-257",
@@ -8509,33 +8725,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例257"
   },
   {
     "id": "py-case-258",
@@ -8543,33 +8745,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例258"
   },
   {
     "id": "py-case-259",
@@ -8577,33 +8765,19 @@
     "description": "通过异常处理掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "异常处理"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过异常处理掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "异常处理案例259"
   },
   {
     "id": "py-case-260",
@@ -8611,32 +8785,18 @@
     "description": "通过数据类型掌握Python",
     "difficulty": "hard",
     "duration": 30,
-    "steps": [
-      {
-        "order": 1,
-        "title": "需求",
-        "description": "分析"
-      },
-      {
-        "order": 2,
-        "title": "方案",
-        "description": "设计"
-      },
-      {
-        "order": 3,
-        "title": "实现",
-        "description": "编码"
-      },
-      {
-        "order": 4,
-        "title": "验证",
-        "description": "测试"
-      }
-    ],
     "relatedQuestionIds": [],
     "tags": [
       "数据类型"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "summary": "通过数据类型掌握Python",
+    "estimatedMinutes": 30,
+    "knowledgePoints": [],
+    "knowledgePointIds": [],
+    "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
+    "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
+    "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
+    "slug": "数据类型案例260"
   }
 ]

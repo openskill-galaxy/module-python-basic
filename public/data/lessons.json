@@ -41,6 +41,14 @@
     "difficulty": "hard",
     "tags": [
       "Python 是什么"
+    ],
+    "content": "## Python 是什么\n\nPython 历史、特点与应用领域。\n\n### 概念说明\n\n本节讲解 Python 是什么 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# Python 是什么 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 Python 是什么 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 Python 是什么。",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -85,6 +93,14 @@
     "difficulty": "medium",
     "tags": [
       "安装 Python"
+    ],
+    "content": "## 安装 Python\n\nWindows/macOS/Linux 安装步骤。\n\n### 概念说明\n\n本节讲解 安装 Python 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 安装 Python 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 安装 Python 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 安装 Python。",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -129,6 +145,14 @@
     "difficulty": "medium",
     "tags": [
       "使用 IDLE 与 REPL"
+    ],
+    "content": "## 使用 IDLE 与 REPL\n\n交互式环境入门。\n\n### 概念说明\n\n本节讲解 使用 IDLE 与 REPL 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 使用 IDLE 与 REPL 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 使用 IDLE 与 REPL 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 使用 IDLE 与 REPL。",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -172,6 +196,14 @@
     "difficulty": "medium",
     "tags": [
       "VS Code 配置 Python"
+    ],
+    "content": "## VS Code 配置 Python\n\n安装扩展与运行脚本。\n\n### 概念说明\n\n本节讲解 VS Code 配置 Python 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# VS Code 配置 Python 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 VS Code 配置 Python 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 VS Code 配置 Python。",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -216,6 +248,14 @@
     "difficulty": "easy",
     "tags": [
       "第一个程序 Hello World"
+    ],
+    "content": "## 第一个程序 Hello World\n\nprint 与运行脚本。\n\n### 概念说明\n\n本节讲解 第一个程序 Hello World 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 第一个程序 Hello World 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 第一个程序 Hello World 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 第一个程序 Hello World。",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -260,6 +300,14 @@
     "difficulty": "medium",
     "tags": [
       "缩进与注释基础"
+    ],
+    "content": "## 缩进与注释基础\n\nPython 缩进规则与注释。\n\n### 概念说明\n\n本节讲解 缩进与注释基础 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 缩进与注释基础 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 缩进与注释基础 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 缩进与注释基础。",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -305,6 +353,14 @@
     "difficulty": "medium",
     "tags": [
       "print 函数详解"
+    ],
+    "content": "## print 函数详解\n\nprint 参数与格式化。\n\n### 概念说明\n\n本节讲解 print 函数详解 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# print 函数详解 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 print 函数详解 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 print 函数详解。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -350,6 +406,14 @@
     "difficulty": "medium",
     "tags": [
       "input 函数与类型转换"
+    ],
+    "content": "## input 函数与类型转换\n\ninput 接收用户输入并转换类型。\n\n### 概念说明\n\n本节讲解 input 函数与类型转换 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# input 函数与类型转换 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 input 函数与类型转换 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 input 函数与类型转换。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -395,6 +459,14 @@
     "difficulty": "medium",
     "tags": [
       "变量与命名"
+    ],
+    "content": "## 变量与命名\n\n变量定义、赋值与命名规则。\n\n### 概念说明\n\n本节讲解 变量与命名 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 变量与命名 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 变量与命名 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 变量与命名。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -440,6 +512,14 @@
     "difficulty": "medium",
     "tags": [
       "字符串字面量与引号"
+    ],
+    "content": "## 字符串字面量与引号\n\n字符串引号与转义。\n\n### 概念说明\n\n本节讲解 字符串字面量与引号 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 字符串字面量与引号 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 字符串字面量与引号 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 字符串字面量与引号。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -483,6 +563,14 @@
     "difficulty": "easy",
     "tags": [
       "f-string 格式化"
+    ],
+    "content": "## f-string 格式化\n\nf-string 用法。\n\n### 概念说明\n\n本节讲解 f-string 格式化 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# f-string 格式化 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 f-string 格式化 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 f-string 格式化。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -527,6 +615,14 @@
     "difficulty": "easy",
     "tags": [
       "type 与类型转换"
+    ],
+    "content": "## type 与类型转换\n\ntype 查看类型与转换。\n\n### 概念说明\n\n本节讲解 type 与类型转换 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# type 与类型转换 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 type 与类型转换 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 type 与类型转换。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -571,6 +667,14 @@
     "difficulty": "easy",
     "tags": [
       "关键字与运算符概览"
+    ],
+    "content": "## 关键字与运算符概览\n\n关键字列表与运算符。\n\n### 概念说明\n\n本节讲解 关键字与运算符概览 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 关键字与运算符概览 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 关键字与运算符概览 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 关键字与运算符概览。",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -617,6 +721,14 @@
     "difficulty": "easy",
     "tags": [
       "数字类型 int float bool"
+    ],
+    "content": "## 数字类型 int float bool\n\n整数、浮点与布尔。\n\n### 概念说明\n\n本节讲解 数字类型 int float bool 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 数字类型 int float bool 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 数字类型 int float bool 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 数字类型 int float bool。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -662,6 +774,14 @@
     "difficulty": "easy",
     "tags": [
       "字符串索引与切片"
+    ],
+    "content": "## 字符串索引与切片\n\n字符串下标与切片。\n\n### 概念说明\n\n本节讲解 字符串索引与切片 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 字符串索引与切片 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 字符串索引与切片 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 字符串索引与切片。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -708,6 +828,14 @@
     "difficulty": "easy",
     "tags": [
       "字符串常用方法"
+    ],
+    "content": "## 字符串常用方法\n\nsplit/join/replace/strip 等。\n\n### 概念说明\n\n本节讲解 字符串常用方法 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 字符串常用方法 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 字符串常用方法 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 字符串常用方法。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -754,6 +882,14 @@
     "difficulty": "medium",
     "tags": [
       "列表增删改查"
+    ],
+    "content": "## 列表增删改查\n\n列表基本操作。\n\n### 概念说明\n\n本节讲解 列表增删改查 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 列表增删改查 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 列表增删改查 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 列表增删改查。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -800,6 +936,14 @@
     "difficulty": "easy",
     "tags": [
       "列表切片与遍历"
+    ],
+    "content": "## 列表切片与遍历\n\n切片、遍历与推导式。\n\n### 概念说明\n\n本节讲解 列表切片与遍历 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 列表切片与遍历 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 列表切片与遍历 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 列表切片与遍历。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -845,6 +989,14 @@
     "difficulty": "easy",
     "tags": [
       "嵌套列表与拷贝"
+    ],
+    "content": "## 嵌套列表与拷贝\n\n嵌套与浅拷贝问题。\n\n### 概念说明\n\n本节讲解 嵌套列表与拷贝 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 嵌套列表与拷贝 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 嵌套列表与拷贝 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 嵌套列表与拷贝。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -891,6 +1043,14 @@
     "difficulty": "medium",
     "tags": [
       "元组与不可变性"
+    ],
+    "content": "## 元组与不可变性\n\n元组定义与解包。\n\n### 概念说明\n\n本节讲解 元组与不可变性 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 元组与不可变性 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 元组与不可变性 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 元组与不可变性。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -937,6 +1097,14 @@
     "difficulty": "easy",
     "tags": [
       "字典键值对"
+    ],
+    "content": "## 字典键值对\n\n字典定义与访问。\n\n### 概念说明\n\n本节讲解 字典键值对 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 字典键值对 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 字典键值对 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 字典键值对。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -983,6 +1151,14 @@
     "difficulty": "medium",
     "tags": [
       "字典遍历与推导式"
+    ],
+    "content": "## 字典遍历与推导式\n\nkeys/values/items 与推导式。\n\n### 概念说明\n\n本节讲解 字典遍历与推导式 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 字典遍历与推导式 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 字典遍历与推导式 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 字典遍历与推导式。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -1029,6 +1205,14 @@
     "difficulty": "hard",
     "tags": [
       "集合去重与运算"
+    ],
+    "content": "## 集合去重与运算\n\n集合与运算。\n\n### 概念说明\n\n本节讲解 集合去重与运算 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 集合去重与运算 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 集合去重与运算 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 集合去重与运算。",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -1075,6 +1259,14 @@
     "difficulty": "medium",
     "tags": [
       "if elif else"
+    ],
+    "content": "## if elif else\n\n条件分支。\n\n### 概念说明\n\n本节讲解 if elif else 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# if elif else 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 if elif else 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 if elif else。",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -1121,6 +1313,14 @@
     "difficulty": "medium",
     "tags": [
       "比较与逻辑运算符"
+    ],
+    "content": "## 比较与逻辑运算符\n\n比较与 and/or/not。\n\n### 概念说明\n\n本节讲解 比较与逻辑运算符 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 比较与逻辑运算符 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 比较与逻辑运算符 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 比较与逻辑运算符。",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -1167,6 +1367,14 @@
     "difficulty": "medium",
     "tags": [
       "for 循环"
+    ],
+    "content": "## for 循环\n\nfor 遍历与 range。\n\n### 概念说明\n\n本节讲解 for 循环 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# for 循环 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 for 循环 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 for 循环。",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -1211,6 +1419,14 @@
     "difficulty": "easy",
     "tags": [
       "while 循环"
+    ],
+    "content": "## while 循环\n\nwhile 与条件循环。\n\n### 概念说明\n\n本节讲解 while 循环 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# while 循环 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 while 循环 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 while 循环。",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -1256,6 +1472,14 @@
     "difficulty": "medium",
     "tags": [
       "break 与 continue"
+    ],
+    "content": "## break 与 continue\n\n循环控制语句。\n\n### 概念说明\n\n本节讲解 break 与 continue 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# break 与 continue 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 break 与 continue 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 break 与 continue。",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -1302,6 +1526,14 @@
     "difficulty": "medium",
     "tags": [
       "嵌套循环与 zip"
+    ],
+    "content": "## 嵌套循环与 zip\n\n嵌套循环与并行遍历。\n\n### 概念说明\n\n本节讲解 嵌套循环与 zip 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 嵌套循环与 zip 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 嵌套循环与 zip 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 嵌套循环与 zip。",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -1346,6 +1578,14 @@
     "difficulty": "medium",
     "tags": [
       "函数定义与调用"
+    ],
+    "content": "## 函数定义与调用\n\ndef 与调用。\n\n### 概念说明\n\n本节讲解 函数定义与调用 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 函数定义与调用 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 函数定义与调用 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 函数定义与调用。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1391,6 +1631,14 @@
     "difficulty": "easy",
     "tags": [
       "参数传递"
+    ],
+    "content": "## 参数传递\n\n位置/关键字/默认参数。\n\n### 概念说明\n\n本节讲解 参数传递 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 参数传递 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 参数传递 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 参数传递。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1434,6 +1682,14 @@
     "difficulty": "easy",
     "tags": [
       "args 与 kwargs"
+    ],
+    "content": "## args 与 kwargs\n\n可变参数。\n\n### 概念说明\n\n本节讲解 args 与 kwargs 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# args 与 kwargs 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 args 与 kwargs 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 args 与 kwargs。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1478,6 +1734,14 @@
     "difficulty": "medium",
     "tags": [
       "返回值"
+    ],
+    "content": "## 返回值\n\nreturn 与多返回值。\n\n### 概念说明\n\n本节讲解 返回值 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 返回值 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 返回值 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 返回值。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1524,6 +1788,14 @@
     "difficulty": "medium",
     "tags": [
       "作用域"
+    ],
+    "content": "## 作用域\n\n局部/全局/LEGB。\n\n### 概念说明\n\n本节讲解 作用域 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 作用域 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 作用域 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 作用域。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1570,6 +1842,14 @@
     "difficulty": "medium",
     "tags": [
       "lambda 与高阶函数"
+    ],
+    "content": "## lambda 与高阶函数\n\n匿名函数与 map/filter。\n\n### 概念说明\n\n本节讲解 lambda 与高阶函数 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# lambda 与高阶函数 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 lambda 与高阶函数 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 lambda 与高阶函数。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1614,6 +1894,14 @@
     "difficulty": "medium",
     "tags": [
       "装饰器与递归入门"
+    ],
+    "content": "## 装饰器与递归入门\n\n装饰器与递归。\n\n### 概念说明\n\n本节讲解 装饰器与递归入门 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 装饰器与递归入门 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 装饰器与递归入门 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 装饰器与递归入门。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1660,6 +1948,14 @@
     "difficulty": "medium",
     "tags": [
       "import 与自定义模块"
+    ],
+    "content": "## import 与自定义模块\n\nimport 与模块。\n\n### 概念说明\n\n本节讲解 import 与自定义模块 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# import 与自定义模块 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 import 与自定义模块 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 import 与自定义模块。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1705,6 +2001,14 @@
     "difficulty": "medium",
     "tags": [
       "包与模块搜索"
+    ],
+    "content": "## 包与模块搜索\n\n包与搜索路径。\n\n### 概念说明\n\n本节讲解 包与模块搜索 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 包与模块搜索 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 包与模块搜索 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 包与模块搜索。",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -1751,6 +2055,14 @@
     "difficulty": "medium",
     "tags": [
       "文件读取"
+    ],
+    "content": "## 文件读取\n\nopen/read/readline。\n\n### 概念说明\n\n本节讲解 文件读取 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 文件读取 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 文件读取 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 文件读取。",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -1796,6 +2108,14 @@
     "difficulty": "medium",
     "tags": [
       "文件写入"
+    ],
+    "content": "## 文件写入\n\nwrite 与模式 w/a。\n\n### 概念说明\n\n本节讲解 文件写入 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 文件写入 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 文件写入 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 文件写入。",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -1842,6 +2162,14 @@
     "difficulty": "easy",
     "tags": [
       "with open 语句"
+    ],
+    "content": "## with open 语句\n\n上下文管理器。\n\n### 概念说明\n\n本节讲解 with open 语句 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# with open 语句 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 with open 语句 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 with open 语句。",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -1888,6 +2216,14 @@
     "difficulty": "medium",
     "tags": [
       "try except 异常处理"
+    ],
+    "content": "## try except 异常处理\n\n异常捕获。\n\n### 概念说明\n\n本节讲解 try except 异常处理 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# try except 异常处理 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 try except 异常处理 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 try except 异常处理。",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -1934,6 +2270,14 @@
     "difficulty": "easy",
     "tags": [
       "raise 与自定义异常"
+    ],
+    "content": "## raise 与自定义异常\n\n抛出与自定义。\n\n### 概念说明\n\n本节讲解 raise 与自定义异常 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# raise 与自定义异常 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 raise 与自定义异常 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 raise 与自定义异常。",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -1980,6 +2324,14 @@
     "difficulty": "easy",
     "tags": [
       "类和对象"
+    ],
+    "content": "## 类和对象\n\nclass 与实例。\n\n### 概念说明\n\n本节讲解 类和对象 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 类和对象 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 类和对象 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 类和对象。",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -2025,6 +2377,14 @@
     "difficulty": "medium",
     "tags": [
       "方法"
+    ],
+    "content": "## 方法\n\n实例方法与类方法。\n\n### 概念说明\n\n本节讲解 方法 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 方法 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 方法 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 方法。",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -2068,6 +2428,14 @@
     "difficulty": "medium",
     "tags": [
       "str 与 repr"
+    ],
+    "content": "## str 与 repr\n\n字符串表示。\n\n### 概念说明\n\n本节讲解 str 与 repr 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# str 与 repr 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 str 与 repr 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 str 与 repr。",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -2114,6 +2482,14 @@
     "difficulty": "medium",
     "tags": [
       "继承"
+    ],
+    "content": "## 继承\n\n继承与 super。\n\n### 概念说明\n\n本节讲解 继承 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 继承 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 继承 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 继承。",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -2160,6 +2536,14 @@
     "difficulty": "medium",
     "tags": [
       "多态与封装"
+    ],
+    "content": "## 多态与封装\n\n多态与私有属性。\n\n### 概念说明\n\n本节讲解 多态与封装 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 多态与封装 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 多态与封装 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 多态与封装。",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -2206,6 +2590,14 @@
     "difficulty": "easy",
     "tags": [
       "datetime 处理"
+    ],
+    "content": "## datetime 处理\n\n日期时间。\n\n### 概念说明\n\n本节讲解 datetime 处理 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# datetime 处理 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 datetime 处理 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 datetime 处理。",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -2252,6 +2644,14 @@
     "difficulty": "medium",
     "tags": [
       "random 随机数"
+    ],
+    "content": "## random 随机数\n\n随机数生成。\n\n### 概念说明\n\n本节讲解 random 随机数 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# random 随机数 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 random 随机数 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 random 随机数。",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -2298,6 +2698,14 @@
     "difficulty": "hard",
     "tags": [
       "pathlib 路径"
+    ],
+    "content": "## pathlib 路径\n\n路径操作。\n\n### 概念说明\n\n本节讲解 pathlib 路径 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# pathlib 路径 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 pathlib 路径 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 pathlib 路径。",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -2344,6 +2752,14 @@
     "difficulty": "hard",
     "tags": [
       "math 与 collections"
+    ],
+    "content": "## math 与 collections\n\n数学与集合工具。\n\n### 概念说明\n\n本节讲解 math 与 collections 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# math 与 collections 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 math 与 collections 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 math 与 collections。",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -2390,6 +2806,14 @@
     "difficulty": "medium",
     "tags": [
       "json 模块"
+    ],
+    "content": "## json 模块\n\nJSON 读写。\n\n### 概念说明\n\n本节讲解 json 模块 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# json 模块 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 json 模块 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 json 模块。",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -2436,6 +2860,14 @@
     "difficulty": "medium",
     "tags": [
       "csv 模块"
+    ],
+    "content": "## csv 模块\n\nCSV 读写。\n\n### 概念说明\n\n本节讲解 csv 模块 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# csv 模块 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 csv 模块 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 csv 模块。",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -2480,6 +2912,14 @@
     "difficulty": "medium",
     "tags": [
       "文本处理与编码"
+    ],
+    "content": "## 文本处理与编码\n\n文本与编码。\n\n### 概念说明\n\n本节讲解 文本处理与编码 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 文本处理与编码 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 文本处理与编码 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 文本处理与编码。",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -2525,6 +2965,14 @@
     "difficulty": "medium",
     "tags": [
       "JSON 与 CSV 转换"
+    ],
+    "content": "## JSON 与 CSV 转换\n\n数据转换。\n\n### 概念说明\n\n本节讲解 JSON 与 CSV 转换 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# JSON 与 CSV 转换 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 JSON 与 CSV 转换 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 JSON 与 CSV 转换。",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -2571,6 +3019,14 @@
     "difficulty": "easy",
     "tags": [
       "调试错误排查"
+    ],
+    "content": "## 调试错误排查\n\nprint/pdb/断点。\n\n### 概念说明\n\n本节讲解 调试错误排查 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 调试错误排查 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 调试错误排查 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 调试错误排查。",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -2617,6 +3073,14 @@
     "difficulty": "easy",
     "tags": [
       "常见错误类型"
+    ],
+    "content": "## 常见错误类型\n\n各类错误。\n\n### 概念说明\n\n本节讲解 常见错误类型 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 常见错误类型 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 常见错误类型 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 常见错误类型。",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -2663,6 +3127,14 @@
     "difficulty": "hard",
     "tags": [
       "PEP8 基础"
+    ],
+    "content": "## PEP8 基础\n\n编码规范。\n\n### 概念说明\n\n本节讲解 PEP8 基础 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# PEP8 基础 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 PEP8 基础 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 PEP8 基础。",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -2709,6 +3181,14 @@
     "difficulty": "medium",
     "tags": [
       "pip 与虚拟环境"
+    ],
+    "content": "## pip 与虚拟环境\n\n包管理与 venv。\n\n### 概念说明\n\n本节讲解 pip 与虚拟环境 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# pip 与虚拟环境 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 pip 与虚拟环境 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 pip 与虚拟环境。",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -2753,6 +3233,14 @@
     "difficulty": "easy",
     "tags": [
       "计算器项目"
+    ],
+    "content": "## 计算器项目\n\n实现命令行计算器。\n\n### 概念说明\n\n本节讲解 计算器项目 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 计算器项目 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 计算器项目 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 计算器项目。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -2797,6 +3285,14 @@
     "difficulty": "medium",
     "tags": [
       "通讯录项目"
+    ],
+    "content": "## 通讯录项目\n\n通讯录 CRUD。\n\n### 概念说明\n\n本节讲解 通讯录项目 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 通讯录项目 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 通讯录项目 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 通讯录项目。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -2841,6 +3337,14 @@
     "difficulty": "medium",
     "tags": [
       "待办清单项目"
+    ],
+    "content": "## 待办清单项目\n\n待办管理。\n\n### 概念说明\n\n本节讲解 待办清单项目 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 待办清单项目 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 待办清单项目 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 待办清单项目。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -2885,6 +3389,14 @@
     "difficulty": "hard",
     "tags": [
       "成绩管理系统"
+    ],
+    "content": "## 成绩管理系统\n\n成绩统计。\n\n### 概念说明\n\n本节讲解 成绩管理系统 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 成绩管理系统 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 成绩管理系统 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 成绩管理系统。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -2929,6 +3441,14 @@
     "difficulty": "medium",
     "tags": [
       "文件整理工具"
+    ],
+    "content": "## 文件整理工具\n\n按扩展名整理。\n\n### 概念说明\n\n本节讲解 文件整理工具 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 文件整理工具 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 文件整理工具 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 文件整理工具。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -2973,6 +3493,14 @@
     "difficulty": "medium",
     "tags": [
       "JSON CSV 转换工具"
+    ],
+    "content": "## JSON CSV 转换工具\n\n数据转换工具。\n\n### 概念说明\n\n本节讲解 JSON CSV 转换工具 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# JSON CSV 转换工具 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 JSON CSV 转换工具 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 JSON CSV 转换工具。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -3017,6 +3545,14 @@
     "difficulty": "easy",
     "tags": [
       "简单命令行工具"
+    ],
+    "content": "## 简单命令行工具\n\nargparse 实战。\n\n### 概念说明\n\n本节讲解 简单命令行工具 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 简单命令行工具 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 简单命令行工具 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 简单命令行工具。",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -3063,6 +3599,14 @@
     "difficulty": "medium",
     "tags": [
       "后续学习路线"
+    ],
+    "content": "## 后续学习路线\n\n方向规划。\n\n### 概念说明\n\n本节讲解 后续学习路线 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 后续学习路线 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 后续学习路线 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 后续学习路线。",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -3106,6 +3650,14 @@
     "difficulty": "hard",
     "tags": [
       "综合复习"
+    ],
+    "content": "## 综合复习\n\n重点复习。\n\n### 概念说明\n\n本节讲解 综合复习 的核心概念，包括定义、语法和常见用法。\n\n### 语法格式\n\n```python\n# 综合复习 语法示例\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"示例代码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差：未准确理解 综合复习 的定义\n2. 语法使用错误：写法不符合 Python 规范\n3. 边界情况遗漏：未考虑特殊输入或极端情况\n\n### 练习建议\n\n完成本节关联题目，并在小项目中应用 综合复习。",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -3148,6 +3700,14 @@
     "difficulty": "easy",
     "tags": [
       "print 格式化练习"
+    ],
+    "content": "## print 格式化练习\n\n练习 print 各种格式化输出。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -3190,6 +3750,14 @@
     "difficulty": "hard",
     "tags": [
       "input 综合练习"
+    ],
+    "content": "## input 综合练习\n\n练习 input 与类型转换组合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -3233,6 +3801,14 @@
     "difficulty": "easy",
     "tags": [
       "字符串方法综合练习"
+    ],
+    "content": "## 字符串方法综合练习\n\n字符串方法综合应用。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -3276,6 +3852,14 @@
     "difficulty": "medium",
     "tags": [
       "列表操作综合练习"
+    ],
+    "content": "## 列表操作综合练习\n\n列表增删改查综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -3319,6 +3903,14 @@
     "difficulty": "medium",
     "tags": [
       "字典操作综合练习"
+    ],
+    "content": "## 字典操作综合练习\n\n字典综合应用。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -3362,6 +3954,14 @@
     "difficulty": "hard",
     "tags": [
       "条件判断综合练习"
+    ],
+    "content": "## 条件判断综合练习\n\nif/elif/else 综合应用。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -3405,6 +4005,14 @@
     "difficulty": "medium",
     "tags": [
       "循环综合练习"
+    ],
+    "content": "## 循环综合练习\n\nfor/while/break/continue 综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -3448,6 +4056,14 @@
     "difficulty": "medium",
     "tags": [
       "函数综合练习"
+    ],
+    "content": "## 函数综合练习\n\n函数定义与参数综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -3491,6 +4107,14 @@
     "difficulty": "medium",
     "tags": [
       "作用域与闭包练习"
+    ],
+    "content": "## 作用域与闭包练习\n\n作用域综合应用。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -3534,6 +4158,14 @@
     "difficulty": "easy",
     "tags": [
       "文件读写综合练习"
+    ],
+    "content": "## 文件读写综合练习\n\n文件读写综合应用。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -3577,6 +4209,14 @@
     "difficulty": "medium",
     "tags": [
       "异常处理综合练习"
+    ],
+    "content": "## 异常处理综合练习\n\ntry/except 综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -3620,6 +4260,14 @@
     "difficulty": "easy",
     "tags": [
       "OOP 综合练习"
+    ],
+    "content": "## OOP 综合练习\n\n类与继承综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -3663,6 +4311,14 @@
     "difficulty": "medium",
     "tags": [
       "datetime 综合练习"
+    ],
+    "content": "## datetime 综合练习\n\n日期时间综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -3706,6 +4362,14 @@
     "difficulty": "medium",
     "tags": [
       "random 综合练习"
+    ],
+    "content": "## random 综合练习\n\n随机数综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -3749,6 +4413,14 @@
     "difficulty": "medium",
     "tags": [
       "JSON 综合练习"
+    ],
+    "content": "## JSON 综合练习\n\nJSON 读写综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -3791,6 +4463,14 @@
     "difficulty": "medium",
     "tags": [
       "CSV 综合练习"
+    ],
+    "content": "## CSV 综合练习\n\nCSV 读写综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -3834,6 +4514,14 @@
     "difficulty": "easy",
     "tags": [
       "调试综合练习"
+    ],
+    "content": "## 调试综合练习\n\n调试技巧综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -3877,6 +4565,14 @@
     "difficulty": "medium",
     "tags": [
       "PEP8 综合练习"
+    ],
+    "content": "## PEP8 综合练习\n\n编码规范综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -3919,6 +4615,14 @@
     "difficulty": "easy",
     "tags": [
       "项目：批量重命名"
+    ],
+    "content": "## 项目：批量重命名\n\n批量重命名文件小项目。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -3961,6 +4665,14 @@
     "difficulty": "medium",
     "tags": [
       "项目：单词统计"
+    ],
+    "content": "## 项目：单词统计\n\n统计文本单词频率。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4003,6 +4715,14 @@
     "difficulty": "medium",
     "tags": [
       "项目：账单统计"
+    ],
+    "content": "## 项目：账单统计\n\n账单数据统计小工具。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4045,6 +4765,14 @@
     "difficulty": "medium",
     "tags": [
       "项目：日志分析"
+    ],
+    "content": "## 项目：日志分析\n\n简单日志分析器。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4088,6 +4816,14 @@
     "difficulty": "hard",
     "tags": [
       "项目：单词本"
+    ],
+    "content": "## 项目：单词本\n\n单词本小工具。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4130,6 +4866,14 @@
     "difficulty": "easy",
     "tags": [
       "项目：密码生成器"
+    ],
+    "content": "## 项目：密码生成器\n\n随机密码生成。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4173,6 +4917,14 @@
     "difficulty": "hard",
     "tags": [
       "项目：学生类设计"
+    ],
+    "content": "## 项目：学生类设计\n\n学生类设计。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4216,6 +4968,14 @@
     "difficulty": "medium",
     "tags": [
       "项目：银行账户类"
+    ],
+    "content": "## 项目：银行账户类\n\n银行账户类。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4259,6 +5019,14 @@
     "difficulty": "medium",
     "tags": [
       "项目：异常捕获实战"
+    ],
+    "content": "## 项目：异常捕获实战\n\n异常捕获综合。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0322",
+      "py-kp-0323",
+      "py-kp-0324",
+      "py-kp-0325",
+      "py-kp-0326"
     ]
   },
   {
@@ -4301,6 +5069,14 @@
     "difficulty": "medium",
     "tags": [
       "面试基础复习"
+    ],
+    "content": "## 面试基础复习\n\nPython 面试常见题。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -4342,6 +5118,14 @@
     "difficulty": "medium",
     "tags": [
       "学习资源整理"
+    ],
+    "content": "## 学习资源整理\n\n整理推荐学习资源。\n\n### 练习目标\n\n通过本节练习巩固相关知识点。\n\n### 练习内容\n\n1. 阅读示例 2. 动手编码 3. 对照参考答案\n\n### 常见错误\n\n1. 边界处理不当 2. 类型混淆",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -4387,6 +5171,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "变量与赋值深入"
+    ],
+    "content": "## 变量与赋值深入\n\n### 概念说明\n\n本节讲解 变量与赋值深入 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 变量与赋值深入 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"变量与赋值深入\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：变量与赋值深入\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4432,6 +5224,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "数据类型转换"
+    ],
+    "content": "## 数据类型转换\n\n### 概念说明\n\n本节讲解 数据类型转换 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 数据类型转换 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"数据类型转换\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：数据类型转换\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4477,6 +5277,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "运算符综合"
+    ],
+    "content": "## 运算符综合\n\n### 概念说明\n\n本节讲解 运算符综合 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 运算符综合 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"运算符综合\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：运算符综合\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4522,6 +5330,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "字符串方法详解"
+    ],
+    "content": "## 字符串方法详解\n\n### 概念说明\n\n本节讲解 字符串方法详解 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 字符串方法详解 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"字符串方法详解\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：字符串方法详解\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4567,6 +5383,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "列表推导式"
+    ],
+    "content": "## 列表推导式\n\n### 概念说明\n\n本节讲解 列表推导式 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 列表推导式 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"列表推导式\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：列表推导式\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4612,6 +5436,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "元组与命名元组"
+    ],
+    "content": "## 元组与命名元组\n\n### 概念说明\n\n本节讲解 元组与命名元组 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 元组与命名元组 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"元组与命名元组\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：元组与命名元组\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4657,6 +5489,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "字典高级用法"
+    ],
+    "content": "## 字典高级用法\n\n### 概念说明\n\n本节讲解 字典高级用法 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 字典高级用法 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"字典高级用法\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：字典高级用法\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4702,6 +5542,14 @@
     "tags": [
       "Python 入门与环境搭建",
       "集合运算"
+    ],
+    "content": "## 集合运算\n\n### 概念说明\n\n本节讲解 集合运算 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 集合运算 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"集合运算\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：集合运算\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0001",
+      "py-kp-0002",
+      "py-kp-0003",
+      "py-kp-0004",
+      "py-kp-0005"
     ]
   },
   {
@@ -4747,6 +5595,14 @@
     "tags": [
       "Python 基础语法",
       "迭代器与生成器"
+    ],
+    "content": "## 迭代器与生成器\n\n### 概念说明\n\n本节讲解 迭代器与生成器 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 迭代器与生成器 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"迭代器与生成器\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：迭代器与生成器\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -4792,6 +5648,14 @@
     "tags": [
       "Python 基础语法",
       "装饰器入门"
+    ],
+    "content": "## 装饰器入门\n\n### 概念说明\n\n本节讲解 装饰器入门 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 装饰器入门 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"装饰器入门\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：装饰器入门\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -4837,6 +5701,14 @@
     "tags": [
       "Python 基础语法",
       "上下文管理器"
+    ],
+    "content": "## 上下文管理器\n\n### 概念说明\n\n本节讲解 上下文管理器 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 上下文管理器 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"上下文管理器\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：上下文管理器\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -4882,6 +5754,14 @@
     "tags": [
       "Python 基础语法",
       "异常处理进阶"
+    ],
+    "content": "## 异常处理进阶\n\n### 概念说明\n\n本节讲解 异常处理进阶 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 异常处理进阶 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"异常处理进阶\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：异常处理进阶\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -4927,6 +5807,14 @@
     "tags": [
       "Python 基础语法",
       "文件读写模式"
+    ],
+    "content": "## 文件读写模式\n\n### 概念说明\n\n本节讲解 文件读写模式 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 文件读写模式 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"文件读写模式\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：文件读写模式\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0030",
+      "py-kp-0031",
+      "py-kp-0032",
+      "py-kp-0033",
+      "py-kp-0034"
     ]
   },
   {
@@ -4972,6 +5860,14 @@
     "tags": [
       "Python 内置数据类型",
       "路径处理 pathlib"
+    ],
+    "content": "## 路径处理 pathlib\n\n### 概念说明\n\n本节讲解 路径处理 pathlib 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 路径处理 pathlib 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"路径处理 pathlib\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：路径处理 pathlib\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0065",
+      "py-kp-0066",
+      "py-kp-0067",
+      "py-kp-0068",
+      "py-kp-0069"
     ]
   },
   {
@@ -5017,6 +5913,14 @@
     "tags": [
       "条件判断与循环",
       "JSON 与序列化"
+    ],
+    "content": "## JSON 与序列化\n\n### 概念说明\n\n本节讲解 JSON 与序列化 的核心概念与原理。\n\n### 语法格式\n\n```python\n# JSON 与序列化 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"JSON 与序列化\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：JSON 与序列化\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -5062,6 +5966,14 @@
     "tags": [
       "条件判断与循环",
       "CSV 处理"
+    ],
+    "content": "## CSV 处理\n\n### 概念说明\n\n本节讲解 CSV 处理 的核心概念与原理。\n\n### 语法格式\n\n```python\n# CSV 处理 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"CSV 处理\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：CSV 处理\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -5107,6 +6019,14 @@
     "tags": [
       "条件判断与循环",
       "正则表达式基础"
+    ],
+    "content": "## 正则表达式基础\n\n### 概念说明\n\n本节讲解 正则表达式基础 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 正则表达式基础 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"正则表达式基础\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：正则表达式基础\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -5152,6 +6072,14 @@
     "tags": [
       "条件判断与循环",
       "正则进阶"
+    ],
+    "content": "## 正则进阶\n\n### 概念说明\n\n本节讲解 正则进阶 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 正则进阶 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"正则进阶\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：正则进阶\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -5197,6 +6125,14 @@
     "tags": [
       "条件判断与循环",
       "函数参数进阶"
+    ],
+    "content": "## 函数参数进阶\n\n### 概念说明\n\n本节讲解 函数参数进阶 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 函数参数进阶 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"函数参数进阶\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：函数参数进阶\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -5242,6 +6178,14 @@
     "tags": [
       "条件判断与循环",
       "lambda 与高阶函数"
+    ],
+    "content": "## lambda 与高阶函数\n\n### 概念说明\n\n本节讲解 lambda 与高阶函数 的核心概念与原理。\n\n### 语法格式\n\n```python\n# lambda 与高阶函数 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"lambda 与高阶函数\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：lambda 与高阶函数\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0139",
+      "py-kp-0140",
+      "py-kp-0141",
+      "py-kp-0142",
+      "py-kp-0143"
     ]
   },
   {
@@ -5287,6 +6231,14 @@
     "tags": [
       "函数与模块",
       "闭包与作用域"
+    ],
+    "content": "## 闭包与作用域\n\n### 概念说明\n\n本节讲解 闭包与作用域 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 闭包与作用域 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"闭包与作用域\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：闭包与作用域\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -5332,6 +6284,14 @@
     "tags": [
       "函数与模块",
       "面向对象基础"
+    ],
+    "content": "## 面向对象基础\n\n### 概念说明\n\n本节讲解 面向对象基础 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 面向对象基础 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"面向对象基础\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：面向对象基础\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -5377,6 +6337,14 @@
     "tags": [
       "函数与模块",
       "继承与多态"
+    ],
+    "content": "## 继承与多态\n\n### 概念说明\n\n本节讲解 继承与多态 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 继承与多态 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"继承与多态\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：继承与多态\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0168",
+      "py-kp-0169",
+      "py-kp-0170",
+      "py-kp-0171",
+      "py-kp-0172"
     ]
   },
   {
@@ -5422,6 +6390,14 @@
     "tags": [
       "文件处理与异常处理",
       "魔术方法"
+    ],
+    "content": "## 魔术方法\n\n### 概念说明\n\n本节讲解 魔术方法 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 魔术方法 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"魔术方法\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：魔术方法\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5467,6 +6443,14 @@
     "tags": [
       "文件处理与异常处理",
       "属性与描述符"
+    ],
+    "content": "## 属性与描述符\n\n### 概念说明\n\n本节讲解 属性与描述符 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 属性与描述符 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"属性与描述符\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：属性与描述符\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5512,6 +6496,14 @@
     "tags": [
       "文件处理与异常处理",
       "类方法与静态方法"
+    ],
+    "content": "## 类方法与静态方法\n\n### 概念说明\n\n本节讲解 类方法与静态方法 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 类方法与静态方法 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"类方法与静态方法\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：类方法与静态方法\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5557,6 +6549,14 @@
     "tags": [
       "文件处理与异常处理",
       "抽象类与接口"
+    ],
+    "content": "## 抽象类与接口\n\n### 概念说明\n\n本节讲解 抽象类与接口 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 抽象类与接口 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"抽象类与接口\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：抽象类与接口\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5602,6 +6602,14 @@
     "tags": [
       "文件处理与异常处理",
       "模块与包"
+    ],
+    "content": "## 模块与包\n\n### 概念说明\n\n本节讲解 模块与包 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 模块与包 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"模块与包\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：模块与包\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5647,6 +6655,14 @@
     "tags": [
       "文件处理与异常处理",
       "导入机制"
+    ],
+    "content": "## 导入机制\n\n### 概念说明\n\n本节讲解 导入机制 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 导入机制 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"导入机制\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：导入机制\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5692,6 +6708,14 @@
     "tags": [
       "文件处理与异常处理",
       "标准库概览"
+    ],
+    "content": "## 标准库概览\n\n### 概念说明\n\n本节讲解 标准库概览 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 标准库概览 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"标准库概览\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：标准库概览\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0204",
+      "py-kp-0205",
+      "py-kp-0206",
+      "py-kp-0207",
+      "py-kp-0208"
     ]
   },
   {
@@ -5737,6 +6761,14 @@
     "tags": [
       "面向对象编程基础",
       "datetime 时间处理"
+    ],
+    "content": "## datetime 时间处理\n\n### 概念说明\n\n本节讲解 datetime 时间处理 的核心概念与原理。\n\n### 语法格式\n\n```python\n# datetime 时间处理 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"datetime 时间处理\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：datetime 时间处理\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -5782,6 +6814,14 @@
     "tags": [
       "面向对象编程基础",
       "collections 工具"
+    ],
+    "content": "## collections 工具\n\n### 概念说明\n\n本节讲解 collections 工具 的核心概念与原理。\n\n### 语法格式\n\n```python\n# collections 工具 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"collections 工具\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：collections 工具\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -5827,6 +6867,14 @@
     "tags": [
       "面向对象编程基础",
       "itertools 模块"
+    ],
+    "content": "## itertools 模块\n\n### 概念说明\n\n本节讲解 itertools 模块 的核心概念与原理。\n\n### 语法格式\n\n```python\n# itertools 模块 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"itertools 模块\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：itertools 模块\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -5872,6 +6920,14 @@
     "tags": [
       "面向对象编程基础",
       "functools 模块"
+    ],
+    "content": "## functools 模块\n\n### 概念说明\n\n本节讲解 functools 模块 的核心概念与原理。\n\n### 语法格式\n\n```python\n# functools 模块 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"functools 模块\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：functools 模块\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -5917,6 +6973,14 @@
     "tags": [
       "面向对象编程基础",
       "os 系统接口"
+    ],
+    "content": "## os 系统接口\n\n### 概念说明\n\n本节讲解 os 系统接口 的核心概念与原理。\n\n### 语法格式\n\n```python\n# os 系统接口 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"os 系统接口\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：os 系统接口\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -5962,6 +7026,14 @@
     "tags": [
       "面向对象编程基础",
       "sys 与解释器"
+    ],
+    "content": "## sys 与解释器\n\n### 概念说明\n\n本节讲解 sys 与解释器 的核心概念与原理。\n\n### 语法格式\n\n```python\n# sys 与解释器 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"sys 与解释器\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：sys 与解释器\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -6007,6 +7079,14 @@
     "tags": [
       "面向对象编程基础",
       "subprocess 子进程"
+    ],
+    "content": "## subprocess 子进程\n\n### 概念说明\n\n本节讲解 subprocess 子进程 的核心概念与原理。\n\n### 语法格式\n\n```python\n# subprocess 子进程 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"subprocess 子进程\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：subprocess 子进程\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -6052,6 +7132,14 @@
     "tags": [
       "面向对象编程基础",
       "日志 logging"
+    ],
+    "content": "## 日志 logging\n\n### 概念说明\n\n本节讲解 日志 logging 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 日志 logging 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"日志 logging\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：日志 logging\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0231",
+      "py-kp-0232",
+      "py-kp-0233",
+      "py-kp-0234",
+      "py-kp-0235"
     ]
   },
   {
@@ -6097,6 +7185,14 @@
     "tags": [
       "常用标准库入门",
       "单元测试 unittest"
+    ],
+    "content": "## 单元测试 unittest\n\n### 概念说明\n\n本节讲解 单元测试 unittest 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 单元测试 unittest 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"单元测试 unittest\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：单元测试 unittest\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6142,6 +7238,14 @@
     "tags": [
       "常用标准库入门",
       "性能计时"
+    ],
+    "content": "## 性能计时\n\n### 概念说明\n\n本节讲解 性能计时 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 性能计时 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"性能计时\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：性能计时\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6187,6 +7291,14 @@
     "tags": [
       "常用标准库入门",
       "虚拟环境与依赖"
+    ],
+    "content": "## 虚拟环境与依赖\n\n### 概念说明\n\n本节讲解 虚拟环境与依赖 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 虚拟环境与依赖 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"虚拟环境与依赖\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：虚拟环境与依赖\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6232,6 +7344,14 @@
     "tags": [
       "常用标准库入门",
       "pip 与 requirements"
+    ],
+    "content": "## pip 与 requirements\n\n### 概念说明\n\n本节讲解 pip 与 requirements 的核心概念与原理。\n\n### 语法格式\n\n```python\n# pip 与 requirements 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"pip 与 requirements\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：pip 与 requirements\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6277,6 +7397,14 @@
     "tags": [
       "常用标准库入门",
       "类型注解基础"
+    ],
+    "content": "## 类型注解基础\n\n### 概念说明\n\n本节讲解 类型注解基础 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 类型注解基础 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"类型注解基础\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：类型注解基础\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6322,6 +7450,14 @@
     "tags": [
       "常用标准库入门",
       "typing 进阶"
+    ],
+    "content": "## typing 进阶\n\n### 概念说明\n\n本节讲解 typing 进阶 的核心概念与原理。\n\n### 语法格式\n\n```python\n# typing 进阶 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"typing 进阶\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：typing 进阶\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6367,6 +7503,14 @@
     "tags": [
       "常用标准库入门",
       "数据类 dataclass"
+    ],
+    "content": "## 数据类 dataclass\n\n### 概念说明\n\n本节讲解 数据类 dataclass 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 数据类 dataclass 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"数据类 dataclass\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：数据类 dataclass\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6412,6 +7556,14 @@
     "tags": [
       "常用标准库入门",
       "枚举 Enum"
+    ],
+    "content": "## 枚举 Enum\n\n### 概念说明\n\n本节讲解 枚举 Enum 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 枚举 Enum 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"枚举 Enum\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：枚举 Enum\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0255",
+      "py-kp-0256",
+      "py-kp-0257",
+      "py-kp-0258",
+      "py-kp-0259"
     ]
   },
   {
@@ -6457,6 +7609,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "异步基础 async"
+    ],
+    "content": "## 异步基础 async\n\n### 概念说明\n\n本节讲解 异步基础 async 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 异步基础 async 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"异步基础 async\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：异步基础 async\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6502,6 +7662,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "事件循环"
+    ],
+    "content": "## 事件循环\n\n### 概念说明\n\n本节讲解 事件循环 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 事件循环 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"事件循环\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：事件循环\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6547,6 +7715,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "协程与任务"
+    ],
+    "content": "## 协程与任务\n\n### 概念说明\n\n本节讲解 协程与任务 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 协程与任务 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"协程与任务\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：协程与任务\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6592,6 +7768,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "并发与多线程"
+    ],
+    "content": "## 并发与多线程\n\n### 概念说明\n\n本节讲解 并发与多线程 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 并发与多线程 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"并发与多线程\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：并发与多线程\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6637,6 +7821,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "多进程处理"
+    ],
+    "content": "## 多进程处理\n\n### 概念说明\n\n本节讲解 多进程处理 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 多进程处理 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"多进程处理\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：多进程处理\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6682,6 +7874,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "队列与同步"
+    ],
+    "content": "## 队列与同步\n\n### 概念说明\n\n本节讲解 队列与同步 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 队列与同步 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"队列与同步\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：队列与同步\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6727,6 +7927,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "数据库 sqlite3"
+    ],
+    "content": "## 数据库 sqlite3\n\n### 概念说明\n\n本节讲解 数据库 sqlite3 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 数据库 sqlite3 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"数据库 sqlite3\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：数据库 sqlite3\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6772,6 +7980,14 @@
     "tags": [
       "数据文件处理：JSON、CSV、文本",
       "网络请求 urllib"
+    ],
+    "content": "## 网络请求 urllib\n\n### 概念说明\n\n本节讲解 网络请求 urllib 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 网络请求 urllib 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"网络请求 urllib\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：网络请求 urllib\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0281",
+      "py-kp-0282",
+      "py-kp-0283",
+      "py-kp-0284",
+      "py-kp-0285"
     ]
   },
   {
@@ -6817,6 +8033,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "socket 编程"
+    ],
+    "content": "## socket 编程\n\n### 概念说明\n\n本节讲解 socket 编程 的核心概念与原理。\n\n### 语法格式\n\n```python\n# socket 编程 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"socket 编程\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：socket 编程\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -6862,6 +8086,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "HTTP 客户端"
+    ],
+    "content": "## HTTP 客户端\n\n### 概念说明\n\n本节讲解 HTTP 客户端 的核心概念与原理。\n\n### 语法格式\n\n```python\n# HTTP 客户端 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"HTTP 客户端\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：HTTP 客户端\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -6907,6 +8139,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "邮件发送"
+    ],
+    "content": "## 邮件发送\n\n### 概念说明\n\n本节讲解 邮件发送 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 邮件发送 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"邮件发送\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：邮件发送\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -6952,6 +8192,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "命令行参数 argparse"
+    ],
+    "content": "## 命令行参数 argparse\n\n### 概念说明\n\n本节讲解 命令行参数 argparse 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 命令行参数 argparse 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"命令行参数 argparse\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：命令行参数 argparse\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -6997,6 +8245,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "配置文件处理"
+    ],
+    "content": "## 配置文件处理\n\n### 概念说明\n\n本节讲解 配置文件处理 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 配置文件处理 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"配置文件处理\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：配置文件处理\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -7042,6 +8298,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "环境变量"
+    ],
+    "content": "## 环境变量\n\n### 概念说明\n\n本节讲解 环境变量 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 环境变量 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"环境变量\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：环境变量\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -7087,6 +8351,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "加密与哈希"
+    ],
+    "content": "## 加密与哈希\n\n### 概念说明\n\n本节讲解 加密与哈希 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 加密与哈希 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"加密与哈希\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：加密与哈希\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -7132,6 +8404,14 @@
     "tags": [
       "Python 调试、规范与工程习惯",
       "base64 编码"
+    ],
+    "content": "## base64 编码\n\n### 概念说明\n\n本节讲解 base64 编码 的核心概念与原理。\n\n### 语法格式\n\n```python\n# base64 编码 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"base64 编码\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：base64 编码\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0298",
+      "py-kp-0299",
+      "py-kp-0300",
+      "py-kp-0301",
+      "py-kp-0302"
     ]
   },
   {
@@ -7177,6 +8457,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "压缩与归档"
+    ],
+    "content": "## 压缩与归档\n\n### 概念说明\n\n本节讲解 压缩与归档 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 压缩与归档 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"压缩与归档\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：压缩与归档\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7222,6 +8510,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "图像处理基础"
+    ],
+    "content": "## 图像处理基础\n\n### 概念说明\n\n本节讲解 图像处理基础 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 图像处理基础 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"图像处理基础\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：图像处理基础\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7267,6 +8563,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "音频处理入门"
+    ],
+    "content": "## 音频处理入门\n\n### 概念说明\n\n本节讲解 音频处理入门 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 音频处理入门 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"音频处理入门\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：音频处理入门\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7312,6 +8616,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "Pandas 数据分析"
+    ],
+    "content": "## Pandas 数据分析\n\n### 概念说明\n\n本节讲解 Pandas 数据分析 的核心概念与原理。\n\n### 语法格式\n\n```python\n# Pandas 数据分析 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"Pandas 数据分析\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：Pandas 数据分析\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7357,6 +8669,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "NumPy 数组"
+    ],
+    "content": "## NumPy 数组\n\n### 概念说明\n\n本节讲解 NumPy 数组 的核心概念与原理。\n\n### 语法格式\n\n```python\n# NumPy 数组 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"NumPy 数组\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：NumPy 数组\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7402,6 +8722,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "Matplotlib 绘图"
+    ],
+    "content": "## Matplotlib 绘图\n\n### 概念说明\n\n本节讲解 Matplotlib 绘图 的核心概念与原理。\n\n### 语法格式\n\n```python\n# Matplotlib 绘图 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"Matplotlib 绘图\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：Matplotlib 绘图\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7447,6 +8775,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "数据分析流程"
+    ],
+    "content": "## 数据分析流程\n\n### 概念说明\n\n本节讲解 数据分析流程 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 数据分析流程 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"数据分析流程\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：数据分析流程\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7492,6 +8828,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "数据清洗"
+    ],
+    "content": "## 数据清洗\n\n### 概念说明\n\n本节讲解 数据清洗 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 数据清洗 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"数据清洗\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：数据清洗\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7537,6 +8881,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "数据可视化"
+    ],
+    "content": "## 数据可视化\n\n### 概念说明\n\n本节讲解 数据可视化 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 数据可视化 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"数据可视化\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：数据可视化\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7582,6 +8934,14 @@
     "tags": [
       "Python 后续学习路线与综合复习",
       "机器学习入门"
+    ],
+    "content": "## 机器学习入门\n\n### 概念说明\n\n本节讲解 机器学习入门 的核心概念与原理。\n\n### 语法格式\n\n```python\n# 机器学习入门 语法\n```\n\n### 代码示例\n\n```python\n# 完整可运行示例\nresult = \"机器学习入门\"\nprint(result)\n```\n\n### 常见错误\n\n1. 概念理解偏差\n2. 语法使用错误\n3. 边界情况遗漏\n\n### 练习建议\n\n结合题库反复练习，重点关注边界情况。\n\n### 与题库关联\n\n关联知识点：机器学习入门\n关联题型：单选、判断、代码",
+    "knowledgePointIds": [
+      "py-kp-0343",
+      "py-kp-0344",
+      "py-kp-0345",
+      "py-kp-0346",
+      "py-kp-0347"
     ]
   },
   {
@@ -7601,7 +8961,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# Python 基础语法拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-172",
@@ -7620,7 +8982,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# Python 内置数据类型拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-173",
@@ -7639,7 +9003,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# 条件判断与循环拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-174",
@@ -7658,7 +9024,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# 函数与模块拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-175",
@@ -7677,7 +9045,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# 文件处理与异常处理拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-176",
@@ -7696,7 +9066,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# 面向对象编程基础拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-177",
@@ -7715,7 +9087,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# 常用标准库入门拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-178",
@@ -7734,7 +9108,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# 数据文件处理：JSON、CSV、文本拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-179",
@@ -7753,7 +9129,9 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# Python 调试、规范与工程习惯拓展\n\n拓展内容。",
+    "knowledgePoints": []
   },
   {
     "id": "py-lesson-180",
@@ -7772,6 +9150,8 @@
       "Python"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "# Python 入门与环境搭建综合练习\n\n综合练习内容。",
+    "knowledgePoints": []
   }
 ]
