@@ -2,10 +2,19 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/module-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="OpenSkill Galaxy Module Template — reusable static learning module." />
-    <title>Module Template · OpenSkill Galaxy</title>
+    <meta name="description" content="OpenSkill Galaxy Module — reusable static learning module." />
+    <title>OpenSkill Galaxy Module</title>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(err => {
+            console.warn('Service worker registration failed:', err);
+          });
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
