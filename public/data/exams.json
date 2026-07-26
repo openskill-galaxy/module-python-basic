@@ -1,9 +1,9 @@
 [
   {
     "id": "mod-python-basic-exam-1",
-    "slug": "final-exam",
-    "title": "Python 核心期末综合自测",
-    "summary": "全面检验您对 Python 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "Python 基础入门测验",
+    "summary": "覆盖基本语法、数据类型、异常处理与虚拟环境等 Python 入门知识。",
     "difficulty": "easy",
     "questionIds": [
       "mod-python-basic-q-1",
@@ -11,21 +11,55 @@
       "mod-python-basic-q-3",
       "mod-python-basic-q-4",
       "mod-python-basic-q-5",
-      "mod-python-basic-q-6"
+      "mod-python-basic-q-15",
+      "mod-python-basic-q-19",
+      "mod-python-basic-q-20",
+      "mod-python-basic-q-8",
+      "mod-python-basic-q-12"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-python-basic-exam-2",
-    "slug": "basic-exam",
-    "title": "Python 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "Python 进阶强化测验",
+    "summary": "聚焦可变默认参数、GIL、装饰器、生成器与字典机制等核心进阶主题。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-python-basic-q-1",
-      "mod-python-basic-q-2",
-      "mod-python-basic-q-3"
+      "mod-python-basic-q-6",
+      "mod-python-basic-q-7",
+      "mod-python-basic-q-9",
+      "mod-python-basic-q-10",
+      "mod-python-basic-q-11",
+      "mod-python-basic-q-16",
+      "mod-python-basic-q-17",
+      "mod-python-basic-q-21",
+      "mod-python-basic-q-22",
+      "mod-python-basic-q-23"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-python-basic-exam-3",
+    "slug": "final-exam",
+    "title": "Python 综合模拟考试",
+    "summary": "综合考查闭包、MRO、内存管理与并发方案选型，模拟真实面试难度。",
+    "difficulty": "hard",
+    "questionIds": [
+      "mod-python-basic-q-6",
+      "mod-python-basic-q-7",
+      "mod-python-basic-q-9",
+      "mod-python-basic-q-13",
+      "mod-python-basic-q-14",
+      "mod-python-basic-q-16",
+      "mod-python-basic-q-18",
+      "mod-python-basic-q-21",
+      "mod-python-basic-q-22",
+      "mod-python-basic-q-23",
+      "mod-python-basic-q-24",
+      "mod-python-basic-q-11"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60

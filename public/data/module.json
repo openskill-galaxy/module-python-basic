@@ -1,3 +1,38 @@
 {
-  "id": "mod-python-basic"
+  "id": "mod-python-basic",
+  "slug": "module-python-basic",
+  "title": "Python 基础",
+  "subtitle": "从环境搭建到项目实战的 Python 入门",
+  "description": "从环境搭建到项目实战，系统学习 Python 编程语言的核心语法、数据结构、面向对象编程与标准库应用的静态学习模块。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "Python",
+    "编程基础",
+    "数据结构",
+    "OOP",
+    "标准库"
+  ],
+  "estimatedHours": 80,
+  "difficulty": "beginner",
+  "updatedAt": "2026-07-02T12:00:00.000Z",
+  "coverEmoji": "🐍",
+  "repoUrl": "https://github.com/openskill-galaxy/module-python-basic",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 3,
+    "lessons": 6,
+    "knowledgePoints": 800,
+    "questions": 6,
+    "cases": 260,
+    "exams": 2,
+    "routes": 2,
+    "glossary": 360,
+    "faqs": 200,
+    "tags": 1344
+  }
 }
