@@ -1,0 +1,9 @@
+{
+  "mod-python-basic-l-1": "计算每日平均阅读页数",
+  "mod-python-basic-l-2": "整理活动标签",
+  "mod-python-basic-l-3": "为两个账户分别累计积分",
+  "mod-python-basic-l-4": "按批次处理记录",
+  "mod-python-basic-l-5": "按仓库和货号汇总库存变动",
+  "mod-python-basic-l-6": "读取项目的测试目录配置",
+  "mod-python-basic-l-7": "从 JSON 汇总已支付订单"
+}

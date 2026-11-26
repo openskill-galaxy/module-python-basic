@@ -2,7 +2,7 @@
   "name": "openskill-module-python-basic",
   "version": "1.0.0",
   "private": true,
-  "description": "OpenSkill Galaxy reusable static learning module template.",
+  "description": "从环境搭建到项目实战的 Python 入门",
   "type": "module",
   "scripts": {
     "dev": "vite",

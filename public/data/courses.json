@@ -1,50 +1,77 @@
 [
   {
     "id": "mod-python-basic-c-1",
-    "title": "Python 架构原理与初始化",
+    "title": "Python 核心语法与内置数据结构",
     "slug": "course-1",
-    "summary": "深度探索 Python 的设计理念、运行架构以及初始化配置引导。",
+    "summary": "掌握 Python 3.12+ 运行机制、虚拟环境管理、类型注解，以及列表、字典、集合的底层原理与复杂度。",
     "order": 1,
     "difficulty": "easy",
-    "estimatedHours": 14,
+    "estimatedHours": 10,
     "lessons": [
       "mod-python-basic-l-1",
       "mod-python-basic-l-2"
     ],
     "tags": [
-      "Python"
+      "Python",
+      "数据结构",
+      "类型注解",
+      "虚拟环境"
     ]
   },
   {
     "id": "mod-python-basic-c-2",
-    "title": "Python 核心机制与开发实战",
+    "title": "函数式编程、迭代器与上下文管理",
     "slug": "course-2",
-    "summary": "掌握 Python 的核心组件、API 接口调用以及本地开发调试。",
+    "summary": "深入理解闭包、装饰器、生成器惰性求值、迭代器协议与 with 上下文资源安全管理。",
     "order": 2,
-    "difficulty": "easy",
-    "estimatedHours": 14,
+    "difficulty": "medium",
+    "estimatedHours": 12,
     "lessons": [
       "mod-python-basic-l-3",
       "mod-python-basic-l-4"
     ],
     "tags": [
-      "Python"
+      "装饰器",
+      "生成器",
+      "上下文管理器"
     ]
   },
   {
     "id": "mod-python-basic-c-3",
-    "title": "Python 高级优化与生产部署",
+    "title": "面向对象、数据类与工程化测试",
     "slug": "course-3",
-    "summary": "学习如何进行系统性能监控调优、高可用集群部署与数据存储。",
+    "summary": "掌握 dataclass、魔法方法与协议（Protocol），使用 pyproject.toml 与 pytest 构建可维护的 Python 工程。",
     "order": 3,
-    "difficulty": "easy",
-    "estimatedHours": 14,
+    "difficulty": "medium",
+    "estimatedHours": 12,
     "lessons": [
       "mod-python-basic-l-5",
       "mod-python-basic-l-6"
     ],
     "tags": [
-      "Python"
+      "OOP",
+      "dataclass",
+      "pytest",
+      "工程化"
+    ]
+  },
+  {
+    "id": "mod-python-basic-c-4",
+    "title": "文件 IO、标准库与异步并发模型",
+    "slug": "course-4",
+    "summary": "熟练运用 pathlib、JSON/CSV 与 logging 处理真实数据，理清 GIL、多线程、多进程与 asyncio 的选型边界。",
+    "order": 4,
+    "difficulty": "hard",
+    "estimatedHours": 12,
+    "lessons": [
+      "mod-python-basic-l-7",
+      "mod-python-basic-l-8"
+    ],
+    "tags": [
+      "pathlib",
+      "asyncio",
+      "GIL",
+      "并发编程"
     ]
   }
 ]

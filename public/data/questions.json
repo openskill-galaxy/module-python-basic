@@ -103,7 +103,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-python-basic-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "py-kp-0105"
+    ],
     "estimated_time": 3
   },
   {
@@ -174,7 +176,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-python-basic-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "py-kp-0658"
+    ],
     "estimated_time": 3
   },
   {
@@ -317,7 +321,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-python-basic-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "py-kp-0556"
+    ],
     "estimated_time": 3
   },
   {
@@ -424,7 +430,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-python-basic-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "py-kp-0604"
+    ],
     "estimated_time": 3
   },
   {
@@ -497,7 +505,9 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-python-basic-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "py-kp-0569"
+    ],
     "estimated_time": 3
   },
   {
@@ -534,7 +544,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-python-basic-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "py-kp-0656"
+    ],
     "estimated_time": 3
   },
   {
@@ -763,5 +775,82 @@
     "chapter": "mod-python-basic-c-3",
     "knowledge_points": [],
     "estimated_time": 5
+  },
+  {
+    "id": "mod-python-basic-q-25",
+    "slug": "json-report-roundtrip",
+    "type": "single",
+    "stem": "报表脚本有字典 report = {\"城市\": \"杭州\", \"订单\": 3}，先执行 text = json.dumps(report, ensure_ascii=False)，再用 pathlib 把 json.dumps(text) 写入 UTF-8 文件。下游按 UTF-8 读取并执行一次 json.loads，得到的是 str。下游接口约定一次解析即得字典，应如何修改写入端？",
+    "options": [
+      {
+        "key": "A",
+        "text": "写入前把 text 改成 str(report)"
+      },
+      {
+        "key": "B",
+        "text": "把 text 原样写入同一 UTF-8 文件"
+      },
+      {
+        "key": "C",
+        "text": "给第二次 json.dumps 加上 indent=2"
+      },
+      {
+        "key": "D",
+        "text": "给第二次 json.dumps 加上 ensure_ascii=False"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "第一次 dumps 已经把字典变成了 JSON 对象文本。再对文本执行 dumps，会把整个对象包进一个 JSON 字符串。直接写入 text 后，一次 loads 即可取到字典，能用 result[\"订单\"] == 3 验证。缩进和中文转义只影响表示形式，Python 字典的 str 表示也不能作为 JSON 对象格式交付。",
+    "tags": [
+      "pathlib",
+      "json"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-python-basic-c-4",
+    "knowledge_points": [
+      "py-kp-0614",
+      "py-kp-0620"
+    ],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-python-basic-q-26",
+    "slug": "cpu-batch-workers",
+    "type": "single",
+    "stem": "一台八核机器用启用 GIL 的 CPython 处理 8 份独立报表。耗时都在纯 Python 整数循环，几乎没有 I/O，输入输出很小且可序列化。试用 8 个线程后仍接近只跑满一个核。保留计算逻辑，哪种改动能让这些循环同时使用多个核？",
+    "options": [
+      {
+        "key": "A",
+        "text": "把线程池由 8 个线程增至 32 个"
+      },
+      {
+        "key": "B",
+        "text": "把每个报表的循环封装为 asyncio 协程"
+      },
+      {
+        "key": "C",
+        "text": "在各线程开始循环前先获取同一把锁"
+      },
+      {
+        "key": "D",
+        "text": "用进程池将各份报表分交给不同进程"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "这类循环一直在执行 Python 字节码，同一解释器里的线程要竞争 GIL。独立工作进程各有解释器，可以由系统调度到不同核；报表间无需共享可变状态，小输入也减少了传输开销。增加线程、协程或额外互斥锁都没有消除此处的限制。",
+    "tags": [
+      "GIL",
+      "多进程处理"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-python-basic-c-4",
+    "knowledge_points": [
+      "py-kp-0004"
+    ],
+    "estimated_time": 3
   }
 ]

@@ -30,7 +30,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0001"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-002",
@@ -63,7 +64,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0002"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-003",
@@ -96,7 +98,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0003"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-004",
@@ -129,7 +132,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0004"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-005",
@@ -162,7 +166,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0005"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-006",
@@ -195,7 +200,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0006"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-007",
@@ -228,7 +234,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0007"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-008",
@@ -261,7 +268,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0008"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-009",
@@ -294,7 +302,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0009"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-010",
@@ -327,7 +336,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0010"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-011",
@@ -360,7 +370,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0011"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-012",
@@ -393,7 +404,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0012"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-013",
@@ -426,7 +438,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0013"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-014",
@@ -459,7 +472,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0014"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-015",
@@ -492,7 +506,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0015"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-016",
@@ -525,7 +540,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0016"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-017",
@@ -558,7 +574,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0017"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-018",
@@ -591,7 +608,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0018"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-019",
@@ -624,7 +642,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0019"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-020",
@@ -657,7 +676,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0020"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-021",
@@ -690,7 +710,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0021"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-022",
@@ -723,7 +744,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0022"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-023",
@@ -756,7 +778,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0023"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-024",
@@ -789,7 +812,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0024"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-025",
@@ -822,7 +846,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0025"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-026",
@@ -855,7 +880,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0026"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-027",
@@ -888,7 +914,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0027"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-028",
@@ -921,7 +948,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0028"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-029",
@@ -954,7 +982,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0029"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-030",
@@ -987,7 +1016,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0030"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-031",
@@ -1020,7 +1050,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0031"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-032",
@@ -1053,7 +1084,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0032"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-033",
@@ -1086,7 +1118,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0033"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-034",
@@ -1119,7 +1152,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0034"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-035",
@@ -1152,7 +1186,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0035"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-036",
@@ -1185,7 +1220,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0036"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-037",
@@ -1218,7 +1254,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0037"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-038",
@@ -1251,7 +1288,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0038"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-039",
@@ -1284,7 +1322,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0039"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-040",
@@ -1317,7 +1356,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0040"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-041",
@@ -1350,7 +1390,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0041"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-042",
@@ -1383,7 +1424,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0042"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-043",
@@ -1416,7 +1458,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0043"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-044",
@@ -1449,7 +1492,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0044"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-045",
@@ -1482,7 +1526,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0045"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-046",
@@ -1515,7 +1560,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0046"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-047",
@@ -1548,7 +1594,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0047"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-048",
@@ -1581,7 +1628,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0048"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-049",
@@ -1614,7 +1662,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0049"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-050",
@@ -1647,7 +1696,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0050"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-051",
@@ -1680,7 +1730,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0051"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-052",
@@ -1713,7 +1764,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0052"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-053",
@@ -1746,7 +1798,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0053"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-054",
@@ -1779,7 +1832,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0054"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-055",
@@ -1812,7 +1866,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0055"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-056",
@@ -1845,7 +1900,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0056"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-057",
@@ -1878,7 +1934,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0057"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-058",
@@ -1911,7 +1968,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0058"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-059",
@@ -1944,7 +2002,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0059"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-060",
@@ -1977,7 +2036,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0060"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-061",
@@ -2010,7 +2070,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0061"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-062",
@@ -2043,7 +2104,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0062"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-063",
@@ -2076,7 +2138,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0063"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-064",
@@ -2109,7 +2172,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0064"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-065",
@@ -2142,7 +2206,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0065"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-066",
@@ -2175,7 +2240,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0066"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-067",
@@ -2208,7 +2274,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0067"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-068",
@@ -2241,7 +2308,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0068"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-069",
@@ -2274,7 +2342,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0069"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-070",
@@ -2307,7 +2376,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0070"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-071",
@@ -2340,7 +2410,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0071"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-072",
@@ -2373,7 +2444,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0072"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-073",
@@ -2406,7 +2478,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0073"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-074",
@@ -2439,7 +2512,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0074"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-075",
@@ -2472,7 +2546,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0075"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-076",
@@ -2505,7 +2580,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0076"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-077",
@@ -2538,7 +2614,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0077"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-078",
@@ -2571,7 +2648,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0078"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-079",
@@ -2604,7 +2682,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0079"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-080",
@@ -2637,7 +2716,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0080"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-081",
@@ -2670,7 +2750,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0081"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-082",
@@ -2703,7 +2784,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0082"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-083",
@@ -2736,7 +2818,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0083"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-084",
@@ -2769,7 +2852,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0084"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-085",
@@ -2802,7 +2886,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0085"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-086",
@@ -2835,7 +2920,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0086"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-087",
@@ -2868,7 +2954,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0087"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-088",
@@ -2901,7 +2988,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0088"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-089",
@@ -2934,7 +3022,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0089"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-090",
@@ -2967,7 +3056,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0090"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-091",
@@ -3000,7 +3090,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0091"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-092",
@@ -3033,7 +3124,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0092"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-093",
@@ -3066,7 +3158,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0093"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-094",
@@ -3099,7 +3192,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0094"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-095",
@@ -3132,7 +3226,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0095"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-096",
@@ -3165,7 +3260,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0096"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-097",
@@ -3198,7 +3294,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0097"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-098",
@@ -3231,7 +3328,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0098"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-099",
@@ -3264,7 +3362,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0099"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-100",
@@ -3297,7 +3396,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0100"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-101",
@@ -3330,7 +3430,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0101"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-102",
@@ -3363,7 +3464,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0102"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-103",
@@ -3396,7 +3498,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0103"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-104",
@@ -3429,7 +3532,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0104"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-105",
@@ -3462,7 +3566,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0105"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-106",
@@ -3495,7 +3600,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0106"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-107",
@@ -3528,7 +3634,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0107"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-108",
@@ -3561,7 +3668,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0108"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-109",
@@ -3594,7 +3702,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0109"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-110",
@@ -3627,7 +3736,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0110"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-111",
@@ -3660,7 +3770,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0111"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-112",
@@ -3693,7 +3804,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0112"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-113",
@@ -3726,7 +3838,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0113"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-114",
@@ -3759,7 +3872,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0114"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-115",
@@ -3792,7 +3906,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0115"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-116",
@@ -3825,7 +3940,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0116"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-117",
@@ -3858,7 +3974,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0117"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-118",
@@ -3891,7 +4008,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0118"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-119",
@@ -3924,7 +4042,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0119"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-120",
@@ -3957,7 +4076,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0120"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-121",
@@ -3990,7 +4110,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0121"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-122",
@@ -4023,7 +4144,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0122"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-123",
@@ -4056,7 +4178,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0123"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-124",
@@ -4089,7 +4212,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0124"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-125",
@@ -4122,11 +4246,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0125"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-126",
-    "slug": "A/B 测试",
+    "slug": "a-b-测试",
     "title": "A/B 测试实战案例",
     "summary": "在某项目中，需要使用 字典 get 方法 实现 A/B 测试 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 字典 get 方法 实现 A/B 测试 功能。请分析需求并给出完整解决方案。",
@@ -4155,7 +4280,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0126"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-127",
@@ -4188,7 +4314,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0127"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-128",
@@ -4221,7 +4348,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0128"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-129",
@@ -4254,7 +4382,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0129"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-130",
@@ -4287,7 +4416,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0130"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-131",
@@ -4320,7 +4450,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0131"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-132",
@@ -4353,7 +4484,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0132"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-133",
@@ -4386,7 +4518,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0133"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-134",
@@ -4419,7 +4552,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0134"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-135",
@@ -4452,7 +4586,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0135"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-136",
@@ -4485,7 +4620,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0136"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-137",
@@ -4518,7 +4654,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0137"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-138",
@@ -4551,7 +4688,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0138"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-139",
@@ -4584,7 +4722,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0139"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-140",
@@ -4617,7 +4756,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0140"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-141",
@@ -4650,7 +4790,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0141"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-142",
@@ -4683,7 +4824,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0142"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-143",
@@ -4716,7 +4858,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0143"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-144",
@@ -4749,7 +4892,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0144"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-145",
@@ -4782,7 +4926,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0145"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-146",
@@ -4815,7 +4960,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0146"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-147",
@@ -4848,7 +4994,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0147"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-148",
@@ -4881,7 +5028,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0148"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-149",
@@ -4914,7 +5062,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0149"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-150",
@@ -4947,7 +5096,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0150"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-151",
@@ -4980,7 +5130,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0151"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-152",
@@ -5013,7 +5164,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0152"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-153",
@@ -5046,7 +5198,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0153"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-154",
@@ -5079,7 +5232,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0154"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-155",
@@ -5112,7 +5266,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0155"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-156",
@@ -5145,7 +5300,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0156"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-157",
@@ -5178,7 +5334,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0157"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-158",
@@ -5211,7 +5368,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0158"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-159",
@@ -5244,7 +5402,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0159"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-160",
@@ -5277,7 +5436,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0160"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-161",
@@ -5310,7 +5470,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0161"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-162",
@@ -5343,7 +5504,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0162"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-163",
@@ -5376,7 +5538,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0163"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-164",
@@ -5409,7 +5572,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0164"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-165",
@@ -5442,7 +5606,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0165"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-166",
@@ -5475,7 +5640,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0166"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-167",
@@ -5508,7 +5674,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0167"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-168",
@@ -5541,7 +5708,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0168"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-169",
@@ -5574,7 +5742,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0169"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-170",
@@ -5607,7 +5776,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0170"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-171",
@@ -5640,7 +5810,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0171"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-172",
@@ -5673,7 +5844,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0172"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-173",
@@ -5706,7 +5878,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0173"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-174",
@@ -5739,7 +5912,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0174"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-175",
@@ -5772,7 +5946,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0175"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-176",
@@ -5805,7 +5980,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0176"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-177",
@@ -5838,7 +6014,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0177"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-178",
@@ -5871,7 +6048,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0178"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-179",
@@ -5904,7 +6082,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0179"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-180",
@@ -5937,7 +6116,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0180"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-181",
@@ -5970,7 +6150,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0181"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-182",
@@ -6003,7 +6184,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0182"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-183",
@@ -6036,7 +6218,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0183"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-184",
@@ -6069,11 +6252,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0184"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-185",
-    "slug": "数据分析",
+    "slug": "data-analysis-py-case-185",
     "title": "数据分析实战案例",
     "summary": "在某项目中，需要使用 filter 函数 实现 数据分析 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 filter 函数 实现 数据分析 功能。请分析需求并给出完整解决方案。",
@@ -6102,11 +6286,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0185"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-186",
-    "slug": "Web 开发",
+    "slug": "web-development-py-case-186",
     "title": "Web 开发实战案例",
     "summary": "在某项目中，需要使用 局部作用域 实现 Web 开发 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 局部作用域 实现 Web 开发 功能。请分析需求并给出完整解决方案。",
@@ -6135,11 +6320,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0186"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-187",
-    "slug": "爬虫项目",
+    "slug": "web-scraping-project-py-case-187",
     "title": "爬虫项目实战案例",
     "summary": "在某项目中，需要使用 全局作用域 实现 爬虫项目 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 全局作用域 实现 爬虫项目 功能。请分析需求并给出完整解决方案。",
@@ -6168,11 +6354,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0187"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-188",
-    "slug": "API 设计",
+    "slug": "api-design-py-case-188",
     "title": "API 设计实战案例",
     "summary": "在某项目中，需要使用 global 关键字 实现 API 设计 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 global 关键字 实现 API 设计 功能。请分析需求并给出完整解决方案。",
@@ -6201,11 +6388,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0188"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-189",
-    "slug": "数据处理",
+    "slug": "data-processing-py-case-189",
     "title": "数据处理实战案例",
     "summary": "在某项目中，需要使用 nonlocal 关键字 实现 数据处理 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 nonlocal 关键字 实现 数据处理 功能。请分析需求并给出完整解决方案。",
@@ -6234,11 +6422,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0189"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-190",
-    "slug": "自动化脚本",
+    "slug": "automation-script-py-case-190",
     "title": "自动化脚本实战案例",
     "summary": "在某项目中，需要使用 LEGB 规则 实现 自动化脚本 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 LEGB 规则 实现 自动化脚本 功能。请分析需求并给出完整解决方案。",
@@ -6267,11 +6456,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0190"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-191",
-    "slug": "文件处理",
+    "slug": "file-processing-py-case-191",
     "title": "文件处理实战案例",
     "summary": "在某项目中，需要使用 闭包 实现 文件处理 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 闭包 实现 文件处理 功能。请分析需求并给出完整解决方案。",
@@ -6300,11 +6490,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0191"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-192",
-    "slug": "日志分析",
+    "slug": "log-analysis-py-case-192",
     "title": "日志分析实战案例",
     "summary": "在某项目中，需要使用 装饰器入门 实现 日志分析 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 装饰器入门 实现 日志分析 功能。请分析需求并给出完整解决方案。",
@@ -6333,11 +6524,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0192"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-193",
-    "slug": "数据清洗",
+    "slug": "data-cleaning-py-case-193",
     "title": "数据清洗实战案例",
     "summary": "在某项目中，需要使用 递归 实现 数据清洗 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 递归 实现 数据清洗 功能。请分析需求并给出完整解决方案。",
@@ -6366,11 +6558,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0193"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-194",
-    "slug": "报表生成",
+    "slug": "report-generation-py-case-194",
     "title": "报表生成实战案例",
     "summary": "在某项目中，需要使用 递归终止条件 实现 报表生成 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 递归终止条件 实现 报表生成 功能。请分析需求并给出完整解决方案。",
@@ -6399,11 +6592,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0194"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-195",
-    "slug": "任务调度",
+    "slug": "task-scheduling-py-case-195",
     "title": "任务调度实战案例",
     "summary": "在某项目中，需要使用 import 语句 实现 任务调度 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 import 语句 实现 任务调度 功能。请分析需求并给出完整解决方案。",
@@ -6432,11 +6626,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0195"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-196",
-    "slug": "配置管理",
+    "slug": "configuration-management-py-case-196",
     "title": "配置管理实战案例",
     "summary": "在某项目中，需要使用 from import 实现 配置管理 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 from import 实现 配置管理 功能。请分析需求并给出完整解决方案。",
@@ -6465,11 +6660,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0196"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-197",
-    "slug": "环境部署",
+    "slug": "environment-deployment-py-case-197",
     "title": "环境部署实战案例",
     "summary": "在某项目中，需要使用 import as 实现 环境部署 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 import as 实现 环境部署 功能。请分析需求并给出完整解决方案。",
@@ -6498,11 +6694,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0197"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-198",
-    "slug": "性能优化",
+    "slug": "performance-optimization-py-case-198",
     "title": "性能优化实战案例",
     "summary": "在某项目中，需要使用 自定义模块 实现 性能优化 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 自定义模块 实现 性能优化 功能。请分析需求并给出完整解决方案。",
@@ -6531,11 +6728,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0198"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-199",
-    "slug": "内存优化",
+    "slug": "memory-optimization-py-case-199",
     "title": "内存优化实战案例",
     "summary": "在某项目中，需要使用 name main 实现 内存优化 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 name main 实现 内存优化 功能。请分析需求并给出完整解决方案。",
@@ -6564,11 +6762,12 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0199"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-200",
-    "slug": "并发处理",
+    "slug": "concurrency-processing-py-case-200",
     "title": "并发处理实战案例",
     "summary": "在某项目中，需要使用 包的概念 实现 并发处理 功能。请分析需求并给出完整解决方案。",
     "scenario": "在某项目中，需要使用 包的概念 实现 并发处理 功能。请分析需求并给出完整解决方案。",
@@ -6597,7 +6796,8 @@
     "duration": 30,
     "knowledgePointIds": [
       "py-kp-0200"
-    ]
+    ],
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-201",
@@ -6617,7 +6817,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "函数设计案例201"
+    "slug": "函数设计案例201",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-202",
@@ -6637,7 +6838,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字典用法掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字典用法案例202"
+    "slug": "字典用法案例202",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-203",
@@ -6657,7 +6859,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "模块使用案例203"
+    "slug": "模块使用案例203",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-204",
@@ -6677,7 +6880,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "python基础案例204"
+    "slug": "python基础案例204",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-205",
@@ -6697,7 +6901,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例205"
+    "slug": "异常处理案例205",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-206",
@@ -6717,7 +6922,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例206"
+    "slug": "异常处理案例206",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-207",
@@ -6737,7 +6943,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字典用法掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字典用法案例207"
+    "slug": "字典用法案例207",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-208",
@@ -6757,7 +6964,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例208"
+    "slug": "数据类型案例208",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-209",
@@ -6777,7 +6985,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "模块使用案例209"
+    "slug": "模块使用案例209",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-210",
@@ -6797,7 +7006,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例210"
+    "slug": "数据类型案例210",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-211",
@@ -6817,7 +7027,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "列表操作案例211"
+    "slug": "列表操作案例211",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-212",
@@ -6837,7 +7048,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字符串处理案例212"
+    "slug": "字符串处理案例212",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-213",
@@ -6857,7 +7069,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "列表操作案例213"
+    "slug": "列表操作案例213",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-214",
@@ -6877,7 +7090,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "模块使用案例214"
+    "slug": "模块使用案例214",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-215",
@@ -6897,7 +7111,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例215"
+    "slug": "类和对象案例215",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-216",
@@ -6917,7 +7132,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例216"
+    "slug": "类和对象案例216",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-217",
@@ -6937,7 +7153,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例217"
+    "slug": "异常处理案例217",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-218",
@@ -6957,7 +7174,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "python基础案例218"
+    "slug": "python基础案例218",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-219",
@@ -6977,7 +7195,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例219"
+    "slug": "数据类型案例219",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-220",
@@ -6997,7 +7216,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "python基础案例220"
+    "slug": "python基础案例220",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-221",
@@ -7017,7 +7237,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例221"
+    "slug": "异常处理案例221",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-222",
@@ -7037,7 +7258,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "列表操作案例222"
+    "slug": "列表操作案例222",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-223",
@@ -7057,7 +7279,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过文件读写掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "文件读写案例223"
+    "slug": "文件读写案例223",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-224",
@@ -7077,7 +7300,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例224"
+    "slug": "异常处理案例224",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-225",
@@ -7097,7 +7321,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过文件读写掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "文件读写案例225"
+    "slug": "文件读写案例225",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-226",
@@ -7117,7 +7342,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字典用法掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字典用法案例226"
+    "slug": "字典用法案例226",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-227",
@@ -7137,7 +7363,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例227"
+    "slug": "数据类型案例227",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-228",
@@ -7157,7 +7384,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "函数设计案例228"
+    "slug": "函数设计案例228",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-229",
@@ -7177,7 +7405,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例229"
+    "slug": "数据类型案例229",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-230",
@@ -7197,7 +7426,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例230"
+    "slug": "异常处理案例230",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-231",
@@ -7217,7 +7447,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例231"
+    "slug": "数据类型案例231",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-232",
@@ -7237,7 +7468,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例232"
+    "slug": "类和对象案例232",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-233",
@@ -7257,7 +7489,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "列表操作案例233"
+    "slug": "列表操作案例233",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-234",
@@ -7277,7 +7510,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例234"
+    "slug": "类和对象案例234",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-235",
@@ -7297,7 +7531,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "python基础案例235"
+    "slug": "python基础案例235",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-236",
@@ -7317,7 +7552,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例236"
+    "slug": "异常处理案例236",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-237",
@@ -7337,7 +7573,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例237"
+    "slug": "数据类型案例237",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-238",
@@ -7357,7 +7594,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例238"
+    "slug": "类和对象案例238",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-239",
@@ -7377,7 +7615,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "函数设计案例239"
+    "slug": "函数设计案例239",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-240",
@@ -7397,7 +7636,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字符串处理案例240"
+    "slug": "字符串处理案例240",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-241",
@@ -7417,7 +7657,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过函数设计掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "函数设计案例241"
+    "slug": "函数设计案例241",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-242",
@@ -7437,7 +7678,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字符串处理案例242"
+    "slug": "字符串处理案例242",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-243",
@@ -7457,7 +7699,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字符串处理案例243"
+    "slug": "字符串处理案例243",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-244",
@@ -7477,7 +7720,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "模块使用案例244"
+    "slug": "模块使用案例244",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-245",
@@ -7497,7 +7741,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "列表操作案例245"
+    "slug": "列表操作案例245",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-246",
@@ -7517,7 +7762,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例246"
+    "slug": "数据类型案例246",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-247",
@@ -7537,7 +7783,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Python基础掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "python基础案例247"
+    "slug": "python基础案例247",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-248",
@@ -7557,7 +7804,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过文件读写掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "文件读写案例248"
+    "slug": "文件读写案例248",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-249",
@@ -7577,7 +7825,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例249"
+    "slug": "异常处理案例249",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-250",
@@ -7597,7 +7846,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "模块使用案例250"
+    "slug": "模块使用案例250",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-251",
@@ -7617,7 +7867,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过模块使用掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "模块使用案例251"
+    "slug": "模块使用案例251",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-252",
@@ -7637,7 +7888,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过列表操作掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "列表操作案例252"
+    "slug": "列表操作案例252",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-253",
@@ -7657,7 +7909,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例253"
+    "slug": "类和对象案例253",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-254",
@@ -7677,7 +7930,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过类和对象掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "类和对象案例254"
+    "slug": "类和对象案例254",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-255",
@@ -7697,7 +7951,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字符串处理案例255"
+    "slug": "字符串处理案例255",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-256",
@@ -7717,7 +7972,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过字符串处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "字符串处理案例256"
+    "slug": "字符串处理案例256",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-257",
@@ -7737,7 +7993,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例257"
+    "slug": "异常处理案例257",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-258",
@@ -7757,7 +8014,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例258"
+    "slug": "异常处理案例258",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-259",
@@ -7777,7 +8035,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过异常处理掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "异常处理案例259"
+    "slug": "异常处理案例259",
+    "editorialStatus": "draft"
   },
   {
     "id": "py-case-260",
@@ -7797,6 +8056,20 @@
     "backgroundMarkdown": "# 案例背景\n\n通过数据类型掌握Python",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 设计\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "数据类型案例260"
+    "slug": "数据类型案例260",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "case-python-basic-workshop",
+    "slug": "workshop-python-basic",
+    "title": "忽略大小写合并库存记录",
+    "summary": "用字典构建小计，并写两个断言验证键数和累计值。",
+    "difficulty": "medium",
+    "tags": [],
+    "backgroundMarkdown": "库存数据为三行：Pen,2；pen,3；Book,1。商品键按英文大小写无关处理，数量按整数累加。",
+    "tasksMarkdown": "用字典构建小计，并写两个断言验证键数和累计值。",
+    "referenceMarkdown": "对键调用 strip().casefold()，用 totals[key] = totals.get(key, 0) + int(qty) 汇总。结果应为 {'pen': 5, 'book': 1}，共有2个键，总量为6。",
+    "knowledgePoints": [],
+    "estimatedMinutes": 15
   }
 ]

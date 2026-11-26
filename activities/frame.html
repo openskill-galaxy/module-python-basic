@@ -1,0 +1,29 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' blob:; worker-src blob:; child-src blob:; connect-src 'none'">
+<script>
+  // The frame has an opaque origin. Its worker receives just the exercise and runtime.
+  window.addEventListener("message", function start(event) {
+    if (event.source !== parent || !event.ports.length) return;
+    window.removeEventListener("message", start);
+    const port = event.ports[0];
+    let worker;
+    let url;
+    function stop() {
+      if (worker) worker.terminate();
+      if (url) URL.revokeObjectURL(url);
+    }
+    try {
+      url = URL.createObjectURL(event.data.script);
+      worker = new Worker(url);
+      worker.onmessage = (message) => port.postMessage(message.data);
+      worker.onerror = (error) => port.postMessage({ type: "error", message: error.message || "解释器未能启动" });
+      port.onmessage = stop;
+      window.addEventListener("pagehide", stop);
+      worker.postMessage(event.data.exercise);
+    } catch (error) {
+      stop();
+      port.postMessage({ type: "error", message: String(error) });
+    }
+  });
+</script>

@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "Python 基础",
+  "name": "OpenSkill Galaxy — Python 基础",
+  "description": "从环境搭建到项目实战，系统学习 Python 编程语言的核心语法、数据结构、面向对象编程与标准库应用的静态学习模块。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-python-basic/",
+  "scope": "/module-python-basic/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }

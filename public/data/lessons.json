@@ -3,66 +3,129 @@
     "id": "mod-python-basic-l-1",
     "courseId": "mod-python-basic-c-1",
     "order": 1,
-    "title": "Python 环境依赖搭建与运行机制",
+    "title": "Python 运行机制、虚拟环境与类型注解",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# Python 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `Python` 的开发实践中，`Python 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Python 生产实践示例\nconsole.log(\"Initializing Python engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "理解 CPython 字节码执行流程、venv/uv 依赖隔离，以及现代 Python 类型注解（Type Hints）实践。",
+    "contentMarkdown": "# Python 运行机制、虚拟环境与类型注解\n\n## 1. CPython 如何执行你的代码\n当你运行 `python app.py` 时，CPython 解释器并非逐行硬译源码，而是经过两个阶段：\n1. **编译为字节码（`.pyc`）**：源码先解析为 AST，再编译为与平台无关的字节码，缓存于 `__pycache__/` 目录。\n2. **PVM 虚拟机执行**：Python 虚拟机循环解释执行字节码指令，并通过引用计数 + 分代垃圾回收自动管理内存。\n\n## 2. 为什么每个项目都必须建虚拟环境？\n不同项目往往依赖冲突的第三方库版本。使用内置 `venv` 或新一代工具 `uv` 为每个项目隔离环境是第一准则：\n\n```bash\npython3 -m venv .venv\nsource .venv/bin/activate   # Windows: .venv\\Scripts\\activate\npip install -U pip pytest ruff\n```\n\n## 3. 现代类型注解（Python 3.10+）\nPython 是**动态强类型**语言（运行期检查类型，不会像 JS 那样把 `\"1\" + 2` 隐式拼接）。配合类型注解与 `mypy`/`pyright`，可以在写代码时提前暴露大部分低级 Bug：\n\n```python\nfrom collections.abc import Sequence\n\ndef average_score(scores: Sequence[float], default: float | None = None) -> float | None:\n    if not scores:\n        return default\n    return round(sum(scores) / len(scores), 2)\n\nprint(average_score([88.5, 92.0, 95.5]))  # 92.0\n```\n\n> [!WARNING]\n> **经典深坑：千万不要用可变对象作为函数默认参数**（如 `def add_item(x, items=[])`）。默认参数在函数定义时只求值一次，多次调用会共享同一个列表！正确做法是用 `items: list[str] | None = None`，在函数内部初始化。",
+    "knowledgePoints": [
+      "py-kp-0004",
+      "py-kp-0658",
+      "py-kp-0402",
+      "py-kp-0174"
+    ],
+    "estimatedMinutes": 35
   },
   {
     "id": "mod-python-basic-l-2",
     "courseId": "mod-python-basic-c-1",
     "order": 2,
-    "title": "Python 配置文件覆盖与属性解析",
+    "title": "列表、字典、集合与推导式底层原理",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# Python 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `Python` 的开发实践中，`Python 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Python 生产实践示例\nconsole.log(\"Initializing Python engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "对比 Python 四大内置容器的时间复杂度与内存行为，熟练运用列表/字典推导式写出地道 Pythonic 代码。",
+    "contentMarkdown": "# 列表、字典、集合与推导式底层原理\n\n## 1. 四大容器选型速查\n\n| 容器 | 底层结构 | 有序性 | `x in c` 平均复杂度 | 典型用途 |\n| :--- | :--- | :--- | :--- | :--- |\n| `list` | 动态指针数组 | 有序、可变 | $O(n)$ | 顺序集合、栈（`append`/`pop` 均摊 $O(1)$） |\n| `tuple` | 定长指针数组 | 有序、不可变 | $O(n)$ | 固定记录、函数多返回值、可作字典键 |\n| `dict` | 紧凑哈希表 | 保持插入顺序（3.7+） | $O(1)$ | 键值索引、分组计数、缓存 |\n| `set` | 哈希表（仅键） | 无序、去重 | $O(1)$ | 成员判重、交并差集合运算 |\n\n> [!TIP]\n> 在循环中需要频繁做 `if item in visited:` 判断时，把 `visited` 从 `list` 换成 `set`，10 万条数据下性能可提升上千倍。\n\n## 2. 推导式与 `collections` 标准库利器\n相比手写空列表 + `for` + `append`，推导式更简洁且在字节码层面更快；分组统计场景推荐直接使用 `Counter` 和 `defaultdict`：\n\n```python\nfrom collections import Counter, defaultdict\n\nwords = [\"python\", \"rust\", \"python\", \"go\", \"rust\", \"python\"]\nfreq = Counter(words)\nprint(freq.most_common(2))  # [('python', 3), ('rust', 2)]\n\n# 字典推导式：过滤出现次数 >= 2 的词\nhot_words = {w: c for w, c in freq.items() if c >= 2}\n\n# 按首字母分组\ngroups: dict[str, list[str]] = defaultdict(list)\nfor w in hot_words:\n    groups[w[0]].append(w)\nprint(dict(groups))\n```",
+    "knowledgePoints": [
+      "py-kp-0115",
+      "py-kp-0536",
+      "py-kp-0130",
+      "py-kp-0105"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-python-basic-l-3",
     "courseId": "mod-python-basic-c-2",
     "order": 1,
-    "title": "Python API 接口规范与数据通信",
+    "title": "闭包、装饰器与函数参数解包",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# Python API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `Python` 的开发实践中，`Python API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Python 生产实践示例\nconsole.log(\"Initializing Python engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "理解函数作为一等公民的闭包机制，手写带参数与 `functools.wraps` 的工程级耗时/重试装饰器。",
+    "contentMarkdown": "# 闭包、装饰器与函数参数解包\n\n## 1. `*args`、`**kwargs` 与仅限关键字参数\n在函数签名中使用 `*` 可以强制后面的参数必须以关键字形式传入，极大提高调用可读性：\n\n```python\ndef create_user(username: str, *, role: str = \"member\", active: bool = True) -> dict:\n    return {\"username\": username, \"role\": role, \"active\": active}\n\n# 必须写 role=...，避免布尔和字符串位置参数传错\nprint(create_user(\"alice\", role=\"admin\"))\n```\n\n## 2. 手写生产级重试装饰器\n装饰器本质是“接收函数并返回增强版函数的高阶函数”。务必使用 `@functools.wraps(func)` 保留原函数的 `__name__` 与 `__doc__`，否则日志、序列化和调试信息全会变成 `wrapper`：\n\n```python\nimport functools\nimport time\nfrom collections.abc import Callable\n\ndef retry(max_attempts: int = 3, delay: float = 0.2):\n    def decorator(func: Callable):\n        @functools.wraps(func)\n        def wrapper(*args, **kwargs):\n            last_err: Exception | None = None\n            for attempt in range(1, max_attempts + 1):\n                try:\n                    return func(*args, **kwargs)\n                except Exception as exc:\n                    last_err = exc\n                    if attempt < max_attempts:\n                        time.sleep(delay * attempt)\n            raise last_err  # type: ignore[misc]\n        return wrapper\n    return decorator\n\n@retry(max_attempts=3, delay=0.1)\ndef fetch_remote_config() -> dict:\n    return {\"status\": \"ok\"}\n```\n\n> [!NOTE]\n> 多个装饰器叠加时，**定义期自下而上包装，调用期自上而下执行**。",
+    "knowledgePoints": [
+      "py-kp-0191",
+      "py-kp-0556",
+      "py-kp-0558",
+      "py-kp-0638"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-python-basic-l-4",
     "courseId": "mod-python-basic-c-2",
     "order": 2,
-    "title": "Python 核心控制器与数据校验机制",
+    "title": "生成器、迭代器协议与上下文管理器",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# Python 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `Python` 的开发实践中，`Python 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Python 生产实践示例\nconsole.log(\"Initializing Python engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "掌握 `yield` 惰性流式处理 GB 级大文件，用 `with` 与 `contextlib` 确保文件、锁和连接永不泄漏。",
+    "contentMarkdown": "# 生成器、迭代器协议与上下文管理器\n\n## 1. 用生成器实现 $O(1)$ 内存流式处理\n如果你用 `f.readlines()` 读取 2GB 日志，内存会瞬间爆掉；而生成器函数通过 `yield` 每次只产出一条记录并挂起执行帧，内存占用恒定：\n\n```python\nfrom collections.abc import Iterator\nfrom pathlib import Path\n\ndef iter_error_lines(log_path: Path) -> Iterator[str]:\n    with log_path.open(\"r\", encoding=\"utf-8\") as f:\n        for line in f:\n            if \"ERROR\" in line:\n                yield line.strip()\n```\n\n## 2. 上下文管理器（`with` 语句）\n任何实现了 `__enter__` 和 `__exit__` 的对象都可以配合 `with` 使用：即使代码块中途抛出异常，清理逻辑依然保证执行。用 `@contextmanager` 只需几行代码就能写出自定义上下文管理器：\n\n```python\nfrom contextlib import contextmanager\nimport time\n\n@contextmanager\ndef timer(label: str):\n    start = time.perf_counter()\n    try:\n        yield\n    finally:\n        elapsed_ms = (time.perf_counter() - start) * 1000\n        print(f\"[{label}] 耗时 {elapsed_ms:.2f} ms\")\n\nwith timer(\"计算平方和\"):\n    total = sum(i * i for i in range(100_000))\n```\n\n> [!IMPORTANT]\n> 生成器是一次性的！遍历完一次后指针就到达末尾，再次遍历会得到空结果；若需多次遍历，请转成 `tuple`/`list` 或重新调用生成器函数。",
+    "knowledgePoints": [
+      "py-kp-0391",
+      "py-kp-0550",
+      "py-kp-0604"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-python-basic-l-5",
     "courseId": "mod-python-basic-c-3",
     "order": 1,
-    "title": "Python 缓存优化与垃圾回收调优",
+    "title": "类、数据类（dataclass）与魔法方法",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# Python 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `Python` 的开发实践中，`Python 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Python 生产实践示例\nconsole.log(\"Initializing Python engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "用 `@dataclass(slots=True, frozen=True)` 替代冗长 `__init__`，理解 `__repr__`、`__eq__` 与鸭子类型 Protocol。",
+    "contentMarkdown": "# 类、数据类（dataclass）与魔法方法\n\n## 1. 优先使用 `@dataclass` 定义业务模型\n手写 `__init__`、`__repr__`、`__eq__` 既枯燥又容易漏字段。Python 内置的 `dataclass` 自动生成这些方法；加上 `frozen=True` 可变身不可变值对象（天然可哈希、可放进 `set`），加上 `slots=True` 能显著降低实例内存开销：\n\n```python\nfrom dataclasses import dataclass, field\n\n@dataclass(frozen=True, slots=True)\nclass CourseItem:\n    course_id: str\n    title: str\n    hours: int\n    tags: tuple[str, ...] = field(default_factory=tuple)\n\nc1 = CourseItem(\"py-1\", \"Python 核心\", 10, (\"基础\", \"语法\"))\nc2 = CourseItem(\"py-1\", \"Python 核心\", 10, (\"基础\", \"语法\"))\nprint(c1 == c2)   # True\nprint(hash(c1))   # 可作为字典键\n```\n\n## 2. 组合优于继承 + `Protocol` 结构化子类型\nPython 推崇鸭子类型（Duck Typing）：只要对象实现了所需方法，就不必强行继承同一个基类。用 `typing.Protocol` 可以兼顾灵活性与静态类型检查：\n\n```python\nfrom typing import Protocol\n\nclass Notifier(Protocol):\n    def send(self, message: str) -> None: ...\n\ndef alert_on_failure(notifier: Notifier, err: str) -> None:\n    notifier.send(f\"[告警] {err}\")\n```",
+    "knowledgePoints": [
+      "py-kp-0441",
+      "py-kp-0573",
+      "py-kp-0448"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-python-basic-l-6",
     "courseId": "mod-python-basic-c-3",
     "order": 2,
-    "title": "Python 可观测性日志与分布式链路监控",
+    "title": "现代工程布局、pyproject.toml 与 pytest 测试",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# Python 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `Python` 的开发实践中，`Python 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Python 生产实践示例\nconsole.log(\"Initializing Python engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "掌握 `pyproject.toml` 统一配置、`ruff` 极速检查与 `pytest` 参数化测试及 Fixture 复用。",
+    "contentMarkdown": "# 现代工程布局、pyproject.toml 与 pytest 测试\n\n## 1. 标准 `src/` 目录与 `pyproject.toml`\n现代 Python 项目已全面用单一的 `pyproject.toml` 替代分散的 `setup.py`、`requirements.txt`、`flake8.ini`：\n\n```toml\n[project]\nname = \"my-service\"\nversion = \"0.1.0\"\nrequires-python = \">=3.11\"\ndependencies = [\"httpx>=0.27\", \"pydantic>=2.7\"]\n\n[tool.ruff]\nline-length = 100\n\n[tool.pytest.ini_options]\ntestpaths = [\"tests\"]\n```\n\n## 2. 用 `pytest` 写清晰的参数化测试\n`pytest` 无需继承 `unittest.TestCase`，直接用原生 `assert`，并通过 `@pytest.mark.parametrize` 一次覆盖正常值、边界值与异常分支：\n\n```python\nimport pytest\n\ndef parse_discount(rate: float) -> float:\n    if not 0 < rate <= 1:\n        raise ValueError(\"折扣率必须在 (0, 1] 之间\")\n    return round(rate, 2)\n\n@pytest.mark.parametrize(\"raw,expected\", [(0.85, 0.85), (1.0, 1.0), (0.333, 0.33)])\ndef test_parse_discount_valid(raw: float, expected: float):\n    assert parse_discount(raw) == expected\n\ndef test_parse_discount_invalid():\n    with pytest.raises(ValueError, match=\"折扣率\"):\n        parse_discount(1.5)\n```\n\n> [!TIP]\n> 养成 `ruff check . && pytest -q` 作为本地提交前检查命令，能在几秒内拦截格式问题、未使用变量与逻辑回归。",
+    "knowledgePoints": [
+      "py-kp-0508",
+      "py-kp-0709",
+      "py-kp-0490"
+    ],
+    "estimatedMinutes": 35
+  },
+  {
+    "id": "mod-python-basic-l-7",
+    "courseId": "mod-python-basic-c-4",
+    "order": 1,
+    "title": "pathlib、JSON/CSV 处理与结构化日志",
+    "slug": "lesson-4-1",
+    "summary": "告别容易出错的字符串路径拼接和 `print` 调试，掌握跨平台 `pathlib` 与分级 `logging` 实践。",
+    "contentMarkdown": "# pathlib、JSON/CSV 处理与结构化日志\n\n## 1. 用 `pathlib.Path` 替代 `os.path`\n`pathlib` 用 `/` 运算符优雅拼接路径，天然跨 macOS / Linux / Windows，还自带读写、遍历与扩展名解析：\n\n```python\nimport json\nfrom pathlib import Path\n\ndata_dir = Path(\"data\")\ndata_dir.mkdir(parents=True, exist_ok=True)\n\nreport_file = data_dir / \"summary.json\"\npayload = {\"total\": 60, \"status\": \"healthy\"}\nreport_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding=\"utf-8\")\n\nloaded = json.loads(report_file.read_text(encoding=\"utf-8\"))\nprint(loaded[\"total\"])\n```\n\n## 2. 用 `logging` 替代生产代码中的 `print`\n`logging` 支持按级别（`DEBUG` / `INFO` / `WARNING` / `ERROR`）过滤、自动附加时间戳与模块名，并可同时输出到终端与滚动日志文件：\n\n```python\nimport logging\n\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s | %(levelname)-7s | %(name)s | %(message)s\",\n)\nlogger = logging.getLogger(__name__)\n\nlogger.info(\"加载配置完成，模块数=%d\", 60)\n```\n\n> [!WARNING]\n> 读写文本文件时务必显式传入 `encoding=\"utf-8\"`，否则在 Windows 中文环境下默认使用 GBK 会导致跨平台乱码或 `UnicodeDecodeError`。",
+    "knowledgePoints": [
+      "py-kp-0614",
+      "py-kp-0620",
+      "py-kp-0485"
+    ],
+    "estimatedMinutes": 35,
+    "practiceQuestionIds": [
+      "mod-python-basic-q-25"
+    ]
+  },
+  {
+    "id": "mod-python-basic-l-8",
+    "courseId": "mod-python-basic-c-4",
+    "order": 2,
+    "title": "GIL、多线程、多进程与 asyncio 异步并发",
+    "slug": "lesson-4-2",
+    "summary": "彻底搞懂 GIL 对并发的影响，根据 IO 密集型与 CPU 密集型场景正确选择 `asyncio`、`ThreadPoolExecutor` 或 `ProcessPoolExecutor`。",
+    "contentMarkdown": "# GIL、多线程、多进程与 asyncio 异步并发\n\n## 1. 一张表看懂 Python 并发选型\n在标准 CPython 中，**GIL（全局解释器锁）** 保证同一时刻只有一个线程执行 Python 字节码；但在等待网络/磁盘 IO 时线程会释放 GIL。\n\n| 并发方案 | 适用场景 | 内存开销 | 核心注意点 |\n| :--- | :--- | :--- | :--- |\n| `asyncio`（协程） | 超高并发网络 IO（爬虫、API 网关、LLM 并发调用） | 极低（单线程数万任务） | 绝不能在协程内调用同步阻塞函数（如 `time.sleep`、`requests.get`） |\n| `ThreadPoolExecutor` | 几十到几百并发的传统同步 IO 库 | 低 | 共享内存，修改公共状态需加 `threading.Lock` |\n| `ProcessPoolExecutor` | CPU 密集计算（图像处理、加解密、数值运算） | 高（独立进程） | 绕过 GIL 利用多核，进程间传递对象需可 pickle |\n\n## 2. `asyncio` 并发限流实战（Semaphore）\n并发调用外部接口时，如果不加限流很容易触发对方 429 速率限制。配合 `asyncio.Semaphore` 可以优雅控制最大并发数：\n\n```python\nimport asyncio\n\nasync def fetch_one(sem: asyncio.Semaphore, item_id: int) -> dict:\n    async with sem:\n        await asyncio.sleep(0.1)  # 模拟异步网络请求\n        return {\"id\": item_id, \"ok\": True}\n\nasync def main() -> None:\n    sem = asyncio.Semaphore(5)  # 最多 5 个并发\n    tasks = [fetch_one(sem, i) for i in range(20)]\n    results = await asyncio.gather(*tasks)\n    print(f\"全部完成：{len(results)} 条\")\n\nasyncio.run(main())\n```",
+    "knowledgePoints": [
+      "py-kp-0004",
+      "py-kp-0553",
+      "py-kp-0698"
+    ],
+    "estimatedMinutes": 45,
+    "practiceQuestionIds": [
+      "mod-python-basic-q-26"
+    ]
   }
 ]
